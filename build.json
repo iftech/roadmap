@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-25T13:21:46Z",
+    "timestamp": "2026-09-28T13:39:59Z",
     "git": {
-        "commit": "e6e30bbc3bd991b459c03909956fc773daef5fdd",
+        "commit": "2574549778d0750e94435b966af4094b8b10d4fe",
         "branch": "origin/master",
         "url": "git@github.com:iftech/roadmap.git"
     },
     "build": {
-        "id": "649",
-        "number": "649",
+        "id": "650",
+        "number": "650",
         "name": "website/roadmap.vac.dev",
-        "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/roadmap.vac.dev/649/"
+        "slave": "linux-02",
+        "url": "https://ci.infra.status.im/job/website/job/roadmap.vac.dev/650/"
     }
 }
