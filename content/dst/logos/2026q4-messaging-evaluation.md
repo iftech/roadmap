@@ -94,23 +94,6 @@ TBD
 - Reports:
 
 
-### Chat Reliability
-> *Note*: This needs more input from project
-* fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:chat-reliability`
-* owner: TBD
-* status: not started
-* start-date: 2026/10/01
-* end-date: 2026/12/31
-
-#### Description
-
-TBD
-
-#### Deliverables
-- Code:
-- Reports:
-
-
 ### RLN on Logos Blockchain
 > *Note*: This needs more input from project
 * fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:rln-logos-blockchain`
