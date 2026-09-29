@@ -76,6 +76,7 @@ writing compatibility tests, or adapting nim-libp2p wrappers.
 - [logos-messaging/nim-ffi#109](https://github.com/logos-messaging/nim-ffi/pull/109) feat: CBOR-free abi=c C bindings (-d:targetLang=c_abi)
 - [logos-messaging/nim-ffi#110](https://github.com/logos-messaging/nim-ffi/pull/110) feat: CBOR-free scalar fast path for abi=c procs
 - [logos-messaging/nim-ffi#111](https://github.com/logos-messaging/nim-ffi/pull/111) feat(devx): derive ffiEvent wire name, guard genBindings ordering, real README
+- [logos-messaging/nim-ffi#205](https://github.com/logos-messaging/nim-ffi/pull/205) chore(ci): one source for the sanitizer runtime options
 
 
 ### Migration Path

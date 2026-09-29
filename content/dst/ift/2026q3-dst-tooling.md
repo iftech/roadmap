@@ -36,9 +36,9 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:general-tooling`
 * owner: Mamoutou/Alan
-* status: in progress (70%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Group of utilities that are added to the main repository.
@@ -59,6 +59,10 @@ Should be made general when possible.
   - [10ksim#401](https://github.com/vacp2p/10ksim/pull/401) Scrape interval fix
   - [10ksim#400](https://github.com/vacp2p/10ksim/pull/400) Plot generic config
   - [10ksim#399](https://github.com/vacp2p/10ksim/pull/399) Plot file names
+  - [iftech/10ksim#407](https://github.com/iftech/10ksim/pull/407) Deploy the publisher's config map, role and service with the run
+  - [iftech/10ksim#408](https://github.com/iftech/10ksim/pull/408) Let MetricsPlotter give each metric its own y range
+  - [iftech/10ksim#409](https://github.com/iftech/10ksim/pull/409) Re-run a finished run's post-run analysis from its folder
+  - [iftech/10ksim#412](https://github.com/iftech/10ksim/pull/412) Let the kaniko build push a named Dockerfile stage
 - Reports:
 - Other:
   - Added packet-loss injection and run options for settling time, post-publish dwell, readiness gate, and shard count to message-delivery experiments.
@@ -68,9 +72,9 @@ Should be made general when possible.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:dashboard-improvements`
 * owner: Mamoutou
-* status: in progress (90%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Improve first approach delivered in Q2.
@@ -85,9 +89,9 @@ Improve first approach delivered in Q2.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-tooling:slow-proof-analysis`
 * owner: Mamoutou
-* status: in progress (99%)
+* status: done
 * start-date: 2026/07/09
-* end-date: 2026/09/24
+* end-date: 2026/09/29
 
 #### Description
 RLN proofs in logos-delivery and blend proofs in logos-blockchain takes a suspiciously high amount of time.

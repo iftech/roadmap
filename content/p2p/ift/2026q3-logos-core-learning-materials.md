@@ -32,9 +32,9 @@ custom protocols where available, and debugging common setup problems.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-learning-materials:plan`
 * owner: Vlado
-* status: in progress (10%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/07/05
+* end-date: 2026/09/29
 
 #### Description
 Define the tutorial and example set for Q3, prioritizing workflows that Logos

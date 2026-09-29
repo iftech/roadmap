@@ -21,9 +21,9 @@ Create monitoring tools for Logos Testnet
 
 * fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:lez`
 * owner: Nikolay
-* status: in progress (10%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/31
+* end-date: 2026/09/29
 * issue: https://github.com/status-im/data-docs/issues/188
 
 #### Description
@@ -33,14 +33,15 @@ Extract Metrics from the LEZ to monitore the usage.
 #### Deliverables
 - Tool for extraction (Github Repo)
 - Dashboard
+- [Logos testnet dashboard](https://superset.bi.status.im/superset/)
 
 ### Logos Storage Monitoring
 
 * fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:storage`
 * owner: Claire
-* status: in progress (70%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/31
+* end-date: 2026/09/29
 * issue: https://github.com/status-im/data-docs/issues/191
 
 #### Description
@@ -57,9 +58,9 @@ Extract and monitore Logos Storage network usage.
 
 * fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:blockchain`
 * owner: Claire
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/31
+* end-date: 2026/09/29
 * issue: https://github.com/status-im/data-docs/issues/
 
 #### Description
@@ -79,9 +80,9 @@ Improve and update the Monitoring of Logos Blockchain
 
 * fully qualified name: `ift-ts:bi:logos:2026q3-logos-testnet-monitoring:delivery`
 * owner: Nikolay
-* status: in progress (10%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/31
+* end-date: 2026/09/29
 * issue: https://github.com/status-im/data-docs/issues/198
 
 #### Description

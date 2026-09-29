@@ -21,9 +21,9 @@ In Q3 we will continue the Nimble 1.0.0 track and migrate remaining HTTP downloa
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nimble:nimble-1.0.0`
 * owner: Juan
-* status: in progress (90%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 
@@ -87,6 +87,15 @@ This remains the short-term roadmap for replacing pieces of the Nimbus build sys
 - [nim-lang/nimble#1861](https://github.com/nim-lang/nimble/pull/1861) Stop re-prompting to download a Nim that is already in the binaries dir (fixes #1855)
 - [nim-lang/nimble#1859](https://github.com/nim-lang/nimble/pull/1859) Make `nimble dump` read-only: never install Nim (fixes #1857)
 - [nim-lang/nimble#1858](https://github.com/nim-lang/nimble/pull/1858) Update copyright to new files introduced since the Nim team took over.
+- [nim-lang/nimble#1876](https://github.com/nim-lang/nimble/pull/1876) Read a develop dependency's revision from git, not from a stale nimblemeta.json
+- [nim-lang/nimble#1875](https://github.com/nim-lang/nimble/pull/1875) Let `--refresh --offline` upgrade from the caches instead of failing
+- [nim-lang/nimble#1874](https://github.com/nim-lang/nimble/pull/1874) Say which dependencies have newer versions waiting after a no-op command
+- [nim-lang/nimble#1873](https://github.com/nim-lang/nimble/pull/1873) Report the versions in use against the newest known, not the cache against itself
+- [nim-lang/nimble#1871](https://github.com/nim-lang/nimble/pull/1871) Insert `nimble add` requirements next to the existing ones
+- [nim-lang/nimble#1870](https://github.com/nim-lang/nimble/pull/1870) Let plain `nimble lock` reuse installed packages the way `install` does
+- [nim-lang/nimble#1869](https://github.com/nim-lang/nimble/pull/1869) Resolve a newly added requirement without relocking everything else
+- [nim-lang/nimble#1868](https://github.com/nim-lang/nimble/pull/1868) Honour `--refresh` when installing Nim from the binaries dir
+- Released [Nimble 0.26.0](https://github.com/nim-lang/nimble/releases/tag/v0.26.0)
 
 ### Chronos HTTP downloads
 

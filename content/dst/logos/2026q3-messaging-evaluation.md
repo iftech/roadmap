@@ -83,9 +83,9 @@ Analyze logos messaging using quic from nimlibp2p and compare results with mplex
 ### Logos delivery node
 * fully qualified name: `ift-ts:dst:logos:2026q3-messaging-evaluation:logos-delivery-node`
 * owner: Pearson
-* status: in progress (95%)
+* status: done
 * start-date: 2026/07/28
-* end-date: 2026/08/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -98,6 +98,8 @@ Build image and reproduce some experiments to see if results match and if we nee
   - [logos-delivery#4186](https://github.com/logos-messaging/logos-delivery/pull/4186) fix: fix tests (e2e, macos)
   - [vaclab-2#50](https://github.com/vacp2p/vaclab-2/pull/50) Add logos_delivery Metrics to the vmagent Keep List
   - [10ksim#403](https://github.com/vacp2p/10ksim/pull/403) Fix the volume and dns-search calls in the waku builders
+  - [iftech/10ksim#413](https://github.com/iftech/10ksim/pull/413) Match capitalized nwaku relay and lightpush log lines
+  - [iftech/10ksim#415](https://github.com/iftech/10ksim/pull/415) Full logos delivery experiment
 
 - Reports:
   - [nWaku delivery node analysis](https://app.notion.com/p/nWaku-deliverynode-3b08f96fb65c80839c80d01484bab923?showMoveTo=true&saveParent=true)

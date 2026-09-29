@@ -20,9 +20,9 @@ Build a simple CRM solution for Logos Movement team
 
 * fully qualified name: `ift-ts:bi:logos:2026q3-logos-movement-crm`
 * owner: Claire
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/31
+* end-date: 2026/09/29
 * issue: https://github.com/status-im/data-docs/issues/216
 
 #### Description

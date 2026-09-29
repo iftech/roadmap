@@ -45,10 +45,10 @@ handling, shutdown behavior, logging, and dependency versions.
 ### Fixes And Guidance
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-dst-testing-node-consulting:fixes-guidance`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: done
 * start-date: 2026/07/15
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Help DST apply recommended changes and file or implement nim-libp2p fixes when
@@ -58,3 +58,6 @@ test-node behavior exposes upstream issues.
 - PRs or guidance for DST testing node improvements
 - nim-libp2p issues or fixes for upstream defects found during review
 - Updated examples or documentation where DST usage reflects a broader best practice
+- [iftech/dst-libp2p-test-node#58](https://github.com/iftech/dst-libp2p-test-node/pull/58) ci: add checking code format
+- [iftech/dst-libp2p-test-node#57](https://github.com/iftech/dst-libp2p-test-node/pull/57) ci: add nim code compile check
+- [iftech/dst-libp2p-test-node#56](https://github.com/iftech/dst-libp2p-test-node/pull/56) chore(logs): improvements

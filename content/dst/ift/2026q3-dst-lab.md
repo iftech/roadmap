@@ -30,9 +30,9 @@ while allow provisioning to other teams dedicated machines if they are needed.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-dst-lab:analyze-current-stack`
 * owner: Mamoutou
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Compare the current stack with new stack proposals.
