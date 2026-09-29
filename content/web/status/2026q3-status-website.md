@@ -26,9 +26,9 @@ Q3 continuation of [[web/status/2026q2-status-website|2026q2-status-website]]. T
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:blog-search`
 * owner: Jinho
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/13
-* end-date: 2026/07/31
+* end-date: 2026/09/29
 
 #### Description
 
@@ -158,9 +158,9 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:404-audit-redirects`
 * owner: jinhojang6
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/07
-* end-date: 2026/07/25
+* end-date: 2026/09/29
 
 #### Description
 
@@ -177,9 +177,9 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:noindex-audit`
 * owner: jinhojang6
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/14
-* end-date: 2026/07/25
+* end-date: 2026/09/29
 
 #### Description
 
@@ -196,9 +196,9 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:robots-txt-review`
 * owner: jinhojang6
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/14
-* end-date: 2026/07/18
+* end-date: 2026/09/29
 
 #### Description
 
@@ -291,9 +291,9 @@ Investigate **5xx server errors** reported in Search Console / crawl tools: iden
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-website:structured-data`
 * owner: jinhojang6
-* status: in progress (25%)
+* status: done
 * start-date: 2026/08/25
-* end-date: 2026/09/12
+* end-date: 2026/09/29
 
 #### Description
 

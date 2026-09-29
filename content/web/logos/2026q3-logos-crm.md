@@ -217,9 +217,9 @@ Reminder flow: a case-coordinator sets a follow-up date on a Notion case → an 
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:emails-and-automations-rest`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/08/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -246,6 +246,8 @@ Continue maintaining and adjusting the logos.co intake forms as requirements evo
 - Operator doc: how to tweak templates and automation rules without touching code
 - [logos-co/logos-web#168](https://github.com/logos-co/logos-web/pull/168) feat(api): add apps/api hosting the funnel intake endpoint
 - [logos-co/logos-web#173](https://github.com/logos-co/logos-web/pull/173) refactor(web): post funnel forms to apps/api
+- [logos-co/logos-web#183](https://github.com/logos-co/logos-web/pull/183) chore(civi-crm): remove dead app and stale docs
+- [logos-co/logos-web#175](https://github.com/logos-co/logos-web/pull/175) fix(api): make the origin allowlist the only CORS source
 
 ### Support existing Notion users & integration set-up
 
@@ -309,9 +311,9 @@ Document why this was chosen over a Workspace `noreply@logos.co` alias.
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:webhook-api`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/14
-* end-date: 2026/08/08
+* end-date: 2026/09/29
 
 #### Description
 
@@ -331,9 +333,9 @@ Host on the existing Web stack (e.g. `admin-acid.logos.co` API routes or a small
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:funnel-email-templates-admin-ui`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: done
 * start-date: 2026/08/04
-* end-date: 2026/08/29
+* end-date: 2026/09/29
 
 #### Description
 
@@ -352,9 +354,9 @@ If v1 is template-in-repo only, document the edit/deploy path instead of buildin
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-crm:funnel-email-notion-integration`
 * owner: JulesFiliot
-* status: in progress (10%)
+* status: done
 * start-date: 2026/08/18
-* end-date: 2026/09/05
+* end-date: 2026/09/29
 
 #### Description
 

@@ -95,9 +95,9 @@ Prepare and deliver a biweekly demonstration of completed Web team work at the I
 
 * fully qualified name: `ift-ts:web:ift:2026q3-demos:biweekly-5-ift-townhall`
 * owner: JulesFiliot
-* status: in progress (80%)
+* status: done
 * start-date: 2026/08/26
-* end-date: 2026/09/01
+* end-date: 2026/09/29
 
 #### Description
 

@@ -48,9 +48,9 @@ Perform broader cleanup of the Python SDK to reduce flakiness and maintenance ov
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:7132`
 * owner: Aya
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Verify control node transfer procedures for communities.
@@ -91,15 +91,15 @@ Test permissions at the channel level within communities.
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:7094`
 * owner: Magnus
-* status: in progress (10%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Broaden nightly benchmark scenarios to track performance and regressions.
 
 #### Deliverables
-- PRs and/or Issues
+- [status-im/status-go#7829](https://github.com/status-im/status-go/pull/7829) test(functional): measure 1:1 send-to-receive latency in the nightly benchmark
 
 ### Implement local notifications functional tests
 
@@ -134,14 +134,19 @@ Restore Status Go functional coverage for Keycard PUK flows, pairings, and mobil
 - [status-go#7761](https://github.com/status-im/status-go/pull/7761) test(pairing): cover keycard payload and keystore re-pair guards
 - [status-go#7759](https://github.com/status-im/status-go/pull/7759) test(protocol): cover cold-wallet keypair sync edge paths
 - [status-go#7758](https://github.com/status-im/status-go/pull/7758) test(accounts): cover cold-wallet migration and keystore guards
+- [status-im/status-go#7826](https://github.com/status-im/status-go/pull/7826) test(functional): cover profile keypair to and from a keycard
+- [status-im/status-go#7827](https://github.com/status-im/status-go/pull/7827) test(functional): cover restoring an account that lives on a keycard
+- [status-im/status-go#7828](https://github.com/status-im/status-go/pull/7828) test(functional): cover cold-wallet keypair sync to a second device
+- [status-im/status-go#7825](https://github.com/status-im/status-go/pull/7825) test(functional): cover cold-wallet keypair signing and operability
+- [status-im/status-go#7824](https://github.com/status-im/status-go/pull/7824) test(functional): extend non-profile cold-wallet guards
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-go-functional-testing:maintenance`
 * owner: Egor
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Ongoing maintenance of Status Functional tests.
@@ -163,3 +168,4 @@ investigating and resolving issues, and implementing minor improvements to the t
 - [status-im/status-go#7584](https://github.com/status-im/status-go/pull/7584) test(functional): add #7132 community control node transfer test
 - [status-im/status-go#7612](https://github.com/status-im/status-go/pull/7612) test: skip light-client tests that are flaky under #7393
 - [status-im/status-go#7582](https://github.com/status-im/status-go/pull/7582) ci(tests): report coverage to Codecov on PRs
+- [status-im/status-go#7823](https://github.com/status-im/status-go/pull/7823) test(functional): scope wait_for_login to the login just issued

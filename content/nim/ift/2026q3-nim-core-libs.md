@@ -84,9 +84,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:nim-web3`
 * owner: Constantine
-* status: in progress (90%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Review and improve [`nim-web3`](https://github.com/status-im/nim-web3) error handling now that `nim-json-rpc` checked-raises work is mostly done.
@@ -104,9 +104,9 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 
 * fully qualified name: `ift-ts:nim:ift:2026q3-nim-core-libs:maintenance`
 * owner: Constantine
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Ongoing maintenance and fixes across Nim core libraries.
@@ -178,6 +178,19 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [nim-lang/langserver#456](https://github.com/nim-lang/langserver/pull/456) `utils` clean up
 - [nim-lang/langserver#453](https://github.com/nim-lang/langserver/pull/453) Improve Nimsuggest lifecycle for large projects
 - [nim-lang/Nim#26244](https://github.com/nim-lang/Nim/issues/26244) nimsuggest, nim check: nimbus-eth1: SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+- [nim-lang/Nim#26287](https://github.com/nim-lang/Nim/pull/26287) Fix `net.send` sending corrupt data on retry
+- [nim-lang/Nim#26286](https://github.com/nim-lang/Nim/pull/26286) Fix `net.send` infinite loop on disconnect
+- [nim-lang/Nim#26270](https://github.com/nim-lang/Nim/pull/26270) nimsuggest: make all commands work for unknown files
+- [nim-lang/langserver#478](https://github.com/nim-lang/langserver/pull/478) Record all file edits / Remove idle file logic
+- [nim-lang/langserver#474](https://github.com/nim-lang/langserver/pull/474) Fix nimsuggest instances limit
+- [nim-lang/langserver#471](https://github.com/nim-lang/langserver/pull/471) Fix Nimsuggest create cancel
+- [nim-lang/langserver#470](https://github.com/nim-lang/langserver/pull/470) Disable nimble apidocs
+- [nim-lang/langserver#468](https://github.com/nim-lang/langserver/pull/468) Add missing test teardowns
+- [nim-lang/langserver#469](https://github.com/nim-lang/langserver/pull/469) Fix warnings
+- [nim-lang/langserver#476](https://github.com/nim-lang/langserver/pull/476) Feature: Disable exception inlay hints by default
+- [nim-lang/langserver#477](https://github.com/nim-lang/langserver/pull/477) Feature/configurable nimsuggest timeout
+- [nim-lang/packages#3543](https://github.com/nim-lang/packages/pull/3543) Replace vacp2p with iftech for intops and cbor-serialization.
+- [iftech/nim-intops@6fcecf866288](https://github.com/iftech/nim-intops/commit/6fcecf8662881bd74d5292f6b8aec676338252e5) Updated the vacp2p packages.
 
 ### Documentation Improvement
 
@@ -198,3 +211,5 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - [Presto documentation](https://status-im.github.io/nim-presto/)
 - [nim-lang/Nim#26146](https://github.com/nim-lang/Nim/pull/26146) Support `:code:` argument in `.. include::` directive.
 - [nim-lang/Nim#26130](https://github.com/nim-lang/Nim/pull/26130) Feature: Rest: `.. include::`: Support `:start-after:` and `:end-before:` in `:literal:` mode
+- [status-im/nim-json-serialization#152](https://github.com/status-im/nim-json-serialization/pull/152) Fix api docs
+- [nim-lang/langserver#472](https://github.com/nim-lang/langserver/pull/472) Remove API docs

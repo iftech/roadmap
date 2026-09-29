@@ -52,9 +52,9 @@ required.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:service-discovery-kad`
 * owner: Gabe
-* status: in progress (89%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Support Logos Delivery engineers as they use service discovery and Kademlia
@@ -93,15 +93,20 @@ questions arise.
 - [vacp2p/nim-libp2p#3109](https://github.com/vacp2p/nim-libp2p/pull/3109) refactor(service-disco): apply review follow-ups from #3080
 - [vacp2p/nim-libp2p#3134](https://github.com/vacp2p/nim-libp2p/pull/3134) fix(kad): non-blocking bootstrap
 - [vacp2p/nim-libp2p#3135](https://github.com/vacp2p/nim-libp2p/pull/3135) fix(kad): stop retrying unreachable peers during bootstrap
+- [iftech/nim-libp2p#3171](https://github.com/iftech/nim-libp2p/pull/3171) fix(kad): liveness loop spins on finished probes
+- [iftech/nim-libp2p#3158](https://github.com/iftech/nim-libp2p/pull/3158) test(kad): RPC handler fault paths and liveness probe races
+- [iftech/nim-libp2p#3152](https://github.com/iftech/nim-libp2p/pull/3152) fix(kad): race in lookup test
+- [iftech/nim-libp2p#3150](https://github.com/iftech/nim-libp2p/pull/3150) fix(kad): make success-first reply order independent of enum order
+- [iftech/nim-libp2p#3151](https://github.com/iftech/nim-libp2p/pull/3151) test(kad): pin backoff exclusion from lookup results
 
 
 ### Opt-In Integration Path
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-delivery-consulting:opt-in-path`
 * owner: Gabe
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Ensure Logos Delivery can enable libp2p functionality explicitly without forcing

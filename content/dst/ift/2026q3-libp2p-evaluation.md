@@ -32,9 +32,9 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q3-libp2p-evaluation:regression-testing`
 * owner: Alan
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Run different scenarios
@@ -83,11 +83,14 @@ and ensure they don't happen again.
   - [10ksim#388](https://github.com/vacp2p/10ksim/pull/388) Verify each scenario's disturbance actually happened
   - [10ksim#384](https://github.com/vacp2p/10ksim/pull/384) Read a scrape's metric folder as well as a plain CSV path
   - [10ksim#392](https://github.com/vacp2p/10ksim/pull/392) Write scraped CSVs with a .csv suffix
+  - [iftech/10ksim#406](https://github.com/iftech/10ksim/pull/406) Retry shadow.data copy and keep the PVC if it fails
 - Reports:
   - [Regression testing rulebook](https://app.notion.com/p/39b8f96fb65c809e9fa7fdb075c30cfc)
   - [Nim-libp2p v2.2.0 Regression Report](https://app.notion.com/p/3978f96fb65c8042ae7dd621decae98a)
   - [Nim-libp2p v2.3.0 Regression Report](https://app.notion.com/p/Nim-libp2p-v2-3-0-Regression-Report-39b8f96fb65c80519e7ef2fc97683811)
   - [nim-libp2p v2.4.0 regression report](https://app.notion.com/p/3dd8f96fb65c81c194b8ce51ea753a52), covering the cluster matrix, WAN profile, adverse scenarios, Shadow, and investigation of mesh formation at the default connection cap.
+  - Extended the v2.4.0 regression report with long Shadow runs, mesh-formation measurements at a 250-connection cap, and a potential liveness-loop issue under a five-minute grace period.
+  - Ran a 1,000-node network-partition experiment that splits a formed network and heals it.
 
 
 ### Interop at scale

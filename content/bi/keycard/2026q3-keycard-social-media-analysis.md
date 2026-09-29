@@ -20,9 +20,9 @@ Continue [[bi/keycard/2026q2-keycard-social-media-analysis|2026q2-keycard-social
 
 * fully qualified name: `ift-ts:bi:keycard:2026q3-keycard-social-media-analysis`
 * owner: alexis
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 

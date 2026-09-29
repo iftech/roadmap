@@ -21,9 +21,9 @@ and applying minor improvements to keep the frameworks functional and effective.
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:maintenance`
 * owner: aya
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Ongoing maintenance of messaging testing frameworks.
@@ -59,9 +59,9 @@ Focus on library-level testing for the interaction between RLN and LEZ and repor
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:reliable-channel-api-tests`
 * owner: aya
-* status: in progress (90%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Support QA for [Reliable Channel API — General Availability](https://roadmap.logos.co/messaging/roadmap/milestones/2026-reliable-channel-api-general-availability).
@@ -111,9 +111,9 @@ Extend Sonda tool to allow more advanced testing scenarios for the Store protoco
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-messaging-testing:interop-migration`
 * owner: radek
-* status: in progress (45%)
+* status: done
 * start-date: 2026/08/31
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Migrate messaging interop tests into the Logos Delivery repository.
@@ -126,3 +126,11 @@ Migrate messaging interop tests into the Logos Delivery repository.
 - [logos-messaging/logos-delivery#4235](https://github.com/logos-messaging/logos-delivery/pull/4235) test: resolve the filter tests (migration 5)
 - [logos-messaging/logos-delivery#4242](https://github.com/logos-messaging/logos-delivery/pull/4242) test: resolve the lightpush tests (migration 6)
 - [logos-messaging/logos-delivery#4243](https://github.com/logos-messaging/logos-delivery/pull/4243) ci(tests): split the test job + improvements
+- [logos-messaging/logos-delivery#4289](https://github.com/logos-messaging/logos-delivery/pull/4289) test: resolve the store tests (migration 7)
+- [logos-messaging/logos-delivery#4292](https://github.com/logos-messaging/logos-delivery/pull/4292) test: resolve the sharding tests (migration 8)
+- [logos-messaging/logos-delivery#4294](https://github.com/logos-messaging/logos-delivery/pull/4294) test: resolve the REST flags tests (migration 9)
+- [logos-messaging/logos-delivery#4295](https://github.com/logos-messaging/logos-delivery/pull/4295) test: resolve the discv5, peer exchange, peer store, metrics and logs tests (migration 10)
+- [logos-messaging/logos-delivery#4302](https://github.com/logos-messaging/logos-delivery/pull/4302) test: resolve the network condition and multi-protocol tests (migration 11)
+- [logos-messaging/logos-delivery#4311](https://github.com/logos-messaging/logos-delivery/pull/4311) test: resolve the store sync tests (migration 12)
+- [logos-messaging/logos-delivery#4313](https://github.com/logos-messaging/logos-delivery/pull/4313) test: nightly tests through a live fleet (migration 13)
+- [logos-messaging/logos-delivery#4335](https://github.com/logos-messaging/logos-delivery/pull/4335) test(e2e): cleanup harness code (migration 14)

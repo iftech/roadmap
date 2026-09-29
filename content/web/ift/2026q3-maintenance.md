@@ -81,6 +81,14 @@ Execute upkeep across delivered web properties for Q3: dependency and security b
 - Removed the status.app domain from Vercel.
 - [status-im/status-web#1325](https://github.com/status-im/status-web/pull/1325) fix(status-js): fetch the latest community and profile data from the store
 - [logos-co/logos-web#172](https://github.com/logos-co/logos-web/issues/172) Add a web page for Logos Zine
+- [logos-co/logos-web#180](https://github.com/logos-co/logos-web/issues/180) Rendering issue desktop get started page
+- [logos-co/logos-web#181](https://github.com/logos-co/logos-web/pull/181) fix(web): stop RFP card taglines covering the Apply label
+- [logos-co/logos-web#190](https://github.com/logos-co/logos-web/pull/190) chore(web): feature LP-0018, LP-0021 and LP-0023 on Lambda Prize page
+- [logos-co/logos-web#186](https://github.com/logos-co/logos-web/pull/186) feat: add Zine download link to the menu
+- [logos-co/logos-web#188](https://github.com/logos-co/logos-web/pull/188) ci: add AI docs sync workflow
+- [acid-info/ai-docs-sync#1](https://github.com/acid-info/ai-docs-sync/pull/1) feat(tool): implement stages through the mechanical gates
+- [acid-info/ai-docs-sync#2](https://github.com/acid-info/ai-docs-sync/pull/2) feat(tool): publish the rolling PR and harden
+- [acid-info/ai-docs-sync#3](https://github.com/acid-info/ai-docs-sync/pull/3) fix(tool): harden secrets, rolling branch, writer failures and gates
 
 ### Merge Vercel teams under IFT-TS
 
@@ -166,6 +174,11 @@ Define and roll out **PR review workflows** that combine GitHub Copilot review w
 - Enabled on at least the primary repos (`status-im/status-web`, `logos-co/logos-web`)
 - Example PRs reviewed with both tools; notes on signal vs noise
 - Team agreement on minimum human review before merge
+- [acid-info/ai-review#1](https://github.com/acid-info/ai-review/pull/1) feat: switch Claude reviewer to Opus 5.5
+- [acid-info/ai-review#3](https://github.com/acid-info/ai-review/pull/3) feat: add synth_effort and switch to GPT-6 models
+- [acid-info/ai-review#4](https://github.com/acid-info/ai-review/pull/4) feat: add API usage table to the review body
+- [acid-info/ai-review#6](https://github.com/acid-info/ai-review/pull/6) fix(ci): check the reviewer out at job.workflow_sha
+- [acid-info/ai-review#7](https://github.com/acid-info/ai-review/pull/7) fix: harden review posting, config parsing and concurrency
 
 ### Agent-assisted debugging
 

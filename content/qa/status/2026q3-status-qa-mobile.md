@@ -24,9 +24,9 @@ The performance work is a priority as there is an intention to use performance m
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:performance`
 * owner: magnus
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Make the mobile performance pipeline run unattended and extend it from response times to resource usage. The response-time dashboard already covers around 39 app surfaces on a fresh account; the priority this quarter is measuring a loaded account, getting the nightly run reliable, and adding battery, CPU, and memory tracking.
@@ -52,14 +52,16 @@ Make the mobile performance pipeline run unattended and extend it from response 
 - Second test device (Moto G55) added to the runs
 - Tracks [status-im/status-app#21086](https://github.com/status-im/status-app/issues/21086)
 - [Mobile performance docs](https://north661.gitbook.io/docs/performance/performance/mobile)
+- Measured on-device send-to-bubble frame timing for status-app#22435.
+- Built loaded-profile restoration for the performance test lane.
 
 ### Gate-health stabilisation
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:gate-health`
 * owner: magnus
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail tests and rebalance the gate into a stable set covering onboarding, messaging, wallet, and settings journeys.
@@ -86,14 +88,17 @@ Restore the Android per-PR gate as a trustworthy signal. Re-triage expected-fail
 - `prs-android` job passing reliably on the rebalanced set
 - [status-im/status-app#21405](https://github.com/status-im/status-app/issues/21405) [QA - Android] Contact requests stop reaching the receiver after the 2026-07-02 status-go bump
 - Triaged the nightly failure as a harness defect and BrowserStack upload timeout, with no product regression.
+- [status-im/status-app#22552](https://github.com/status-im/status-app/issues/22552) [Mobile] Tapping a chat in the Messages list does nothing on Android
+- [status-im/status-app#22511](https://github.com/status-im/status-app/pull/22511) test(e2e_appium): lift four xfails on status-go#7393
+- [status-im/status-app#22378](https://github.com/status-im/status-app/pull/22378) fix(e2e_appium): schedule the longest test modules first
 
 ### Accessibility testability contract
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:a11y-contract`
 * owner: magnus
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Add accessibility properties (`objectName` / `Accessible.name`) on screens the tests currently cannot read, improving assertions and reducing brittle locators.
@@ -109,9 +114,9 @@ Add accessibility properties (`objectName` / `Accessible.name`) on screens the t
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:binding-contract`
 * owner: magnus
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Add a fast Go test that checks every backend method the mobile app calls is still exposed by status-go, so renamed or removed methods fail in CI instead of surfacing only on device.
@@ -126,9 +131,9 @@ Add a fast Go test that checks every backend method the mobile app calls is stil
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:backend-peer-gate`
 * owner: magnus
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Replace flaky two-phone messaging checks with a headless status-backend acting as the second participant, while retaining the on-phone smoke as a backup.
@@ -151,9 +156,9 @@ Replace flaky two-phone messaging checks with a headless status-backend acting a
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:journey-smokes`
 * owner: magnus
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Add smoke tests for critical journeys missing from the gate: wallet send and joining a community. Both join the gate once gate-health has stabilised it.
@@ -169,9 +174,9 @@ Add smoke tests for critical journeys missing from the gate: wallet send and joi
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:keycard-ui`
 * owner: magnus
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Cover the new keycard on-screen flows on mobile: PIN entry, PUK unblock, onboarding, and recovery. Dev may provide a keycard test mock that makes these flows automatable without a physical card.
@@ -255,9 +260,9 @@ Get a working iOS test build into the automation so iOS coverage can be expanded
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:maintenance`
 * owner: magnus
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Keep the framework healthy as the app changes: triage flaky tests, follow app refactors, continue locator migration, and continue rolling out test-traceability markers.
@@ -272,14 +277,16 @@ Keep the framework healthy as the app changes: triage flaky tests, follow app re
 - Test-traceability markers extended beyond messaging suites to wallet and onboarding tests
 - [status-im/status-app#21367](https://github.com/status-im/status-app/pull/21367) fix(e2e_appium): context-menu and wallet account gate tests
 - [status-im/status-app#21304](https://github.com/status-im/status-app/issues/21304) [Epic] test(e2e-mobile): maintenance
+- [status-im/status-app#22532](https://github.com/status-im/status-app/pull/22532) test(e2e_appium): use tid() for wallet locators
+- [status-im/status-app#22533](https://github.com/status-im/status-app/pull/22533) test(e2e_appium): spec markers for wallet and onboarding tests
 
 ### Release testing
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-mobile:release-testing`
 * owner: magnus
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Support release testing for the 2.39 and 2.40 mobile builds: exploratory testing, regression execution, and reporting issues found.
@@ -291,3 +298,6 @@ Support release testing for the 2.39 and 2.40 mobile builds: exploratory testing
 - [status-im/status-app#21776](https://github.com/status-im/status-app/issues/21776) [Android] Backup recovery phrase confirm step locks up behind an invisible full-screen overlay
 - Critical-path sign-off for the 2.39 and 2.40 mobile releases
 - Bugs and follow-up issues filed during release testing
+- [status-im/status-app#22527](https://github.com/status-im/status-app/issues/22527) [QA - Mobile & Desktop] Threads: what to test in 2.40
+- [status-im/status-app#22522](https://github.com/status-im/status-app/issues/22522) [QA - Mobile] Share to Status: what to test in 2.40
+- Raised six Status 2.40 test-scope issues.

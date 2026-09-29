@@ -58,9 +58,9 @@ compile for the selected mobile targets.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-mobile-targets:ci-example`
 * owner: Richard
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 #### Description
 Add CI or smoke-build coverage for mobile targets and provide a small example
 application or integration harness that proves nim-libp2p can be linked and
