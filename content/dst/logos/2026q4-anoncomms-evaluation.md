@@ -72,3 +72,37 @@ TBD
 #### Deliverables
 - Code:
 - Reports:
+
+
+### Delivery with service discovery 
+> *Note*: This needs more input from project
+
+* fully qualified name: `ift-ts:dst:logos:2026q4-anoncomms-evaluation:delivery-with-service-discovery`
+* owner: TBD
+* status: not started
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+
+#### Description
+TBD
+
+#### Deliverables
+- Code:
+- Reports:
+
+
+### Discovery vs discv5
+> *Note*: This needs more input from project
+
+* fully qualified name: `ift-ts:dst:logos:2026q4-anoncomms-evaluation:discovery-vs-discv5`
+* owner: TBD
+* status: not started
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+
+#### Description
+TBD
+
+#### Deliverables
+- Code:
+- Reports:
