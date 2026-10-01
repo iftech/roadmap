@@ -65,7 +65,7 @@ Document ownership, dependencies, and acceptance criteria before work that cross
 ### Logos Zine
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:logos-zine`
-- owner: Jinho
+- owner: JulesFiliot
 - status: not started
 - start-date: 2026/10/12
 - end-date: 2026/12/31
