@@ -47,10 +47,10 @@ safe defaults.
 ### nim-libp2p QUIC Transport Wiring
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nim-lsquic-configuration-settings:nimlibp2p-wiring`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Expose the selected `nim-lsquic` settings through nim-libp2p QUIC transport
@@ -59,3 +59,4 @@ configuration where they are useful to applications.
 #### Deliverables
 - nim-libp2p QUIC transport accepts selected `nim-lsquic` settings
 - Integration tests or examples for changed settings
+- [iftech/nim-libp2p#3149](https://github.com/iftech/nim-libp2p/pull/3149) feat(quic): expose engine configuration

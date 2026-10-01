@@ -146,9 +146,9 @@ Cover scenarios that can catch UDP and address-family issues, especially around 
 
 * fully qualified name: `ift-ts:qa:ift:2026q3-nim-libp2p-testing:maintenance`
 * owner: radek
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Provide ongoing QA maintenance support for nim-libp2p throughout Q3.

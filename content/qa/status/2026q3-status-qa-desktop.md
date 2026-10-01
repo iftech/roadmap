@@ -20,9 +20,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:maintenance`
 * owner: nastya
-* status: in progress (97%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Ongoing maintenance of Status Desktop tests.
@@ -69,14 +69,18 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#22467](https://github.com/status-im/status-app/pull/22467) chore(@e2e): fix asset details view test
 - [status-im/status-app#22459](https://github.com/status-im/status-app/pull/22459) chore(@e2e): fix asset view and send ERC20 tests
 - [status-im/status-app#22441](https://github.com/status-im/status-app/pull/22441) chore(@e2e): fix metrics collection
+- [status-im/status-app#22557](https://github.com/status-im/status-app/pull/22557) chore(@e2e): wait till ready before clicking page
+- [status-im/status-app#22549](https://github.com/status-im/status-app/pull/22549) fix(@qml): fix wrong assert in test_memberCannotCreateChannelsOrCategories
+- [status-im/status-app#22517](https://github.com/status-im/status-app/pull/22517) chore(@e2e): add basic search method
+- [status-im/status-app#22498](https://github.com/status-im/status-app/pull/22498) chore(@e2e): drop Gherkin ui-test, keep a minimal Squish suite for the inspector
 
 ### New tests
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:new-tests`
 * owner: nastya
-* status: in progress (50%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Add new automated tests from the existing backlog.
@@ -98,14 +102,18 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - PRs / Issues / Reports
 - [status-im/status-app#18214](https://github.com/status-im/status-app/issues/18214) Add coverage for dApps interactions
 - [status-im/status-app#21634](https://github.com/status-im/status-app/issues/21634) E2E: [P1] WalletConnect / dApp signature
+- [status-im/status-app#22553](https://github.com/status-im/status-app/pull/22553) tests(@e2e): add test for profile removal
+- [status-im/status-app#22548](https://github.com/status-im/status-app/pull/22548) chore(@e2e): delete add / remove total balance test (move to QML and Nim)
+- [status-im/status-app#22540](https://github.com/status-im/status-app/pull/22540) tests(@qml): move community tests from e2e to QML
+- [status-im/status-app#22518](https://github.com/status-im/status-app/pull/22518) tests(@e2e): send gif in chat
 
 ### Release Testing
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:release-testing`
 * owner: nastya
-* status: in progress (80%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Support Q3 desktop releases with test planning, exploratory testing, regression execution, and issue reporting.
@@ -139,6 +147,7 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#22447](https://github.com/status-im/status-app/pull/22447) fix(@communities): missing channel name in permission preview (#14882)
 - [status-im/status-app#22448](https://github.com/status-im/status-app/pull/22448) chore: remove version file
 - [status-im/status-app#22444](https://github.com/status-im/status-app/issues/22444) SIGSEGV on Discover Communities when most curated communities are unknown (including featured)
+- [status-im/status-app#22543](https://github.com/status-im/status-app/pull/22543) fix(Settings): keep the ENS register button on the bottom right
 
 ### Privacy Mode
 
@@ -175,9 +184,9 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:windows-performance-tests`
 * owner: nastya
-* status: in progress (90%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Add more tests to track in-app performance for the desktop application on Windows from the UI side.
@@ -217,6 +226,12 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app-benchmarks#10](https://github.com/status-im/status-app-benchmarks/pull/10) desktop: add system info panel and --machine-info for Windows benchmarks
 - PRs / Issues
 - [status-im/status-app#22463](https://github.com/status-im/status-app/pull/22463) tests(@e2e): measure send message timing
+- [status-im/status-app-benchmarks#35](https://github.com/status-im/status-app-benchmarks/pull/35) desktop: open visible time charts first
+- [status-im/status-app#22523](https://github.com/status-im/status-app/pull/22523) chore(@e2e): desktop test readability and messages package
+- [status-im/status-app#22531](https://github.com/status-im/status-app/pull/22531) tests(@e2e): measure time until a sent message appears in chat
+- [status-im/status-app-benchmarks#34](https://github.com/status-im/status-app-benchmarks/pull/34) desktop: add Visible column to the send-timing table
+- [status-im/status-app-benchmarks#33](https://github.com/status-im/status-app-benchmarks/pull/33) desktop: update send timing table
+- [status-im/status-app-benchmarks#32](https://github.com/status-im/status-app-benchmarks/pull/32) desktop: add nightly send-timing table and rename profile to fresh-profile
 
 ### Battery, CPU, and RAM usage
 
@@ -239,14 +254,15 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#21475](https://github.com/status-im/status-app/pull/21475) chore(@e2e): cpu measurements fix
 - PRs / Issues / Reports
 - Resource usage findings linked to [status-im/status-app#21249](https://github.com/status-im/status-app/issues/21249).
+- Shared initial Status Desktop data-consumption measurements for a fresh profile.
 
 ### E2E tests for keycard with mock
 
 * fully qualified name: `ift-ts:qa:status:2026q3-status-qa-desktop:e2e-kyecard-mock`
 * owner: nastya
-* status: in progress (80%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Once keycard mock is ready (new implementation), bring back to life existing e2e tests if possible or create new ones, to cover main keycard interactions with desktop app
@@ -290,6 +306,12 @@ Q3 focuses on release testing for 2.39 and 2.40, recurring maintenance, and targ
 - [status-im/status-app#22425](https://github.com/status-im/status-app/pull/22425) tests(@e2e): unblock card with PUK
 - [status-im/status-app#22418](https://github.com/status-im/status-app/pull/22418) tests(@e2e): factory reset keycard
 - [status-im/status-app#22370](https://github.com/status-im/status-app/pull/22370) tests(@e2e): sign message with keycard to wallet connect
+- [status-im/status-app#22492](https://github.com/status-im/status-app/pull/22492) tests(@e2e): import keypair scenarios
+- [status-im/status-app#22491](https://github.com/status-im/status-app/pull/22491) tests(@e2e): stop using keycard scenarios
+- [status-im/status-app#22486](https://github.com/status-im/status-app/pull/22486) tests(@e2e): lost keycard - start using status without keycard
+- [status-im/status-app#22385](https://github.com/status-im/status-app/pull/22385) chore: update status keycard qt version
+- [status-im/status-keycard-qt#37](https://github.com/status-im/status-keycard-qt/pull/37) feat: add jcardsim integration tests for keycard flows
+- [status-im/keycard-qt#12](https://github.com/status-im/keycard-qt/pull/12) fix: keep secure channel and pairing in sync with the applet
 
 ### Performance tests for desktop application on Linux
 

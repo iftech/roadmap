@@ -57,11 +57,11 @@ Here's the URL mapping we're aiming for:
 
 ### Article detail page: content, footnotes, table of contents
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-core`
-- owner: Jinho
-- status: done
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-core`
+* owner: Jinho
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -77,14 +77,16 @@ Content is fetched from the existing Strapi CMS. Handle loading, not-found (404)
 - Server-rendered metadata (title, description, canonical, OG/Twitter) per article
 - 404, error, and empty states
 - A short note on where the content comes from (endpoint or export) and any transform applied
+- [logos-co/logos-web#103](https://github.com/logos-co/logos-web/pull/103) Migrate media detail pages from blog.logos.co => logos.co/media
+- [acid-info/logos-press-engine#274](https://github.com/acid-info/logos-press-engine/pull/274) fix: render post dates as "03 Sep 2026" in every timezone
 
 ### Article detail page: Discussion, Related Articles, From The Same Authors
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-secondary`
-- owner: Jinho
-- status: done
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:article-detail-secondary`
+* owner: Jinho
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -96,14 +98,15 @@ Port the supporting sections of the article page. That's **Discussion** (comment
 - Related Articles block (tag/topic query) using the blog's card layout
 - From The Same Authors block (author query) with empty-state handling
 - A data-source note per section (endpoint, query params, caching)
+- [logos-co/logos-web#103](https://github.com/logos-co/logos-web/pull/103) Migrate media detail pages from blog.logos.co => logos.co/media
 
 ### Podcast detail page: layout, YouTube embed, metadata
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-detail-core`
-- owner: Jinho
-- status: done
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-detail-core`
+* owner: jinhojang6
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -116,14 +119,15 @@ Build the native podcast detail route at `logos.co/media/podcasts/<series>/<slug
 - Embedded YouTube player set up so the sticky player (below) can drive it
 - Server-rendered metadata (title, description, canonical, OG/Twitter) per episode
 - 404, error, and empty states
+- [logos-co/logos-web#103](https://github.com/logos-co/logos-web/pull/103) Migrate media detail pages from blog.logos.co => logos.co/media
 
 ### Podcast sticky player: bottom bar and YouTube progress sync
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-player`
-- owner: Jinho
-- status: done
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:podcast-player`
+* owner: jinhojang6
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -137,14 +141,15 @@ Rebuild the sticky bottom player from the current podcast experience: play/pause
 - Autoplay rules and mobile behaviour handled and written down
 - Player state that persists across podcast-section navigation, matching the current behaviour
 - A test pass on desktop and mobile (Chrome, Safari, Firefox)
+- [logos-co/logos-web#103](https://github.com/logos-co/logos-web/pull/103) Migrate media detail pages from blog.logos.co => logos.co/media
 
 ### Point the /media landing and internal links at the new routes
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:internal-links`
-- owner: Jinho
-- status: done
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:internal-links`
+* owner: Jinho
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -155,14 +160,15 @@ Repoint the `/media` landing cards, and any in-site links that currently go to `
 - `/media` landing cards linking to `/media/articles/*` and `/media/podcasts/*`
 - Updated blog-engine href mapping, with the tests adjusted to match
 - An audit of the remaining `blog.logos.co` links in `logos-web`, with a reason for each one we keep external
+- [logos-co/logos-web#103](https://github.com/logos-co/logos-web/pull/103) Migrate media detail pages from blog.logos.co => logos.co/media
 
 ### Redirects: blog.logos.co to logos.co/media (with infra)
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:redirects-infra`
-- owner: Jinho
-- status: in progress (10%)
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:redirects-infra`
+* owner: Jinho
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -180,14 +186,15 @@ Produce the full slug and path mapping, decide how to handle anything that isn't
 - A rollout note (new pages live first, then redirects on) agreed with infra
 - A spot-check re-crawl confirming the top URLs land on the new pages
 - [status-im/infra-sites#168](https://github.com/status-im/infra-sites/issues/168) Jenkins CMS credentials, legacy URL redirects, and blog.logos.co decommissioning
+- [logos-co/logos-web#103](https://github.com/logos-co/logos-web/pull/103) Migrate media detail pages from blog.logos.co => logos.co/media
 
 ### SEO cutover: canonicals, sitemap, structured data
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:seo-cutover`
-- owner: Jinho
-- status: done
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:seo-cutover`
+* owner: jinhojang6
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -200,14 +207,15 @@ Make the new `/media/*` pages the canonical, indexable home for this content. Th
 - Sitemap updated with `/media/articles/*` and `/media/podcasts/*`
 - Validation (Search Console coverage and rich-results checks) on a sample
 - A short note confirming the old URLs are de-indexed via the redirects
+- [acid-info/logos-press-engine#275](https://github.com/acid-info/logos-press-engine/pull/275) feat: point canonical URLs to logos.co/media
 
 ### Parity QA and go-live
 
-- fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:parity-qa`
-- owner: Jinho
-- status: done
-- start-date: 2026/07/07
-- end-date: 2026/07/31
+* fully qualified name: `ift-ts:web:logos:2026q3-logos-media-migration:parity-qa`
+* owner: Jinho
+* status: done
+* start-date: 2026/07/07
+* end-date: 2026/09/29
 
 #### Description
 
@@ -219,6 +227,7 @@ Do a side-by-side check between `blog.logos.co` and the new `/media` pages acros
 - Cross-browser and mobile sign-off
 - Go-live coordinated with the redirects (`redirects-infra`) and the SEO cutover (`seo-cutover`)
 - A short post-migration check (old URLs return 301, new pages return 200 with the right canonical)
+- Verified CMS credentials and staging/production deployment with Infra.
 
 ## Out of scope for Q3 (stretch / Q4+)
 

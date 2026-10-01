@@ -50,9 +50,9 @@ Validate the main package manager and module workflows, including install, launc
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-logos-basecamp:mcp-tests`
 * owner: Roman
-* status: in progress (36%)
+* status: done
 * start-date: 2026/08/17
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 
@@ -89,9 +89,9 @@ Add UI integration coverage for MCP preparation, installation navigation, and Ba
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-logos-basecamp:maintenance`
 * owner: Roman
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Maintain and extend the existing Basecamp smoke, UI, sandbox, and doctest coverage as the project evolves.

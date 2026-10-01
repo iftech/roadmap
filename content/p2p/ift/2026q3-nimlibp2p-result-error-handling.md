@@ -28,9 +28,9 @@ are returned explicitly. This commitment moves selected nim-libp2p paths toward
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-result-error-handling:result-conversion`
 * owner: Gabe
-* status: in progress (45%)
+* status: done
 * start-date: 2026/07/15
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Convert to `Result[T, error]` wherever exceptions are used for expected failures, prioritizing
@@ -50,3 +50,12 @@ Prefer to keep the public API unchanged if possible.
 - [vacp2p/nim-libp2p#3143](https://github.com/vacp2p/nim-libp2p/pull/3143) chore(result): quic transport
 - [vacp2p/nim-libp2p#3137](https://github.com/vacp2p/nim-libp2p/pull/3137) chore(result): tcp and tor transports return Result internally
 - [vacp2p/nim-libp2p#3123](https://github.com/vacp2p/nim-libp2p/pull/3123) chore(result): multistream negotiation and PeerInfo.init return Result
+- [iftech/nim-libp2p#3160](https://github.com/iftech/nim-libp2p/pull/3160) chore(result): PeerIDAuth client
+- [iftech/nim-libp2p#3179](https://github.com/iftech/nim-libp2p/pull/3179) chore(result): add LPResult alias for core and transports
+- [iftech/nim-libp2p#3177](https://github.com/iftech/nim-libp2p/pull/3177) chore(result): NATService, switch mount and builders
+- [iftech/nim-libp2p#3176](https://github.com/iftech/nim-libp2p/pull/3176) chore(result): dialer connect path and ConnManager store return Result
+- [iftech/nim-libp2p#3163](https://github.com/iftech/nim-libp2p/pull/3163) chore(result): AutoTLS ACME API
+- [iftech/nim-libp2p#3162](https://github.com/iftech/nim-libp2p/pull/3162) chore(result): AutoTLS service, JWS and utils
+- [iftech/nim-libp2p#3159](https://github.com/iftech/nim-libp2p/pull/3159) chore(result): rendezvous
+- [logos-messaging/nim-ffi#204](https://github.com/logos-messaging/nim-ffi/pull/204) test(ci): run the example programs and check their results
+- [iftech/nim-libp2p#3157](https://github.com/iftech/nim-libp2p/pull/3157) chore(result): relay client and transport

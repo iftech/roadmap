@@ -52,9 +52,9 @@ semantics.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-logos-core-custom-protocol-support:remote-stream-handling`
 * owner: gabe
-* status: in progress (59%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Implement the stream event path that lets an external module handle inbound and

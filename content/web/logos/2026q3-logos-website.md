@@ -60,6 +60,8 @@ Host the Past Present Future museum experience on `logos.co`, integrate analytic
 - [logos-co/logos-web#176](https://github.com/logos-co/logos-web/pull/176) Fix desktop Past Present Future video
 - [logos-co/logos-web#177](https://github.com/logos-co/logos-web/pull/177) Label Mike choice analytics events
 - Published the [Life’s Choices and Mike experiences](https://logos.co/past-present-future/choices) with campaign navigation and analytics.
+- [logos-co/logos-web#182](https://github.com/logos-co/logos-web/pull/182) feat(web): build past-present-future from source
+- [logos-co/logos-web#179](https://github.com/logos-co/logos-web/pull/179) fix(web): rename Igbo to Nedo
 
 ### Catch No One landing page
 
@@ -145,9 +147,9 @@ Complete the Logos newsletter signup flow by forwarding submitted form data, sub
 
 * fully qualified name: `ift-ts:web:logos:2026q3-logos-website:selfhosting`
 * owner: Jinho/JulesFiliot
-* status: in progress (90%)
+* status: done
 * start-date: 2026/08/24
-* end-date: 2026/09/04
+* end-date: 2026/09/29
 
 #### Description
 
@@ -216,6 +218,7 @@ Build the Field Station residency page from the Figma design and updated brief, 
 - Linked the installation step to the Basecamp installation guide
 - [logos-co/logos-web#167](https://github.com/logos-co/logos-web/pull/167) Field Station: add the Coalition / Community Partners logos
 - Completed the [Field Station page](https://logos.co/field-station) with application links, partner and scholarship information, legal terms, and accessibility fixes.
+- [logos-co/logos-web#185](https://github.com/logos-co/logos-web/pull/185) feat: refresh Field Station visuals and Basecamp 0.3.0 links
 
 ### PriFi
 

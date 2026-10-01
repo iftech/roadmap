@@ -28,9 +28,9 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-maintenance:maintenance`
 * owner: rramos/vlado/gabe
-* status: in progress (89%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
@@ -260,3 +260,18 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 - [vacp2p/nim-libp2p#3138](https://github.com/vacp2p/nim-libp2p/pull/3138) fix(mplex): flaky read/write receiver tests
 - [vacp2p/nim-libp2p#3115](https://github.com/vacp2p/nim-libp2p/pull/3115) fix(interop): build peers before they run
 - [vacp2p/nim-libp2p#2071](https://github.com/vacp2p/nim-libp2p/pull/2071) chore: run cbind examples and a test_all job under AddressSanitizer
+- [iftech/nim-libp2p#3174](https://github.com/iftech/nim-libp2p/pull/3174) chore: update CODEOWNERS to change ownership to @iftech/libp2p
+- [iftech/nim-libp2p#3167](https://github.com/iftech/nim-libp2p/pull/3167) chore: reword log when no protocol is accepted
+- [iftech/nim-libp2p#3172](https://github.com/iftech/nim-libp2p/pull/3172) chore(kad): simplify `maintainLiveness`
+- [iftech/nim-libp2p#3146](https://github.com/iftech/nim-libp2p/pull/3146) ci: integrate open code review
+- [iftech/nim-libp2p#3148](https://github.com/iftech/nim-libp2p/pull/3148) ci(review): acknowledge reivew comment
+- [iftech/nim-lsquic#173](https://github.com/iftech/nim-lsquic/pull/173) ci: common open code review
+- [iftech/nim-libp2p#3155](https://github.com/iftech/nim-libp2p/pull/3155) ci(review): use common-open-code-review
+- [iftech/nim-lsquic#176](https://github.com/iftech/nim-lsquic/pull/176) ci(review): fix workflow link
+- [iftech/common-open-code-review#1](https://github.com/iftech/common-open-code-review/pull/1) feat: add support for qwen models
+- [iftech/nim-libp2p#3178](https://github.com/iftech/nim-libp2p/pull/3178) ci(review): fix workflow link
+- [iftech/nim-libp2p#3170](https://github.com/iftech/nim-libp2p/pull/3170) ci: add qwen
+- [iftech/nim-libp2p#3175](https://github.com/iftech/nim-libp2p/pull/3175) test(heartbeat): fix flaky change heartbeat period test
+- [iftech/nim-libp2p#3168](https://github.com/iftech/nim-libp2p/pull/3168) fix(cbind): log UTC timestamps to avoid localtime() race
+- [iftech/nim-libp2p#3161](https://github.com/iftech/nim-libp2p/pull/3161) test(service-disco): edge paths in registrar, advertiser, and discoverer
+- [iftech/nim-libp2p#3166](https://github.com/iftech/nim-libp2p/pull/3166) chore(metrics): pubsub send-stream state

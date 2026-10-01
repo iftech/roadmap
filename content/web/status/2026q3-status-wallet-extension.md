@@ -40,9 +40,9 @@ Implement Receive BTC flow in the wallet extension (address generation/display, 
 
 * fully qualified name: `ift-ts:web:status:2026q3-status-wallet-extension:recovery-phrase-accessible-form`
 * owner: Jinho
-* status: in progress (25%)
+* status: done
 * start-date: 2026/07/13
-* end-date: 2026/07/24
+* end-date: 2026/09/29
 
 #### Description
 

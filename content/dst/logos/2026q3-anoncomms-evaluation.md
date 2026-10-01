@@ -79,9 +79,9 @@ TBD
 
 * fully qualified name: `ift-ts:dst:logos:2026q3-anoncomms-evaluation:service-discovery-scenarios`
 * owner: Alberto
-* status: in progress (95%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Perform scenarios described by annoncoms team and do measurements of those using service discovery.
@@ -96,5 +96,6 @@ Perform scenarios described by annoncoms team and do measurements of those using
   - [CPU 100% and stale node issue](https://app.notion.com/p/CPU-stale-answer-3a08f96fb65c8095b9ead7b028eb30dd)
   - [Service Discovery main report](https://app.notion.com/p/Service-discovery-analysis-39d8f96fb65c8098864bdfe91b012abf)
   - [Found an issue with kad-dht when admission probe cap is full in p2p PR](https://github.com/vacp2p/nim-libp2p/pull/2967)
+  - Rebuilt the node with the latest changes and repeated the service-discovery experiments and measurements: [findings discussion](https://discord.com/channels/973324189794697286/1526567789803081728/1552680847138885642).
 - Other:
   - Investigated another anoncomms issue; the investigation exposed a second issue that was detected and fixed.

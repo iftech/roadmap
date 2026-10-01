@@ -14,6 +14,30 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 
 [[p2p/preview|Roadmap Preview]]
 
+## 2026q4 `ift-ts:p2p:`
+
+### `ift:`
+
+* [[p2p/ift/2026q4-anoncomms-consulting|anoncomms-consulting]]
+* [[p2p/ift/2026q4-dst-automated-workflow|dst-automated-workflow]]
+* [[p2p/ift/2026q4-gossipsub-interop|gossipsub-interop]]
+* [[p2p/ift/2026q4-logos-core-consulting|logos-core-consulting]]
+* [[p2p/ift/2026q4-logos-delivery-consulting|logos-delivery-consulting]]
+* [[p2p/ift/2026q4-nimlibp2p-dht-publication-outcomes|nimlibp2p-dht-publication-outcomes]]
+* [[p2p/ift/2026q4-nimlibp2p-early-muxer-negotiation|nimlibp2p-early-muxer-negotiation]]
+* [[p2p/ift/2026q4-nimlibp2p-gossipsub-byte-queues|nimlibp2p-gossipsub-byte-queues]]
+* [[p2p/ift/2026q4-nimlibp2p-gossipsub-duplicate-suppression|nimlibp2p-gossipsub-duplicate-suppression]]
+* [[p2p/ift/2026q4-nimlibp2p-gossipsub-topic-streams|nimlibp2p-gossipsub-topic-streams]]
+* [[p2p/ift/2026q4-nimlibp2p-gossipsub-validation|nimlibp2p-gossipsub-validation]]
+* [[p2p/ift/2026q4-nimlibp2p-kademlia-auto-mode|nimlibp2p-kademlia-auto-mode]]
+* [[p2p/ift/2026q4-nimlibp2p-kademlia-provider-storage|nimlibp2p-kademlia-provider-storage]]
+* [[p2p/ift/2026q4-nimlibp2p-maintenance|nimlibp2p-maintenance]]
+* [[p2p/ift/2026q4-nimlibp2p-mdns|nimlibp2p-mdns]]
+* [[p2p/ift/2026q4-nimlibp2p-quic-datagrams|nimlibp2p-quic-datagrams]]
+* [[p2p/ift/2026q4-nimlibp2p-quic-ech|nimlibp2p-quic-ech]]
+* [[p2p/ift/2026q4-nimlibp2p-reachability-relay-lifecycle|nimlibp2p-reachability-relay-lifecycle]]
+* [[p2p/ift/2026q4-nimlibp2p-webtransport|nimlibp2p-webtransport]]
+
 ## 2026q3 `ift-ts:p2p:`
 
 ### `ift:`

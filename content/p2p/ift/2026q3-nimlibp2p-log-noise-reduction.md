@@ -51,9 +51,9 @@ and should be modified.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-nimlibp2p-log-noise-reduction:logging-changes`
 * owner: vlado
-* status: in progress (95%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 Apply the agreed logging changes while preserving useful diagnostics for
@@ -87,3 +87,4 @@ failures and unusual runtime behavior.
 - [vacp2p/nim-libp2p#3122](https://github.com/vacp2p/nim-libp2p/pull/3122) chore(logs): add log summary for batched operation
 - [vacp2p/nim-libp2p#3121](https://github.com/vacp2p/nim-libp2p/pull/3121) chore(logs): improve pubsub.Message shortLog
 - [vacp2p/nim-libp2p#3119](https://github.com/vacp2p/nim-libp2p/pull/3119) chore(logs): standardize topics
+- [iftech/nim-lsquic#171](https://github.com/iftech/nim-lsquic/pull/171) chore: improve logs

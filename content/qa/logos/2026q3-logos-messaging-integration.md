@@ -35,9 +35,9 @@ Validate the integration of the Logos Messaging module inside the Logos Core pla
 
 * fully qualified name: `ift-ts:qa:logos:2026q3-logos-messaging-integration:delivery-module-e2e`
 * owner: egor
-* status: in progress (75%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/09/30
+* end-date: 2026/09/29
 
 #### Description
 - Move the Delivery module E2E tests into the `logos-delivery-module` repository.

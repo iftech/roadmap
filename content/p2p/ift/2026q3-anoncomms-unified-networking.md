@@ -33,9 +33,9 @@ artifacts during Q3.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q3-anoncomms-unified-networking:scope-architecture`
 * owner: Richard
-* status: in progress (60%)
+* status: done
 * start-date: 2026/07/01
-* end-date: 2026/07/10
+* end-date: 2026/09/29
 
 #### Description
 Work with Anoncomms to define the responsibilities of the unified networking
@@ -55,3 +55,9 @@ application code.
 - [logos-co/logos-libp2p-mix-rln#3](https://github.com/logos-co/logos-libp2p-mix-rln/pull/3) build(mix)!: use merged shared-only FFI from main
 - [logos-co/logos-libp2p-mix-rln#2](https://github.com/logos-co/logos-libp2p-mix-rln/pull/2) feat(mix): add standalone intermediates with shared RLN proofs
 - [logos-co/nim-libp2p-mix-ffi#2](https://github.com/logos-co/nim-libp2p-mix-ffi/pull/2) feat: run Mix on a standalone libp2p switch
+- [logos-co/logos-rln-modules#34](https://github.com/logos-co/logos-rln-modules/pull/34) fix(rln): expose effective registry epoch gap
+- [logos-co/logos-libp2p-mix-rln#6](https://github.com/logos-co/logos-libp2p-mix-rln/pull/6) build: update Mix FFI pin to latest upstream main
+- [logos-co/nim-libp2p-mix-ffi#4](https://github.com/logos-co/nim-libp2p-mix-ffi/pull/4) refactor(ffi): enable sending and exit delivery by default
+- [logos-co/nim-libp2p-mix-ffi#3](https://github.com/logos-co/nim-libp2p-mix-ffi/pull/3) refactor(ffi)!: expose exit-as-destination only
+- [logos-co/logos-libp2p-mix-rln#4](https://github.com/logos-co/logos-libp2p-mix-rln/pull/4) build(wallet): migrate registry dependency to upstream LEZ
+- [logos-co/logos-libp2p-mix-rln#5](https://github.com/logos-co/logos-libp2p-mix-rln/pull/5) refactor(mix)!: expose exit-as-destination only
