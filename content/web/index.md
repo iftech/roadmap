@@ -25,6 +25,7 @@ The unit's work directly supports IFT's strategic objective of scaling project c
 * [[web/ift/2026q4-admin-acid|admin-acid]]
 * [[web/ift/2026q4-ai-tooling|ai-tooling]]
 * [[web/ift/2026q4-demos|demos]]
+* [[web/ift/2026q4-e2e-testing|e2e-testing]]
 * [[web/ift/2026q4-maintenance|maintenance]]
 
 ### `status:`
