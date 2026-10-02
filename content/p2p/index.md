@@ -33,6 +33,7 @@ Major future work items on nim-libp2p (also beyond this reporting period are cap
 * [[p2p/ift/2026q4-nimlibp2p-kademlia-provider-storage|nimlibp2p-kademlia-provider-storage]]
 * [[p2p/ift/2026q4-nimlibp2p-maintenance|nimlibp2p-maintenance]]
 * [[p2p/ift/2026q4-nimlibp2p-mdns|nimlibp2p-mdns]]
+* [[p2p/ift/2026q4-nimlibp2p-nimbus-downstream-ci|nimlibp2p-nimbus-downstream-ci]]
 * [[p2p/ift/2026q4-nimlibp2p-quic-datagrams|nimlibp2p-quic-datagrams]]
 * [[p2p/ift/2026q4-nimlibp2p-quic-ech|nimlibp2p-quic-ech]]
 * [[p2p/ift/2026q4-nimlibp2p-reachability-relay-lifecycle|nimlibp2p-reachability-relay-lifecycle]]
