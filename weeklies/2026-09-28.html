@@ -10,36 +10,33 @@
 <li>BI: Continued work on the Hermes connection and researched language support for the Status Engagement Bot.</li>
 <li>BI: Continued the Logos communication funnel dashboard.</li>
 <li>BI: Worked on the Logos testnet dashboard.</li>
-<li>DST: Repeated anoncomms service-discovery experiments and discussed unexpected findings with the team.</li>
+<li>DST: Anoncomms service-discovery experiments and discussed unexpected findings with the team.</li>
 <li>DST: Investigated nim-libp2p mesh formation and a potential Kademlia liveness issue in Shadow.</li>
 <li>DST: Submitted Logos Delivery experiment and analysis changes for review.</li>
-<li>DST: Made completed experiments’ analysis rerunnable from their output folders.</li>
 <li>NIM: Released Nimble 0.26.0 and fixed dependency resolution and offline refresh behavior.</li>
 <li>NIM: Fixed Nim network sends that could corrupt data or loop indefinitely after disconnects.</li>
 <li>NIM: Updated JSON serialization API documentation.</li>
-<li>P2P: Simplified anoncomms Mix routing so exits are the only destinations.</li>
+<li>P2P: Simplified anoncomms Mix routing.</li>
 <li>P2P: Exposed QUIC engine configuration through nim-libp2p.</li>
-<li>P2P: Opened the nim-secp256k1 version bump to 0.7.0.8.0 and documented its version numbering.</li>
 <li>P2P: Improved nim-lsquic logging.</li>
-<li>P2P: Extended explicit error-result handling through nim-libp2p transports and services.</li>
+<li>P2P: Improved error-handling through nim-libp2p transports and services.</li>
 <li>P2P: Fixed Kademlia liveness loops and repeated bootstrap attempts to unreachable peers.</li>
-<li>QA: Merged Logos Delivery interoperability test migrations, including nightly tests through a live fleet.</li>
-<li>QA: Sent Gateway the LEZ Atomic Swaps compliance and test-coverage report for v0.2.4.</li>
-<li>QA: Added Status Desktop measurements for the time until a sent message appears in chat.</li>
-<li>QA: Expanded Status Desktop Keycard tests for recovery, keypair imports, and returning to use without Keycard.</li>
-<li>QA: Expanded status-go functional tests for Keycard migration, account restoration, and cold-wallet synchronization.</li>
-<li>QA: Found an Android chat-opening failure through nightly tests; the issue was fixed.</li>
+<li>QA: Logos Delivery interoperability test migrations, including nightly tests through a live fleet.</li>
+<li>QA: LEZ Atomic Swaps compliance and test-coverage report for v0.2.4.</li>
+<li>QA: Status Desktop message delivery measurements. Expanded Keycard tests.</li>
+<li>QA: Expanded status-go functional tests for Keycard.</li>
+<li>QA: Found an Android chat-opening failure through nightly tests.</li>
 <li>SEC: Reported 18 LEZ findings and wrote an AMM threat model.</li>
-<li>SEC: Reported three Logos Blockchain findings and continued reviewing audit RFPs.</li>
-<li>SEC: Rechecked 23 new audit findings, including ten high-severity issues; all remained open.</li>
-<li>SEC: Confirmed licenses and CI were present in nimbus-zkvm-guests.</li>
+<li>SEC: Reported 3 Logos Blockchain findingss.</li>
 <li>TKE: Wrote an explainer and FAQs for the Logos token buyback-and-make mechanism.</li>
 <li>TKE: Reviewed node-program reward calculations and discussed its design with Legal.</li>
-<li>WEB: Merged native Logos article and podcast pages; production redirects and legacy blog decommissioning remained outstanding.</li>
-<li>WEB: Moved Past Present Future into a SvelteKit app with reproducible builds.</li>
-<li>WEB: Refreshed Field Station visuals and updated its Basecamp download links to version 0.3.0.</li>
+<li>TKE: Applied LEZ sequencer economics fixes and addressed discussion feedback.</li>
+<li>TKE: Continued the liquid staking prioritization analysis.</li>
+<li>TKE: Analyzed Penumbra and its potential application to Logos Blockchain.</li>
+<li>WEB: Completed the blog.logos.co => logos.co/media migration.</li>
+<li>WEB: Moved Past Present Future page into a SvelteKit app with reproducible builds.</li>
+<li>WEB: Refreshed Field Station visuals.</li>
 <li>WEB: Started the CMS publishing workflow with deployment controls and an admin interface.</li>
-<li>WEB: Added the Logos Zine download link to the menu.</li>
 <li>WEB: Moved Logos funnel forms to the new API and validated the changes in production.</li>
 </ul>
 <h3 id="ift-tsbi">ift-ts:bi:<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ift-tsbi" class="internal internal-link" data-link-type="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
@@ -505,6 +502,7 @@
 <ul>
 <li><code>other notes</code>
 <ul>
+<li>Explored ways to help with Martin’s move to EcoDev.</li>
 <li>OOO: 1 CC days.</li>
 </ul>
 </li>
@@ -512,12 +510,33 @@
 <ul>
 <li>Wrote an explainer and FAQs about the buyback-and-make mechanism.</li>
 <li>Continued working on the buyback-and-make model.</li>
+<li>Commented on the buyback-and-make model.</li>
 </ul>
 </li>
 <li><code>vac:tke:ift:ecodev:node-program-validators</code>
 <ul>
 <li>Reviewed the points-reward calculation.</li>
 <li>Discussed the node program design with Legal.</li>
+</ul>
+</li>
+<li><code>vac:tke:ift:ecodev:market-validation</code>
+<ul>
+<li>Continued working with Rahul on using the previous EcoDev brief as a case study to identify B2B products addressing gaps left by Canton.</li>
+</ul>
+</li>
+<li><code>vac:tke:lez:sequencer-econ</code>
+<ul>
+<li>Implemented fixes and addressed discussion feedback on LEZ sequencer economics.</li>
+</ul>
+</li>
+<li><code>vac:tke:blockchain:stake-delegation</code>
+<ul>
+<li>Continued the liquid staking prioritization analysis.</li>
+</ul>
+</li>
+<li><code>vac:tke:blockchain:penumbra-analysis</code>
+<ul>
+<li>Analyzed Penumbra and how it could be applied to Logos Blockchain.</li>
 </ul>
 </li>
 </ul>
