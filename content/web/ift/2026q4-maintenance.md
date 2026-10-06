@@ -24,9 +24,9 @@ Shared AI workflow tooling is tracked separately under [[web/ift/2026q4-ai-tooli
 
 * fully qualified name: `ift-ts:web:ift:2026q4-maintenance:maintenance`
 * owner: Jinho/JulesFiliot
-* status: not started
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/10/06
 
 #### Description
 
@@ -34,6 +34,5 @@ Maintain common build tools, shared dependencies, CI checks, preview deployments
 Resolve shared infrastructure or tooling failures, coordinate with Infra where needed, and document changes that affect website development or releases.
 
 #### Deliverables
-
-- PRs updating shared dependencies, tooling, and CI or deployment configuration.
-- Verified fixes for shared workflow failures and relevant operational documentation.
+- [status-im/nimbus-site#180](https://github.com/status-im/nimbus-site/pull/180) fix: point shared footer links at Logos technology stack
+- [keycard-tech/keycard-website#266](https://github.com/keycard-tech/keycard-website/pull/266) chore: update Node.js to 24

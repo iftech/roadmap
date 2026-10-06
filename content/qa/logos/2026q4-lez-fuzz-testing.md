@@ -21,7 +21,7 @@ Keep targets compatible with upstream changes and preserve useful corpus handlin
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-lez-fuzz-testing:framework-maintenance`
 * owner: Roman
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -32,7 +32,5 @@ Keep targets compatible with upstream changes and preserve useful corpus handlin
 - Maintain corpus update automation and CI execution, documenting infrastructure constraints when they arise.
 
 #### Deliverables
-
-- PRs maintaining or extending fuzz targets and regression coverage.
-- Corpus automation and CI maintenance changes.
-- Tracked findings and documented execution or infrastructure gaps.
+- [logos-blockchain/lez-fuzzing#35](https://github.com/logos-blockchain/lez-fuzzing/pull/35) chore: automated weekly corpus update
+- [logos-blockchain/lez-fuzzing#36](https://github.com/logos-blockchain/lez-fuzzing/pull/36) chore: sync with LEZ main (account shards, native transfers, no deployment tx)

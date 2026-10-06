@@ -24,8 +24,8 @@ TBD
 ### Reliability
 
 * fully qualified name: `ift-ts:dst:status:2026q4-status-evaluation:reliability`
-* owner: TBD
-* status: not started
+* owner: Alberto
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -35,6 +35,8 @@ Compare results with old status-go.
 
 #### Deliverables
 - Github PRs:
+    - Rebuilt Status develop commit `6fbaa6af0ee90100c93380f3b04fdd57433cd273` as a Docker image.
+    - Adapted and redeployed Status benchmark utilities in the lab.
 - Documents:
 
 ### Logos delivery integration

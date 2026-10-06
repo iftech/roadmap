@@ -35,8 +35,8 @@ adversarial conditions and control message behavior.
 ### General tooling (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-dst-tooling:general-tooling`
-* owner: TBD
-* status: not started
+* owner: Alberto/Alan
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -46,5 +46,7 @@ Should be made general when possible.
 
 #### Deliverables
 - Code:
+    - [iftech/roadmap#530](https://github.com/iftech/roadmap/pull/530) chore(DST): q4 commitments
+    - [iftech/10ksim#391](https://github.com/iftech/10ksim/pull/391) Scrape metrics and draw the standard plots in post-run analysis
 - Reports:
 - Other:

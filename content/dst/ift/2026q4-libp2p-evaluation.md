@@ -30,8 +30,8 @@ work and improvements, and it is subjected to change.
 ### Regression testing (recurring)
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-libp2p-evaluation:regression-testing`
-* owner: TBD
-* status: not started
+* owner: Alan
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -47,7 +47,9 @@ and ensure they don't happen again.
 #### Deliverables
 
 - Code:
+    - [iftech/10ksim#418](https://github.com/iftech/10ksim/pull/418) Connection cap and bootstrap image options for the nim-libp2p nodes
 - Reports:
+    - Tested Kademlia liveness-loop and bucket-rotation changes and updated the [nim-libp2p v2.4.0 regression report](https://app.notion.com/p/3dd8f96fb65c81c194b8ce51ea753a52).
 
 
 ### Interop at scale

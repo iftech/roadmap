@@ -19,8 +19,8 @@ Improve the Logos Testnet current Monitoring
 ### Improve Tetnet Monitoring
 
 * fully qualified name: `ift-ts:bi:logos:2026q4-logos-improve-testnet-monitoring`
-* owner: tdb
-* status: not started
+* owner: alexis
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 * issue: -
@@ -31,5 +31,4 @@ Improve the Logos Testnet current Monitoring
 Improve the Logos Testnet current Monitoring
 
 #### Deliverables
-
-Upgrade Dashboard
+- Built the first version of the [Logos testnet dashboard](https://superset.bi.status.im/superset/dashboard/158/?native_filters_key=0zLwmtF7pzQ).

@@ -22,7 +22,7 @@ Validate release artifacts and maintain the existing smoke, UI, sandbox, and doc
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-logos-basecamp:mcp-tests`
 * owner: Roman
-* status: not started
+* status: in progress (36%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

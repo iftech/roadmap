@@ -27,8 +27,8 @@ as requirements and priorities become clearer during Q4.
 ### Consulting
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-delivery-consulting:consulting`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (4%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -44,8 +44,5 @@ API and integration decisions with Delivery and capture concrete follow-up work
 as it is agreed.
 
 #### Deliverables
-
-- Consulting and review support for the pluggable libp2p work in logos-delivery#4341
-- nim-ffi PR reviews and design feedback, including evaluation of polling instead of callbacks
-- Module API guidance and agreed changes or simplifications for Delivery integration
-- Links to reviews, decisions, and follow-up issues or PRs as work is completed
+- [logos-messaging/nim-ffi#209](https://github.com/logos-messaging/nim-ffi/pull/209) chore(ffi): zero the request envelope with c_calloc
+- [logos-messaging/nim-ffi#205](https://github.com/logos-messaging/nim-ffi/pull/205) chore(ci): one source for the sanitizer runtime options

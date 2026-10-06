@@ -20,7 +20,7 @@ Improve the existing dashboard to monitore Keycard key indicators
 
 * fully qualified name: `ift-ts:bi:keycard:2026q4-keycard-continuous-monitoring`
 * owner: claire
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 * issue: -

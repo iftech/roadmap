@@ -123,7 +123,7 @@ These enhancements will enable JSON-RPC to be used efficiently for cross-thread 
 ### Maintenance
 
 * fully qualified name: `ift-ts:nim:ift:2026q1-nim-core-libs:maintenance`
-* owner: Constantine
+* owner: Constantine/Nitely/Juan
 * status: done
 * start-date: 2026/01/01
 * end-date: 2026/03/31

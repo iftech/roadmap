@@ -21,8 +21,8 @@ TBD
 ### Consulting
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-core-consulting:consulting`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (4%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -31,5 +31,5 @@ TBD
 TBD
 
 #### Deliverables
-
-TBD
+- [logos-co/logos-libp2p-module#119](https://github.com/logos-co/logos-libp2p-module/pull/119) chore: pin flake inputs to a commit hashes, update nim-libp2p
+- [logos-co/logos-libp2p-module#115](https://github.com/logos-co/logos-libp2p-module/pull/115) feat(kad): add kadWaitBootstrap to wait for the DHT bootstrap after start
