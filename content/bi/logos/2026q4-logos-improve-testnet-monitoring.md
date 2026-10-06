@@ -19,7 +19,7 @@ Improve the Logos Testnet current Monitoring
 ### Improve Tetnet Monitoring
 
 * fully qualified name: `ift-ts:bi:logos:2026q4-logos-improve-testnet-monitoring`
-* owner: tdb
+* owner: alexis
 * status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
