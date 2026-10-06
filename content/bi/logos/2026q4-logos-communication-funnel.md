@@ -23,7 +23,7 @@ Make a Dashboard for the Communication Funnel
 * status: not started
 * start-date: 2026/10/01
 * end-date: 2026/12/31
-* issue: -
+* issue: https://github.com/status-im/data-docs/issues/261
 
 #### Description
 

@@ -23,7 +23,26 @@ Upgrade the Ecodev Funnel Dashboard with latest requests
 * status: not started
 * start-date: 2026/10/01
 * end-date: 2026/12/31
-* issue: -
+* issue: https://github.com/status-im/data-docs/issues/233
+
+#### Description
+
+Update the Ecodev Funnel Dashboard with the request of the team.
+
+#### Deliverables
+
+* New Charts.
+
+
+
+### Basecamp Monitoring
+
+* fully qualified name: `ift-ts:bi:logos:2026q4-logos-ecodev-funnel-update:basecamp-monitoring`
+* owner: tdb
+* status: not started
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+* issue: https://github.com/status-im/data-docs/issues/266
 
 #### Description
 

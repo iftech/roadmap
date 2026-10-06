@@ -16,10 +16,27 @@ Improve the existing dashboard to monitore Keycard key indicators
 
 ## Task List
 
-### Keycard Continuous Monitoring
+### OpenAI ads
 
-* fully qualified name: `ift-ts:bi:keycard:2026q4-keycard-continuous-monitoring`
+* fully qualified name: `ift-ts:bi:keycard:2026q4-keycard-continuous-monitoring:openai-ads`
 * owner: claire
+* status: not started
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+* issue: https://github.com/status-im/data-docs/issues/270
+
+#### Description
+
+From the umami data, extract more precisely the OpenAI Ads visits
+
+#### Deliverables
+
+New charts and updates charts.
+
+### Crypto Payement
+
+* fully qualified name: `ift-ts:bi:keycard:2026q4-keycard-continuous-monitoring:crypto-payement`
+* owner: to be determind
 * status: not started
 * start-date: 2026/10/01
 * end-date: 2026/12/31
@@ -27,8 +44,9 @@ Improve the existing dashboard to monitore Keycard key indicators
 
 #### Description
 
-Improve the existint dashboard to monitore keycard key indicators based on the request from the keycard team.
+Extract information about crypto payement and show it in the dashbaord + weekly reporting
 
 #### Deliverables
 
-New charts and updates charts.
+* Updated reporting
+* Updated Dashboard

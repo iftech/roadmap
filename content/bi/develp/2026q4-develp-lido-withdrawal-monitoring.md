@@ -23,7 +23,7 @@ Monitore the withdrawal requests concerning Develp Validators
 * status: not started
 * start-date: 2026/10/01
 * end-date: 2026/12/31
-* issue: -
+* issue: https://github.com/status-im/data-docs/issues/268
 
 #### Description
 

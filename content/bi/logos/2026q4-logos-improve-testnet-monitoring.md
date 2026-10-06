@@ -16,20 +16,57 @@ Improve the Logos Testnet current Monitoring
 
 ## Task List
 
-### Improve Tetnet Monitoring
+### Delivery analytics
 
-* fully qualified name: `ift-ts:bi:logos:2026q4-logos-improve-testnet-monitoring`
-* owner: tdb
+* fully qualified name: `ift-ts:bi:logos:2026q4-logos-improve-testnet-monitoring:delivery-analytics`
+* owner: Nikolay
 * status: not started
 * start-date: 2026/10/01
 * end-date: 2026/12/31
-* issue: -
+* issue: https://github.com/status-im/data-docs/issues/198
 
 #### Description
 
-
-Improve the Logos Testnet current Monitoring
+Extract data from a Logos Delivery Database to estimate the trafic
 
 #### Deliverables
 
-Upgrade Dashboard
+* Tool
+* Charts about the usage
+
+
+### Storage Analytics
+
+* fully qualified name: `ift-ts:bi:logos:2026q4-logos-improve-testnet-monitoring:storage-analytics`
+* owner: Claire
+* status: not started
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+* issue: https://github.com/status-im/data-docs/issues/191
+
+#### Description
+
+Extract data from a Logos Storage to estimate the trafic
+
+#### Deliverables
+
+* Tool
+* Charts about the usage
+
+
+### Blockchain and Lez Upgrade
+
+* fully qualified name: `ift-ts:bi:logos:2026q4-logos-ecodev-funnel-update:Blockchain-lez-upgrade`
+* owner: Nikolay
+* status: not started
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+* issue: https://github.com/status-im/data-docs/issues/188
+
+#### Description
+
+Estimate the activity on Logos Blockchain and LEZ.
+
+#### Deliverables
+
+* New Charts.
