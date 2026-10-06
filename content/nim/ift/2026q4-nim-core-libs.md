@@ -40,7 +40,7 @@ Improve documentation tooling where it helps keep package documentation accurate
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:maintenance`
 * owner: Constantine
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -53,12 +53,13 @@ Triage issues, address regressions and compatibility problems, support downstrea
 
 - PRs fixing library defects and maintaining compatibility, tests, and CI.
 - Tracked issues and verification results for downstream integration problems.
+- [nim-lang/Nim#26281](https://github.com/nim-lang/Nim/pull/26281) Feature: Control Nimsuggest's memory consumption cap with runtime flag
 
 ### Nimlangserver improvements
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nimlangserver`
-* owner: TBD
-* status: not started
+* owner: Juan/Esteban/Constantine
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -81,6 +82,15 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - PRs integrating selected NimTortoise fixes and improvements into mainstream nimlangserver after coordination with Esteban's rewrite.
 - An LSP JSON serialization flavor and Nim protocol objects for the currently used messages and structures.
 - Regression and serialization tests, plus guidance for adding further protocol objects.
+- [nim-lang/langserver#484](https://github.com/nim-lang/langserver/pull/484) Run macOS CI on Apple Silicon (macos-latest)
+- [nim-lang/langserver#483](https://github.com/nim-lang/langserver/pull/483) bumps setup-nimble-action from v1 to v2
+- [nim-lang/langserver#482](https://github.com/nim-lang/langserver/pull/482) Build macOS amd64 binary with an explicit x86_64 target
+- [nim-lang/langserver#448](https://github.com/nim-lang/langserver/pull/448) Avoid some dangling nimsuggests
+- [status-im/nim-json-rpc#300](https://github.com/status-im/nim-json-rpc/pull/300) Add `lastError` to `RpcConnection`
+- [status-im/nim-json-rpc#302](https://github.com/status-im/nim-json-rpc/pull/302) Pipes transport
+- [status-im/nim-json-rpc#296](https://github.com/status-im/nim-json-rpc/pull/296) Stdio transport
+- [nim-lang/langserver#454](https://github.com/nim-lang/langserver/pull/454) Docs: Explain multi-entry-point project mapping
+- [nim-lang/langserver#479](https://github.com/nim-lang/langserver/pull/479) Add nimsuggestMaxMemory config value to complement nimsuggest's new `--maxMemory` option.
 
 ### Nimlangserver and nimsuggest support for IFT projects
 

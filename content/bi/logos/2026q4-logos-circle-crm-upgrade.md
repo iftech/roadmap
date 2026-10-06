@@ -20,7 +20,7 @@ Upgrade the CRM of Logos Circle
 
 * fully qualified name: `ift-ts:bi:logos:2026q4-logos-circle-crm-upgrade`
 * owner: tdb
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 * issue: -

@@ -20,8 +20,8 @@ Build on the Q3 development track and review how Messaging, Storage, and Nimbus 
 ### Nimble development
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nimble:development`
-* owner: Juan
-* status: not started
+* owner: Juan/Constantine
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -32,9 +32,9 @@ Prioritize outstanding development goals, dependency resolution and lockfile rel
 Add regression coverage for fixes and update usage documentation when behavior changes.
 
 #### Deliverables
-
-- PRs implementing Nimble improvements and fixes with regression coverage.
-- Updated documentation and tracked follow-ups for outstanding development or compatibility issues.
+- [nim-lang/nimble#1879](https://github.com/nim-lang/nimble/pull/1879) Warn when updating nimble from a nimble in a different path
+- [nim-lang/nimble#1878](https://github.com/nim-lang/nimble/pull/1878) Resolve the version of a named package instead of reusing its cached…
+- [nim-lang/nimble#1880](https://github.com/nim-lang/nimble/pull/1880) Docs: Add a note about when to use lock files.
 
 ### CI integration review
 

@@ -23,9 +23,9 @@ Select concrete work with stakeholders as needs arise and record the scope and a
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:maintenance`
 - owner: Jinho/JulesFiliot
-- status: not started
+- status: done
 - start-date: 2026/10/01
-- end-date: 2026/12/31
+- end-date: 2026/10/06
 
 #### Description
 
@@ -35,17 +35,21 @@ Maintain site-specific dependencies and configuration, release and download link
 Investigate production failures and ship necessary hotfixes, coordinating shared tooling changes with the Web maintenance commitment.
 
 #### Deliverables
-
-- PRs for site upkeep, dependency updates, configuration changes, and production hotfixes.
-- Verified release and content updates, with tracked operational issues and resolution notes.
+- [logos-co/logos-web#193](https://github.com/logos-co/logos-web/pull/193) feat(web): testnet v0.3 launch content updates
+- [logos-co/logos-web#203](https://github.com/logos-co/logos-web/pull/203) feat(web): testnet v0.3 legal pages and links
+- [logos-co/logos-web#205](https://github.com/logos-co/logos-web/pull/205) fix: update Basecamp platform downloads to 0.3.1
+- [logos-co/logos-web#184](https://github.com/logos-co/logos-web/pull/184) Publish the site from the CMS
+- [logos-co/logos-web#189](https://github.com/logos-co/logos-web/issues/189) Repo is 2.5 GB because build output is committed to deploy branches
+- [status-im/infra-sites#171](https://github.com/status-im/infra-sites/issues/171) chore(logos.co): drop git history from deploy-* branches on each build
+- [logos-co/logos-web#191](https://github.com/logos-co/logos-web/pull/191) chore(web): remove unused about mountain video
 
 ### Past Present Future: content update and migration
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:past-present-future`
 - owner: Jinho
-- status: not started
+- status: done
 - start-date: 2026/10/01
-- end-date: 2026/12/31
+- end-date: 2026/10/06
 
 #### Description
 
@@ -63,6 +67,7 @@ Document ownership, dependencies, and acceptance criteria before work that cross
 - Migration PRs in `logos-web` for the approved experience, routes, assets, responsive behaviour, and analytics integration.
 - Desktop and mobile QA covering key journeys, calls to action, video presentation, and Umami event tracking.
 - Agency handover and review notes for any work requiring external creative or technical collaboration.
+- [logos-co/logos-web#194](https://github.com/logos-co/logos-web/pull/194) feat(web): add Amanda film to past-present-future
 
 ### Logos Zine
 
@@ -109,8 +114,8 @@ This is a large page, so kick off requirements, copy, and design with the Comms 
 ### Basecamp landing page revamp
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:basecamp-lp`
-- owner: Jinho/JulesFiliot
-- status: not started
+- owner: Jinho
+- status: in progress (10%)
 - start-date: 2026/10/01
 - end-date: 2026/10/31
 
@@ -124,6 +129,7 @@ Make the page more explanatory, expand its content, and focus it on conversion.
 - A summary of the collected feedback and the redesign goals agreed with Comms.
 - Approved redesign and copy.
 - A rebuilt, responsive Basecamp page with conversion events tracked in Umami.
+- [logos-co/logos-web#112](https://github.com/logos-co/logos-web/issues/112) Install Basecamp is throught web wrongly implemented
 
 ### RFP and Lambda Prize landing page updates
 

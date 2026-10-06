@@ -62,8 +62,8 @@ Ship the template and trigger changes stakeholders request during the quarter, a
 ### Ad hoc requests
 
 * fully qualified name: `ift-ts:web:ift:2026q4-admin-acid:ad-hoc-requests`
-* owner: Jinho/JulesFiliot
-* status: not started
+* owner: JulesFiliot
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -74,7 +74,4 @@ Capture each request as an issue, agree scope and acceptance criteria with the r
 Create a dedicated roadmap task when a request grows into a substantial project.
 
 #### Deliverables
-
-- Scoped issues with acceptance criteria for each accepted request.
-- PRs and deployed changes, validated with the requester.
-- Tracked list of declined or deferred requests with the reason recorded.
+- [acid-info/admin-acid.logos.co#75](https://github.com/acid-info/admin-acid.logos.co/pull/75) chore: remove contribute portal (contributors, leaderboards, proposals)

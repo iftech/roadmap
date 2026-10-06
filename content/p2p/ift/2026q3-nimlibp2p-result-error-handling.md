@@ -59,3 +59,5 @@ Prefer to keep the public API unchanged if possible.
 - [iftech/nim-libp2p#3159](https://github.com/iftech/nim-libp2p/pull/3159) chore(result): rendezvous
 - [logos-messaging/nim-ffi#204](https://github.com/logos-messaging/nim-ffi/pull/204) test(ci): run the example programs and check their results
 - [iftech/nim-libp2p#3157](https://github.com/iftech/nim-libp2p/pull/3157) chore(result): relay client and transport
+- [iftech/nim-libp2p#3187](https://github.com/iftech/nim-libp2p/pull/3187) chore(result): add LPResultError type
+- [iftech/nim-libp2p#3188](https://github.com/iftech/nim-libp2p/pull/3188) chore(result): use LPResult alias in protocols

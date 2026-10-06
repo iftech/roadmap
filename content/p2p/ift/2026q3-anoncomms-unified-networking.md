@@ -61,3 +61,18 @@ application code.
 - [logos-co/nim-libp2p-mix-ffi#3](https://github.com/logos-co/nim-libp2p-mix-ffi/pull/3) refactor(ffi)!: expose exit-as-destination only
 - [logos-co/logos-libp2p-mix-rln#4](https://github.com/logos-co/logos-libp2p-mix-rln/pull/4) build(wallet): migrate registry dependency to upstream LEZ
 - [logos-co/logos-libp2p-mix-rln#5](https://github.com/logos-co/logos-libp2p-mix-rln/pull/5) refactor(mix)!: expose exit-as-destination only
+- [logos-co/logos-libp2p-mix-rln#14](https://github.com/logos-co/logos-libp2p-mix-rln/pull/14) test(e2e): configure Delivery pure-libp2p peer budget
+- [logos-co/logos-modules-release#75](https://github.com/logos-co/logos-modules-release/pull/75) chore: release libp2p module 1.1.0
+- [logos-co/logos-libp2p-mix-rln#13](https://github.com/logos-co/logos-libp2p-mix-rln/pull/13) docs(e2e): add native build prerequisites
+- [logos-co/logos-libp2p-mix-rln#12](https://github.com/logos-co/logos-libp2p-mix-rln/pull/12) chore(mix): pin and document tested seven-host stack
+- [logos-co/nim-libp2p-mix-ffi#7](https://github.com/logos-co/nim-libp2p-mix-ffi/pull/7) chore: update Mix RLN plugin pin
+- [logos-co/nim-libp2p-mix-ffi#6](https://github.com/logos-co/nim-libp2p-mix-ffi/pull/6) chore(deps): update Mix integration
+- [logos-co/logos-libp2p-module#114](https://github.com/logos-co/logos-libp2p-module/pull/114) chore(build): pin nim-libp2p and set version 1.1.0
+- [logos-co/logos-libp2p-mix-rln#11](https://github.com/logos-co/logos-libp2p-mix-rln/pull/11) docs: update native Delivery integration pins
+- [logos-co/logos-libp2p-mix-rln#10](https://github.com/logos-co/logos-libp2p-mix-rln/pull/10) chore(rln): pin backend directly
+- [logos-co/logos-libp2p-mix-rln#9](https://github.com/logos-co/logos-libp2p-mix-rln/pull/9) chore(rln): pin typed verification result
+- [logos-co/logos-rln-modules#27](https://github.com/logos-co/logos-rln-modules/pull/27) feat(rln): accept Mix proofs with a derived external nullifier
+- [logos-co/logos-delivery-module#125](https://github.com/logos-co/logos-delivery-module/pull/125) feat(mix): expose native Mix routing with a shared RLN backend
+- [logos-co/logos-libp2p-mix-rln#7](https://github.com/logos-co/logos-libp2p-mix-rln/pull/7) refactor(mix): configure cover rate only at initialization
+- [logos-co/nim-libp2p-mix-ffi#5](https://github.com/logos-co/nim-libp2p-mix-ffi/pull/5) refactor(ffi): configure cover rate only at initialization
+- [logos-messaging/logos-delivery#4181](https://github.com/logos-messaging/logos-delivery/pull/4181) feat(mix): allow spam protection injection

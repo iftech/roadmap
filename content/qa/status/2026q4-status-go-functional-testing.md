@@ -22,8 +22,8 @@ The maintenance and coverage tasks below continue the Q3 direction; concrete sce
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-go-functional-testing:maintenance`
-* owner: TBD
-* status: not started
+* owner: Nastya
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -33,15 +33,13 @@ Maintain the status-go functional test suite as backend APIs and behavior evolve
 Investigate failing or flaky tests, update fixtures and the Python SDK where needed, and assist with test changes in pull requests.
 
 #### Deliverables
-
-- PRs fixing functional test failures and maintaining fixtures, SDK helpers, and CI execution.
-- Tracked backend or test-framework defects found during maintenance.
+- [status-im/status-go#7854](https://github.com/status-im/status-go/pull/7854) fix(functional): run Anvil and Foundry on the host architecture
 
 ### Functional test coverage
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-go-functional-testing:coverage`
-* owner: TBD
-* status: not started
+* owner: Nastya
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -51,6 +49,4 @@ Add functional tests for prioritized backend coverage gaps and new Status releas
 Select concrete scenarios from the existing backlog and issues found during desktop and mobile testing, including delivery, synchronization, or send behavior where backend-level coverage is appropriate.
 
 #### Deliverables
-
-- PRs adding backend functional tests for selected scenarios and regressions.
-- Tracked backend issues and remaining coverage gaps.
+- [status-im/status-go#7869](https://github.com/status-im/status-go/pull/7869) test(functional): add community SDS delivery regression coverage

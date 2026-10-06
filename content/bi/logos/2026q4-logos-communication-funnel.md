@@ -20,7 +20,7 @@ Make a Dashboard for the Communication Funnel
 
 * fully qualified name: `ift-ts:bi:logos:2026q4-logos-communication-funnel`
 * owner: Alexis, Nikolay
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 * issue: -

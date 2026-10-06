@@ -20,7 +20,7 @@ Upgrade Status Engagmement Bot with various Language support
 
 * fully qualified name: `ift-ts:bi:status:2026q4-status-engagement-bot-upgrade`
 * owner: alexis
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 * issue: -

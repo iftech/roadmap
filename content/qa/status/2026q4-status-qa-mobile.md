@@ -21,8 +21,8 @@ Maintain the performance suite and extend measurements to a loaded existing acco
 ### Release testing
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:release-testing`
-* owner: magnus
-* status: not started
+* owner: Magnus
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -32,14 +32,13 @@ Support ongoing Status Mobile releases, including at least 2.40 and 2.41.
 Perform exploratory and regression testing, test new features in each release, and report issues and release risks.
 
 #### Deliverables
-
-- Release test reports and tracked issues for Status Mobile 2.40, 2.41, and other releases tested during Q4.
+- [status-im/status-app#22522](https://github.com/status-im/status-app/issues/22522) \[QA - Mobile\] Share to Status: what to test in 2.40
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:maintenance`
-* owner: magnus
-* status: not started
+* owner: Magnus
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -49,9 +48,8 @@ Investigate and fix failing nightly tests and keep the per-PR gate running as a 
 Address flaky tests and assist developers with test changes in pull requests as the app evolves.
 
 #### Deliverables
-
-- PRs fixing nightly failures, flaky tests, and per-PR gate issues.
-- Test updates for application changes and tracked product or framework defects.
+- [status-im/status-app#22504](https://github.com/status-im/status-app/pull/22504) test(e2e_appium): press only a message that is on screen
+- Verified the logos-qt-mcp Qt inspector prototype on Status desktop and Android.
 
 ### Coverage for existing features
 
@@ -96,8 +94,8 @@ Improve the mobile test harness in the following areas:
 ### Performance
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:performance`
-* owner: magnus
-* status: not started
+* owner: Magnus
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -107,6 +105,5 @@ Maintain the mobile performance suite and add a loaded-account scenario using th
 Keep measurements useful for comparing releases and identifying performance regressions.
 
 #### Deliverables
-
-- PRs maintaining the performance suite and adding loaded-account measurements.
-- Performance reports and tracked regressions.
+- [status-im/status-app#21248](https://github.com/status-im/status-app/issues/21248) \[QA - Android/iOS\] add test to measure Battery consumption, CPU and RAM usage
+- Restored Android performance runs and published RC7 measurements.

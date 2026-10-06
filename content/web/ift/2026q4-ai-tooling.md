@@ -64,7 +64,7 @@ Reuse the ai-review pipeline's shape -- reusable workflow, zero npm dependencies
 
 * fully qualified name: `ift-ts:web:ift:2026q4-ai-tooling:ai-docs-sync`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -78,3 +78,6 @@ Finish [acid-info/ai-docs-sync](https://github.com/acid-info/ai-docs-sync), whic
 - End-to-end runs on a real repository, including unmerged-edit carry-forward and collapsed-push handling.
 - `v1` tag cut and the README status banner removed.
 - First consumer repository onboarded via `.github/workflows/docs-sync.yml`, with the resulting docs PRs linked.
+- [acid-info/ai-docs-sync#4](https://github.com/acid-info/ai-docs-sync/pull/4) feat(tool): delete stale docs and drop the per-run cap
+- [acid-info/ai-docs-sync#5](https://github.com/acid-info/ai-docs-sync/pull/5) feat(tool): create docs for new surfaces
+- [acid-info/ai-docs-sync#6](https://github.com/acid-info/ai-docs-sync/pull/6) feat(tool): honour reviewer deletes and renames on the rolling branch

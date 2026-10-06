@@ -22,8 +22,8 @@ Continue Windows performance testing. macOS and Linux performance work remains t
 ### Release Testing
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-desktop:release-testing`
-* owner: nastya
-* status: not started
+* owner: Nastya
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -33,14 +33,14 @@ Support ongoing Status Desktop releases, including at least 2.40 and 2.41, with 
 Report bugs and release risks and verify fixes with the Status team.
 
 #### Deliverables
-
-- Release test reports and tracked issues for Status Desktop 2.40, 2.41, and other releases tested during Q4.
+- [status-im/status-app#22603](https://github.com/status-im/status-app/pull/22603) fix(wallet): keep the derived account address inside its field
+- [status-im/status-app#22604](https://github.com/status-im/status-app/issues/22604) Race condition when balances arrive before the token catalog is ready leads to token list staying empty / loading
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-desktop:maintenance`
-* owner: nastya
-* status: not started
+* owner: Nastya
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -50,9 +50,7 @@ Investigate and fix failing nightly tests, address flaky scenarios, and keep the
 Assist developers with test changes in pull requests.
 
 #### Deliverables
-
-- PRs fixing nightly failures and updating existing tests for application changes.
-- Tracked product or framework issues found while maintaining the suite.
+- [status-im/status-app#22623](https://github.com/status-im/status-app/pull/22623) chore(@e2e): skip destroyed community nav buttons after leave
 
 ### Performance tests for desktop application on Windows
 
@@ -75,8 +73,8 @@ Maintain useful measurements for comparing releases and detecting performance re
 ### New tests
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-desktop:new-tests`
-* owner: nastya
-* status: not started
+* owner: Nastya
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -86,9 +84,7 @@ Add automated coverage for new Status Desktop features, including those delivere
 Choose scenarios as feature scope and the automation backlog are clarified with the Status team, and adjust coverage when features are delayed or changed.
 
 #### Deliverables
-
-- PRs adding automated tests for new release features.
-- Tracked coverage gaps or automation constraints for features under test.
+- [status-im/status-app#22583](https://github.com/status-im/status-app/pull/22583) fix(communities): hide joined members in invite popup after accept request
 
 ### Performance tests for desktop application on Mac
 

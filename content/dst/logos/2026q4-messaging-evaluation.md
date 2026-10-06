@@ -25,8 +25,8 @@ Do this monthly, reliably, with documentation of findings.
 ### Regression testing (recurring)
 
 * fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:regression-testing`
-* owner: TBD
-* status: not started
+* owner: Alan
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -41,7 +41,12 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Code:
+    - [iftech/10ksim#415](https://github.com/iftech/10ksim/pull/415) Full logos delivery experiment
+    - [iftech/10ksim#416](https://github.com/iftech/10ksim/pull/416) Subscribe the filter clients in full logos delivery and keep them subscribed
+    - [iftech/10ksim#417](https://github.com/iftech/10ksim/pull/417) Check each store node's archive in full logos delivery
+    - [iftech/10ksim#411](https://github.com/iftech/10ksim/pull/411) Delivery latency per path and resources per node type for logos delivery runs
 - Reports:
+    - Completed a full relay, lightpush, filter, and store run for [Logos Messaging PR 4347](https://app.notion.com/p/3ea8f96fb65c812a9ae2dc71ef28860e).
 
 
 ### load metric

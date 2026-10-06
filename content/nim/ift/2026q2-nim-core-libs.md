@@ -204,7 +204,7 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 ### Maintenance
 
 * fully qualified name: `ift-ts:nim:ift:2026q2-nim-core-libs:maintenance`
-* owner: Constantine
+* owner: Constantine/Nitely/Juan
 * status: in progress (50%)
 * start-date: 2026/04/01
 * end-date: 2026/06/30

@@ -22,7 +22,7 @@ Generate proofs or exploit reproductions for high-severity issues and regression
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-source-code-level-qa:system-prototype`
 * owner: Roman
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -44,3 +44,5 @@ Prototype an AI code analysis workflow covering:
 - Ran two rounds of security and specification-compliance scanning on [LEZ Atomic Swaps](https://github.com/gateway-fm/lez-atomic-swaps), using manual prompts and the Bork prototype with structured input.
 - Added configurable Claude/Codex model support to Bork.
 - Sent Gateway the [LEZ Atomic Swaps v0.2.4 RFP compliance and test-coverage report](https://zealous-polka-dc7.notion.site/v0-2-4-3e58f96fb65c805d8c96d63df98f8a7a).
+- Added Bork workflows `audit-spec-test-case-coverage` and `audit-milestone-test-case-coverage`.
+- Sent Gateway the [LEZ Atomic Swaps v0.2.5 RFP compliance and test-coverage report](https://zealous-polka-dc7.notion.site/v0-2-5-3ed8f96fb65c804086d9ebaaacae48bc).
