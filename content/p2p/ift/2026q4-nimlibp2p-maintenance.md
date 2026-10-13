@@ -29,7 +29,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-maintenance:maintenance`
 * owner: Richard/Vlado/Gabe
-* status: in progress (4%)
+* status: in progress (12%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -66,4 +66,35 @@ as issues arise during the quarter.
 - [iftech/nim-libp2p#3180](https://github.com/iftech/nim-libp2p/pull/3180) fix(kad): let probed peers rotate full buckets
 - [logos-co/logos-libp2p-module#111](https://github.com/logos-co/logos-libp2p-module/pull/111) chore: shrink flake.lock from 450k to 17k lines
 - [iftech/roadmap#536](https://github.com/iftech/roadmap/pull/536) feat(p2p): nimbus downstream CI commitment for 2026q4
+- [status-im/nimbus-eth2#9240](https://github.com/status-im/nimbus-eth2/pull/9240) chore: bump nim-lsquic
+- [iftech/nim-libp2p#3229](https://github.com/iftech/nim-libp2p/pull/3229) fix(mplex): await reset writes during channel cleanup
+- [iftech/nim-lsquic#178](https://github.com/iftech/nim-lsquic/pull/178) chore(lsquic): update vendored dependency
+- [iftech/nim-lsquic#179](https://github.com/iftech/nim-lsquic/pull/179) test(lsquic): cover client address migration
+- [logos-co/logos-libp2p-module#120](https://github.com/logos-co/logos-libp2p-module/pull/120) fix: bump nim-libp2p for duplicate DNS responses
+- [iftech/nim-libp2p#3224](https://github.com/iftech/nim-libp2p/pull/3224) fix(nameresolving): tolerate duplicate DNS responses
+- [status-im/nimbus-eth2#9204](https://github.com/status-im/nimbus-eth2/pull/9204) chore: bump nim-lsquic
+- [iftech/nim-boringssl#20](https://github.com/iftech/nim-boringssl/pull/20) ci: check generated BoringSSL bindings before merging
+- [iftech/nim-libp2p#3223](https://github.com/iftech/nim-libp2p/pull/3223) test: reduce timeouts
+- [iftech/nim-libp2p#3222](https://github.com/iftech/nim-libp2p/pull/3222) chore(autotls): propagate cert load  error
+- [iftech/nim-libp2p#3214](https://github.com/iftech/nim-libp2p/pull/3214) test: hardening assertion
+- [iftech/nim-libp2p#3209](https://github.com/iftech/nim-libp2p/pull/3209) test: add suite timeout
+- [iftech/nim-libp2p#3241](https://github.com/iftech/nim-libp2p/pull/3241) test(dialer): improve cancellation test
+- [iftech/nim-libp2p#3239](https://github.com/iftech/nim-libp2p/pull/3239) chore(builders): return error result insted of Defect
+- [iftech/nim-libp2p#3232](https://github.com/iftech/nim-libp2p/pull/3232) feat(autotls): certificate renewal propagation
+- [iftech/nim-libp2p#3234](https://github.com/iftech/nim-libp2p/pull/3234) fix(autotls): using PEM leaf certificate’s X.509 notAfter for expiry time
+- [iftech/nim-libp2p#3249](https://github.com/iftech/nim-libp2p/pull/3249) fix(kad): close inbound RPC streams on shutdown
+- [iftech/nim-libp2p#3244](https://github.com/iftech/nim-libp2p/pull/3244) ci: bump workflow timeout
+- [iftech/nim-libp2p#3240](https://github.com/iftech/nim-libp2p/pull/3240) fix: mapper-removal races in PeerInfo and AddressManager
+- [iftech/nim-libp2p#3242](https://github.com/iftech/nim-libp2p/pull/3242) chore(Switch): adds convenience overloads
+- [iftech/lsquic#3](https://github.com/iftech/lsquic/pull/3) fix(conn): send keepalive PINGs when no stream is open - #2
+- [iftech/nim-lsquic#181](https://github.com/iftech/nim-lsquic/pull/181) fix: keep QUIC connections without streams alive
+- [iftech/nim-libp2p#3245](https://github.com/iftech/nim-libp2p/pull/3245) fix(upgrade): export chronicles from muxedupgrade
+- [iftech/nim-libp2p#3212](https://github.com/iftech/nim-libp2p/pull/3212) chore(dial): benchmark dial time against stalled addresses
+- [iftech/nim-libp2p#3228](https://github.com/iftech/nim-libp2p/pull/3228) test(transports): cancel tests for upgrade, memory and tor
+- [iftech/nim-libp2p#3230](https://github.com/iftech/nim-libp2p/pull/3230) test(crypto): malformed DER for minasn1, ecnist and rsa
+- [iftech/nim-libp2p#3227](https://github.com/iftech/nim-libp2p/pull/3227) test(multiformat): cover decode error paths
+- [iftech/nim-libp2p#3226](https://github.com/iftech/nim-libp2p/pull/3226) test: malformed protobuf and key protobuf decoding
+- [iftech/nim-libp2p#3211](https://github.com/iftech/nim-libp2p/pull/3211) chore(metrics): dial race and backoff metrics
+- [iftech/nim-libp2p#3210](https://github.com/iftech/nim-libp2p/pull/3210) chore(rsa): delete uncompilable hex-string `init`
+- [iftech/nim-libp2p#3201](https://github.com/iftech/nim-libp2p/pull/3201) feat(service-disco): advertise caller-supplied XPRs, not the node's own record
 

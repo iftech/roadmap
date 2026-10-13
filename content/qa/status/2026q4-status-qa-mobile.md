@@ -33,12 +33,13 @@ Perform exploratory and regression testing, test new features in each release, a
 
 #### Deliverables
 - [status-im/status-app#22522](https://github.com/status-im/status-app/issues/22522) \[QA - Mobile\] Share to Status: what to test in 2.40
+- [status-im/status-app#22773](https://github.com/status-im/status-app/issues/22773) \[QA - Mobile & Desktop\] Nim token catalogue: what to test in 2.40
 
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:maintenance`
 * owner: Magnus
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -50,6 +51,7 @@ Address flaky tests and assist developers with test changes in pull requests as 
 #### Deliverables
 - [status-im/status-app#22504](https://github.com/status-im/status-app/pull/22504) test(e2e_appium): press only a message that is on screen
 - Verified the logos-qt-mcp Qt inspector prototype on Status desktop and Android.
+- [status-im/status-app#22752](https://github.com/status-im/status-app/pull/22752) test(e2e_appium): open the nav drawer with a drag that moves at once
 
 ### Coverage for existing features
 
@@ -72,8 +74,8 @@ Prioritize gaps with the Status team based on user impact and the feasibility of
 ### Framework improvements
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:framework`
-* owner: magnus
-* status: not started
+* owner: Magnus
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -90,6 +92,7 @@ Improve the mobile test harness in the following areas:
 
 - PRs implementing harness improvements and contract checks.
 - Setup and usage documentation for iOS, loaded accounts, and backend-peer scenarios.
+- Got the iOS end-to-end gate running; remaining failures are app accessibility gaps.
 
 ### Performance
 
@@ -107,3 +110,4 @@ Keep measurements useful for comparing releases and identifying performance regr
 #### Deliverables
 - [status-im/status-app#21248](https://github.com/status-im/status-app/issues/21248) \[QA - Android/iOS\] add test to measure Battery consumption, CPU and RAM usage
 - Restored Android performance runs and published RC7 measurements.
+- Restored performance dashboard publishing after GitHub's signed-commits rule.

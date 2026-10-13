@@ -62,7 +62,7 @@ The cutover must preserve query strings, feed subscriber identity, canonical URL
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-media-migration:merge-readiness`
 - owner: Jinho
-- status: in progress (25%)
+- status: in progress (99%)
 - start-date: 2026/10/01
 - end-date: 2026/10/16
 
@@ -83,6 +83,8 @@ Re-run the complete static-export path with production-equivalent content access
 - Passing lint, type checks, tests, production build, and static-export smoke checks on the final PR head.
 - [logos-co/logos-web#103](https://github.com/logos-co/logos-web/pull/103) Migrate media detail pages from blog.logos.co => logos.co/media
 - [logos-co/logos-web#74](https://github.com/logos-co/logos-web/issues/74) Blog.logos.co still exists
+- [logos-co/logos-web#210](https://github.com/logos-co/logos-web/pull/210) feat(web): add searchable article listing
+- [logos-co/logos-web#212](https://github.com/logos-co/logos-web/pull/212) fix(web): nest media listing routes under media
 
 ### Prepare and deploy the production media build
 

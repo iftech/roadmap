@@ -91,6 +91,10 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - [status-im/nim-json-rpc#296](https://github.com/status-im/nim-json-rpc/pull/296) Stdio transport
 - [nim-lang/langserver#454](https://github.com/nim-lang/langserver/pull/454) Docs: Explain multi-entry-point project mapping
 - [nim-lang/langserver#479](https://github.com/nim-lang/langserver/pull/479) Add nimsuggestMaxMemory config value to complement nimsuggest's new `--maxMemory` option.
+- [nim-lang/langserver#488](https://github.com/nim-lang/langserver/pull/488) Bump to v1.16.0
+- [nim-lang/langserver#473](https://github.com/nim-lang/langserver/pull/473) Transport v2
+- [nim-lang/langserver#486](https://github.com/nim-lang/langserver/pull/486) Cancel nimsuggestInit on shutdown
+- [nim-lang/Nim#26438](https://github.com/nim-lang/Nim/pull/26438) nimsuggest: add `outline2`, a parse-only outline
 
 ### Nimlangserver and nimsuggest support for IFT projects
 

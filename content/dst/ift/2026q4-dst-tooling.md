@@ -48,5 +48,7 @@ Should be made general when possible.
 - Code:
     - [iftech/roadmap#530](https://github.com/iftech/roadmap/pull/530) chore(DST): q4 commitments
     - [iftech/10ksim#391](https://github.com/iftech/10ksim/pull/391) Scrape metrics and draw the standard plots in post-run analysis
+    - [iftech/10ksim#421](https://github.com/iftech/10ksim/pull/421) Look up the publisher once per run, not per message
+    - [iftech/10ksim#442](https://github.com/iftech/10ksim/pull/442) Fix cleanup wait and CronJob cleanup
 - Reports:
 - Other:

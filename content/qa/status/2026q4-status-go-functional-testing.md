@@ -23,7 +23,7 @@ The maintenance and coverage tasks below continue the Q3 direction; concrete sce
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-go-functional-testing:maintenance`
 * owner: Nastya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -34,12 +34,14 @@ Investigate failing or flaky tests, update fixtures and the Python SDK where nee
 
 #### Deliverables
 - [status-im/status-go#7854](https://github.com/status-im/status-go/pull/7854) fix(functional): run Anvil and Foundry on the host architecture
+- [status-im/status-go#7887](https://github.com/status-im/status-go/pull/7887) feat(wallet): add Sepolia WETH and refresh default token lists
+- [status-im/status-go#7888](https://github.com/status-im/status-go/pull/7888) fix(functional): temp disable QUIC on the test waku fleet
 
 ### Functional test coverage
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-go-functional-testing:coverage`
 * owner: Nastya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -50,3 +52,6 @@ Select concrete scenarios from the existing backlog and issues found during desk
 
 #### Deliverables
 - [status-im/status-go#7869](https://github.com/status-im/status-go/pull/7869) test(functional): add community SDS delivery regression coverage
+- [status-im/status-go#7914](https://github.com/status-im/status-go/pull/7914) test(functional): send ERC20, ERC1155, ERC720
+- [status-im/status-go#7906](https://github.com/status-im/status-go/pull/7906) test: mock EFP API and cover wallet getFollowing* RPC
+- [status-im/status-go#7882](https://github.com/status-im/status-go/pull/7882) test(functional): check MoonPay URL and hostname

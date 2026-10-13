@@ -25,7 +25,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:status:2026q4-status-evaluation:reliability`
 * owner: Alberto
-* status: in progress (25%)
+* status: in progress (75%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

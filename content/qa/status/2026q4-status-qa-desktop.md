@@ -40,7 +40,7 @@ Report bugs and release risks and verify fixes with the Status team.
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-desktop:maintenance`
 * owner: Nastya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -51,6 +51,13 @@ Assist developers with test changes in pull requests.
 
 #### Deliverables
 - [status-im/status-app#22623](https://github.com/status-im/status-app/pull/22623) chore(@e2e): skip destroyed community nav buttons after leave
+- [status-im/status-app#22756](https://github.com/status-im/status-app/pull/22756) Revert "fix(chat): mark messages read when the newest one is on screen"
+- [status-im/status-app#22736](https://github.com/status-im/status-app/pull/22736) fix(@e2e): record a CPU/RAM sample when a benchmark action finishes before the sampler thread
+- [status-im/market-proxy#84](https://github.com/status-im/market-proxy/pull/84) feat: add base sepolia WETH to token list
+- [status-im/market-proxy#83](https://github.com/status-im/market-proxy/pull/83) feat: add sepolia WETH to token list
+- [status-im/status-app#22695](https://github.com/status-im/status-app/pull/22695) chore(@e2e): fix sign modal test reference
+- [status-im/status-app#22654](https://github.com/status-im/status-app/pull/22654) fix(e2e): wait for link preview instead of failing on slow unfurl
+- [status-im/status-app#22653](https://github.com/status-im/status-app/pull/22653) fix(chat): mark messages read when the newest one is on screen
 
 ### Performance tests for desktop application on Windows
 
@@ -74,7 +81,7 @@ Maintain useful measurements for comparing releases and detecting performance re
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-desktop:new-tests`
 * owner: Nastya
-* status: in progress (10%)
+* status: in progress (54%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -85,6 +92,11 @@ Choose scenarios as feature scope and the automation backlog are clarified with 
 
 #### Deliverables
 - [status-im/status-app#22583](https://github.com/status-im/status-app/pull/22583) fix(communities): hide joined members in invite popup after accept request
+- [status-im/status-go#7916](https://github.com/status-im/status-go/pull/7916) fix(wallet): omit relay API key on testnet
+- [status-im/status-app#22741](https://github.com/status-im/status-app/pull/22741) tests(@e2e): send NFT on testnet
+- [status-im/status-app#22734](https://github.com/status-im/status-app/pull/22734) test(@qml): onchain friends nim and QML coverage
+- [status-im/status-app#22702](https://github.com/status-im/status-app/pull/22702) tests(@qml): buy crypto links
+- [status-im/status-app#22607](https://github.com/status-im/status-app/pull/22607) tests(@e2e): request payment in chat
 
 ### Performance tests for desktop application on Mac
 

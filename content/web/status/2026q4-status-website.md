@@ -22,10 +22,10 @@ Select concrete work with stakeholders as needs arise and record the scope and a
 ### Maintenance
 
 * fully qualified name: `ift-ts:web:status:2026q4-status-website:maintenance`
-* owner: Jinho/JulesFiliot
-* status: not started
+* owner: JulesFiliot
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/10/13
 
 #### Description
 
@@ -34,9 +34,8 @@ Maintain site-specific dependencies and configuration, CMS and feed integrations
 Investigate production failures and ship necessary hotfixes, coordinating shared tooling changes with the Web maintenance commitment.
 
 #### Deliverables
-
-- PRs for site upkeep, dependency updates, configuration changes, and production hotfixes.
-- Verified content and integration updates, with tracked operational issues and resolution notes.
+- [status-im/status-web#1328](https://github.com/status-im/status-web/pull/1328) fix(status.app): match release titles with or without v prefix
+- [status-im/status-web#1327](https://github.com/status-im/status-web/pull/1327) fix(deps): bump next, sharp and next-intl for security advisories
 
 ### Website revamp: UI design and copy update
 

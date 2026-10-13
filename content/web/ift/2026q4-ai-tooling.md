@@ -18,11 +18,27 @@ Human approval before merge stays a hard requirement for every tool here.
 
 ## Task List
 
+### Shared AI tooling monorepo
+
+* fully qualified name: `ift-ts:web:ift:2026q4-ai-tooling:monorepo`
+* owner: JulesFiliot
+* status: in progress (80%)
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+
+#### Description
+
+Consolidate ai-review and ai-docs-sync in [acid-info/ai-tools](https://github.com/acid-info/ai-tools), with shared core modules and separate tool modules. Maintain shared repository documentation and run both tools against the monorepo.
+
+#### Deliverables
+- [docs: split root README and AGENTS.md by audience](https://github.com/acid-info/ai-tools/pull/1)
+- [ci: run ai-review and ai-docs-sync on this repo](https://github.com/acid-info/ai-tools/pull/4)
+
 ### ai-review maintenance and tuning
 
 * fully qualified name: `ift-ts:web:ift:2026q4-ai-tooling:ai-review`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -34,11 +50,12 @@ Keep the degraded paths honest: a single-model review when one provider is down,
 Onboard remaining Web repositories and keep the `@v1` tag stable for consumers.
 
 #### Deliverables
-
-- PRs in `acid-info/ai-review` for model updates, prompt and threshold tuning, and pipeline fixes.
-- Repository-specific guideline and config files in consumer repositories.
-- Additional consumer repositories onboarded via `.github/workflows/ai-review.yml`.
-- A short assessment of signal versus noise, drawn from reviewed PRs, with the tuning changes it drove.
+- [acid-info/ai-tools#2](https://github.com/acid-info/ai-tools/pull/2) docs(ai-review): add AGENTS.md and trim the README
+- [acid-info/ai-tools#5](https://github.com/acid-info/ai-tools/pull/5) ci: bump node to 24
+- [acid-info/admin-acid.logos.co#77](https://github.com/acid-info/admin-acid.logos.co/pull/77) chore(ci): use ai-review from acid-info/ai-tools
+- [logos-co/logos-web#208](https://github.com/logos-co/logos-web/pull/208) chore(ci): use ai-review and ai-docs-sync from acid-info/ai-tools
+- [status-im/status-web#1326](https://github.com/status-im/status-web/pull/1326) chore(ci): use ai-review from acid-info/ai-tools
+- [acid-info/ai-review#8](https://github.com/acid-info/ai-review/pull/8) docs: redirect to acid-info/ai-tools
 
 ### ai-auto-fix companion
 
@@ -64,7 +81,7 @@ Reuse the ai-review pipeline's shape -- reusable workflow, zero npm dependencies
 
 * fully qualified name: `ift-ts:web:ift:2026q4-ai-tooling:ai-docs-sync`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: in progress (75%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -81,3 +98,8 @@ Finish [acid-info/ai-docs-sync](https://github.com/acid-info/ai-docs-sync), whic
 - [acid-info/ai-docs-sync#4](https://github.com/acid-info/ai-docs-sync/pull/4) feat(tool): delete stale docs and drop the per-run cap
 - [acid-info/ai-docs-sync#5](https://github.com/acid-info/ai-docs-sync/pull/5) feat(tool): create docs for new surfaces
 - [acid-info/ai-docs-sync#6](https://github.com/acid-info/ai-docs-sync/pull/6) feat(tool): honour reviewer deletes and renames on the rolling branch
+- [acid-info/ai-tools#3](https://github.com/acid-info/ai-tools/pull/3) docs(ai-docs-sync): add AGENTS.md and trim the README
+- [acid-info/ai-tools#5](https://github.com/acid-info/ai-tools/pull/5) ci: bump node to 24
+- [logos-co/logos-web#208](https://github.com/logos-co/logos-web/pull/208) chore(ci): use ai-review and ai-docs-sync from acid-info/ai-tools
+- [acid-info/ai-docs-sync#7](https://github.com/acid-info/ai-docs-sync/pull/7) docs: redirect to acid-info/ai-tools
+- [acid-info/ai-tools#7](https://github.com/acid-info/ai-tools/pull/7) fix(ai-docs-sync): sign the rolling commit

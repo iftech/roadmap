@@ -38,8 +38,8 @@ Cover address and transport preference, concurrent dial cancellation, failed-add
 ### Maintenance
 
 * fully qualified name: `ift-ts:qa:ift:2026q4-nim-libp2p-testing:maintenance`
-* owner: radek
-* status: not started
+* owner: Radek
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -49,6 +49,6 @@ Provide ongoing QA maintenance for nim-libp2p, including regression fixes, flaky
 Handle issue-driven validation that does not require a separate feature-specific task.
 
 #### Deliverables
-
-- PRs maintaining tests and resolving failures or flaky scenarios.
-- Regression findings and verification results linked to tracked issues.
+- [iftech/nim-libp2p#3237](https://github.com/iftech/nim-libp2p/issues/3237) gossipsub: no IHAVE for a subscribed topic once PRUNE empties its mesh
+- [iftech/nim-libp2p#3236](https://github.com/iftech/nim-libp2p/issues/3236) gossipsub: a peer that restarts within pruneBackoff is penalised for its GRAFT and kept out of the mesh
+- [iftech/nim-libp2p#3238](https://github.com/iftech/nim-libp2p/pull/3238) test: bug reproductions for #3236 and #3237

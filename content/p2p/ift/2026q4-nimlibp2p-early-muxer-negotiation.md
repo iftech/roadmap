@@ -24,10 +24,10 @@ separate multistream-select exchange that follows the security handshake.
 ### Handshake Negotiation And Upgrade
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-early-muxer-negotiation:implementation`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/10/13
 
 #### Description
 
@@ -36,10 +36,9 @@ the muxed upgrader. Preserve the separate negotiation path when peers do not
 support early negotiation or no early selection is available.
 
 #### Deliverables
-
-- Noise payload extension and upgrader integration
-- Fallback behavior for existing peers
-- Tests for compatible peers and negotiation fallback
+- [iftech/nim-libp2p#3216](https://github.com/iftech/nim-libp2p/pull/3216) feat(noise): negotiate muxers during handshake
+- [iftech/nim-libp2p#3225](https://github.com/iftech/nim-libp2p/pull/3225) feat(dialer): select known protocols optimistically
+- [iftech/nim-libp2p#3217](https://github.com/iftech/nim-libp2p/pull/3217) feat(multistream): add optimistic protocol selection
 
 
 ### Connection Setup Validation

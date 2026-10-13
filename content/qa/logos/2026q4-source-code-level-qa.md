@@ -22,7 +22,7 @@ Generate proofs or exploit reproductions for high-severity issues and regression
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-source-code-level-qa:system-prototype`
 * owner: Roman
-* status: in progress (60%)
+* status: in progress (65%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -46,3 +46,4 @@ Prototype an AI code analysis workflow covering:
 - Sent Gateway the [LEZ Atomic Swaps v0.2.4 RFP compliance and test-coverage report](https://zealous-polka-dc7.notion.site/v0-2-4-3e58f96fb65c805d8c96d63df98f8a7a).
 - Added Bork workflows `audit-spec-test-case-coverage` and `audit-milestone-test-case-coverage`.
 - Sent Gateway the [LEZ Atomic Swaps v0.2.5 RFP compliance and test-coverage report](https://zealous-polka-dc7.notion.site/v0-2-5-3ed8f96fb65c804086d9ebaaacae48bc).
+- Clarified and fixed CODE-5 for [LEZ Atomic Swaps v0.2.5](https://discord.com/channels/973324189794697286/1526145461025505360/1557941455362719854).
