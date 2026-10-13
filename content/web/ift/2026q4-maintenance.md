@@ -26,7 +26,7 @@ Shared AI workflow tooling is tracked separately under [[web/ift/2026q4-ai-tooli
 * owner: Jinho/JulesFiliot
 * status: done
 * start-date: 2026/10/01
-* end-date: 2026/10/06
+* end-date: 2026/10/13
 
 #### Description
 
@@ -36,3 +36,5 @@ Resolve shared infrastructure or tooling failures, coordinate with Infra where n
 #### Deliverables
 - [status-im/nimbus-site#180](https://github.com/status-im/nimbus-site/pull/180) fix: point shared footer links at Logos technology stack
 - [keycard-tech/keycard-website#266](https://github.com/keycard-tech/keycard-website/pull/266) chore: update Node.js to 24
+- [acid-info/free.technology#23](https://github.com/acid-info/free.technology/pull/23) fix: update team member to Dr. Martin Strobl
+- [acid-info/admin-acid.logos.co#76](https://github.com/acid-info/admin-acid.logos.co/pull/76) fix(redis): lazily create client to avoid connecting at build

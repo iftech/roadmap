@@ -24,8 +24,8 @@ separate from local overload.
 ### Validation Budgets And Admission
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-gossipsub-validation:budgets`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

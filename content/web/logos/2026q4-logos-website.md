@@ -25,7 +25,7 @@ Select concrete work with stakeholders as needs arise and record the scope and a
 - owner: Jinho/JulesFiliot
 - status: done
 - start-date: 2026/10/01
-- end-date: 2026/10/06
+- end-date: 2026/10/13
 
 #### Description
 
@@ -42,6 +42,16 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [logos-co/logos-web#189](https://github.com/logos-co/logos-web/issues/189) Repo is 2.5 GB because build output is committed to deploy branches
 - [status-im/infra-sites#171](https://github.com/status-im/infra-sites/issues/171) chore(logos.co): drop git history from deploy-* branches on each build
 - [logos-co/logos-web#191](https://github.com/logos-co/logos-web/pull/191) chore(web): remove unused about mountain video
+- [logos-co/logos-web#206](https://github.com/logos-co/logos-web/pull/206) fix(web): improve Basecamp downloads and installation guidance
+- [logos-co/logos-web#207](https://github.com/logos-co/logos-web/pull/207) docs(web): require published Basecamp assets before URL switches
+- [logos-co/logos-web#209](https://github.com/logos-co/logos-web/pull/209) fix(web): prioritise Basecamp installation CTA
+- [logos-co/logos-web#216](https://github.com/logos-co/logos-web/pull/216) fix(web): refresh Basecamp downloads on every build
+- [logos-co/logos-web#211](https://github.com/logos-co/logos-web/pull/211) fix: restore CMS publishing with deployed Jenkins jobs
+- [logos-co/logos-web#214](https://github.com/logos-co/logos-web/pull/214) fix: use absolute Jenkins artifact permission path
+- [logos-co/logos-web#215](https://github.com/logos-co/logos-web/pull/215) feat: publish sites from CMS through the GitHub App
+- [logos-co/logos-web#218](https://github.com/logos-co/logos-web/pull/218) fix(web): remove chevrons from PriFi hero labels
+- [logos-co/logos-web#221](https://github.com/logos-co/logos-web/pull/221) chore(web): update activist builder copy
+- [logos-co/logos-web#217](https://github.com/logos-co/logos-web/pull/217) fix(deps): patch next, payload and sharp security advisories
 
 ### Past Present Future: content update and migration
 

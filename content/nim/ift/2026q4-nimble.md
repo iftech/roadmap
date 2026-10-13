@@ -35,6 +35,9 @@ Add regression coverage for fixes and update usage documentation when behavior c
 - [nim-lang/nimble#1879](https://github.com/nim-lang/nimble/pull/1879) Warn when updating nimble from a nimble in a different path
 - [nim-lang/nimble#1878](https://github.com/nim-lang/nimble/pull/1878) Resolve the version of a named package instead of reusing its cached…
 - [nim-lang/nimble#1880](https://github.com/nim-lang/nimble/pull/1880) Docs: Add a note about when to use lock files.
+- [nim-lang/nimble#1884](https://github.com/nim-lang/nimble/pull/1884) Refactor: Split dependency resolution into nimblesolver, nimblesat and nimblepubgrub
+- [nim-lang/nimble#1883](https://github.com/nim-lang/nimble/pull/1883) Parse each version once in PubGrub instead of on every comparison
+- [nim-lang/nimble#1882](https://github.com/nim-lang/nimble/pull/1882) Add --solver:pubgrub
 
 ### CI integration review
 

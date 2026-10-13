@@ -22,7 +22,7 @@ TBD
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-core-consulting:consulting`
 * owner: Gabe
-* status: in progress (4%)
+* status: in progress (12%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

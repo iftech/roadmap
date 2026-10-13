@@ -28,7 +28,7 @@ as requirements and priorities become clearer during Q4.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-delivery-consulting:consulting`
 * owner: Gabe
-* status: in progress (4%)
+* status: in progress (12%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -46,3 +46,4 @@ as it is agreed.
 #### Deliverables
 - [logos-messaging/nim-ffi#209](https://github.com/logos-messaging/nim-ffi/pull/209) chore(ffi): zero the request envelope with c_calloc
 - [logos-messaging/nim-ffi#205](https://github.com/logos-messaging/nim-ffi/pull/205) chore(ci): one source for the sanitizer runtime options
+- [logos-messaging/nim-ffi#226](https://github.com/logos-messaging/nim-ffi/pull/226) fix(ffi): set up the caller thread's GC before a request is rejected

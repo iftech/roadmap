@@ -61,3 +61,6 @@ Prefer to keep the public API unchanged if possible.
 - [iftech/nim-libp2p#3157](https://github.com/iftech/nim-libp2p/pull/3157) chore(result): relay client and transport
 - [iftech/nim-libp2p#3187](https://github.com/iftech/nim-libp2p/pull/3187) chore(result): add LPResultError type
 - [iftech/nim-libp2p#3188](https://github.com/iftech/nim-libp2p/pull/3188) chore(result): use LPResult alias in protocols
+- [iftech/nim-libp2p#3197](https://github.com/iftech/nim-libp2p/pull/3197) chore(result): use LPResultError in LPResult
+- [iftech/nim-libp2p#3219](https://github.com/iftech/nim-libp2p/pull/3219) chore(result): one path from each err to R.err
+- [iftech/nim-libp2p#3195](https://github.com/iftech/nim-libp2p/pull/3195) chore(result): purge mapErr

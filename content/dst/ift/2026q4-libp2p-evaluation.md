@@ -31,7 +31,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-libp2p-evaluation:regression-testing`
 * owner: Alan
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -48,8 +48,11 @@ and ensure they don't happen again.
 
 - Code:
     - [iftech/10ksim#418](https://github.com/iftech/10ksim/pull/418) Connection cap and bootstrap image options for the nim-libp2p nodes
+    - [iftech/10ksim#419](https://github.com/iftech/10ksim/pull/419) Partition analysis: phases from each message's publish record
 - Reports:
     - Tested Kademlia liveness-loop and bucket-rotation changes and updated the [nim-libp2p v2.4.0 regression report](https://app.notion.com/p/3dd8f96fb65c81c194b8ce51ea753a52).
+- Other:
+    - Confirmed with a controlled rerun that the lower publish rate explains the v2.3.0 bandwidth gap; ran four v2.4.0 repeats to measure variation.
 
 
 ### Interop at scale
@@ -75,8 +78,8 @@ different implementations.
 ### Automatic reporting
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-libp2p-evaluation:automatic-reporting`
-* owner: TBD
-* status: not started
+* owner: Alan
+* status: in progress (20%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

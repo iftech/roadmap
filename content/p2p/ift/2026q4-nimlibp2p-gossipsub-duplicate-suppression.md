@@ -26,8 +26,8 @@ to assess Internet conditions, memory leaks, or isolated mesh islands.
 ### Requirements And Regression Coverage
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-gossipsub-duplicate-suppression:regression-coverage`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

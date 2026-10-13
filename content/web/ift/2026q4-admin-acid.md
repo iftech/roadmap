@@ -43,7 +43,7 @@ Absorb Notion API version bumps and deprecations, repair syncs that drift when o
 
 * fully qualified name: `ift-ts:web:ift:2026q4-admin-acid:notion-emailing`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -54,10 +54,7 @@ Keep template editing usable for non-engineers, keep merge fields in step with t
 Ship the template and trigger changes stakeholders request during the quarter, and fix delivery failures, bounces, and mis-addressed sends.
 
 #### Deliverables
-
-- PRs for auto-reply, profile email, and internal notification template changes.
-- Verified end-to-end sends from Notion automation trigger to delivered email, with failures logged and resolved.
-- Updated operator notes covering how to add a template, edit copy, and connect a Notion automation.
+- [acid-info/admin-acid.logos.co#78](https://github.com/acid-info/admin-acid.logos.co/pull/78) feat(editor): font size and color selectors, missing basics
 
 ### Ad hoc requests
 
