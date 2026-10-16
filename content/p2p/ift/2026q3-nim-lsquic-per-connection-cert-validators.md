@@ -61,5 +61,5 @@ Use the new validator support from nim-libp2p where needed by QUIC
 transport configuration.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2880](https://github.com/vacp2p/nim-libp2p/pull/2880) feat(quic): validate expected peer id during dial
+- [iftech/nim-libp2p#2880](https://github.com/iftech/nim-libp2p/pull/2880) feat(quic): validate expected peer id during dial
 - nim-libp2p QUIC transport can pass per-connection validators where required

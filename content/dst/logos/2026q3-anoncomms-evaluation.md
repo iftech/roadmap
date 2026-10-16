@@ -95,7 +95,7 @@ Perform scenarios described by annoncoms team and do measurements of those using
   - [Bootstrap refresh time question](https://app.notion.com/p/Refresh-time-answer-39e8f96fb65c8054824dd27a0036b052)
   - [CPU 100% and stale node issue](https://app.notion.com/p/CPU-stale-answer-3a08f96fb65c8095b9ead7b028eb30dd)
   - [Service Discovery main report](https://app.notion.com/p/Service-discovery-analysis-39d8f96fb65c8098864bdfe91b012abf)
-  - [Found an issue with kad-dht when admission probe cap is full in p2p PR](https://github.com/vacp2p/nim-libp2p/pull/2967)
+  - [Found an issue with kad-dht when admission probe cap is full in p2p PR](https://github.com/iftech/nim-libp2p/pull/2967)
   - Rebuilt the node with the latest changes and repeated the service-discovery experiments and measurements: [findings discussion](https://discord.com/channels/973324189794697286/1526567789803081728/1552680847138885642).
 - Other:
   - Investigated another anoncomms issue; the investigation exposed a second issue that was detected and fixed.

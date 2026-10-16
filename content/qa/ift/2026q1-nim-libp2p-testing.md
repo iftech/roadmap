@@ -48,16 +48,16 @@ Implement unit and integration tests for the Mix protocol.
 
 #### Deliverables
 * PRs with links to added tests
-    * [vacp2p/nim-libp2p#2178](https://github.com/vacp2p/nim-libp2p/pull/2178) test(mix): misc
-    * [vacp2p/nim-libp2p#2176](https://github.com/vacp2p/nim-libp2p/pull/2176) test(mix): unit tests
-    * [vacp2p/nim-libp2p#2175](https://github.com/vacp2p/nim-libp2p/pull/2175) test(mix): organise component tests
-    * [vacp2p/nim-libp2p#2167](https://github.com/vacp2p/nim-libp2p/pull/2167) test(mix): component tests
-    * [vacp2p/nim-libp2p#2107](https://github.com/vacp2p/nim-libp2p/pull/2107) test(mix): anonymity + error cases + getMaxMessageSizeForCodec
-    * [vacp2p/nim-libp2p#2102](https://github.com/vacp2p/nim-libp2p/pull/2102) chore(mix): clean up mix_node
-    * [vacp2p/nim-libp2p#2093](https://github.com/vacp2p/nim-libp2p/pull/2093) test(mix): add component tests
-    * [vacp2p/nim-libp2p#2090](https://github.com/vacp2p/nim-libp2p/pull/2090) test(mix): multiple surbs
-    * [vacp2p/nim-libp2p#2082](https://github.com/vacp2p/nim-libp2p/pull/2082) test(tools): add lifecycle and topology
-    * [vacp2p/nim-libp2p#2070](https://github.com/vacp2p/nim-libp2p/pull/2070) test(mix): refactor component tests
+    * [iftech/nim-libp2p#2178](https://github.com/iftech/nim-libp2p/pull/2178) test(mix): misc
+    * [iftech/nim-libp2p#2176](https://github.com/iftech/nim-libp2p/pull/2176) test(mix): unit tests
+    * [iftech/nim-libp2p#2175](https://github.com/iftech/nim-libp2p/pull/2175) test(mix): organise component tests
+    * [iftech/nim-libp2p#2167](https://github.com/iftech/nim-libp2p/pull/2167) test(mix): component tests
+    * [iftech/nim-libp2p#2107](https://github.com/iftech/nim-libp2p/pull/2107) test(mix): anonymity + error cases + getMaxMessageSizeForCodec
+    * [iftech/nim-libp2p#2102](https://github.com/iftech/nim-libp2p/pull/2102) chore(mix): clean up mix_node
+    * [iftech/nim-libp2p#2093](https://github.com/iftech/nim-libp2p/pull/2093) test(mix): add component tests
+    * [iftech/nim-libp2p#2090](https://github.com/iftech/nim-libp2p/pull/2090) test(mix): multiple surbs
+    * [iftech/nim-libp2p#2082](https://github.com/iftech/nim-libp2p/pull/2082) test(tools): add lifecycle and topology
+    * [iftech/nim-libp2p#2070](https://github.com/iftech/nim-libp2p/pull/2070) test(mix): refactor component tests
 
 ### Kad DHT Protocol Testing
 
@@ -72,29 +72,29 @@ Implement unit and integration tests for the Kad DHT protocol.
 
 #### Deliverables
 * PRs with links to added tests
-    * [vacp2p/nim-libp2p#2061](https://github.com/vacp2p/nim-libp2p/pull/2061) test(kad): misc
-    * [vacp2p/nim-libp2p#2054](https://github.com/vacp2p/nim-libp2p/pull/2054) fix(kad): use `finished()` instead of `completed()` to track failed peers
-    * [vacp2p/nim-libp2p#2051](https://github.com/vacp2p/nim-libp2p/pull/2051) test(kad): Refactor utils
-    * [vacp2p/nim-libp2p#2048](https://github.com/vacp2p/nim-libp2p/pull/2048) test(kad): find & lookup 3
-    * [vacp2p/nim-libp2p#2043](https://github.com/vacp2p/nim-libp2p/pull/2043) test(kad): get providers
-    * [vacp2p/nim-libp2p#2042](https://github.com/vacp2p/nim-libp2p/pull/2042) test(kad): add provider
-    * [vacp2p/nim-libp2p#2039](https://github.com/vacp2p/nim-libp2p/pull/2039) test(kad): provider 1 - refactor
-    * [vacp2p/nim-libp2p#2036](https://github.com/vacp2p/nim-libp2p/pull/2036) fix(kad): get value should reject mismatched key
-    * [vacp2p/nim-libp2p#2031](https://github.com/vacp2p/nim-libp2p/pull/2031) test(kad): get value 1 - refactor
-    * [vacp2p/nim-libp2p#2030](https://github.com/vacp2p/nim-libp2p/pull/2030) test(kad): put value 2 - new tests + small fix
-    * [vacp2p/nim-libp2p#2029](https://github.com/vacp2p/nim-libp2p/pull/2029) test(kad): put value 1 - refactor
-    * [vacp2p/nim-libp2p#2025](https://github.com/vacp2p/nim-libp2p/pull/2025) test(interop): Kad test template
-    * [vacp2p/nim-libp2p#2023](https://github.com/vacp2p/nim-libp2p/pull/2023) test(kad): bootstrap and refactor find tests
-    * [vacp2p/nim-libp2p#2022](https://github.com/vacp2p/nim-libp2p/pull/2022) fix(kad): Bootstrap
-    * [vacp2p/nim-libp2p#2018](https://github.com/vacp2p/nim-libp2p/pull/2018) test(kad): find & lookup 2
-    * [vacp2p/nim-libp2p#2014](https://github.com/vacp2p/nim-libp2p/pull/2014) test(kad): find & lookup
-    * [vacp2p/nim-libp2p#1996](https://github.com/vacp2p/nim-libp2p/pull/1996) test(kad): Key conversion
-    * [vacp2p/nim-libp2p#1998](https://github.com/vacp2p/nim-libp2p/pull/1998) test(kad): Routing table and refresh bucket
-    * [vacp2p/nim-libp2p#2005](https://github.com/vacp2p/nim-libp2p/pull/2005) fix(kad): GetProviders test hanging forever
+    * [iftech/nim-libp2p#2061](https://github.com/iftech/nim-libp2p/pull/2061) test(kad): misc
+    * [iftech/nim-libp2p#2054](https://github.com/iftech/nim-libp2p/pull/2054) fix(kad): use `finished()` instead of `completed()` to track failed peers
+    * [iftech/nim-libp2p#2051](https://github.com/iftech/nim-libp2p/pull/2051) test(kad): Refactor utils
+    * [iftech/nim-libp2p#2048](https://github.com/iftech/nim-libp2p/pull/2048) test(kad): find & lookup 3
+    * [iftech/nim-libp2p#2043](https://github.com/iftech/nim-libp2p/pull/2043) test(kad): get providers
+    * [iftech/nim-libp2p#2042](https://github.com/iftech/nim-libp2p/pull/2042) test(kad): add provider
+    * [iftech/nim-libp2p#2039](https://github.com/iftech/nim-libp2p/pull/2039) test(kad): provider 1 - refactor
+    * [iftech/nim-libp2p#2036](https://github.com/iftech/nim-libp2p/pull/2036) fix(kad): get value should reject mismatched key
+    * [iftech/nim-libp2p#2031](https://github.com/iftech/nim-libp2p/pull/2031) test(kad): get value 1 - refactor
+    * [iftech/nim-libp2p#2030](https://github.com/iftech/nim-libp2p/pull/2030) test(kad): put value 2 - new tests + small fix
+    * [iftech/nim-libp2p#2029](https://github.com/iftech/nim-libp2p/pull/2029) test(kad): put value 1 - refactor
+    * [iftech/nim-libp2p#2025](https://github.com/iftech/nim-libp2p/pull/2025) test(interop): Kad test template
+    * [iftech/nim-libp2p#2023](https://github.com/iftech/nim-libp2p/pull/2023) test(kad): bootstrap and refactor find tests
+    * [iftech/nim-libp2p#2022](https://github.com/iftech/nim-libp2p/pull/2022) fix(kad): Bootstrap
+    * [iftech/nim-libp2p#2018](https://github.com/iftech/nim-libp2p/pull/2018) test(kad): find & lookup 2
+    * [iftech/nim-libp2p#2014](https://github.com/iftech/nim-libp2p/pull/2014) test(kad): find & lookup
+    * [iftech/nim-libp2p#1996](https://github.com/iftech/nim-libp2p/pull/1996) test(kad): Key conversion
+    * [iftech/nim-libp2p#1998](https://github.com/iftech/nim-libp2p/pull/1998) test(kad): Routing table and refresh bucket
+    * [iftech/nim-libp2p#2005](https://github.com/iftech/nim-libp2p/pull/2005) fix(kad): GetProviders test hanging forever
 * Issues tracked
-    * [vacp2p/nim-libp2p#2053](https://github.com/vacp2p/nim-libp2p/issues/2053) kad dht: RespondedStatus.Failed is never reached in iterative lookup
-    * [vacp2p/nim-libp2p#2006](https://github.com/vacp2p/nim-libp2p/issues/2006) Kad: Lookup random PeerId for each non-empty bucket during bootstrap
-    * [vacp2p/nim-libp2p#2003](https://github.com/vacp2p/nim-libp2p/issues/2003) flaky test(kad): Get providers
+    * [iftech/nim-libp2p#2053](https://github.com/iftech/nim-libp2p/issues/2053) kad dht: RespondedStatus.Failed is never reached in iterative lookup
+    * [iftech/nim-libp2p#2006](https://github.com/iftech/nim-libp2p/issues/2006) Kad: Lookup random PeerId for each non-empty bucket during bootstrap
+    * [iftech/nim-libp2p#2003](https://github.com/iftech/nim-libp2p/issues/2003) flaky test(kad): Get providers
 
 ### Autotls Protocol Testing
 
@@ -152,8 +152,8 @@ connection limits, peer lifecycle handling, and resilience under different netwo
 Integrate [libp2p test plans](https://github.com/libp2p/test-plans) and run into nim-libp2p
 
 #### Deliverables
-- [vacp2p/nim-libp2p#1993](https://github.com/vacp2p/nim-libp2p/pull/1993) test(interop): Autonatv2 test template
-- [vacp2p/nim-libp2p#1994](https://github.com/vacp2p/nim-libp2p/pull/1994) docs: Improve Development section visibility
+- [iftech/nim-libp2p#1993](https://github.com/iftech/nim-libp2p/pull/1993) test(interop): Autonatv2 test template
+- [iftech/nim-libp2p#1994](https://github.com/iftech/nim-libp2p/pull/1994) docs: Improve Development section visibility
 
 ### Logos Libp2p Module Testing
 
@@ -169,8 +169,8 @@ Implement unit and integration tests for the libp2p module, covering common user
 #### Deliverables
 - [logos-co/logos-libp2p-module#37](https://github.com/logos-co/logos-libp2p-module/pull/37) test: kad integration tests
 - [logos-co/logos-libp2p-module#36](https://github.com/logos-co/logos-libp2p-module/pull/36) test: integration tests
-- [vacp2p/nim-libp2p#2149](https://github.com/vacp2p/nim-libp2p/pull/2149) fix(cbind): add missing import
-- [vacp2p/nim-libp2p#2146](https://github.com/vacp2p/nim-libp2p/pull/2146) feat(cbind): add circuit relay client
+- [iftech/nim-libp2p#2149](https://github.com/iftech/nim-libp2p/pull/2149) fix(cbind): add missing import
+- [iftech/nim-libp2p#2146](https://github.com/iftech/nim-libp2p/pull/2146) feat(cbind): add circuit relay client
 - [logos-co/logos-libp2p-module#35](https://github.com/logos-co/logos-libp2p-module/pull/35) feat: add circuit relay client
 - [logos-co/logos-libp2p-module#32](https://github.com/logos-co/logos-libp2p-module/pull/32) refactor: introduce Libp2pModuleOptions struct and add config tests
 - [logos-co/logos-libp2p-module#31](https://github.com/logos-co/logos-libp2p-module/pull/31) test: add readme and fix examples on macos

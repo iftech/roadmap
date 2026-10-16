@@ -31,7 +31,7 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 * Test interoperability by implementing [Test Extension](https://github.com/libp2p/specs/blob/master/pubsub/gossipsub/extensions/experimental/test-extension.md)
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2000](https://github.com/vacp2p/nim-libp2p/pull/2000) feat(gossipsub): extensions control message
+- [iftech/nim-libp2p#2000](https://github.com/iftech/nim-libp2p/pull/2000) feat(gossipsub): extensions control message
 - Gossipsub extensions supported
 - Test Extension implemented (optionally enabled via compile time flag)
 
@@ -47,17 +47,17 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 * This is especially useful in cases where there is a large messages and a peer is missing only a small part of the message.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2188](https://github.com/vacp2p/nim-libp2p/pull/2188) chore(extensions): add penalty cases
-- [vacp2p/nim-libp2p#2187](https://github.com/vacp2p/nim-libp2p/pull/2187) chore(extensions): more generic missbehvior callback
-- [vacp2p/nim-libp2p#2140](https://github.com/vacp2p/nim-libp2p/pull/2140) test(interop): fix partial message flakines
-- [vacp2p/nim-libp2p#2119](https://github.com/vacp2p/nim-libp2p/pull/2119) test(interop): add partial message interop with go peer
-- [vacp2p/nim-libp2p#2115](https://github.com/vacp2p/nim-libp2p/pull/2115) test(interop): add partial message nim interop test
-- [vacp2p/nim-libp2p#2105](https://github.com/vacp2p/nim-libp2p/pull/2105) chore(partialmessage): push to selected peers
-- [vacp2p/nim-libp2p#2092](https://github.com/vacp2p/nim-libp2p/pull/2092) feat(partialmessage): gossip parts metadata
-- [vacp2p/nim-libp2p#2091](https://github.com/vacp2p/nim-libp2p/pull/2091) chore(partialmessage): sanity check for groupId
-- [vacp2p/nim-libp2p#2076](https://github.com/vacp2p/nim-libp2p/pull/2076) test(extensions): adding tests for partial message
-- [vacp2p/nim-libp2p#2074](https://github.com/vacp2p/nim-libp2p/pull/2074) test(extensions): improving tests
-- [vacp2p/nim-libp2p#2040](https://github.com/vacp2p/nim-libp2p/pull/2040) feat(gossipsub): partial message extension
+- [iftech/nim-libp2p#2188](https://github.com/iftech/nim-libp2p/pull/2188) chore(extensions): add penalty cases
+- [iftech/nim-libp2p#2187](https://github.com/iftech/nim-libp2p/pull/2187) chore(extensions): more generic missbehvior callback
+- [iftech/nim-libp2p#2140](https://github.com/iftech/nim-libp2p/pull/2140) test(interop): fix partial message flakines
+- [iftech/nim-libp2p#2119](https://github.com/iftech/nim-libp2p/pull/2119) test(interop): add partial message interop with go peer
+- [iftech/nim-libp2p#2115](https://github.com/iftech/nim-libp2p/pull/2115) test(interop): add partial message nim interop test
+- [iftech/nim-libp2p#2105](https://github.com/iftech/nim-libp2p/pull/2105) chore(partialmessage): push to selected peers
+- [iftech/nim-libp2p#2092](https://github.com/iftech/nim-libp2p/pull/2092) feat(partialmessage): gossip parts metadata
+- [iftech/nim-libp2p#2091](https://github.com/iftech/nim-libp2p/pull/2091) chore(partialmessage): sanity check for groupId
+- [iftech/nim-libp2p#2076](https://github.com/iftech/nim-libp2p/pull/2076) test(extensions): adding tests for partial message
+- [iftech/nim-libp2p#2074](https://github.com/iftech/nim-libp2p/pull/2074) test(extensions): improving tests
+- [iftech/nim-libp2p#2040](https://github.com/iftech/nim-libp2p/pull/2040) feat(gossipsub): partial message extension
 - Partial messages extension implemented
 - Set of unit tests to test this extension
 
@@ -73,7 +73,7 @@ This commitment focuses on implementing [Gossipsub v1.3 - Extensions control mes
 Modify gossipsub 1.4 so it uses extensions instead of a new protocol Id. This task has low priority and should only be implemented if time allows it.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2179](https://github.com/vacp2p/nim-libp2p/pull/2179) refactor(gossipsub): add preamble extension
-- [vacp2p/nim-libp2p#2177](https://github.com/vacp2p/nim-libp2p/pull/2177) refactor(preamblestore): simplifying interface
-- [vacp2p/nim-libp2p#2144](https://github.com/vacp2p/nim-libp2p/pull/2144) refactor(gossipsub): convert ping pong to extensions
+- [iftech/nim-libp2p#2179](https://github.com/iftech/nim-libp2p/pull/2179) refactor(gossipsub): add preamble extension
+- [iftech/nim-libp2p#2177](https://github.com/iftech/nim-libp2p/pull/2177) refactor(preamblestore): simplifying interface
+- [iftech/nim-libp2p#2144](https://github.com/iftech/nim-libp2p/pull/2144) refactor(gossipsub): convert ping pong to extensions
 - Gossipsub 1.4 implemented as a gossipsub extension

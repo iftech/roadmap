@@ -37,9 +37,9 @@ networking stack.
 
 #### Deliverables
 
-- [vacp2p/nim-libp2p#2998](https://github.com/vacp2p/nim-libp2p/pull/2998) fix(bufferstream): avoid stranding pushes on close
+- [iftech/nim-libp2p#2998](https://github.com/iftech/nim-libp2p/pull/2998) fix(bufferstream): avoid stranding pushes on close
 - [logos-messaging/logos-delivery#4161](https://github.com/logos-messaging/logos-delivery/pull/4161) chore: bump nim-libp2p to v2.3.1
-- [vacp2p/nim-libp2p#3002](https://github.com/vacp2p/nim-libp2p/pull/3002) chore(release): prepare v2.3.1 with libplum v0.6.3
+- [iftech/nim-libp2p#3002](https://github.com/iftech/nim-libp2p/pull/3002) chore(release): prepare v2.3.1 with libplum v0.6.3
 - [logos-storage/nim-libplum#24](https://github.com/logos-storage/nim-libplum/pull/24) chore: bump version to 0.6.3
 - [logos-storage/nim-libplum#23](https://github.com/logos-storage/nim-libplum/pull/23) fix(android): avoid linking libpthread
 - [status-im/nimbus-eth2#8936](https://github.com/status-im/nimbus-eth2/pull/8936) chore: bump nim-libp2p

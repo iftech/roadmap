@@ -53,11 +53,11 @@ the wiring needed to use BoringSSL where QUIC already requires it.
 - Compatibility tests covering existing secure websocket and TLS behavior
 - Updated dependency documentation describing backend selection and defaults
 - [status-im/nim-websock#194](https://github.com/status-im/nim-websock/pull/194) feat: make rng agnostic
-- [vacp2p/nim-libp2p#2435](https://github.com/vacp2p/nim-libp2p/pull/2435) chore: use >= to choose boringssl dependency
-- [vacp2p/nim-libp2p#2420](https://github.com/vacp2p/nim-libp2p/pull/2420) refactor(rng): make the rng a libp2p type
-- [vacp2p/nim-libp2p#2411](https://github.com/vacp2p/nim-libp2p/pull/2411) feat: boringssl
+- [iftech/nim-libp2p#2435](https://github.com/iftech/nim-libp2p/pull/2435) chore: use >= to choose boringssl dependency
+- [iftech/nim-libp2p#2420](https://github.com/iftech/nim-libp2p/pull/2420) refactor(rng): make the rng a libp2p type
+- [iftech/nim-libp2p#2411](https://github.com/iftech/nim-libp2p/pull/2411) feat: boringssl
 - [vacp2p/nim-lsquic#84](https://github.com/vacp2p/nim-lsquic/pull/84) feat: boringssl as separate nimble package
-- [vacp2p/nim-libp2p#2429](https://github.com/vacp2p/nim-libp2p/pull/2429) fix(gossip): make slow peer penalty opt-in by default
+- [iftech/nim-libp2p#2429](https://github.com/iftech/nim-libp2p/pull/2429) fix(gossip): make slow peer penalty opt-in by default
 - [vacp2p/nim-boringssl#4](https://github.com/vacp2p/nim-boringssl/pull/4) chore: update BoringSSL submodule and bindings
 
 ### Cryptography and RNG Migration

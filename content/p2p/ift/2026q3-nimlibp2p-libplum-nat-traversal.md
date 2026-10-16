@@ -42,7 +42,7 @@ Replace `nim-nat-traversal` usage in nim-libp2p NATService with
 possible.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2821](https://github.com/vacp2p/nim-libp2p/pull/2821) chore(nat): replace nim-nat-traversal with nim-libplum
+- [iftech/nim-libp2p#2821](https://github.com/iftech/nim-libp2p/pull/2821) chore(nat): replace nim-nat-traversal with nim-libplum
 - NATService uses `nim-libplum` for supported port mapping behavior
 - Existing NATService configuration remains source-compatible or has documented migration steps
 - Tests updated for UPnP, NAT-PMP, explicit external IP, and disabled NAT setup

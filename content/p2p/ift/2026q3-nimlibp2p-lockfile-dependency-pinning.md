@@ -38,8 +38,8 @@ Replace `.pinned` driven dependency setup with Nimble lock file based installati
 in the relevant workflows.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2882](https://github.com/vacp2p/nim-libp2p/pull/2882) fix(build): remove --noLockFile and dir rm
-- [vacp2p/nim-libp2p#2871](https://github.com/vacp2p/nim-libp2p/pull/2871) build(deps): replace custom pins with Nimble resolver setup
+- [iftech/nim-libp2p#2882](https://github.com/iftech/nim-libp2p/pull/2882) fix(build): remove --noLockFile and dir rm
+- [iftech/nim-libp2p#2871](https://github.com/iftech/nim-libp2p/pull/2871) build(deps): replace custom pins with Nimble resolver setup
 - Nimble lock file created or updated for nim-libp2p dependency pinning
 - CI and interop scripts use lock file based dependency installation
 - `.pinned` usage removed from active workflows

@@ -39,7 +39,7 @@ entries.
 - C API for reading peerstore data
 - C API for adding, removing, and updating peerstore entries
 - Tests covering peerstore access through the bindings
-- [vacp2p/nim-libp2p#2346](https://github.com/vacp2p/nim-libp2p/pull/2346) feat(cbind): add peerstore
+- [iftech/nim-libp2p#2346](https://github.com/iftech/nim-libp2p/pull/2346) feat(cbind): add peerstore
 
 
 ### Protocol Handlers
@@ -58,7 +58,7 @@ custom protocol handlers and read from or write to streams.
 - C API for registering custom protocol handlers
 - Stream read/write support exposed through the bindings
 - Tests covering protocol handler registration and stream I/O
-- [vacp2p/nim-libp2p#2314](https://github.com/vacp2p/nim-libp2p/pull/2314) feat(cbind): register custom protocol handlers
+- [iftech/nim-libp2p#2314](https://github.com/iftech/nim-libp2p/pull/2314) feat(cbind): register custom protocol handlers
 
 
 ### Capability Discovery
@@ -77,7 +77,7 @@ This task depends on `ift-ts:p2p:ift:2026q2-anoncomms-consulting:capability-disc
 #### Deliverables
 - C API for capability discovery
 - Example or test coverage for capability discovery through the bindings
-- [vacp2p/nim-libp2p#2324](https://github.com/vacp2p/nim-libp2p/pull/2324) chore(cbind): add service discovery
+- [iftech/nim-libp2p#2324](https://github.com/iftech/nim-libp2p/pull/2324) chore(cbind): add service discovery
 
 
 
@@ -96,8 +96,8 @@ executed in separate worker threads. Once that work is available, refactor the
 existing bindings to take advantage of it.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2668](https://github.com/vacp2p/nim-libp2p/pull/2668) feat(cbind): user-provided XPRs
-- [vacp2p/nim-libp2p#2625](https://github.com/vacp2p/nim-libp2p/pull/2625) feat(cbind): expose metrics via libp2p_collect_metrics
+- [iftech/nim-libp2p#2668](https://github.com/iftech/nim-libp2p/pull/2668) feat(cbind): user-provided XPRs
+- [iftech/nim-libp2p#2625](https://github.com/iftech/nim-libp2p/pull/2625) feat(cbind): expose metrics via libp2p_collect_metrics
 - [logos-messaging/nim-ffi#100](https://github.com/logos-messaging/nim-ffi/pull/100) chore: bump Nim to 2.2.6
 - [logos-messaging/nim-ffi#99](https://github.com/logos-messaging/nim-ffi/pull/99) feat(ffi): scalar type mappings + seq[byte] byte-string codec
 - [logos-messaging/nim-ffi#97](https://github.com/logos-messaging/nim-ffi/pull/97) test(bench): submit-throughput scaling gate for sendRequestToFFIThread (issue #90)
