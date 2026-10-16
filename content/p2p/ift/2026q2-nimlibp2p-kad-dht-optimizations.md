@@ -19,7 +19,7 @@ Improve nim-libp2p Kad-DHT privacy and provider record advertisement behavior.
 This commitment covers two related Kad-DHT improvements. First, Kad-DHT response
 messages should avoid disclosing peer connection type because it can reveal
 network topology and increase eclipse-attack risk. This follows
-[vacp2p/nim-libp2p#2050](https://github.com/vacp2p/nim-libp2p/issues/2050)
+[iftech/nim-libp2p#2050](https://github.com/iftech/nim-libp2p/issues/2050)
 and the Logos extended Kad discovery privacy requirement that every Kad-DHT
 `Peer.connection` field be encoded as `NOT_CONNECTED`.
 
@@ -53,7 +53,7 @@ that send other `ConnectionType` values.
 - Receive-side compatibility for non-compliant peers
 - Tests covering encoding and parsing of `ConnectionType` values
 - Documentation of the privacy behavior and compatibility policy
-- [vacp2p/nim-libp2p#2361](https://github.com/vacp2p/nim-libp2p/pull/2361) feat(kad): hide connection info
+- [iftech/nim-libp2p#2361](https://github.com/iftech/nim-libp2p/pull/2361) feat(kad): hide connection info
 
 
 ### Provider Record Spillover
@@ -76,5 +76,5 @@ path rather than repeatedly targeting only the closest nodes to a popular key.
 - Spillover/backtracking behavior for popular provider records
 - Metrics or simulation coverage showing advertisement load distribution
 - Tests for provider record limits, rejection, spillover, and lookup behavior
-- [vacp2p/nim-libp2p#2394](https://github.com/vacp2p/nim-libp2p/pull/2394) feat(kad): add provider rejection and spillover
+- [iftech/nim-libp2p#2394](https://github.com/iftech/nim-libp2p/pull/2394) feat(kad): add provider rejection and spillover
 - [vacp2p/specs#2](https://github.com/vacp2p/specs/pull/2) kademlia provider record spillover

@@ -17,7 +17,7 @@ Add reusable NAT traversal and public address setup support to nim-libp2p.
 ## Description
 
 nim-libp2p has long tracked NAT traversal support in
-[vacp2p/nim-libp2p#51](https://github.com/vacp2p/nim-libp2p/issues/51).
+[iftech/nim-libp2p#51](https://github.com/iftech/nim-libp2p/issues/51).
 Downstream users already carry NAT address setup logic, including a configuration
 option with `any`, `none`, `upnp`, `pmp`, and `extip:<IP>` modes,
 and Nimbus code that calls `setupAddress(config.nat, ...)` for TCP and UDP
@@ -46,8 +46,8 @@ explicit external IP configuration.
 - Support for `any`, `none`, `upnp`, `pmp`, and `extip:<IP>` modes or equivalent typed configuration
 - Public address and mapped port results exposed to transport/listen address handling
 - Tests for mode parsing, explicit external IP handling, and disabled NAT setup
-- [vacp2p/nim-libp2p#2493](https://github.com/vacp2p/nim-libp2p/pull/2493) feat(nat): NATService skeleton
-- [vacp2p/nim-libp2p#2483](https://github.com/vacp2p/nim-libp2p/pull/2483) feat(nat): announcedAddrs
+- [iftech/nim-libp2p#2493](https://github.com/iftech/nim-libp2p/pull/2493) feat(nat): NATService skeleton
+- [iftech/nim-libp2p#2483](https://github.com/iftech/nim-libp2p/pull/2483) feat(nat): announcedAddrs
 
 
 ### UPnP and NAT-PMP Integration
@@ -69,13 +69,13 @@ structured so UDP-capable transports can use the same setup path.
 - Address propagation into identify/listen address reporting where applicable
 - Downstream migration guidance for Logos and Nimbus NAT configuration
 - Tests or examples covering mapped TCP address advertisement
-- [vacp2p/nim-libp2p#2570](https://github.com/vacp2p/nim-libp2p/pull/2570) feat(nat): upnp, nat-pmp build infra
-- [vacp2p/nim-libp2p#2571](https://github.com/vacp2p/nim-libp2p/pull/2571) feat(nat): portmapper interface
-- [vacp2p/nim-libp2p#2573](https://github.com/vacp2p/nim-libp2p/pull/2573) feat(nat): upnp
-- [vacp2p/nim-libp2p#2596](https://github.com/vacp2p/nim-libp2p/pull/2596) Add NATService
-- [vacp2p/nim-libp2p#2575](https://github.com/vacp2p/nim-libp2p/pull/2575) Add NATService
-- [vacp2p/nim-libp2p#2574](https://github.com/vacp2p/nim-libp2p/pull/2574) Add NAT-PMP
-- [vacp2p/nim-libp2p#2576](https://github.com/vacp2p/nim-libp2p/pull/2576) Add NAT mock tests
+- [iftech/nim-libp2p#2570](https://github.com/iftech/nim-libp2p/pull/2570) feat(nat): upnp, nat-pmp build infra
+- [iftech/nim-libp2p#2571](https://github.com/iftech/nim-libp2p/pull/2571) feat(nat): portmapper interface
+- [iftech/nim-libp2p#2573](https://github.com/iftech/nim-libp2p/pull/2573) feat(nat): upnp
+- [iftech/nim-libp2p#2596](https://github.com/iftech/nim-libp2p/pull/2596) Add NATService
+- [iftech/nim-libp2p#2575](https://github.com/iftech/nim-libp2p/pull/2575) Add NATService
+- [iftech/nim-libp2p#2574](https://github.com/iftech/nim-libp2p/pull/2574) Add NAT-PMP
+- [iftech/nim-libp2p#2576](https://github.com/iftech/nim-libp2p/pull/2576) Add NAT mock tests
 
 
 ### AutoNAT Integration
@@ -92,4 +92,4 @@ logic is centralized and reusable across nim-libp2p.
 
 #### Deliverables
 - AutoNAT and hole-punching integration into NATService
-- [vacp2p/nim-libp2p#2604](https://github.com/vacp2p/nim-libp2p/pull/2604) feat(nat): absorb autonat / hole-punching into NATService
+- [iftech/nim-libp2p#2604](https://github.com/iftech/nim-libp2p/pull/2604) feat(nat): absorb autonat / hole-punching into NATService

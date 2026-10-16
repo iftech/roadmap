@@ -36,20 +36,20 @@ implementation.
 Implement capability discovery within nim-libp2p.
 The following resources exist:
 - specification: https://lip.logos.co/ift-ts/raw/logos-capability-discovery.html
-- PoC implementation: [feat(kad): capability discovery](https://github.com/vacp2p/nim-libp2p/pull/2055)
+- PoC implementation: [feat(kad): capability discovery](https://github.com/iftech/nim-libp2p/pull/2055)
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2321](https://github.com/vacp2p/nim-libp2p/pull/2321) feat(service-disco): add missing API functions
-- [vacp2p/nim-libp2p#2308](https://github.com/vacp2p/nim-libp2p/pull/2308) chore(service-disco): add component tests
-- [vacp2p/nim-libp2p#2306](https://github.com/vacp2p/nim-libp2p/pull/2306) feat(service-disco): add discoverer
-- [vacp2p/nim-libp2p#2285](https://github.com/vacp2p/nim-libp2p/pull/2285) feat(service-disco): add advertiser
-- [vacp2p/nim-libp2p#2245](https://github.com/vacp2p/nim-libp2p/pull/2245) chore(crypto): add pick utilities
-- [vacp2p/nim-libp2p#2237](https://github.com/vacp2p/nim-libp2p/pull/2237) chore(service-disco): add protobuf messages and utilities
-- [vacp2p/nim-libp2p#2275](https://github.com/vacp2p/nim-libp2p/pull/2275) feat(service-disco): add registrar
-- [vacp2p/nim-libp2p#2302](https://github.com/vacp2p/nim-libp2p/pull/2302) fix(service-disco): add missing tables import
-- [vacp2p/nim-libp2p#2290](https://github.com/vacp2p/nim-libp2p/pull/2290) chore(service-disco): use ServiceId type
-- [vacp2p/nim-libp2p#2274](https://github.com/vacp2p/nim-libp2p/pull/2274) feat(service-disco): routing table manager
-- [vacp2p/nim-libp2p#2267](https://github.com/vacp2p/nim-libp2p/pull/2267) feat(service-disco): add ipTree, signatures
-- [vacp2p/nim-libp2p#2246](https://github.com/vacp2p/nim-libp2p/pull/2246) chore(service-disco): add service discovery
+- [iftech/nim-libp2p#2321](https://github.com/iftech/nim-libp2p/pull/2321) feat(service-disco): add missing API functions
+- [iftech/nim-libp2p#2308](https://github.com/iftech/nim-libp2p/pull/2308) chore(service-disco): add component tests
+- [iftech/nim-libp2p#2306](https://github.com/iftech/nim-libp2p/pull/2306) feat(service-disco): add discoverer
+- [iftech/nim-libp2p#2285](https://github.com/iftech/nim-libp2p/pull/2285) feat(service-disco): add advertiser
+- [iftech/nim-libp2p#2245](https://github.com/iftech/nim-libp2p/pull/2245) chore(crypto): add pick utilities
+- [iftech/nim-libp2p#2237](https://github.com/iftech/nim-libp2p/pull/2237) chore(service-disco): add protobuf messages and utilities
+- [iftech/nim-libp2p#2275](https://github.com/iftech/nim-libp2p/pull/2275) feat(service-disco): add registrar
+- [iftech/nim-libp2p#2302](https://github.com/iftech/nim-libp2p/pull/2302) fix(service-disco): add missing tables import
+- [iftech/nim-libp2p#2290](https://github.com/iftech/nim-libp2p/pull/2290) chore(service-disco): use ServiceId type
+- [iftech/nim-libp2p#2274](https://github.com/iftech/nim-libp2p/pull/2274) feat(service-disco): routing table manager
+- [iftech/nim-libp2p#2267](https://github.com/iftech/nim-libp2p/pull/2267) feat(service-disco): add ipTree, signatures
+- [iftech/nim-libp2p#2246](https://github.com/iftech/nim-libp2p/pull/2246) chore(service-disco): add service discovery
 - Capability discovery support implemented in nim-libp2p
 - Integration guidance for Anoncomms based on the specification and PoC

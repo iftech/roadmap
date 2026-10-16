@@ -90,4 +90,4 @@ The UI should prioritize operational clarity over broad feature coverage.
 - [logos-co/logos-libp2p-ui#9](https://github.com/logos-co/logos-libp2p-ui/pull/9) feat: add TrafficScreen and more metrics
 - [logos-co/logos-libp2p-module#102](https://github.com/logos-co/logos-libp2p-module/pull/102) chore: bump nim-libp2p
 - [logos-co/logos-libp2p-ui#8](https://github.com/logos-co/logos-libp2p-ui/pull/8) fix: close with eof
-- [vacp2p/nim-libp2p#2927](https://github.com/vacp2p/nim-libp2p/pull/2927) chore: adding more metrics
+- [iftech/nim-libp2p#2927](https://github.com/iftech/nim-libp2p/pull/2927) chore: adding more metrics

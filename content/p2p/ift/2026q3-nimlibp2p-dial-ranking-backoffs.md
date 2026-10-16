@@ -45,13 +45,13 @@ appropriate, prefer QUIC over TCP when both are available and configured, and ca
 outstanding attempts once a connection succeeds.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#3001](https://github.com/vacp2p/nim-libp2p/pull/3001) feat(dialer): overlap ranked dialing with name resolution
-- [vacp2p/nim-libp2p#2992](https://github.com/vacp2p/nim-libp2p/pull/2992) feat(dialer): collect dial candidates before dialing, behind a flag
+- [iftech/nim-libp2p#3001](https://github.com/iftech/nim-libp2p/pull/3001) feat(dialer): overlap ranked dialing with name resolution
+- [iftech/nim-libp2p#2992](https://github.com/iftech/nim-libp2p/pull/2992) feat(dialer): collect dial candidates before dialing, behind a flag
 - Opt-in ranked dial path
 - Optional parallel dialing for selected candidate groups
 - Successful dial cancels outstanding attempts
 - Tests for direct, relay, QUIC, TCP, and mixed candidate behavior
-- [vacp2p/nim-libp2p#3110](https://github.com/vacp2p/nim-libp2p/pull/3110) feat(dialer): rank dials by relay and transport
+- [iftech/nim-libp2p#3110](https://github.com/iftech/nim-libp2p/pull/3110) feat(dialer): rank dials by relay and transport
 
 
 ### Failed Address Backoffs
@@ -69,7 +69,7 @@ dial succeeds.
 
 #### Deliverables
 
-- [nim-libp2p#3011](https://github.com/vacp2p/nim-libp2p/pull/3011) feat(dialer): back off the addresses and the peers that keep failing
+- [nim-libp2p#3011](https://github.com/iftech/nim-libp2p/pull/3011) feat(dialer): back off the addresses and the peers that keep failing
 - Failed-address cache or equivalent backoff state
 - Per-peer backoff after repeated failures or total dial timeout
 - Exponential or configurable backoff policy

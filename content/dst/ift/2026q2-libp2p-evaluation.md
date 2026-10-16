@@ -47,8 +47,8 @@ and ensure they don't happen again.
 
 #### Deliverables
 - Code:
-    - [vacp2p/nim-libp2p#2336](https://github.com/vacp2p/nim-libp2p/issues/2336) TCP connection handling in nim-libp2p
-    - [vacp2p/nim-libp2p#2335](https://github.com/vacp2p/nim-libp2p/issues/2335) CPU starvation issue in nim-libp2p
+    - [iftech/nim-libp2p#2336](https://github.com/iftech/nim-libp2p/issues/2336) TCP connection handling in nim-libp2p
+    - [iftech/nim-libp2p#2335](https://github.com/iftech/nim-libp2p/issues/2335) CPU starvation issue in nim-libp2p
     - [vacp2p/dst-libp2p-test-node#29](https://github.com/vacp2p/dst-libp2p-test-node/pull/29) Move regression node to its own folder
     - [vacp2p/dst-libp2p-test-node#30](https://github.com/vacp2p/dst-libp2p-test-node/pull/30) Remove mix from regression node
     - [vacp2p/dst-libp2p-test-node#32](https://github.com/vacp2p/dst-libp2p-test-node/pull/32) Update node to match v2.0.0
@@ -98,8 +98,8 @@ this implementation or if there is another factor.
 
 #### Description
 Help validating new changes around priority queues and slow peer behavbior in nim-libp2p introduced in
-https://github.com/vacp2p/nim-libp2p/pull/2269
-https://github.com/vacp2p/nim-libp2p/pull/2241
+https://github.com/iftech/nim-libp2p/pull/2269
+https://github.com/iftech/nim-libp2p/pull/2241
 Check that control message and subscriptions traffic remains reliable, Queues behave as expected, 
 that the slow peer penalty is applied and decays overtime, and that the values selected for `slowPeerPenaltyWeight`, 
 `slowPeerPenaltyThreshold` and `slowPeerPenaltyDecay` are not too aggressive, and that there are not regressions.
@@ -125,7 +125,7 @@ that the slow peer penalty is applied and decays overtime, and that the values s
 
 #### Description
 Switch builder now has an option for pruning behavior, and connection manager has ephemeral tag mechanisms. More info:
-https://github.com/vacp2p/nim-libp2p/blob/master/examples/tutorial_5_connmanager.nim
+https://github.com/iftech/nim-libp2p/blob/master/examples/tutorial_5_connmanager.nim
 Help validating cahnges of watermark mode as well as connection scoring mechanism.
 Provide feedback if examples are not clear, and create scenarios to validate the behavior and impact of this new changes.
 

@@ -29,35 +29,35 @@ Implement unit and integration tests for the Autotls protocol.
 
 #### Deliverables
 
-- [nim-libp2p#2999](https://github.com/vacp2p/nim-libp2p/pull/2999) test(autotls): full integration flow in docker
-- [nim-libp2p#3008](https://github.com/vacp2p/nim-libp2p/pull/3008) test(autotls): move integration coverage into the docker suite
-- [nim-libp2p#3010](https://github.com/vacp2p/nim-libp2p/pull/3010) fix(autotls): raise an http error when a request url cannot be resolved
-- [nim-libp2p#3012](https://github.com/vacp2p/nim-libp2p/pull/3012) chore(autotls): rename dnsServerURL to domainSuffix
-- [nim-libp2p#3013](https://github.com/vacp2p/nim-libp2p/pull/3013) test(autotls): reuse stub helpers and improve assertions
-- [vacp2p/nim-libp2p#2982](https://github.com/vacp2p/nim-libp2p/issues/2982) autotls: the acme finalize csr keeps its base64 padding
-- [vacp2p/nim-libp2p#2983](https://github.com/vacp2p/nim-libp2p/pull/2983) test(autotls): acme utils and key authorization
-- [vacp2p/nim-libp2p#2988](https://github.com/vacp2p/nim-libp2p/pull/2988) test(autotls): config constructor and peer ID label
-- [vacp2p/nim-libp2p#2994](https://github.com/vacp2p/nim-libp2p/issues/2994) autotls: a renewed certificate never reaches the wss listener
-- [vacp2p/nim-libp2p#2995](https://github.com/vacp2p/nim-libp2p/pull/2995) test(autotls): certificate renewal is not propagated to the wss listener
-- [vacp2p/nim-libp2p#2997](https://github.com/vacp2p/nim-libp2p/pull/2997) fix(autotls): read ACME resources with POST-as-GET and CSR padding
-- [vacp2p/nim-libp2p#2977](https://github.com/vacp2p/nim-libp2p/issues/2977) autotls: certificate renewal is clocked off the ACME order's expiry, not the certificate's
-- [vacp2p/nim-libp2p#2976](https://github.com/vacp2p/nim-libp2p/pull/2976) test(autotls): PeerID Auth client
-- [vacp2p/nim-libp2p#2975](https://github.com/vacp2p/nim-libp2p/issues/2975) autotls: expires timestamps do not follow RFC 3339
-- [vacp2p/nim-libp2p#2973](https://github.com/vacp2p/nim-libp2p/pull/2973) test(autotls): broker bearer lifecycle
-- [vacp2p/nim-libp2p#2972](https://github.com/vacp2p/nim-libp2p/issues/2972) autotls: a rejected bearer token never triggers re-authentication
-- [vacp2p/nim-libp2p#2971](https://github.com/vacp2p/nim-libp2p/pull/2971) test(autotls): ACME client request flow
-- [vacp2p/nim-libp2p#2970](https://github.com/vacp2p/nim-libp2p/issues/2970) autotls: should the certificate and account key be stored across restarts?
-- [vacp2p/nim-libp2p#2968](https://github.com/vacp2p/nim-libp2p/pull/2968) test(autotls): acme signed requests
-- [vacp2p/nim-libp2p#2966](https://github.com/vacp2p/nim-libp2p/pull/2966) test(autotls): certificate issuance
-- [vacp2p/nim-libp2p#2962](https://github.com/vacp2p/nim-libp2p/pull/2962) test(transports): cover accept-after-stop / autotls private key and ws address downgrade
-- [vacp2p/nim-libp2p#2961](https://github.com/vacp2p/nim-libp2p/issues/2961) wstransport: accept sleeps up to 9 seconds before reporting a stopped transport closed
-- [vacp2p/nim-libp2p#2958](https://github.com/vacp2p/nim-libp2p/pull/2958) test(autotls): certificate handoff
-- [vacp2p/nim-libp2p#2957](https://github.com/vacp2p/nim-libp2p/issues/2957) autotls: no certificate is issued, and a node listening on wss hangs in switch.start
-- [vacp2p/nim-libp2p#2950](https://github.com/vacp2p/nim-libp2p/pull/2950) test(autotls): broker payload addresses, consolidate ACMEApi doubles
-- [vacp2p/nim-libp2p#2930](https://github.com/vacp2p/nim-libp2p/pull/2930) fix(autotls): checkDNSRecords retry loop
-- [vacp2p/nim-libp2p#2931](https://github.com/vacp2p/nim-libp2p/pull/2931) test(autotls): broker
-- [vacp2p/nim-libp2p#2933](https://github.com/vacp2p/nim-libp2p/pull/2933) fix(autotls): renewal never fires and renewBufferTime is applied twice
-- [vacp2p/nim-libp2p#2942](https://github.com/vacp2p/nim-libp2p/pull/2942) fix(autotls): retry a failed issuance round and fix the issueRetries count
+- [nim-libp2p#2999](https://github.com/iftech/nim-libp2p/pull/2999) test(autotls): full integration flow in docker
+- [nim-libp2p#3008](https://github.com/iftech/nim-libp2p/pull/3008) test(autotls): move integration coverage into the docker suite
+- [nim-libp2p#3010](https://github.com/iftech/nim-libp2p/pull/3010) fix(autotls): raise an http error when a request url cannot be resolved
+- [nim-libp2p#3012](https://github.com/iftech/nim-libp2p/pull/3012) chore(autotls): rename dnsServerURL to domainSuffix
+- [nim-libp2p#3013](https://github.com/iftech/nim-libp2p/pull/3013) test(autotls): reuse stub helpers and improve assertions
+- [iftech/nim-libp2p#2982](https://github.com/iftech/nim-libp2p/issues/2982) autotls: the acme finalize csr keeps its base64 padding
+- [iftech/nim-libp2p#2983](https://github.com/iftech/nim-libp2p/pull/2983) test(autotls): acme utils and key authorization
+- [iftech/nim-libp2p#2988](https://github.com/iftech/nim-libp2p/pull/2988) test(autotls): config constructor and peer ID label
+- [iftech/nim-libp2p#2994](https://github.com/iftech/nim-libp2p/issues/2994) autotls: a renewed certificate never reaches the wss listener
+- [iftech/nim-libp2p#2995](https://github.com/iftech/nim-libp2p/pull/2995) test(autotls): certificate renewal is not propagated to the wss listener
+- [iftech/nim-libp2p#2997](https://github.com/iftech/nim-libp2p/pull/2997) fix(autotls): read ACME resources with POST-as-GET and CSR padding
+- [iftech/nim-libp2p#2977](https://github.com/iftech/nim-libp2p/issues/2977) autotls: certificate renewal is clocked off the ACME order's expiry, not the certificate's
+- [iftech/nim-libp2p#2976](https://github.com/iftech/nim-libp2p/pull/2976) test(autotls): PeerID Auth client
+- [iftech/nim-libp2p#2975](https://github.com/iftech/nim-libp2p/issues/2975) autotls: expires timestamps do not follow RFC 3339
+- [iftech/nim-libp2p#2973](https://github.com/iftech/nim-libp2p/pull/2973) test(autotls): broker bearer lifecycle
+- [iftech/nim-libp2p#2972](https://github.com/iftech/nim-libp2p/issues/2972) autotls: a rejected bearer token never triggers re-authentication
+- [iftech/nim-libp2p#2971](https://github.com/iftech/nim-libp2p/pull/2971) test(autotls): ACME client request flow
+- [iftech/nim-libp2p#2970](https://github.com/iftech/nim-libp2p/issues/2970) autotls: should the certificate and account key be stored across restarts?
+- [iftech/nim-libp2p#2968](https://github.com/iftech/nim-libp2p/pull/2968) test(autotls): acme signed requests
+- [iftech/nim-libp2p#2966](https://github.com/iftech/nim-libp2p/pull/2966) test(autotls): certificate issuance
+- [iftech/nim-libp2p#2962](https://github.com/iftech/nim-libp2p/pull/2962) test(transports): cover accept-after-stop / autotls private key and ws address downgrade
+- [iftech/nim-libp2p#2961](https://github.com/iftech/nim-libp2p/issues/2961) wstransport: accept sleeps up to 9 seconds before reporting a stopped transport closed
+- [iftech/nim-libp2p#2958](https://github.com/iftech/nim-libp2p/pull/2958) test(autotls): certificate handoff
+- [iftech/nim-libp2p#2957](https://github.com/iftech/nim-libp2p/issues/2957) autotls: no certificate is issued, and a node listening on wss hangs in switch.start
+- [iftech/nim-libp2p#2950](https://github.com/iftech/nim-libp2p/pull/2950) test(autotls): broker payload addresses, consolidate ACMEApi doubles
+- [iftech/nim-libp2p#2930](https://github.com/iftech/nim-libp2p/pull/2930) fix(autotls): checkDNSRecords retry loop
+- [iftech/nim-libp2p#2931](https://github.com/iftech/nim-libp2p/pull/2931) test(autotls): broker
+- [iftech/nim-libp2p#2933](https://github.com/iftech/nim-libp2p/pull/2933) fix(autotls): renewal never fires and renewBufferTime is applied twice
+- [iftech/nim-libp2p#2942](https://github.com/iftech/nim-libp2p/pull/2942) fix(autotls): retry a failed issuance round and fix the issueRetries count
 - PRs with links to added tests
 
 ### Opt-in Dial Ranking and Backoffs Testing
@@ -103,7 +103,7 @@ Focus on targeted tests that can catch transport-level issues earlier and comple
 - [vacp2p/nim-lsquic#142](https://github.com/vacp2p/nim-lsquic/issues/142) context: unidirectional streams from a peer are handled as if bidirectional
 - [vacp2p/nim-lsquic#143](https://github.com/vacp2p/nim-lsquic/issues/143) connection: remoteAddress() is stale after the peer changes path
 - [vacp2p/nim-lsquic#106](https://github.com/vacp2p/nim-lsquic/pull/106) test: trackers
-- [vacp2p/nim-libp2p#2886](https://github.com/vacp2p/nim-libp2p/pull/2886) test: improve checkTrackers
+- [iftech/nim-libp2p#2886](https://github.com/iftech/nim-libp2p/pull/2886) test: improve checkTrackers
 - [vacp2p/nim-lsquic#114](https://github.com/vacp2p/nim-lsquic/pull/114) test: certificate verifier and TLS config
 - [vacp2p/nim-lsquic#113](https://github.com/vacp2p/nim-lsquic/issues/113) tlsconfig: alpn protocol names are not validated against the RFC 7301 length limits
 - [vacp2p/nim-lsquic#118](https://github.com/vacp2p/nim-lsquic/pull/118) test: routing
@@ -128,19 +128,19 @@ Implement tests for dual-stack IPv4 and IPv6 behavior on the libp2p side.
 Cover scenarios that can catch UDP and address-family issues, especially around mixed IPv4/IPv6 environments and regressions that should be detected by unit or integration tests.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2746](https://github.com/vacp2p/nim-libp2p/pull/2746) test(misc): dual stack 5
-- [vacp2p/nim-libp2p#2756](https://github.com/vacp2p/nim-libp2p/issues/2756) service-disco: extend IP-similarity scoring to IPv6
-- [vacp2p/nim-libp2p#2757](https://github.com/vacp2p/nim-libp2p/issues/2757) wildcard-resolver: :: expansion unconditionally adds IPv4 interfaces, assuming a dual-stack socket
+- [iftech/nim-libp2p#2746](https://github.com/iftech/nim-libp2p/pull/2746) test(misc): dual stack 5
+- [iftech/nim-libp2p#2756](https://github.com/iftech/nim-libp2p/issues/2756) service-disco: extend IP-similarity scoring to IPv6
+- [iftech/nim-libp2p#2757](https://github.com/iftech/nim-libp2p/issues/2757) wildcard-resolver: :: expansion unconditionally adds IPv4 interfaces, assuming a dual-stack socket
 - PRs with dual-stack IPv4 and IPv6 tests
 - Issues / reports for regressions or uncovered gaps in mixed-stack behavior
-- [vacp2p/nim-libp2p#2698](https://github.com/vacp2p/nim-libp2p/pull/2698) test(transports): dual stack 1
-- [vacp2p/nim-libp2p#2704](https://github.com/vacp2p/nim-libp2p/pull/2704) test(transports): dual stack 2
-- [vacp2p/nim-libp2p#2712](https://github.com/vacp2p/nim-libp2p/pull/2712) test(ipaddr): dual stack 3
-- [vacp2p/nim-libp2p#2733](https://github.com/vacp2p/nim-libp2p/pull/2733) test(autonat): dual stack 4
-- [vacp2p/nim-libp2p#2703](https://github.com/vacp2p/nim-libp2p/issues/2703) transports: tcp port reuse binds the wrong address family on dual-stack nodes
-- [vacp2p/nim-libp2p#2710](https://github.com/vacp2p/nim-libp2p/issues/2710) ipaddr: isPrivate classifies every IPv6 address as public, so autonat canDial dials private IPv6 targets
-- [vacp2p/nim-libp2p#2711](https://github.com/vacp2p/nim-libp2p/issues/2711) ipaddr: hasPublicIPAddress only accepts IPv4, so IPv6-only public hosts fail autotls setup
-- [vacp2p/nim-libp2p#2731](https://github.com/vacp2p/nim-libp2p/issues/2731) ipaddr: ipAddrMatches only compares the ip4 component, so autonat v2 never skips amplification attack prevention for IPv6 clients
+- [iftech/nim-libp2p#2698](https://github.com/iftech/nim-libp2p/pull/2698) test(transports): dual stack 1
+- [iftech/nim-libp2p#2704](https://github.com/iftech/nim-libp2p/pull/2704) test(transports): dual stack 2
+- [iftech/nim-libp2p#2712](https://github.com/iftech/nim-libp2p/pull/2712) test(ipaddr): dual stack 3
+- [iftech/nim-libp2p#2733](https://github.com/iftech/nim-libp2p/pull/2733) test(autonat): dual stack 4
+- [iftech/nim-libp2p#2703](https://github.com/iftech/nim-libp2p/issues/2703) transports: tcp port reuse binds the wrong address family on dual-stack nodes
+- [iftech/nim-libp2p#2710](https://github.com/iftech/nim-libp2p/issues/2710) ipaddr: isPrivate classifies every IPv6 address as public, so autonat canDial dials private IPv6 targets
+- [iftech/nim-libp2p#2711](https://github.com/iftech/nim-libp2p/issues/2711) ipaddr: hasPublicIPAddress only accepts IPv4, so IPv6-only public hosts fail autotls setup
+- [iftech/nim-libp2p#2731](https://github.com/iftech/nim-libp2p/issues/2731) ipaddr: ipAddrMatches only compares the ip4 component, so autonat v2 never skips amplification attack prevention for IPv6 clients
 
 ### Maintenance
 
@@ -156,30 +156,30 @@ Cover small regression fixes, flaky-test follow-ups, test updates needed by upst
 
 #### Deliverables
 
-- [nim-libp2p#3018](https://github.com/vacp2p/nim-libp2p/issues/3018) autorelay: stop leaves its reservation loops running
-- [nim-libp2p#3019](https://github.com/vacp2p/nim-libp2p/pull/3019) test(autorelay): stop leaves its reservation loops running - reproduction
-- [vacp2p/nim-libp2p#2985](https://github.com/vacp2p/nim-libp2p/issues/2985) flaky test: Dialer Max connections reached [macos-15-arm64 (Nim v2.2.4 / clang / refc)]
-- [vacp2p/nim-libp2p#2986](https://github.com/vacp2p/nim-libp2p/issues/2986) flaky test: Multistream :: stream limits e2e - shared budget across compatible codecs [macos-15-arm64 (Nim v2.2.10 / clang / refc)]
+- [nim-libp2p#3018](https://github.com/iftech/nim-libp2p/issues/3018) autorelay: stop leaves its reservation loops running
+- [nim-libp2p#3019](https://github.com/iftech/nim-libp2p/pull/3019) test(autorelay): stop leaves its reservation loops running - reproduction
+- [iftech/nim-libp2p#2985](https://github.com/iftech/nim-libp2p/issues/2985) flaky test: Dialer Max connections reached [macos-15-arm64 (Nim v2.2.4 / clang / refc)]
+- [iftech/nim-libp2p#2986](https://github.com/iftech/nim-libp2p/issues/2986) flaky test: Multistream :: stream limits e2e - shared budget across compatible codecs [macos-15-arm64 (Nim v2.2.10 / clang / refc)]
 - [vacp2p/nim-lsquic#162](https://github.com/vacp2p/nim-lsquic/issues/162) connection: close() schedules CONNECTION_CLOSE but never puts it on the wire
-- [vacp2p/nim-libp2p#2993](https://github.com/vacp2p/nim-libp2p/pull/2993) test(transports): quic dialer does not observe a remote connection close
+- [iftech/nim-libp2p#2993](https://github.com/iftech/nim-libp2p/pull/2993) test(transports): quic dialer does not observe a remote connection close
 - [libp2p/unified-testing#119](https://github.com/libp2p/unified-testing/pull/119) feat: add nim to kad-dht and enable quic in hole-punch
 - [libp2p/unified-testing#78](https://github.com/libp2p/unified-testing/pull/78) feat: hole-punch nim-v2.2 peer
 - [libp2p/unified-testing#77](https://github.com/libp2p/unified-testing/pull/77) feat: transport nim-v2.2
-- [vacp2p/nim-libp2p#2820](https://github.com/vacp2p/nim-libp2p/issues/2820) kad-dht: should handleAddProvider require provider keys to be valid multihashes?
-- [vacp2p/nim-libp2p#2824](https://github.com/vacp2p/nim-libp2p/pull/2824) chore(kad-dht): loosen validation on AddProvider for interop tests
-- [vacp2p/nim-libp2p#2826](https://github.com/vacp2p/nim-libp2p/issues/2826) kad-dht: closerPeers advertise a peer's observed connection address
-- [vacp2p/nim-libp2p#2832](https://github.com/vacp2p/nim-libp2p/pull/2832) test(interop): kad-dht for unified-testing
-- [vacp2p/nim-libp2p#2840](https://github.com/vacp2p/nim-libp2p/pull/2840) test(interop): build unified-testing dockerfiles workflow
-- [vacp2p/nim-libp2p#2848](https://github.com/vacp2p/nim-libp2p/issues/2848) kad-dht: should closerPeers exclude the requester?
-- [vacp2p/nim-libp2p#2802](https://github.com/vacp2p/nim-libp2p/pull/2802) test(identify): repro test for #2800
-- [vacp2p/nim-libp2p#2800](https://github.com/vacp2p/nim-libp2p/issues/2800) identify: outgoing identify hangs against peers that don't serve identify
-- [vacp2p/nim-libp2p#2806](https://github.com/vacp2p/nim-libp2p/issues/2806) dcutr: quic hole punching dials from both peers
-- [vacp2p/nim-libp2p#2793](https://github.com/vacp2p/nim-libp2p/pull/2793) fix(identify): handle missing optional pub key
-- [vacp2p/nim-libp2p#2786](https://github.com/vacp2p/nim-libp2p/issues/2786) identify: absent publicKey is rejected and drops the connection
-- [vacp2p/nim-libp2p#2783](https://github.com/vacp2p/nim-libp2p/pull/2783) fix(multiaddress): decode empty optional observedAddr
-- [vacp2p/nim-libp2p#2781](https://github.com/vacp2p/nim-libp2p/issues/2781) identify: empty observedAddr aborts message decode and drops the connection
-- [vacp2p/nim-libp2p#2759](https://github.com/vacp2p/nim-libp2p/pull/2759) test(transports): accept fails
-- [vacp2p/nim-libp2p#2755](https://github.com/vacp2p/nim-libp2p/issues/2755) transports: no tests for what happens when a transport's `accept` fails
-- [vacp2p/nim-libp2p#2725](https://github.com/vacp2p/nim-libp2p/pull/2725) test(transports): improve hanging test
-- [vacp2p/nim-libp2p#2714](https://github.com/vacp2p/nim-libp2p/pull/2714) test(transports): multiple addresses
-- [vacp2p/nim-libp2p#2713](https://github.com/vacp2p/nim-libp2p/issues/2713) transports: inconsistency when stopping pending accept
+- [iftech/nim-libp2p#2820](https://github.com/iftech/nim-libp2p/issues/2820) kad-dht: should handleAddProvider require provider keys to be valid multihashes?
+- [iftech/nim-libp2p#2824](https://github.com/iftech/nim-libp2p/pull/2824) chore(kad-dht): loosen validation on AddProvider for interop tests
+- [iftech/nim-libp2p#2826](https://github.com/iftech/nim-libp2p/issues/2826) kad-dht: closerPeers advertise a peer's observed connection address
+- [iftech/nim-libp2p#2832](https://github.com/iftech/nim-libp2p/pull/2832) test(interop): kad-dht for unified-testing
+- [iftech/nim-libp2p#2840](https://github.com/iftech/nim-libp2p/pull/2840) test(interop): build unified-testing dockerfiles workflow
+- [iftech/nim-libp2p#2848](https://github.com/iftech/nim-libp2p/issues/2848) kad-dht: should closerPeers exclude the requester?
+- [iftech/nim-libp2p#2802](https://github.com/iftech/nim-libp2p/pull/2802) test(identify): repro test for #2800
+- [iftech/nim-libp2p#2800](https://github.com/iftech/nim-libp2p/issues/2800) identify: outgoing identify hangs against peers that don't serve identify
+- [iftech/nim-libp2p#2806](https://github.com/iftech/nim-libp2p/issues/2806) dcutr: quic hole punching dials from both peers
+- [iftech/nim-libp2p#2793](https://github.com/iftech/nim-libp2p/pull/2793) fix(identify): handle missing optional pub key
+- [iftech/nim-libp2p#2786](https://github.com/iftech/nim-libp2p/issues/2786) identify: absent publicKey is rejected and drops the connection
+- [iftech/nim-libp2p#2783](https://github.com/iftech/nim-libp2p/pull/2783) fix(multiaddress): decode empty optional observedAddr
+- [iftech/nim-libp2p#2781](https://github.com/iftech/nim-libp2p/issues/2781) identify: empty observedAddr aborts message decode and drops the connection
+- [iftech/nim-libp2p#2759](https://github.com/iftech/nim-libp2p/pull/2759) test(transports): accept fails
+- [iftech/nim-libp2p#2755](https://github.com/iftech/nim-libp2p/issues/2755) transports: no tests for what happens when a transport's `accept` fails
+- [iftech/nim-libp2p#2725](https://github.com/iftech/nim-libp2p/pull/2725) test(transports): improve hanging test
+- [iftech/nim-libp2p#2714](https://github.com/iftech/nim-libp2p/pull/2714) test(transports): multiple addresses
+- [iftech/nim-libp2p#2713](https://github.com/iftech/nim-libp2p/issues/2713) transports: inconsistency when stopping pending accept

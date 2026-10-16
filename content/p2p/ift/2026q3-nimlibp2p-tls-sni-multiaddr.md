@@ -37,7 +37,7 @@ Define and implement the multiaddress representation for TLS and SNI
 information, following upstream multiaddr conventions where they exist.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2963](https://github.com/vacp2p/nim-libp2p/pull/2963) feat(multiaddress): add SNI protocol support
+- [iftech/nim-libp2p#2963](https://github.com/iftech/nim-libp2p/pull/2963) feat(multiaddress): add SNI protocol support
 - TLS/SNI multiaddress parsing support
 - TLS/SNI multiaddress construction support
 - Validation for malformed or unsupported address combinations
@@ -57,7 +57,7 @@ Pass TLS/SNI information from multiaddresses into dialing and listening
 transports that need it.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2964](https://github.com/vacp2p/nim-libp2p/pull/2964) feat(websocket): support explicit SNI addresses
+- [iftech/nim-libp2p#2964](https://github.com/iftech/nim-libp2p/pull/2964) feat(websocket): support explicit SNI addresses
 - Dial path uses SNI information when present
 - Listener or advertised address handling preserves relevant TLS/SNI information
 - Tests covering TLS/SNI address parsing and transport configuration

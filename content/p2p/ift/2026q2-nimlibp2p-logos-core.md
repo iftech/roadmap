@@ -58,8 +58,8 @@ through Logos Core.
 - [logos-co/logos-libp2p-module#60](https://github.com/logos-co/logos-libp2p-module/pull/60) fix(docs): document service_discovery example in examples README
 - [logos-co/logos-libp2p-module#59](https://github.com/logos-co/logos-libp2p-module/pull/59) feat: multi-node bootstrap service discovery example
 - [logos-co/logos-libp2p-module#40](https://github.com/logos-co/logos-libp2p-module/pull/40) - feat: add service discovery
-- [vacp2p/nim-libp2p#2342](https://github.com/vacp2p/nim-libp2p/pull/2342) chore(service-disco): add ipSimCoefficient
-- [vacp2p/nim-libp2p#2338](https://github.com/vacp2p/nim-libp2p/pull/2338) chore(cbind): add service disco headers
+- [iftech/nim-libp2p#2342](https://github.com/iftech/nim-libp2p/pull/2342) chore(service-disco): add ipSimCoefficient
+- [iftech/nim-libp2p#2338](https://github.com/iftech/nim-libp2p/pull/2338) chore(cbind): add service disco headers
 
 
 ### Logos Core module - Custom Protocols

@@ -53,12 +53,12 @@ writing compatibility tests, or adapting nim-libp2p wrappers.
 - [logos-messaging/nim-ffi#148](https://github.com/logos-messaging/nim-ffi/pull/148) fix(ffi): reset the pool slot on recycle, and give the host an opaque context token
 - [logos-messaging/nim-ffi#150](https://github.com/logos-messaging/nim-ffi/pull/150) fix(ffi): bound the request ingress queue and the request payload
 - [logos-messaging/nim-ffi#143](https://github.com/logos-messaging/nim-ffi/pull/143) abi = c header: self-contained, event-listener ABI, doc comments, ctor/dtor guard
-- [vacp2p/nim-libp2p#2780](https://github.com/vacp2p/nim-libp2p/pull/2780) chore(cbind): nim-ffi migration [9/9] — flip to libp2p.nim, delete legacy cbind
-- [vacp2p/nim-libp2p#2779](https://github.com/vacp2p/nim-libp2p/pull/2779) chore(cbind): nim-ffi migration [8/9] — relay, peerstore, metrics (API parity)
-- [vacp2p/nim-libp2p#2778](https://github.com/vacp2p/nim-libp2p/pull/2778) chore(cbind): nim-ffi migration [7/9] — service discovery + extended peer records
-- [vacp2p/nim-libp2p#2777](https://github.com/vacp2p/nim-libp2p/pull/2777) chore(cbind): nim-ffi migration [6/9] — kademlia + CID + crypto
-- [vacp2p/nim-libp2p#2776](https://github.com/vacp2p/nim-libp2p/pull/2776) chore(cbind): nim-ffi migration [5/9] — pubsub / gossipsub (+ gossipsub example)
-- [vacp2p/nim-libp2p#2775](https://github.com/vacp2p/nim-libp2p/pull/2775) chore(cbind): nim-ffi migration [4/9] — streams & custom protocols (+ echo example)
+- [iftech/nim-libp2p#2780](https://github.com/iftech/nim-libp2p/pull/2780) chore(cbind): nim-ffi migration [9/9] — flip to libp2p.nim, delete legacy cbind
+- [iftech/nim-libp2p#2779](https://github.com/iftech/nim-libp2p/pull/2779) chore(cbind): nim-ffi migration [8/9] — relay, peerstore, metrics (API parity)
+- [iftech/nim-libp2p#2778](https://github.com/iftech/nim-libp2p/pull/2778) chore(cbind): nim-ffi migration [7/9] — service discovery + extended peer records
+- [iftech/nim-libp2p#2777](https://github.com/iftech/nim-libp2p/pull/2777) chore(cbind): nim-ffi migration [6/9] — kademlia + CID + crypto
+- [iftech/nim-libp2p#2776](https://github.com/iftech/nim-libp2p/pull/2776) chore(cbind): nim-ffi migration [5/9] — pubsub / gossipsub (+ gossipsub example)
+- [iftech/nim-libp2p#2775](https://github.com/iftech/nim-libp2p/pull/2775) chore(cbind): nim-ffi migration [4/9] — streams & custom protocols (+ echo example)
 - [logos-messaging/nim-ffi#119](https://github.com/logos-messaging/nim-ffi/pull/119) feat: shrink the genbindings incantation
 - [logos-messaging/nim-ffi#116](https://github.com/logos-messaging/nim-ffi/pull/116) feat(ffi): compile-time validation of --nimMainPrefix
 - [logos-messaging/nim-ffi#117](https://github.com/logos-messaging/nim-ffi/pull/117) feat(nimble): actionable remediation message on stale-bindings check failure
@@ -92,29 +92,29 @@ Define how projects can migrate from the current C bindings to the cleaner
 `nim-ffi` integration path without breaking existing users.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2909](https://github.com/vacp2p/nim-libp2p/pull/2909) chore(cbind): use nim-ffi 0.3.0
+- [iftech/nim-libp2p#2909](https://github.com/iftech/nim-libp2p/pull/2909) chore(cbind): use nim-ffi 0.3.0
 - [nim-lang/packages#3459](https://github.com/nim-lang/packages/pull/3459) Add ffi
 - [logos-messaging/nim-ffi#147](https://github.com/logos-messaging/nim-ffi/pull/147) fix(ffi): run the {.ffiDtor.} teardown on the recycle path
 - [logos-messaging/logos-delivery#4082](https://github.com/logos-messaging/logos-delivery/pull/4082) feat(ffi)!: migrate liblogosdelivery to the nim-ffi 0.3.0 typed C ABI
 - [logos-messaging/logos-delivery#4070](https://github.com/logos-messaging/logos-delivery/pull/4070) chore(deps)!: bump nim-ffi to 0.3.0-rc.1 (per-listener event ABI)
-- [vacp2p/nim-libp2p#2891](https://github.com/vacp2p/nim-libp2p/pull/2891) fix(cbind): bump nim-ffi for CBOR byte-string replies
+- [iftech/nim-libp2p#2891](https://github.com/iftech/nim-libp2p/pull/2891) fix(cbind): bump nim-ffi for CBOR byte-string replies
 - [logos-messaging/nim-ffi#141](https://github.com/logos-messaging/nim-ffi/pull/141) fix: seq[byte] rides as a CBOR byte string on every backend
 - [logos-co/logos-libp2p-module#77](https://github.com/logos-co/logos-libp2p-module/pull/77) feat: use nim-ffi cbindings
-- [vacp2p/nim-libp2p#2885](https://github.com/vacp2p/nim-libp2p/pull/2885) chore(cbind): adopt nim-ffi 0.3.0
+- [iftech/nim-libp2p#2885](https://github.com/iftech/nim-libp2p/pull/2885) chore(cbind): adopt nim-ffi 0.3.0
 - [logos-messaging/nim-ffi#138](https://github.com/logos-messaging/nim-ffi/pull/138) feat(ffi): {.ffiStatic.} for context-independent procs
 - [logos-messaging/nim-ffi#137](https://github.com/logos-messaging/nim-ffi/pull/137) feat(c): CBOR-free transport for non-scalar abi = c procs
 - [logos-messaging/nim-ffi#140](https://github.com/logos-messaging/nim-ffi/pull/140) feat(codegen): {.ffiConst.} constants and {.ffi.} enums for C/C++/Rust
-- [vacp2p/nim-libp2p#2878](https://github.com/vacp2p/nim-libp2p/pull/2878) feat(cbind): list connected peers regardless of direction
+- [iftech/nim-libp2p#2878](https://github.com/iftech/nim-libp2p/pull/2878) feat(cbind): list connected peers regardless of direction
 - [logos-messaging/nim-ffi#136](https://github.com/logos-messaging/nim-ffi/pull/136) feat(codegen): propagate {.ffi.} proc doc comments to generated bindings
 - [logos-messaging/nim-ffi#135](https://github.com/logos-messaging/nim-ffi/pull/135) fix(codegen): propagate the destructor status code out of <lib>_ctx_destroy
 - [logos-messaging/nim-ffi#132](https://github.com/logos-messaging/nim-ffi/pull/132) chore: reduce walls of comments
 - [logos-messaging/nim-ffi#130](https://github.com/logos-messaging/nim-ffi/pull/130) chore(codegen): unify the C and c_abi binding generators into one
 - [logos-messaging/nim-ffi#124](https://github.com/logos-messaging/nim-ffi/pull/124) feat(codegen): scalar-fast-path bindings for the abi = c header
-- [vacp2p/nim-libp2p#2775](https://github.com/vacp2p/nim-libp2p/pull/2775) chore(cbind): nim-ffi migration [4/9] — streams & custom protocols (+ echo example)
-- [vacp2p/nim-libp2p#2774](https://github.com/vacp2p/nim-libp2p/pull/2774) chore(cbind): nim-ffi migration [3/9] — connectivity & identity
-- [vacp2p/nim-libp2p#2773](https://github.com/vacp2p/nim-libp2p/pull/2773) chore(cbind): nim-ffi migration [2/9] — new-library scaffold + CI
-- [vacp2p/nim-libp2p#2784](https://github.com/vacp2p/nim-libp2p/pull/2784) fix(ci): daily runnableExamples check skips vendored Nim compiler
-- [vacp2p/nim-libp2p#2772](https://github.com/vacp2p/nim-libp2p/pull/2772) chore(cbind): nim-ffi migration [1/9] — deps + pinning scaffold
+- [iftech/nim-libp2p#2775](https://github.com/iftech/nim-libp2p/pull/2775) chore(cbind): nim-ffi migration [4/9] — streams & custom protocols (+ echo example)
+- [iftech/nim-libp2p#2774](https://github.com/iftech/nim-libp2p/pull/2774) chore(cbind): nim-ffi migration [3/9] — connectivity & identity
+- [iftech/nim-libp2p#2773](https://github.com/iftech/nim-libp2p/pull/2773) chore(cbind): nim-ffi migration [2/9] — new-library scaffold + CI
+- [iftech/nim-libp2p#2784](https://github.com/iftech/nim-libp2p/pull/2784) fix(ci): daily runnableExamples check skips vendored Nim compiler
+- [iftech/nim-libp2p#2772](https://github.com/iftech/nim-libp2p/pull/2772) chore(cbind): nim-ffi migration [1/9] — deps + pinning scaffold
 - Incremental migration plan for existing binding users
 - Compatibility notes for APIs that must remain available
 - Follow-up commitments or issues for work beyond Q3

@@ -33,11 +33,11 @@ TODO: move tasks that were not completed in 2026q1 here
 Expose core nim-libp2p functionality via c-bindings, including stream read/write support and basic node/kademlia configuration.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2129](https://github.com/vacp2p/nim-libp2p/pull/2129) feat(cbind): kad validator and selectors
-- [vacp2p/nim-libp2p#2128](https://github.com/vacp2p/nim-libp2p/pull/2128) fix(cbind): protocol mounting duplication
-- [vacp2p/nim-libp2p#2085](https://github.com/vacp2p/nim-libp2p/pull/2085) feat(cbind): kademlia discovery
-- [vacp2p/nim-libp2p#2009](https://github.com/vacp2p/nim-libp2p/pull/2009) feat(cbind): config parameters
-- [vacp2p/nim-libp2p#1976](https://github.com/vacp2p/nim-libp2p/pull/1976) feat(cbind): stream read / write
+- [iftech/nim-libp2p#2129](https://github.com/iftech/nim-libp2p/pull/2129) feat(cbind): kad validator and selectors
+- [iftech/nim-libp2p#2128](https://github.com/iftech/nim-libp2p/pull/2128) fix(cbind): protocol mounting duplication
+- [iftech/nim-libp2p#2085](https://github.com/iftech/nim-libp2p/pull/2085) feat(cbind): kademlia discovery
+- [iftech/nim-libp2p#2009](https://github.com/iftech/nim-libp2p/pull/2009) feat(cbind): config parameters
+- [iftech/nim-libp2p#1976](https://github.com/iftech/nim-libp2p/pull/1976) feat(cbind): stream read / write
 
 
 ### mix
@@ -56,8 +56,8 @@ Exported functions must include:
 This task depends on `ift-ts:p2p:ift:2026q1-nimlibp2p-cbindings:core` being implemented (interaction with streams)
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2087](https://github.com/vacp2p/nim-libp2p/pull/2087) feat(cbind): mix follow up and adding comments / reorg libp2p.h
-- [vacp2p/nim-libp2p#2064](https://github.com/vacp2p/nim-libp2p/pull/2064) feat(cbind): mix
+- [iftech/nim-libp2p#2087](https://github.com/iftech/nim-libp2p/pull/2087) feat(cbind): mix follow up and adding comments / reorg libp2p.h
+- [iftech/nim-libp2p#2064](https://github.com/iftech/nim-libp2p/pull/2064) feat(cbind): mix
 - Updated c header + library with mix api  
 - Tests verifying mix behavior via ffi
 - Documentation

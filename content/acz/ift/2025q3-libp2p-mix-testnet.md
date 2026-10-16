@@ -41,7 +41,7 @@ the comparison between Nomos blend network and P2P mixnet.
 By utilizing this commitment,
 we will reinforce the Conduit of Expertise narrative by:
 
-- Deploy the mixnet implementation as standard mixnet to the [nimlibp2p](https://github.com/vacp2p/nim-libp2p) repo.
+- Deploy the mixnet implementation as standard mixnet to the [nimlibp2p](https://github.com/iftech/nim-libp2p) repo.
 
 We will also strengthen the Premier Research Destination narrative by:
 
@@ -170,7 +170,7 @@ This task involves running the next set of benchmarks after resolving the outsta
 
 #### Deliverables
 
-* A [PR] to [vacp2p/nim-libp2p](https://github.com/vacp2p/rfc-index)
+* A [PR] to [iftech/nim-libp2p](https://github.com/vacp2p/rfc-index)
 
 ### nimlibp2p integration
 * fully qualified name: `vac:acz:ift:2025q3-libp2p-mix-testnet:nimlibp2p-integration`
@@ -183,11 +183,11 @@ This task involves running the next set of benchmarks after resolving the outsta
 
 This task is cancelled since the P2P team has taken it over. 
 
-This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p)
+This task focuses on integration the mix into the [iftech/nim-libp2p repo](https://github.com/iftech/nim-libp2p)
 
 #### Deliverables
 
-* A [PR] to [vacp2p/nim-libp2p](https://github.com/vacp2p/rfc-index)
+* A [PR] to [iftech/nim-libp2p](https://github.com/vacp2p/rfc-index)
 
 
 ### libp2p-mix Repository 
@@ -200,8 +200,8 @@ This task focuses on integration the mix into the [vacp2p/nim-libp2p repo](https
 
 ### Description
 
-This task encompasses all maintenance updates for [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p) repo, including PR reviews.
+This task encompasses all maintenance updates for [iftech/nim-libp2p repo](https://github.com/iftech/nim-libp2p) repo, including PR reviews.
 
 ### Deliverables
 
-* A set of PRs and issues to [vacp2p/nim-libp2p repo](https://github.com/vacp2p/nim-libp2p).
+* A set of PRs and issues to [iftech/nim-libp2p repo](https://github.com/iftech/nim-libp2p).

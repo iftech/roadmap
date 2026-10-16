@@ -98,9 +98,9 @@ regression checks where possible.
 - [logos-co/libp2p-module-demo-chat#3](https://github.com/logos-co/libp2p-module-demo-chat/pull/3) ci: adding build check and smoke test
 - [logos-co/logos-libp2p-module#95](https://github.com/logos-co/logos-libp2p-module/pull/95) feat: logs filter
 - [logos-co/logos-libp2p-module#96](https://github.com/logos-co/logos-libp2p-module/pull/96) chore: expose `libp2p_ctx_new_private_key`
-- [vacp2p/nim-libp2p#2904](https://github.com/vacp2p/nim-libp2p/pull/2904) fix(logs): adding logLevel to Libp2pConfig to avoid logs created in createLibp2pNode
-- [vacp2p/nim-libp2p#2899](https://github.com/vacp2p/nim-libp2p/pull/2899) chore(log): `libp2pSetLogLevel` changed to static
-- [vacp2p/nim-libp2p#2896](https://github.com/vacp2p/nim-libp2p/pull/2896) feat(log): add runtime logs filtering support
+- [iftech/nim-libp2p#2904](https://github.com/iftech/nim-libp2p/pull/2904) fix(logs): adding logLevel to Libp2pConfig to avoid logs created in createLibp2pNode
+- [iftech/nim-libp2p#2899](https://github.com/iftech/nim-libp2p/pull/2899) chore(log): `libp2pSetLogLevel` changed to static
+- [iftech/nim-libp2p#2896](https://github.com/iftech/nim-libp2p/pull/2896) feat(log): add runtime logs filtering support
 - [logos-co/logos-libp2p-module#94](https://github.com/logos-co/logos-libp2p-module/pull/94) chore(readme): add demo project
 - [logos-co/libp2p-module-demo-chat#1](https://github.com/logos-co/libp2p-module-demo-chat/pull/1) initial demo chat app
 - Minimal peer discovery example

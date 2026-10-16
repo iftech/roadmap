@@ -67,10 +67,10 @@ application or integration harness that proves nim-libp2p can be linked and
 started on mobile.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2827](https://github.com/vacp2p/nim-libp2p/pull/2827) feat(android): simulator
-- [vacp2p/nim-libp2p#2833](https://github.com/vacp2p/nim-libp2p/pull/2833) feat(ios): simulator
-- [vacp2p/nim-libp2p#2814](https://github.com/vacp2p/nim-libp2p/pull/2814) build(ios): add libp2p_ffi mobile targets
-- [vacp2p/nim-libp2p#2813](https://github.com/vacp2p/nim-libp2p/pull/2813) build(android): add libp2p_ffi mobile targets
+- [iftech/nim-libp2p#2827](https://github.com/iftech/nim-libp2p/pull/2827) feat(android): simulator
+- [iftech/nim-libp2p#2833](https://github.com/iftech/nim-libp2p/pull/2833) feat(ios): simulator
+- [iftech/nim-libp2p#2814](https://github.com/iftech/nim-libp2p/pull/2814) build(ios): add libp2p_ffi mobile targets
+- [iftech/nim-libp2p#2813](https://github.com/iftech/nim-libp2p/pull/2813) build(android): add libp2p_ffi mobile targets
 - CI smoke builds for feasible Android and iOS targets
 - Example app or minimal integration harness
 - Documentation for running the example locally

@@ -33,8 +33,8 @@ Implement a hi/lo watermark subsystem. When connections exceed the higher limit,
 
 #### Deliverables
 Hi-Lo watermark behavior for managing number of connections
-- [vacp2p/nim-libp2p#2282](https://github.com/vacp2p/nim-libp2p/pull/2282) refactor(connmanager): constructors
-- [vacp2p/nim-libp2p#2284](https://github.com/vacp2p/nim-libp2p/pull/2284) feat(connmanager): watermark
+- [iftech/nim-libp2p#2282](https://github.com/iftech/nim-libp2p/pull/2282) refactor(connmanager): constructors
+- [iftech/nim-libp2p#2284](https://github.com/iftech/nim-libp2p/pull/2284) feat(connmanager): watermark
 
 ### Connection score
 * fully qualified name: `ift-ts:p2p:ift:2026q1-nimlibp2p-connection-management:score`
@@ -47,7 +47,7 @@ Hi-Lo watermark behavior for managing number of connections
 Implement a per-connection scoring system with static and ephemeral tags. Ephemeral tags decay linearly (or by chosen function) so its importance decreases overtime. Allow marking connections as “protected” to exempt them from pruning. Outbound connections should naturally have a higher score than incoming connections
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2242](https://github.com/vacp2p/nim-libp2p/pull/2242) chore(connmanager): performance and cosmetic improvements
+- [iftech/nim-libp2p#2242](https://github.com/iftech/nim-libp2p/pull/2242) chore(connmanager): performance and cosmetic improvements
 - API for adding/removing tags, setting weights, toggling decay  
 - Protected-peer mechanism with hard guarantees  
 
