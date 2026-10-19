@@ -131,10 +131,10 @@ Maintain and extend the foundational Nim libraries required by IFT teams.
 - Build on the stabilized protobuf library and make the integration practical for real libp2p protocol work.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2166](https://github.com/vacp2p/nim-libp2p/pull/2166) chore: Use protobuf_serialization in RendezVous protocol
-- [vacp2p/nim-libp2p#2477](https://github.com/vacp2p/nim-libp2p/pull/2477) Protobuf serialization of the DCUtR protocol
-- [vacp2p/nim-libp2p#2608](https://github.com/vacp2p/nim-libp2p/pull/2608) Bump `protobuf_serialization` to v0.5.0
-- [vacp2p/nim-libp2p#2655](https://github.com/vacp2p/nim-libp2p/pull/2655) chore(deps): Bump `protobuf_serialization` to v0.5.3
+- [iftech/nim-libp2p#2166](https://github.com/iftech/nim-libp2p/pull/2166) chore: Use protobuf_serialization in RendezVous protocol
+- [iftech/nim-libp2p#2477](https://github.com/iftech/nim-libp2p/pull/2477) Protobuf serialization of the DCUtR protocol
+- [iftech/nim-libp2p#2608](https://github.com/iftech/nim-libp2p/pull/2608) Bump `protobuf_serialization` to v0.5.0
+- [iftech/nim-libp2p#2655](https://github.com/iftech/nim-libp2p/pull/2655) chore(deps): Bump `protobuf_serialization` to v0.5.3
 
 ### PCP Support in nim-nat-traversal
 

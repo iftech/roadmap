@@ -83,9 +83,9 @@ Add a `Verifier` interface the manager calls on a heartbeat to confirm individua
 
 #### Deliverables
 
-- [vacp2p/nim-libp2p#2934](https://github.com/vacp2p/nim-libp2p/pull/2934) feat(addr-mgr): a Verifier confirms candidates on a heartbeat
-- [vacp2p/nim-libp2p#2928](https://github.com/vacp2p/nim-libp2p/pull/2928) feat(addr-mgr): the AddressManager owns every announced address
-- [vacp2p/nim-libp2p#2924](https://github.com/vacp2p/nim-libp2p/pull/2924) feat(addr-mgr): the switch owns the ObservedAddrManager
+- [iftech/nim-libp2p#2934](https://github.com/iftech/nim-libp2p/pull/2934) feat(addr-mgr): a Verifier confirms candidates on a heartbeat
+- [iftech/nim-libp2p#2928](https://github.com/iftech/nim-libp2p/pull/2928) feat(addr-mgr): the AddressManager owns every announced address
+- [iftech/nim-libp2p#2924](https://github.com/iftech/nim-libp2p/pull/2924) feat(addr-mgr): the switch owns the ObservedAddrManager
 - `Verifier` abstraction (`verify(candidates)` returning per-addr results, cancellable); manager heartbeat via `utils/heartbeat` + cancellable `scheduleHandle`, cancellation wired to manager stop
 - AutoNATv2 verifier: priority-ordered `sendDialRequest`, bucket by `DialStatus` (OK → confirmed, dial error → unreachable, timeout/ambiguous → stays unknown, never dropped), per-addr TTL re-confirmation, per family
 - Backpressure: cap concurrent dial requests, skip candidates already in flight (no overlapping verify rounds)
@@ -106,7 +106,7 @@ Register the AutoNATv2 verifier with the manager, derive a node-level reachabili
 
 #### Deliverables
 
-- [vacp2p/nim-libp2p#2953](https://github.com/vacp2p/nim-libp2p/pull/2953) feat(addr-mgr): register the verifier and migrate the consumers
+- [iftech/nim-libp2p#2953](https://github.com/iftech/nim-libp2p/pull/2953) feat(addr-mgr): register the verifier and migrate the consumers
 - AutoNATv2 verifier registered with the manager; `AutonatV2Service` v1-style confidence `Deque` retired
 - Derived node-level `NetworkReachability` summary (any confirmed ⇒ Reachable) computed from per-address state for back-compat
 - `AutoRelayService` + `hpservice` read `confirmedAddrs()` where per-family detail matters, the summary only where a single flag suffices

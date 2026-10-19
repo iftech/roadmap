@@ -14,9 +14,9 @@ description: Validate GossipSub duplicate suppression on Nimbus mainnet nodes
 
 ## Description
 
-Test [nim-libp2p#3043](https://github.com/vacp2p/nim-libp2p/pull/3043),
-[nim-libp2p#3016](https://github.com/vacp2p/nim-libp2p/pull/3016) and 
-[nim-libp2p#3165](https://github.com/vacp2p/nim-libp2p/pull/3165) against their
+Test [nim-libp2p#3043](https://github.com/iftech/nim-libp2p/pull/3043),
+[nim-libp2p#3016](https://github.com/iftech/nim-libp2p/pull/3016) and 
+[nim-libp2p#3165](https://github.com/iftech/nim-libp2p/pull/3165) against their
 original requirements. Use Nimbus libp2p nodes on mainnet to establish that the
 behavior is desirable and stable over time. Local testnets alone are insufficient
 to assess Internet conditions, memory leaks, or isolated mesh islands.

@@ -96,7 +96,7 @@ depth should also contribute to peer scoring as a secondary pruning signal.
 - Drop-on-full behavior for non-priority outbound traffic
 - Updated thresholds for non-priority queues
 - Clear policy for how queue pressure interacts with peer scoring
-- [vacp2p/nim-libp2p#2269](https://github.com/vacp2p/nim-libp2p/pull/2269) feat(gossip): reduce score of slow peers
+- [iftech/nim-libp2p#2269](https://github.com/iftech/nim-libp2p/pull/2269) feat(gossip): reduce score of slow peers
 
 
 ### Validation And Interop
@@ -116,7 +116,7 @@ implementations especially in areas where aggressive dropping may
 affect mesh stability.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2241](https://github.com/vacp2p/nim-libp2p/pull/2241) feat(gossipsub): extend message priorities to H/M/L
+- [iftech/nim-libp2p#2241](https://github.com/iftech/nim-libp2p/pull/2241) feat(gossipsub): extend message priorities to H/M/L
 - [DST Report](https://zealous-polka-dc7.notion.site/Gossipsub-Priority-Queues-Test-3638f96fb65c80f69df4de8b27508371)
 - Unit or integration tests for queue-pressure behavior
 - Interoperability checks for queue overflow and message dropping

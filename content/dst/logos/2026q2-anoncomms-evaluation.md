@@ -42,7 +42,7 @@ For more information, refer to [this document](https://www.notion.so/KAD-DHT-pla
 
 #### Deliverables
 - Code:
-  - [vacp2p/nim-libp2p#2336](https://github.com/vacp2p/nim-libp2p/issues/2336) TCP connection bug in nim-libp2p
+  - [iftech/nim-libp2p#2336](https://github.com/iftech/nim-libp2p/issues/2336) TCP connection bug in nim-libp2p
   - [vacp2p/dst-libp2p-test-node#23](https://github.com/vacp2p/dst-libp2p-test-node/pull/23) Enhance KAD-DHT bootstrap robustness, logging, and connection management
   - [vacp2p/10ksim#251](https://github.com/vacp2p/10ksim/pull/251) Add ServiceBuilder, readiness probes, and deployment utilities
 - Reports:

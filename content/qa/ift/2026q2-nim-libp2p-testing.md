@@ -59,13 +59,13 @@ Implement or extend tests for the Q2 gossipsub queue work.
 Cover explicit outbound queue priorities and limits, disconnect-on-full behavior for protocol-critical traffic, drop-on-full behavior for best-effort traffic, and validation of queue behavior under slow-peer and burst scenarios.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2656](https://github.com/vacp2p/nim-libp2p/pull/2656) test(gossipsub): priority queues 3
+- [iftech/nim-libp2p#2656](https://github.com/iftech/nim-libp2p/pull/2656) test(gossipsub): priority queues 3
 - PRs with tests covering queue priorities and limits
 - Tests for priority-message overflow and queue refresh behavior
 - Tests for best-effort dropping under queue pressure
 - Issues / reports for interop risks, instability, or uncovered edge cases
-- [vacp2p/nim-libp2p#2642](https://github.com/vacp2p/nim-libp2p/pull/2642) test(gossipsub): priority queues
-- [vacp2p/nim-libp2p#2646](https://github.com/vacp2p/nim-libp2p/pull/2646) test(gossipsub): priority queues 2
+- [iftech/nim-libp2p#2642](https://github.com/iftech/nim-libp2p/pull/2642) test(gossipsub): priority queues
+- [iftech/nim-libp2p#2646](https://github.com/iftech/nim-libp2p/pull/2646) test(gossipsub): priority queues 2
 
 ### Connection Management Testing
 
@@ -84,8 +84,8 @@ Cover hi/lo watermarks, score-driven pruning, decaying and static tags, protecte
 - Tests for connection scoring, tag decay, and protected-peer handling
 - Tests for automatic pruning and peer selection behavior
 - Issues / reports for uncovered edge cases or regressions
-- [vacp2p/nim-libp2p#2620](https://github.com/vacp2p/nim-libp2p/pull/2620) test(conn-manager): event ordering issue
-- [vacp2p/nim-libp2p#2628](https://github.com/vacp2p/nim-libp2p/pull/2628) test(conn-manager): misc
+- [iftech/nim-libp2p#2620](https://github.com/iftech/nim-libp2p/pull/2620) test(conn-manager): event ordering issue
+- [iftech/nim-libp2p#2628](https://github.com/iftech/nim-libp2p/pull/2628) test(conn-manager): misc
 
 ### Peerstore TTL Testing
 
@@ -99,10 +99,10 @@ Cover hi/lo watermarks, score-driven pruning, decaying and static tags, protecte
 Implement tests for peerstore TTL handling, including expiration behavior, refresh semantics, and correctness of peer data retention and cleanup.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2662](https://github.com/vacp2p/nim-libp2p/pull/2662) test(peerstore): Address TTL 1
-- [vacp2p/nim-libp2p#2663](https://github.com/vacp2p/nim-libp2p/pull/2663) test(peerstore): address TTL 2
-- [vacp2p/nim-libp2p#2664](https://github.com/vacp2p/nim-libp2p/pull/2664) test(peerstore): address TTL 3
-- [vacp2p/nim-libp2p#2684](https://github.com/vacp2p/nim-libp2p/issues/2684) peerstore: should an address expire while we're still connected to the peer?
+- [iftech/nim-libp2p#2662](https://github.com/iftech/nim-libp2p/pull/2662) test(peerstore): Address TTL 1
+- [iftech/nim-libp2p#2663](https://github.com/iftech/nim-libp2p/pull/2663) test(peerstore): address TTL 2
+- [iftech/nim-libp2p#2664](https://github.com/iftech/nim-libp2p/pull/2664) test(peerstore): address TTL 3
+- [iftech/nim-libp2p#2684](https://github.com/iftech/nim-libp2p/issues/2684) peerstore: should an address expire while we're still connected to the peer?
 - PRs with peerstore TTL tests
 - Issues / reports for behavioral gaps or flaky scenarios
 
@@ -152,18 +152,18 @@ Revisit Kademlia interop coverage as part of this work if the upstream `libp2p/t
 If time permits, improve the existing partial messages interop test with additional logic, since functional coverage for partial messages and extensions is already considered complete.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2313](https://github.com/vacp2p/nim-libp2p/pull/2313) test(interop): GossipSub - fixes (part 3)
-- [vacp2p/nim-libp2p#2310](https://github.com/vacp2p/nim-libp2p/pull/2310) test(gossipsub): partial messages with fanout bug + fix
-- [vacp2p/nim-libp2p#2240](https://github.com/vacp2p/nim-libp2p/pull/2240) test(interop): GossipSub - core instructions (part 1)
-- [vacp2p/nim-libp2p#2239](https://github.com/vacp2p/nim-libp2p/pull/2239) feat: create Ed25519 key from seed
-- [vacp2p/nim-libp2p#2195](https://github.com/vacp2p/nim-libp2p/pull/2195) test(multiaddress): getField protobuf tests
-- [vacp2p/nim-libp2p#2189](https://github.com/vacp2p/nim-libp2p/pull/2189) test(interop): update hp script
-- [vacp2p/nim-libp2p#2249](https://github.com/vacp2p/nim-libp2p/pull/2249) test(interop): GossipSub - partial messages (part 2)
-- [vacp2p/nim-libp2p#2288](https://github.com/vacp2p/nim-libp2p/pull/2288) test(gossipsub): extensions race condition + fix
-- [vacp2p/nim-libp2p#2364](https://github.com/vacp2p/nim-libp2p/pull/2364) test(interop): perf
-- [vacp2p/nim-libp2p#2333](https://github.com/vacp2p/nim-libp2p/pull/2333) test(interop): unified-testing helpers
-- [vacp2p/nim-libp2p#2405](https://github.com/vacp2p/nim-libp2p/pull/2405) test(interop): transport fix
-- [vacp2p/nim-libp2p#2427](https://github.com/vacp2p/nim-libp2p/pull/2427) test(interop): GossipSub - fix message id
+- [iftech/nim-libp2p#2313](https://github.com/iftech/nim-libp2p/pull/2313) test(interop): GossipSub - fixes (part 3)
+- [iftech/nim-libp2p#2310](https://github.com/iftech/nim-libp2p/pull/2310) test(gossipsub): partial messages with fanout bug + fix
+- [iftech/nim-libp2p#2240](https://github.com/iftech/nim-libp2p/pull/2240) test(interop): GossipSub - core instructions (part 1)
+- [iftech/nim-libp2p#2239](https://github.com/iftech/nim-libp2p/pull/2239) feat: create Ed25519 key from seed
+- [iftech/nim-libp2p#2195](https://github.com/iftech/nim-libp2p/pull/2195) test(multiaddress): getField protobuf tests
+- [iftech/nim-libp2p#2189](https://github.com/iftech/nim-libp2p/pull/2189) test(interop): update hp script
+- [iftech/nim-libp2p#2249](https://github.com/iftech/nim-libp2p/pull/2249) test(interop): GossipSub - partial messages (part 2)
+- [iftech/nim-libp2p#2288](https://github.com/iftech/nim-libp2p/pull/2288) test(gossipsub): extensions race condition + fix
+- [iftech/nim-libp2p#2364](https://github.com/iftech/nim-libp2p/pull/2364) test(interop): perf
+- [iftech/nim-libp2p#2333](https://github.com/iftech/nim-libp2p/pull/2333) test(interop): unified-testing helpers
+- [iftech/nim-libp2p#2405](https://github.com/iftech/nim-libp2p/pull/2405) test(interop): transport fix
+- [iftech/nim-libp2p#2427](https://github.com/iftech/nim-libp2p/pull/2427) test(interop): GossipSub - fix message id
 - [libp2p/test-plans#850](https://github.com/libp2p/test-plans/pull/850) feat: add nim-libp2p to gossipsub interop
 
 ### Maintenance
@@ -180,11 +180,11 @@ Cover small regression fixes, flaky-test follow-ups, test updates needed by upst
 This includes quick-turn support for transport-start inconsistencies, protocol-level regressions, and improvements to existing unit or integration coverage where new bugs are found.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2658](https://github.com/vacp2p/nim-libp2p/pull/2658) chore: remove outdated performance/reliability tests
-- [vacp2p/nim-libp2p#2229](https://github.com/vacp2p/nim-libp2p/pull/2229) test(transport): inconsistent start behaviour
-- [vacp2p/nim-libp2p#2230](https://github.com/vacp2p/nim-libp2p/issues/2230) transports: inconsistent start behaviour
+- [iftech/nim-libp2p#2658](https://github.com/iftech/nim-libp2p/pull/2658) chore: remove outdated performance/reliability tests
+- [iftech/nim-libp2p#2229](https://github.com/iftech/nim-libp2p/pull/2229) test(transport): inconsistent start behaviour
+- [iftech/nim-libp2p#2230](https://github.com/iftech/nim-libp2p/issues/2230) transports: inconsistent start behaviour
 - Validation notes for fixes landed outside the main feature-track tasks
-- [vacp2p/nim-libp2p#2629](https://github.com/vacp2p/nim-libp2p/pull/2629) test(service-disco): improve flaky test
+- [iftech/nim-libp2p#2629](https://github.com/iftech/nim-libp2p/pull/2629) test(service-disco): improve flaky test
 
 ### Service Discovery Testing
 
@@ -201,34 +201,34 @@ Include tests for advertiser, discoverer, and registrar behavior, service ID has
 
 #### Deliverables
 - PRs with added tests
-- [vacp2p/nim-libp2p#2409](https://github.com/vacp2p/nim-libp2p/pull/2409) test(service-disco): refactor utils
-- [vacp2p/nim-libp2p#2415](https://github.com/vacp2p/nim-libp2p/pull/2415) test(service-disco): clean up and improve unit/component separation
-- [vacp2p/nim-libp2p#2432](https://github.com/vacp2p/nim-libp2p/pull/2432) test(service-disco): `addProvidedService` / `lookup` component tests
-- [vacp2p/nim-libp2p#2467](https://github.com/vacp2p/nim-libp2p/pull/2467) test(service-disco): misc component
-- [vacp2p/nim-libp2p#2463](https://github.com/vacp2p/nim-libp2p/pull/2463) test(service-disco): client mode + one register component
-- [vacp2p/nim-libp2p#2464](https://github.com/vacp2p/nim-libp2p/pull/2464) test(service-disco): error handling component
-- [vacp2p/nim-libp2p#2461](https://github.com/vacp2p/nim-libp2p/pull/2461) test(service-disco): lookup component
-- [vacp2p/nim-libp2p#2457](https://github.com/vacp2p/nim-libp2p/pull/2457) test(service-disco): advertise and registration response
+- [iftech/nim-libp2p#2409](https://github.com/iftech/nim-libp2p/pull/2409) test(service-disco): refactor utils
+- [iftech/nim-libp2p#2415](https://github.com/iftech/nim-libp2p/pull/2415) test(service-disco): clean up and improve unit/component separation
+- [iftech/nim-libp2p#2432](https://github.com/iftech/nim-libp2p/pull/2432) test(service-disco): `addProvidedService` / `lookup` component tests
+- [iftech/nim-libp2p#2467](https://github.com/iftech/nim-libp2p/pull/2467) test(service-disco): misc component
+- [iftech/nim-libp2p#2463](https://github.com/iftech/nim-libp2p/pull/2463) test(service-disco): client mode + one register component
+- [iftech/nim-libp2p#2464](https://github.com/iftech/nim-libp2p/pull/2464) test(service-disco): error handling component
+- [iftech/nim-libp2p#2461](https://github.com/iftech/nim-libp2p/pull/2461) test(service-disco): lookup component
+- [iftech/nim-libp2p#2457](https://github.com/iftech/nim-libp2p/pull/2457) test(service-disco): advertise and registration response
 - [logos-co/logos-libp2p-module#46](https://github.com/logos-co/logos-libp2p-module/pull/46) chore(service-disco): rename `startDiscovering` to `registerInterest`
-- [vacp2p/nim-libp2p#2452](https://github.com/vacp2p/nim-libp2p/pull/2452) chore: regenerate nix deps
-- [vacp2p/nim-libp2p#2443](https://github.com/vacp2p/nim-libp2p/pull/2443) chore(service-disco): dedupe identical ads
-- [vacp2p/nim-libp2p#2441](https://github.com/vacp2p/nim-libp2p/pull/2441) chore(service-disco): rename `startDiscovering` to `registerInterest` + improve component test
-- [vacp2p/nim-libp2p#2417](https://github.com/vacp2p/nim-libp2p/issues/2417) service-disco: what is `startDiscovering` meant to do?
-- [vacp2p/nim-libp2p#2431](https://github.com/vacp2p/nim-libp2p/issues/2431) service-disco: lookup returns duplicates when multiple queried peers hold the same ad
-- [vacp2p/nim-libp2p#2430](https://github.com/vacp2p/nim-libp2p/issues/2430) service-disco: missing API for multi-service registration
-- [vacp2p/nim-libp2p#2502](https://github.com/vacp2p/nim-libp2p/pull/2502) fix(service-disco): build advert once to keep adverts byte-identical
-- [vacp2p/nim-libp2p#2500](https://github.com/vacp2p/nim-libp2p/pull/2500) test(service-disco): add repro test for #2499
-- [vacp2p/nim-libp2p#2488](https://github.com/vacp2p/nim-libp2p/pull/2488) test(service-disco): non-32-byte keys + misc component
-- [vacp2p/nim-libp2p#2480](https://github.com/vacp2p/nim-libp2p/pull/2480) test(service-disco): validateRegisterMessage + message size
-- [vacp2p/nim-libp2p#2513](https://github.com/vacp2p/nim-libp2p/issues/2513) service-disco: XPR signed-envelope domain and payload type diverge from spec
-- [vacp2p/nim-libp2p#2499](https://github.com/vacp2p/nim-libp2p/issues/2499) service-disco: valid service-table peers are dropped when Kad bucketIndex is 16 or higher
-- [vacp2p/nim-libp2p#2487](https://github.com/vacp2p/nim-libp2p/issues/2487) service-disco: add size validation for ServiceInfo.data and encoded XPR
-- [vacp2p/nim-libp2p#2514](https://github.com/vacp2p/nim-libp2p/pull/2514) fix(service-disco): skip double-hashing service ID in bucket index
-- [vacp2p/nim-libp2p#2528](https://github.com/vacp2p/nim-libp2p/pull/2528) test(service-disco): closer peers
-- [vacp2p/nim-libp2p#2532](https://github.com/vacp2p/nim-libp2p/pull/2532) test(service-disco): improve flaky test `discoverer learns closer peers from GET_ADS reply`
-- [vacp2p/nim-libp2p#2544](https://github.com/vacp2p/nim-libp2p/pull/2544) test(service-disco): invalid ticket tInit propagates into registrar-signed response
-- [vacp2p/nim-libp2p#2541](https://github.com/vacp2p/nim-libp2p/pull/2541) test(service-disco): advertiser registration maintenance
-- [vacp2p/nim-libp2p#2529](https://github.com/vacp2p/nim-libp2p/issues/2529) service-disco: problems
-- [vacp2p/nim-libp2p#2526](https://github.com/vacp2p/nim-libp2p/issues/2526) service-disco: registrar closerPeers do not use RegT
-- [vacp2p/nim-libp2p#2540](https://github.com/vacp2p/nim-libp2p/issues/2540) service-disco: advertiser does not replenish registrations after churn or rejection
-- [vacp2p/nim-libp2p#2542](https://github.com/vacp2p/nim-libp2p/issues/2542) service-disco: invalid retry tickets are not rejected and preserve forged tInit in registrar-signed tickets
+- [iftech/nim-libp2p#2452](https://github.com/iftech/nim-libp2p/pull/2452) chore: regenerate nix deps
+- [iftech/nim-libp2p#2443](https://github.com/iftech/nim-libp2p/pull/2443) chore(service-disco): dedupe identical ads
+- [iftech/nim-libp2p#2441](https://github.com/iftech/nim-libp2p/pull/2441) chore(service-disco): rename `startDiscovering` to `registerInterest` + improve component test
+- [iftech/nim-libp2p#2417](https://github.com/iftech/nim-libp2p/issues/2417) service-disco: what is `startDiscovering` meant to do?
+- [iftech/nim-libp2p#2431](https://github.com/iftech/nim-libp2p/issues/2431) service-disco: lookup returns duplicates when multiple queried peers hold the same ad
+- [iftech/nim-libp2p#2430](https://github.com/iftech/nim-libp2p/issues/2430) service-disco: missing API for multi-service registration
+- [iftech/nim-libp2p#2502](https://github.com/iftech/nim-libp2p/pull/2502) fix(service-disco): build advert once to keep adverts byte-identical
+- [iftech/nim-libp2p#2500](https://github.com/iftech/nim-libp2p/pull/2500) test(service-disco): add repro test for #2499
+- [iftech/nim-libp2p#2488](https://github.com/iftech/nim-libp2p/pull/2488) test(service-disco): non-32-byte keys + misc component
+- [iftech/nim-libp2p#2480](https://github.com/iftech/nim-libp2p/pull/2480) test(service-disco): validateRegisterMessage + message size
+- [iftech/nim-libp2p#2513](https://github.com/iftech/nim-libp2p/issues/2513) service-disco: XPR signed-envelope domain and payload type diverge from spec
+- [iftech/nim-libp2p#2499](https://github.com/iftech/nim-libp2p/issues/2499) service-disco: valid service-table peers are dropped when Kad bucketIndex is 16 or higher
+- [iftech/nim-libp2p#2487](https://github.com/iftech/nim-libp2p/issues/2487) service-disco: add size validation for ServiceInfo.data and encoded XPR
+- [iftech/nim-libp2p#2514](https://github.com/iftech/nim-libp2p/pull/2514) fix(service-disco): skip double-hashing service ID in bucket index
+- [iftech/nim-libp2p#2528](https://github.com/iftech/nim-libp2p/pull/2528) test(service-disco): closer peers
+- [iftech/nim-libp2p#2532](https://github.com/iftech/nim-libp2p/pull/2532) test(service-disco): improve flaky test `discoverer learns closer peers from GET_ADS reply`
+- [iftech/nim-libp2p#2544](https://github.com/iftech/nim-libp2p/pull/2544) test(service-disco): invalid ticket tInit propagates into registrar-signed response
+- [iftech/nim-libp2p#2541](https://github.com/iftech/nim-libp2p/pull/2541) test(service-disco): advertiser registration maintenance
+- [iftech/nim-libp2p#2529](https://github.com/iftech/nim-libp2p/issues/2529) service-disco: problems
+- [iftech/nim-libp2p#2526](https://github.com/iftech/nim-libp2p/issues/2526) service-disco: registrar closerPeers do not use RegT
+- [iftech/nim-libp2p#2540](https://github.com/iftech/nim-libp2p/issues/2540) service-disco: advertiser does not replenish registrations after churn or rejection
+- [iftech/nim-libp2p#2542](https://github.com/iftech/nim-libp2p/issues/2542) service-disco: invalid retry tickets are not rejected and preserve forged tInit in registrar-signed tickets

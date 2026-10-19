@@ -33,191 +33,191 @@ ensuring that nim-libp2p remains functional and usable for its primary users, Ni
 * end-date: 2026/06/30
 
 #### Description
-Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via improvements, refactors, and bug fixes.
+Maintain the [nim-libp2p](https://github.com/iftech/nim-libp2p) repository via improvements, refactors, and bug fixes.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2694](https://github.com/vacp2p/nim-libp2p/pull/2694) chore: fix job names in daily jobs
-- [vacp2p/nim-libp2p#2670](https://github.com/vacp2p/nim-libp2p/pull/2670) fix(connmanager): emit Joined before trimming new peers
-- [vacp2p/nim-libp2p#2687](https://github.com/vacp2p/nim-libp2p/pull/2687) fix(tests): remove chronicles import hacks
-- [vacp2p/nim-libp2p#2693](https://github.com/vacp2p/nim-libp2p/pull/2693) chore(ci): add mm to the job names
-- [vacp2p/nim-libp2p#2695](https://github.com/vacp2p/nim-libp2p/pull/2695) test: linux i386 asan
-- [vacp2p/nim-libp2p#2692](https://github.com/vacp2p/nim-libp2p/pull/2692) chore: bump lsquic to handle cancel of pending reads/writes
-- [vacp2p/nim-libp2p#2689](https://github.com/vacp2p/nim-libp2p/pull/2689) chore: handle pending reads and writes in Quic
-- [vacp2p/nim-libp2p#2676](https://github.com/vacp2p/nim-libp2p/pull/2676) fix(gossipsub): keep extension subscriptions within topic cap
+- [iftech/nim-libp2p#2694](https://github.com/iftech/nim-libp2p/pull/2694) chore: fix job names in daily jobs
+- [iftech/nim-libp2p#2670](https://github.com/iftech/nim-libp2p/pull/2670) fix(connmanager): emit Joined before trimming new peers
+- [iftech/nim-libp2p#2687](https://github.com/iftech/nim-libp2p/pull/2687) fix(tests): remove chronicles import hacks
+- [iftech/nim-libp2p#2693](https://github.com/iftech/nim-libp2p/pull/2693) chore(ci): add mm to the job names
+- [iftech/nim-libp2p#2695](https://github.com/iftech/nim-libp2p/pull/2695) test: linux i386 asan
+- [iftech/nim-libp2p#2692](https://github.com/iftech/nim-libp2p/pull/2692) chore: bump lsquic to handle cancel of pending reads/writes
+- [iftech/nim-libp2p#2689](https://github.com/iftech/nim-libp2p/pull/2689) chore: handle pending reads and writes in Quic
+- [iftech/nim-libp2p#2676](https://github.com/iftech/nim-libp2p/pull/2676) fix(gossipsub): keep extension subscriptions within topic cap
 - [vacp2p/nim-lsquic#95](https://github.com/vacp2p/nim-lsquic/pull/95) fix: ensure lsquic engine processes shutdown regardless of being at EoF or not
-- [vacp2p/nim-libp2p#2675](https://github.com/vacp2p/nim-libp2p/pull/2675) fix(quic): guard against concurrent session close
+- [iftech/nim-libp2p#2675](https://github.com/iftech/nim-libp2p/pull/2675) fix(quic): guard against concurrent session close
 - [vacp2p/nim-lsquic#94](https://github.com/vacp2p/nim-lsquic/pull/94) fix: clear pending stream I/O tasks on cancellation
-- [vacp2p/nim-libp2p#2647](https://github.com/vacp2p/nim-libp2p/pull/2647) chore(pubsub): adjust incoming message validation order
-- [vacp2p/nim-libp2p#2686](https://github.com/vacp2p/nim-libp2p/pull/2686) fix(quic): QuicMuxer.close improvements
-- [vacp2p/nim-libp2p#2678](https://github.com/vacp2p/nim-libp2p/pull/2678) fix(quic): `cancelStreamHandlers` nil pointer dereference
-- [vacp2p/nim-libp2p#2667](https://github.com/vacp2p/nim-libp2p/pull/2667) fix(pubsub): cap number of topics a peer can subscribe to
-- [vacp2p/nim-libp2p#2605](https://github.com/vacp2p/nim-libp2p/pull/2605) fix: track and cancel asyncSpawn-ed futures on teardown
-- [vacp2p/nim-libp2p#2307](https://github.com/vacp2p/nim-libp2p/pull/2307) chore(copilot): add more instructions
-- [vacp2p/nim-libp2p#2331](https://github.com/vacp2p/nim-libp2p/pull/2331) fix(floodsub): increase timeout for large message transfer in FloodSub message size validation 2
+- [iftech/nim-libp2p#2647](https://github.com/iftech/nim-libp2p/pull/2647) chore(pubsub): adjust incoming message validation order
+- [iftech/nim-libp2p#2686](https://github.com/iftech/nim-libp2p/pull/2686) fix(quic): QuicMuxer.close improvements
+- [iftech/nim-libp2p#2678](https://github.com/iftech/nim-libp2p/pull/2678) fix(quic): `cancelStreamHandlers` nil pointer dereference
+- [iftech/nim-libp2p#2667](https://github.com/iftech/nim-libp2p/pull/2667) fix(pubsub): cap number of topics a peer can subscribe to
+- [iftech/nim-libp2p#2605](https://github.com/iftech/nim-libp2p/pull/2605) fix: track and cancel asyncSpawn-ed futures on teardown
+- [iftech/nim-libp2p#2307](https://github.com/iftech/nim-libp2p/pull/2307) chore(copilot): add more instructions
+- [iftech/nim-libp2p#2331](https://github.com/iftech/nim-libp2p/pull/2331) fix(floodsub): increase timeout for large message transfer in FloodSub message size validation 2
 - [vacp2p/nim-lsquic#83](https://github.com/vacp2p/nim-lsquic/pull/83) fix: shutdown and stream lifecycle handling
-- [vacp2p/nim-libp2p#2312](https://github.com/vacp2p/nim-libp2p/pull/2312) chore: bump deps
-- [vacp2p/nim-libp2p#2309](https://github.com/vacp2p/nim-libp2p/pull/2309) chore: use latest deps used on projects instead of just the latest deps
+- [iftech/nim-libp2p#2312](https://github.com/iftech/nim-libp2p/pull/2312) chore: bump deps
+- [iftech/nim-libp2p#2309](https://github.com/iftech/nim-libp2p/pull/2309) chore: use latest deps used on projects instead of just the latest deps
 - [vacp2p/nim-lsquic#81](https://github.com/vacp2p/nim-lsquic/pull/81) feat: StreamReset
-- [vacp2p/nim-libp2p#2304](https://github.com/vacp2p/nim-libp2p/pull/2304) fix(ci): new delete action cache job
+- [iftech/nim-libp2p#2304](https://github.com/iftech/nim-libp2p/pull/2304) fix(ci): new delete action cache job
 - [vacp2p/nim-lsquic#79](https://github.com/vacp2p/nim-lsquic/pull/79) feat: benchmarks
 - [vacp2p/nim-lsquic#78](https://github.com/vacp2p/nim-lsquic/pull/78) fix: call engine_process synchronously if possible, otherwise defer to ticker event loop
-- [vacp2p/nim-libp2p#2244](https://github.com/vacp2p/nim-libp2p/pull/2244) chore: remove unused ngtcp2 dependency from pinned list
-- [vacp2p/nim-libp2p#2235](https://github.com/vacp2p/nim-libp2p/pull/2235) chore: update CI timeouts
-- [vacp2p/nim-libp2p#2228](https://github.com/vacp2p/nim-libp2p/pull/2228) fix(mix): avoid creation of random
-- [vacp2p/nim-libp2p#2227](https://github.com/vacp2p/nim-libp2p/pull/2227) chore: change the run schedule of Daily i386 job
-- [vacp2p/nim-libp2p#2226](https://github.com/vacp2p/nim-libp2p/pull/2226) refactor(mix): add `Delay` type
-- [vacp2p/nim-libp2p#2221](https://github.com/vacp2p/nim-libp2p/pull/2221) chore(ai): add copilot instructions to avoid sleepAsync
-- [vacp2p/nim-libp2p#2219](https://github.com/vacp2p/nim-libp2p/pull/2219) chore(ci): remove discord notify
-- [vacp2p/nim-libp2p#2216](https://github.com/vacp2p/nim-libp2p/pull/2216) fix: nil pointer dereference issues caused when sha256 is used in ref object
-- [vacp2p/nim-libp2p#2214](https://github.com/vacp2p/nim-libp2p/pull/2214) fix(ci): make daily jobs setup consistent with ci.yml
-- [vacp2p/nim-libp2p#2211](https://github.com/vacp2p/nim-libp2p/pull/2211) chore(test): utilize rng() template
-- [vacp2p/nim-libp2p#2197](https://github.com/vacp2p/nim-libp2p/pull/2197) chore: reduce log level for noisy "too many channels created" log
-- [vacp2p/nim-libp2p#2056](https://github.com/vacp2p/nim-libp2p/pull/2056) chore: remove semaphore
-- [vacp2p/nim-libp2p#2294](https://github.com/vacp2p/nim-libp2p/pull/2294) feat: network simulation
-- [vacp2p/nim-libp2p#2286](https://github.com/vacp2p/nim-libp2p/pull/2286) feat(builder): `withPrivateAddressFilter`
-- [vacp2p/nim-libp2p#2279](https://github.com/vacp2p/nim-libp2p/pull/2279) chore(deps): use lsquic nimble package
+- [iftech/nim-libp2p#2244](https://github.com/iftech/nim-libp2p/pull/2244) chore: remove unused ngtcp2 dependency from pinned list
+- [iftech/nim-libp2p#2235](https://github.com/iftech/nim-libp2p/pull/2235) chore: update CI timeouts
+- [iftech/nim-libp2p#2228](https://github.com/iftech/nim-libp2p/pull/2228) fix(mix): avoid creation of random
+- [iftech/nim-libp2p#2227](https://github.com/iftech/nim-libp2p/pull/2227) chore: change the run schedule of Daily i386 job
+- [iftech/nim-libp2p#2226](https://github.com/iftech/nim-libp2p/pull/2226) refactor(mix): add `Delay` type
+- [iftech/nim-libp2p#2221](https://github.com/iftech/nim-libp2p/pull/2221) chore(ai): add copilot instructions to avoid sleepAsync
+- [iftech/nim-libp2p#2219](https://github.com/iftech/nim-libp2p/pull/2219) chore(ci): remove discord notify
+- [iftech/nim-libp2p#2216](https://github.com/iftech/nim-libp2p/pull/2216) fix: nil pointer dereference issues caused when sha256 is used in ref object
+- [iftech/nim-libp2p#2214](https://github.com/iftech/nim-libp2p/pull/2214) fix(ci): make daily jobs setup consistent with ci.yml
+- [iftech/nim-libp2p#2211](https://github.com/iftech/nim-libp2p/pull/2211) chore(test): utilize rng() template
+- [iftech/nim-libp2p#2197](https://github.com/iftech/nim-libp2p/pull/2197) chore: reduce log level for noisy "too many channels created" log
+- [iftech/nim-libp2p#2056](https://github.com/iftech/nim-libp2p/pull/2056) chore: remove semaphore
+- [iftech/nim-libp2p#2294](https://github.com/iftech/nim-libp2p/pull/2294) feat: network simulation
+- [iftech/nim-libp2p#2286](https://github.com/iftech/nim-libp2p/pull/2286) feat(builder): `withPrivateAddressFilter`
+- [iftech/nim-libp2p#2279](https://github.com/iftech/nim-libp2p/pull/2279) chore(deps): use lsquic nimble package
 - [nim-lang/packages#3326](https://github.com/nim-lang/packages/pull/3326) Add lsquic package to `packages.json`
-- [vacp2p/nim-libp2p#2298](https://github.com/vacp2p/nim-libp2p/pull/2298) chore: add code formatting guidelines to instructions
-- [vacp2p/nim-libp2p#2277](https://github.com/vacp2p/nim-libp2p/pull/2277) chore: update API stability and experimental extensions section
-- [vacp2p/nim-libp2p#2272](https://github.com/vacp2p/nim-libp2p/pull/2272) fix(mix): track and cancel handleMixMessages futures
-- [vacp2p/nim-libp2p#2255](https://github.com/vacp2p/nim-libp2p/pull/2255) test(mix): fix flaky test "rate limit exceeded - message rejected at intermediate node"
-- [vacp2p/nim-libp2p#2259](https://github.com/vacp2p/nim-libp2p/pull/2259) test(gossipsub): fix flaky test when peers should be dropped in same heartbeat as publish
-- [vacp2p/nim-libp2p#2263](https://github.com/vacp2p/nim-libp2p/pull/2263) test(transports): fix flaky test "server writes after EOF"
-- [vacp2p/nim-libp2p#2271](https://github.com/vacp2p/nim-libp2p/pull/2271) fix: add asyncSleep before dial in "mount unstarted protocol" test to fix Windows flakiness
-- [vacp2p/nim-libp2p#2273](https://github.com/vacp2p/nim-libp2p/pull/2273) test(transports): replace sleepAsync with write loop in "server writes after EOF"
-- [vacp2p/nim-libp2p#2289](https://github.com/vacp2p/nim-libp2p/pull/2289) fix(gossipsub): flaky scoring test
-- [vacp2p/nim-libp2p#2262](https://github.com/vacp2p/nim-libp2p/pull/2262) fix(autotls): letsencrypt challenge type change
-- [vacp2p/nim-libp2p#2266](https://github.com/vacp2p/nim-libp2p/pull/2266) fix(bump): waku vendor init failing
+- [iftech/nim-libp2p#2298](https://github.com/iftech/nim-libp2p/pull/2298) chore: add code formatting guidelines to instructions
+- [iftech/nim-libp2p#2277](https://github.com/iftech/nim-libp2p/pull/2277) chore: update API stability and experimental extensions section
+- [iftech/nim-libp2p#2272](https://github.com/iftech/nim-libp2p/pull/2272) fix(mix): track and cancel handleMixMessages futures
+- [iftech/nim-libp2p#2255](https://github.com/iftech/nim-libp2p/pull/2255) test(mix): fix flaky test "rate limit exceeded - message rejected at intermediate node"
+- [iftech/nim-libp2p#2259](https://github.com/iftech/nim-libp2p/pull/2259) test(gossipsub): fix flaky test when peers should be dropped in same heartbeat as publish
+- [iftech/nim-libp2p#2263](https://github.com/iftech/nim-libp2p/pull/2263) test(transports): fix flaky test "server writes after EOF"
+- [iftech/nim-libp2p#2271](https://github.com/iftech/nim-libp2p/pull/2271) fix: add asyncSleep before dial in "mount unstarted protocol" test to fix Windows flakiness
+- [iftech/nim-libp2p#2273](https://github.com/iftech/nim-libp2p/pull/2273) test(transports): replace sleepAsync with write loop in "server writes after EOF"
+- [iftech/nim-libp2p#2289](https://github.com/iftech/nim-libp2p/pull/2289) fix(gossipsub): flaky scoring test
+- [iftech/nim-libp2p#2262](https://github.com/iftech/nim-libp2p/pull/2262) fix(autotls): letsencrypt challenge type change
+- [iftech/nim-libp2p#2266](https://github.com/iftech/nim-libp2p/pull/2266) fix(bump): waku vendor init failing
 - [logos-messaging/logos-delivery#3812](https://github.com/logos-messaging/logos-delivery/pull/3812) chore: bump nim-jwt version
-- [vacp2p/nim-libp2p#2295](https://github.com/vacp2p/nim-libp2p/pull/2295) feat: extend libp2p_network_bytes and agents traffic metrics to all transports
-- [vacp2p/nim-libp2p#2293](https://github.com/vacp2p/nim-libp2p/pull/2293) chore: bump nph to v0.7.0
-- [vacp2p/nim-libp2p#2297](https://github.com/vacp2p/nim-libp2p/pull/2297) chore: update copilot instructions to reflect latest repository state
-- [vacp2p/nim-libp2p#2370](https://github.com/vacp2p/nim-libp2p/pull/2370) fix(pubsub): track pending sends without adding backpressure
-- [vacp2p/nim-libp2p#2368](https://github.com/vacp2p/nim-libp2p/pull/2368) feat(pubsub): reduce publish-time message copies with sink
+- [iftech/nim-libp2p#2295](https://github.com/iftech/nim-libp2p/pull/2295) feat: extend libp2p_network_bytes and agents traffic metrics to all transports
+- [iftech/nim-libp2p#2293](https://github.com/iftech/nim-libp2p/pull/2293) chore: bump nph to v0.7.0
+- [iftech/nim-libp2p#2297](https://github.com/iftech/nim-libp2p/pull/2297) chore: update copilot instructions to reflect latest repository state
+- [iftech/nim-libp2p#2370](https://github.com/iftech/nim-libp2p/pull/2370) fix(pubsub): track pending sends without adding backpressure
+- [iftech/nim-libp2p#2368](https://github.com/iftech/nim-libp2p/pull/2368) feat(pubsub): reduce publish-time message copies with sink
 - [status-im/nimbus-eth2#7775](https://github.com/status-im/nimbus-eth2/pull/7775) feat: quic transport support
-- [vacp2p/nim-libp2p#2283](https://github.com/vacp2p/nim-libp2p/pull/2283) feat: reset stream
-- [vacp2p/nim-libp2p#2390](https://github.com/vacp2p/nim-libp2p/pull/2390) refactor: unify default DNS servers under dnsresolver
-- [vacp2p/nim-libp2p#2376](https://github.com/vacp2p/nim-libp2p/pull/2376) fix: prevent GossipSub from relaying messages back to original source
-- [vacp2p/nim-libp2p#2374](https://github.com/vacp2p/nim-libp2p/pull/2374) fix: truncated `identify: decoded message` log due to unbounded address list
-- [vacp2p/nim-libp2p#2377](https://github.com/vacp2p/nim-libp2p/pull/2377) chore: move interop ignore items to their own gitignore
-- [vacp2p/nim-libp2p#2379](https://github.com/vacp2p/nim-libp2p/pull/2379) fix: replace generic `payload` log key with descriptive names in pubsub
-- [vacp2p/nim-libp2p#2375](https://github.com/vacp2p/nim-libp2p/pull/2375) chore: add clang-format linter for cbind/ C code
-- [vacp2p/nim-libp2p#2389](https://github.com/vacp2p/nim-libp2p/pull/2389) fix: propagate shortAgent through wrapped connection chain to restore peer metrics
-- [vacp2p/nim-libp2p#2365](https://github.com/vacp2p/nim-libp2p/pull/2365) chore: removing `.public.` pragma
-- [vacp2p/nim-libp2p#2366](https://github.com/vacp2p/nim-libp2p/pull/2366) chore: removing deprecated things
-- [vacp2p/nim-libp2p#2386](https://github.com/vacp2p/nim-libp2p/pull/2386) chore(readme): license cosmetics
-- [vacp2p/nim-libp2p#2382](https://github.com/vacp2p/nim-libp2p/pull/2382) docs: add new items to navigation and reminder
-- [vacp2p/nim-libp2p#2381](https://github.com/vacp2p/nim-libp2p/pull/2381) ci(docs): use stable nim version
-- [vacp2p/nim-libp2p#2347](https://github.com/vacp2p/nim-libp2p/pull/2347) ci: add timeout for `coverage` workflow
-- [vacp2p/nim-libp2p#2355](https://github.com/vacp2p/nim-libp2p/pull/2355) chore: remove runAfter
-- [vacp2p/nim-libp2p#2399](https://github.com/vacp2p/nim-libp2p/pull/2399) fix(ci): codecov test clashing T type
-- [vacp2p/nim-libp2p#2360](https://github.com/vacp2p/nim-libp2p/pull/2360) fix(muxer): accept loop stuck
-- [vacp2p/nim-libp2p#2380](https://github.com/vacp2p/nim-libp2p/pull/2380) fix(ci): failing on nim < 2.2.6
-- [vacp2p/nim-libp2p#2428](https://github.com/vacp2p/nim-libp2p/pull/2428) chore(MultiAddress): memory optimization
-- [vacp2p/nim-libp2p#2418](https://github.com/vacp2p/nim-libp2p/pull/2418) chore(identify): cosmetics improvement
-- [vacp2p/nim-libp2p#2414](https://github.com/vacp2p/nim-libp2p/pull/2414) test: stabilize flaky `Heartbeat::catch up on slow heartbeat` timing assertion
-- [vacp2p/nim-libp2p#2423](https://github.com/vacp2p/nim-libp2p/pull/2423) test(websocket): stabilize WebSocket EOF write assertion in stream transport tests
-- [vacp2p/nim-libp2p#2447](https://github.com/vacp2p/nim-libp2p/pull/2447) test: drop `untilTimeout` and standardize on `checkUntilTimeout`
-- [vacp2p/nim-libp2p#2445](https://github.com/vacp2p/nim-libp2p/pull/2445) test: fix flaky service-discovery test for two advertisers on one service
-- [vacp2p/nim-libp2p#2442](https://github.com/vacp2p/nim-libp2p/pull/2442) chore: drop `newStandardSwitch` and `newStandardSwitchBuilder` from public API
-- [vacp2p/nim-libp2p#2407](https://github.com/vacp2p/nim-libp2p/pull/2407) fix(daily): cover traffic leaking channels
-- [vacp2p/nim-libp2p#2410](https://github.com/vacp2p/nim-libp2p/pull/2410) fix(autotls): withAutotls independent ordering
-- [vacp2p/nim-libp2p#2396](https://github.com/vacp2p/nim-libp2p/pull/2396) chore: remove old nim hacks
-- [vacp2p/nim-libp2p#2459](https://github.com/vacp2p/nim-libp2p/pull/2459) fix(peerstore): reset identify stream on cancellation
-- [vacp2p/nim-libp2p#2465](https://github.com/vacp2p/nim-libp2p/pull/2465) chore(deps): bump nim-websock to >= 0.4.0
+- [iftech/nim-libp2p#2283](https://github.com/iftech/nim-libp2p/pull/2283) feat: reset stream
+- [iftech/nim-libp2p#2390](https://github.com/iftech/nim-libp2p/pull/2390) refactor: unify default DNS servers under dnsresolver
+- [iftech/nim-libp2p#2376](https://github.com/iftech/nim-libp2p/pull/2376) fix: prevent GossipSub from relaying messages back to original source
+- [iftech/nim-libp2p#2374](https://github.com/iftech/nim-libp2p/pull/2374) fix: truncated `identify: decoded message` log due to unbounded address list
+- [iftech/nim-libp2p#2377](https://github.com/iftech/nim-libp2p/pull/2377) chore: move interop ignore items to their own gitignore
+- [iftech/nim-libp2p#2379](https://github.com/iftech/nim-libp2p/pull/2379) fix: replace generic `payload` log key with descriptive names in pubsub
+- [iftech/nim-libp2p#2375](https://github.com/iftech/nim-libp2p/pull/2375) chore: add clang-format linter for cbind/ C code
+- [iftech/nim-libp2p#2389](https://github.com/iftech/nim-libp2p/pull/2389) fix: propagate shortAgent through wrapped connection chain to restore peer metrics
+- [iftech/nim-libp2p#2365](https://github.com/iftech/nim-libp2p/pull/2365) chore: removing `.public.` pragma
+- [iftech/nim-libp2p#2366](https://github.com/iftech/nim-libp2p/pull/2366) chore: removing deprecated things
+- [iftech/nim-libp2p#2386](https://github.com/iftech/nim-libp2p/pull/2386) chore(readme): license cosmetics
+- [iftech/nim-libp2p#2382](https://github.com/iftech/nim-libp2p/pull/2382) docs: add new items to navigation and reminder
+- [iftech/nim-libp2p#2381](https://github.com/iftech/nim-libp2p/pull/2381) ci(docs): use stable nim version
+- [iftech/nim-libp2p#2347](https://github.com/iftech/nim-libp2p/pull/2347) ci: add timeout for `coverage` workflow
+- [iftech/nim-libp2p#2355](https://github.com/iftech/nim-libp2p/pull/2355) chore: remove runAfter
+- [iftech/nim-libp2p#2399](https://github.com/iftech/nim-libp2p/pull/2399) fix(ci): codecov test clashing T type
+- [iftech/nim-libp2p#2360](https://github.com/iftech/nim-libp2p/pull/2360) fix(muxer): accept loop stuck
+- [iftech/nim-libp2p#2380](https://github.com/iftech/nim-libp2p/pull/2380) fix(ci): failing on nim < 2.2.6
+- [iftech/nim-libp2p#2428](https://github.com/iftech/nim-libp2p/pull/2428) chore(MultiAddress): memory optimization
+- [iftech/nim-libp2p#2418](https://github.com/iftech/nim-libp2p/pull/2418) chore(identify): cosmetics improvement
+- [iftech/nim-libp2p#2414](https://github.com/iftech/nim-libp2p/pull/2414) test: stabilize flaky `Heartbeat::catch up on slow heartbeat` timing assertion
+- [iftech/nim-libp2p#2423](https://github.com/iftech/nim-libp2p/pull/2423) test(websocket): stabilize WebSocket EOF write assertion in stream transport tests
+- [iftech/nim-libp2p#2447](https://github.com/iftech/nim-libp2p/pull/2447) test: drop `untilTimeout` and standardize on `checkUntilTimeout`
+- [iftech/nim-libp2p#2445](https://github.com/iftech/nim-libp2p/pull/2445) test: fix flaky service-discovery test for two advertisers on one service
+- [iftech/nim-libp2p#2442](https://github.com/iftech/nim-libp2p/pull/2442) chore: drop `newStandardSwitch` and `newStandardSwitchBuilder` from public API
+- [iftech/nim-libp2p#2407](https://github.com/iftech/nim-libp2p/pull/2407) fix(daily): cover traffic leaking channels
+- [iftech/nim-libp2p#2410](https://github.com/iftech/nim-libp2p/pull/2410) fix(autotls): withAutotls independent ordering
+- [iftech/nim-libp2p#2396](https://github.com/iftech/nim-libp2p/pull/2396) chore: remove old nim hacks
+- [iftech/nim-libp2p#2459](https://github.com/iftech/nim-libp2p/pull/2459) fix(peerstore): reset identify stream on cancellation
+- [iftech/nim-libp2p#2465](https://github.com/iftech/nim-libp2p/pull/2465) chore(deps): bump nim-websock to >= 0.4.0
 - [status-im/nim-websock#195](https://github.com/status-im/nim-websock/pull/195) 0.4.0
 - [vacp2p/boringssl#2](https://github.com/vacp2p/boringssl/pull/2) chore: sync BoringSSL upstream
-- [vacp2p/nim-libp2p#2462](https://github.com/vacp2p/nim-libp2p/pull/2462) refactor(Switch): Service lifecycle
-- [vacp2p/nim-libp2p#2466](https://github.com/vacp2p/nim-libp2p/pull/2466) chore(SwitchBuilder): `build()` proc cleanup
-- [vacp2p/nim-libp2p#2473](https://github.com/vacp2p/nim-libp2p/pull/2473) chore(PeerInfo): cosmetics
-- [vacp2p/nim-libp2p#2472](https://github.com/vacp2p/nim-libp2p/pull/2472) test(Noise): cosmetics
-- [vacp2p/nim-libp2p#2451](https://github.com/vacp2p/nim-libp2p/pull/2451) chore: utilize `cancelAndWait` template
-- [vacp2p/nim-libp2p#2456](https://github.com/vacp2p/nim-libp2p/pull/2456) test: stabilize `Switch::e2e max outgoing connection limits` by forcing TCP transport
-- [vacp2p/nim-libp2p#2453](https://github.com/vacp2p/nim-libp2p/pull/2453) test: simplify `makeStandardSwitch` and `makeStandardSwitchBuilder`
-- [vacp2p/nim-libp2p#2454](https://github.com/vacp2p/nim-libp2p/pull/2454) chore: makefile instead of nimble
-- [vacp2p/nim-libp2p#2433](https://github.com/vacp2p/nim-libp2p/pull/2433) fix(ci): add skip to autotls integration tests
-- [vacp2p/nim-libp2p#2495](https://github.com/vacp2p/nim-libp2p/pull/2495) fix(cancellation): preserve `CancelledError` in handlers
+- [iftech/nim-libp2p#2462](https://github.com/iftech/nim-libp2p/pull/2462) refactor(Switch): Service lifecycle
+- [iftech/nim-libp2p#2466](https://github.com/iftech/nim-libp2p/pull/2466) chore(SwitchBuilder): `build()` proc cleanup
+- [iftech/nim-libp2p#2473](https://github.com/iftech/nim-libp2p/pull/2473) chore(PeerInfo): cosmetics
+- [iftech/nim-libp2p#2472](https://github.com/iftech/nim-libp2p/pull/2472) test(Noise): cosmetics
+- [iftech/nim-libp2p#2451](https://github.com/iftech/nim-libp2p/pull/2451) chore: utilize `cancelAndWait` template
+- [iftech/nim-libp2p#2456](https://github.com/iftech/nim-libp2p/pull/2456) test: stabilize `Switch::e2e max outgoing connection limits` by forcing TCP transport
+- [iftech/nim-libp2p#2453](https://github.com/iftech/nim-libp2p/pull/2453) test: simplify `makeStandardSwitch` and `makeStandardSwitchBuilder`
+- [iftech/nim-libp2p#2454](https://github.com/iftech/nim-libp2p/pull/2454) chore: makefile instead of nimble
+- [iftech/nim-libp2p#2433](https://github.com/iftech/nim-libp2p/pull/2433) fix(ci): add skip to autotls integration tests
+- [iftech/nim-libp2p#2495](https://github.com/iftech/nim-libp2p/pull/2495) fix(cancellation): preserve `CancelledError` in handlers
 - [vacp2p/nim-lsquic#85](https://github.com/vacp2p/nim-lsquic/pull/85) chore: bump lsquic
-- [vacp2p/nim-libp2p#2482](https://github.com/vacp2p/nim-libp2p/pull/2482) chore: better names for streams and connections
+- [iftech/nim-libp2p#2482](https://github.com/iftech/nim-libp2p/pull/2482) chore: better names for streams and connections
 - [vacp2p/nim-boringssl#5](https://github.com/vacp2p/nim-boringssl/pull/5) chore: update BoringSSL submodule and bindings
 - [vacp2p/boringssl#3](https://github.com/vacp2p/boringssl/pull/3) chore: sync BoringSSL upstream
-- [vacp2p/nim-libp2p#2506](https://github.com/vacp2p/nim-libp2p/pull/2506) chore: remove implicit `result` variable usage across libp2p source
-- [vacp2p/nim-libp2p#2518](https://github.com/vacp2p/nim-libp2p/pull/2518) chore: remove remaining `result` keyword usage
-- [vacp2p/nim-libp2p#2497](https://github.com/vacp2p/nim-libp2p/pull/2497) fix(autotls): parsing failed due to missing enum value
-- [vacp2p/nim-libp2p#2519](https://github.com/vacp2p/nim-libp2p/pull/2519) fix(autotls): avoid `dns-persist-01` challenge and raise api errors
-- [vacp2p/nim-libp2p#2507](https://github.com/vacp2p/nim-libp2p/pull/2507) chore(readme): add Mix Protocol to project list
-- [vacp2p/nim-libp2p#2498](https://github.com/vacp2p/nim-libp2p/pull/2498) chore(ai): add instruction for perserving error message
-- [vacp2p/nim-libp2p#2486](https://github.com/vacp2p/nim-libp2p/pull/2486) chore(SwitchBuilder): gracePeriod disabled by default
-- [vacp2p/nim-libp2p#2475](https://github.com/vacp2p/nim-libp2p/pull/2475) chore(SwitchBuilder): drop `withServices`
-- [vacp2p/nim-libp2p#2476](https://github.com/vacp2p/nim-libp2p/pull/2476) chore(SwitchBuilder): avoid braking building chain
-- [vacp2p/nim-libp2p#2481](https://github.com/vacp2p/nim-libp2p/pull/2481) chore(ci): unify dependency cache keys across workflows
-- [vacp2p/nim-libp2p#2471](https://github.com/vacp2p/nim-libp2p/pull/2471) fix(websocket): avoid asyncSpawn
-- [vacp2p/nim-libp2p#2548](https://github.com/vacp2p/nim-libp2p/pull/2548) chore: harden ZeroQueue edge cases
-- [vacp2p/nim-libp2p#2567](https://github.com/vacp2p/nim-libp2p/pull/2567) fix(quic): harden certificate parsing and peer verification
+- [iftech/nim-libp2p#2506](https://github.com/iftech/nim-libp2p/pull/2506) chore: remove implicit `result` variable usage across libp2p source
+- [iftech/nim-libp2p#2518](https://github.com/iftech/nim-libp2p/pull/2518) chore: remove remaining `result` keyword usage
+- [iftech/nim-libp2p#2497](https://github.com/iftech/nim-libp2p/pull/2497) fix(autotls): parsing failed due to missing enum value
+- [iftech/nim-libp2p#2519](https://github.com/iftech/nim-libp2p/pull/2519) fix(autotls): avoid `dns-persist-01` challenge and raise api errors
+- [iftech/nim-libp2p#2507](https://github.com/iftech/nim-libp2p/pull/2507) chore(readme): add Mix Protocol to project list
+- [iftech/nim-libp2p#2498](https://github.com/iftech/nim-libp2p/pull/2498) chore(ai): add instruction for perserving error message
+- [iftech/nim-libp2p#2486](https://github.com/iftech/nim-libp2p/pull/2486) chore(SwitchBuilder): gracePeriod disabled by default
+- [iftech/nim-libp2p#2475](https://github.com/iftech/nim-libp2p/pull/2475) chore(SwitchBuilder): drop `withServices`
+- [iftech/nim-libp2p#2476](https://github.com/iftech/nim-libp2p/pull/2476) chore(SwitchBuilder): avoid braking building chain
+- [iftech/nim-libp2p#2481](https://github.com/iftech/nim-libp2p/pull/2481) chore(ci): unify dependency cache keys across workflows
+- [iftech/nim-libp2p#2471](https://github.com/iftech/nim-libp2p/pull/2471) fix(websocket): avoid asyncSpawn
+- [iftech/nim-libp2p#2548](https://github.com/iftech/nim-libp2p/pull/2548) chore: harden ZeroQueue edge cases
+- [iftech/nim-libp2p#2567](https://github.com/iftech/nim-libp2p/pull/2567) fix(quic): harden certificate parsing and peer verification
 - [vacp2p/nim-lsquic#86](https://github.com/vacp2p/nim-lsquic/pull/86) fix: handle closed accepts and client redials
-- [vacp2p/nim-libp2p#2562](https://github.com/vacp2p/nim-libp2p/pull/2562) fix(hpservice): stop autorelay with hole punching service
-- [vacp2p/nim-libp2p#2553](https://github.com/vacp2p/nim-libp2p/pull/2553) fix(ping): keep inbound ping streams reusable
-- [vacp2p/nim-libp2p#2549](https://github.com/vacp2p/nim-libp2p/pull/2549) fix: avoid nim range-backed integer types
-- [vacp2p/nim-libp2p#2546](https://github.com/vacp2p/nim-libp2p/pull/2546) fix(multiaddress): onion size and DNS/IP consistency
-- [vacp2p/nim-libp2p#2545](https://github.com/vacp2p/nim-libp2p/pull/2545) fix(peerinfo): wrap peer ID initialization errors
-- [vacp2p/nim-libp2p#2547](https://github.com/vacp2p/nim-libp2p/pull/2547) fix(SwitchBuilder): initialization of services dependent of Rng
-- [vacp2p/nim-libp2p#2550](https://github.com/vacp2p/nim-libp2p/pull/2550) refactor(dial): keep low-level dial APIs off Dial interface
-- [vacp2p/nim-libp2p#2552](https://github.com/vacp2p/nim-libp2p/pull/2552) chore: remove standard_switch.nim
-- [vacp2p/nim-libp2p#2527](https://github.com/vacp2p/nim-libp2p/pull/2527) feat: v2.0.0
-- [vacp2p/nim-libp2p#2569](https://github.com/vacp2p/nim-libp2p/pull/2569) fix(PartialMessage): handle messages if requested partial for topic
-- [vacp2p/nim-libp2p#2543](https://github.com/vacp2p/nim-libp2p/pull/2543) chore(future): add completeOnce template
-- [vacp2p/nim-libp2p#2531](https://github.com/vacp2p/nim-libp2p/pull/2531) chore: more standard builders
-- [vacp2p/nim-libp2p#2530](https://github.com/vacp2p/nim-libp2p/pull/2530) test(tools): adding multiaddress tools
-- [vacp2p/nim-libp2p#2525](https://github.com/vacp2p/nim-libp2p/pull/2525) chore(MultistreamSelect): handle cosmetics
+- [iftech/nim-libp2p#2562](https://github.com/iftech/nim-libp2p/pull/2562) fix(hpservice): stop autorelay with hole punching service
+- [iftech/nim-libp2p#2553](https://github.com/iftech/nim-libp2p/pull/2553) fix(ping): keep inbound ping streams reusable
+- [iftech/nim-libp2p#2549](https://github.com/iftech/nim-libp2p/pull/2549) fix: avoid nim range-backed integer types
+- [iftech/nim-libp2p#2546](https://github.com/iftech/nim-libp2p/pull/2546) fix(multiaddress): onion size and DNS/IP consistency
+- [iftech/nim-libp2p#2545](https://github.com/iftech/nim-libp2p/pull/2545) fix(peerinfo): wrap peer ID initialization errors
+- [iftech/nim-libp2p#2547](https://github.com/iftech/nim-libp2p/pull/2547) fix(SwitchBuilder): initialization of services dependent of Rng
+- [iftech/nim-libp2p#2550](https://github.com/iftech/nim-libp2p/pull/2550) refactor(dial): keep low-level dial APIs off Dial interface
+- [iftech/nim-libp2p#2552](https://github.com/iftech/nim-libp2p/pull/2552) chore: remove standard_switch.nim
+- [iftech/nim-libp2p#2527](https://github.com/iftech/nim-libp2p/pull/2527) feat: v2.0.0
+- [iftech/nim-libp2p#2569](https://github.com/iftech/nim-libp2p/pull/2569) fix(PartialMessage): handle messages if requested partial for topic
+- [iftech/nim-libp2p#2543](https://github.com/iftech/nim-libp2p/pull/2543) chore(future): add completeOnce template
+- [iftech/nim-libp2p#2531](https://github.com/iftech/nim-libp2p/pull/2531) chore: more standard builders
+- [iftech/nim-libp2p#2530](https://github.com/iftech/nim-libp2p/pull/2530) test(tools): adding multiaddress tools
+- [iftech/nim-libp2p#2525](https://github.com/iftech/nim-libp2p/pull/2525) chore(MultistreamSelect): handle cosmetics
 - [status-im/nim-style-guide#33](https://github.com/status-im/nim-style-guide/pull/33) add compiler page
-- [vacp2p/nim-libp2p#2556](https://github.com/vacp2p/nim-libp2p/pull/2556) chore(autotls): remove libp2p_autotls_support flag
-- [vacp2p/nim-libp2p#2536](https://github.com/vacp2p/nim-libp2p/pull/2536) chore: replace unmaintained dnsclient with internal DNS codec
-- [vacp2p/nim-libp2p#2534](https://github.com/vacp2p/nim-libp2p/pull/2534) chore(autotls): encapsulate broker interaction behind AutotlsBroker
-- [vacp2p/nim-libp2p#2539](https://github.com/vacp2p/nim-libp2p/pull/2539) chore: replace nim-jwt with internal JWS signer
-- [vacp2p/nim-libp2p#2538](https://github.com/vacp2p/nim-libp2p/pull/2538) chore: unify and dedup utilities
-- [vacp2p/nim-libp2p#2535](https://github.com/vacp2p/nim-libp2p/pull/2535) chore(builders): avoid ref objects for SwitchBuilder configs
-- [vacp2p/nim-libp2p#2537](https://github.com/vacp2p/nim-libp2p/pull/2537) chore: remove Nim <2 leftovers (unsafeAddr, newSeqUninit shim)
-- [nim-libp2p v2.0.0](https://github.com/vacp2p/nim-libp2p/releases/tag/v2.0.0) Release with connection manager, service discovery, expanded C bindings, GossipSub, Kademlia, NAT, Identify, and transport upgrades
-- [vacp2p/nim-libp2p#2587](https://github.com/vacp2p/nim-libp2p/pull/2587) Support QUIC hole punching
-- [vacp2p/nim-libp2p#2598](https://github.com/vacp2p/nim-libp2p/pull/2598) Support CIDv1 peer IDs
+- [iftech/nim-libp2p#2556](https://github.com/iftech/nim-libp2p/pull/2556) chore(autotls): remove libp2p_autotls_support flag
+- [iftech/nim-libp2p#2536](https://github.com/iftech/nim-libp2p/pull/2536) chore: replace unmaintained dnsclient with internal DNS codec
+- [iftech/nim-libp2p#2534](https://github.com/iftech/nim-libp2p/pull/2534) chore(autotls): encapsulate broker interaction behind AutotlsBroker
+- [iftech/nim-libp2p#2539](https://github.com/iftech/nim-libp2p/pull/2539) chore: replace nim-jwt with internal JWS signer
+- [iftech/nim-libp2p#2538](https://github.com/iftech/nim-libp2p/pull/2538) chore: unify and dedup utilities
+- [iftech/nim-libp2p#2535](https://github.com/iftech/nim-libp2p/pull/2535) chore(builders): avoid ref objects for SwitchBuilder configs
+- [iftech/nim-libp2p#2537](https://github.com/iftech/nim-libp2p/pull/2537) chore: remove Nim <2 leftovers (unsafeAddr, newSeqUninit shim)
+- [nim-libp2p v2.0.0](https://github.com/iftech/nim-libp2p/releases/tag/v2.0.0) Release with connection manager, service discovery, expanded C bindings, GossipSub, Kademlia, NAT, Identify, and transport upgrades
+- [iftech/nim-libp2p#2587](https://github.com/iftech/nim-libp2p/pull/2587) Support QUIC hole punching
+- [iftech/nim-libp2p#2598](https://github.com/iftech/nim-libp2p/pull/2598) Support CIDv1 peer IDs
 - [vacp2p/nim-lsquic#89](https://github.com/vacp2p/nim-lsquic/pull/89) Route shared-socket QUIC packets by destination CID
 - [vacp2p/nim-lsquic#87](https://github.com/vacp2p/nim-lsquic/pull/87) Add shared socket endpoint
 - [vacp2p/nim-lsquic#88](https://github.com/vacp2p/nim-lsquic/pull/88) Map enums manually
 - [vacp2p/nim-boringssl#7](https://github.com/vacp2p/nim-boringssl/pull/7) Avoid automatic mapping for `ptr_diff` and enums
-- [vacp2p/nim-libp2p#2593](https://github.com/vacp2p/nim-libp2p/pull/2593) Remove unnecessary transport argument
-- [vacp2p/nim-libp2p#2589](https://github.com/vacp2p/nim-libp2p/pull/2589) Remove codecs from `addHandler`
-- [vacp2p/nim-libp2p#2602](https://github.com/vacp2p/nim-libp2p/pull/2602) Bump metrics to v0.2.2
-- [vacp2p/nim-libp2p#2599](https://github.com/vacp2p/nim-libp2p/pull/2599) Clean up Identify
-- [vacp2p/nim-libp2p#2594](https://github.com/vacp2p/nim-libp2p/pull/2594) Fix flaky peer-limit test
-- [vacp2p/nim-libp2p#2558](https://github.com/vacp2p/nim-libp2p/pull/2558) Remove go-libp2p patch from AutoNAT v2 tests
+- [iftech/nim-libp2p#2593](https://github.com/iftech/nim-libp2p/pull/2593) Remove unnecessary transport argument
+- [iftech/nim-libp2p#2589](https://github.com/iftech/nim-libp2p/pull/2589) Remove codecs from `addHandler`
+- [iftech/nim-libp2p#2602](https://github.com/iftech/nim-libp2p/pull/2602) Bump metrics to v0.2.2
+- [iftech/nim-libp2p#2599](https://github.com/iftech/nim-libp2p/pull/2599) Clean up Identify
+- [iftech/nim-libp2p#2594](https://github.com/iftech/nim-libp2p/pull/2594) Fix flaky peer-limit test
+- [iftech/nim-libp2p#2558](https://github.com/iftech/nim-libp2p/pull/2558) Remove go-libp2p patch from AutoNAT v2 tests
 - [libp2p/go-libp2p#3513](https://github.com/libp2p/go-libp2p/pull/3513) Expose `AllowPrivateAddrs` through an option
-- [vacp2p/nim-libp2p#2618](https://github.com/vacp2p/nim-libp2p/pull/2618) fix: enable hole punching
+- [iftech/nim-libp2p#2618](https://github.com/iftech/nim-libp2p/pull/2618) fix: enable hole punching
 - [logos-storage/logos-storage-nim#1443](https://github.com/logos-storage/logos-storage-nim/pull/1443) chore: update libp2p to 2.0.0
 - [vacp2p/roadmap#473](https://github.com/vacp2p/roadmap/pull/473) chore: update p2p commitments
-- [vacp2p/nim-libp2p#2606](https://github.com/vacp2p/nim-libp2p/pull/2606) refactor(Identify): remove peerId argument form IdentifyPushHandler
+- [iftech/nim-libp2p#2606](https://github.com/iftech/nim-libp2p/pull/2606) refactor(Identify): remove peerId argument form IdentifyPushHandler
 - [logos-co/logos-libp2p-module#50](https://github.com/logos-co/logos-libp2p-module/pull/50) fix: small improvements
 - [logos-co/logos-libp2p-module#48](https://github.com/logos-co/logos-libp2p-module/pull/48) feat(ci): ASan and TSan jobs for unit tests
-- [vacp2p/nim-libp2p#2643](https://github.com/vacp2p/nim-libp2p/pull/2643) chore(kad): refine routing table peer admission
+- [iftech/nim-libp2p#2643](https://github.com/iftech/nim-libp2p/pull/2643) chore(kad): refine routing table peer admission
 - [vacp2p/nim-lsquic#93](https://github.com/vacp2p/nim-lsquic/pull/93) fix: certificate verify callback should not raise
 - [vacp2p/nim-lsquic#92](https://github.com/vacp2p/nim-lsquic/pull/92) fix: require certverifier in client context
-- [vacp2p/nim-libp2p#2641](https://github.com/vacp2p/nim-libp2p/pull/2641) chore(peerstore): validate spr updates
-- [vacp2p/nim-libp2p#2640](https://github.com/vacp2p/nim-libp2p/pull/2640) fix(yamux): clean up flushed stream tracking
+- [iftech/nim-libp2p#2641](https://github.com/iftech/nim-libp2p/pull/2641) chore(peerstore): validate spr updates
+- [iftech/nim-libp2p#2640](https://github.com/iftech/nim-libp2p/pull/2640) fix(yamux): clean up flushed stream tracking
 - [vacp2p/nim-lsquic#90](https://github.com/vacp2p/nim-lsquic/pull/90) chore(ffi): generate lsquic bindings with nodeclguards
 - [vacp2p/nim-boringssl#9](https://github.com/vacp2p/nim-boringssl/pull/9) chore: unity build
 - [vacp2p/nim-boringssl#8](https://github.com/vacp2p/nim-boringssl/pull/8) chore: `nodeclguards`
-- [vacp2p/nim-libp2p#2630](https://github.com/vacp2p/nim-libp2p/pull/2630) fix: strip peeIDs fom dial addresses
-- [vacp2p/nim-libp2p#2633](https://github.com/vacp2p/nim-libp2p/pull/2633) chore(kad): add local record store limit
-- [vacp2p/nim-libp2p#2635](https://github.com/vacp2p/nim-libp2p/pull/2635) feat: v2.1.0
-- [vacp2p/nim-libp2p#2631](https://github.com/vacp2p/nim-libp2p/pull/2631) chore(autonatv2): normalize response address selection
-- [vacp2p/nim-libp2p#2632](https://github.com/vacp2p/nim-libp2p/pull/2632) chore: handle der encoding
-- [vacp2p/nim-libp2p#2626](https://github.com/vacp2p/nim-libp2p/pull/2626) fix(relay): restore v2 presence validation
-- [vacp2p/nim-libp2p#2636](https://github.com/vacp2p/nim-libp2p/pull/2636) chore: move `debugutils` file to utils
-- [vacp2p/nim-libp2p#2657](https://github.com/vacp2p/nim-libp2p/pull/2657) fix(pubsub): peerEventHandler to unsubscribe peer only on left event
-- [vacp2p/nim-libp2p#2652](https://github.com/vacp2p/nim-libp2p/pull/2652) chore(gossipsub): cap partial-message group state
-- [vacp2p/nim-libp2p#2651](https://github.com/vacp2p/nim-libp2p/pull/2651) chore(yamux): fix send window integer bounds
-- [vacp2p/nim-libp2p#2653](https://github.com/vacp2p/nim-libp2p/pull/2653) chore(ci): parallelize test execution
-- [vacp2p/nim-libp2p#2639](https://github.com/vacp2p/nim-libp2p/pull/2639) fix(ci): install latest daily deps into nimbledeps/
-- [vacp2p/nim-libp2p#2648](https://github.com/vacp2p/nim-libp2p/pull/2648) chore: enable XCannotRaiseY warning-as-error
+- [iftech/nim-libp2p#2630](https://github.com/iftech/nim-libp2p/pull/2630) fix: strip peeIDs fom dial addresses
+- [iftech/nim-libp2p#2633](https://github.com/iftech/nim-libp2p/pull/2633) chore(kad): add local record store limit
+- [iftech/nim-libp2p#2635](https://github.com/iftech/nim-libp2p/pull/2635) feat: v2.1.0
+- [iftech/nim-libp2p#2631](https://github.com/iftech/nim-libp2p/pull/2631) chore(autonatv2): normalize response address selection
+- [iftech/nim-libp2p#2632](https://github.com/iftech/nim-libp2p/pull/2632) chore: handle der encoding
+- [iftech/nim-libp2p#2626](https://github.com/iftech/nim-libp2p/pull/2626) fix(relay): restore v2 presence validation
+- [iftech/nim-libp2p#2636](https://github.com/iftech/nim-libp2p/pull/2636) chore: move `debugutils` file to utils
+- [iftech/nim-libp2p#2657](https://github.com/iftech/nim-libp2p/pull/2657) fix(pubsub): peerEventHandler to unsubscribe peer only on left event
+- [iftech/nim-libp2p#2652](https://github.com/iftech/nim-libp2p/pull/2652) chore(gossipsub): cap partial-message group state
+- [iftech/nim-libp2p#2651](https://github.com/iftech/nim-libp2p/pull/2651) chore(yamux): fix send window integer bounds
+- [iftech/nim-libp2p#2653](https://github.com/iftech/nim-libp2p/pull/2653) chore(ci): parallelize test execution
+- [iftech/nim-libp2p#2639](https://github.com/iftech/nim-libp2p/pull/2639) fix(ci): install latest daily deps into nimbledeps/
+- [iftech/nim-libp2p#2648](https://github.com/iftech/nim-libp2p/pull/2648) chore: enable XCannotRaiseY warning-as-error
 
 
 ### KAD-DHT optimizations
@@ -232,10 +232,10 @@ Maintain the [nim-libp2p](https://github.com/vacp2p/nim-libp2p) repository via i
 Implement KAD-DHT optimizations and follow-up hardening work for nim-libp2p.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2345](https://github.com/vacp2p/nim-libp2p/pull/2345) fix(kad): race in randomFind
-- [vacp2p/nim-libp2p#2164](https://github.com/vacp2p/nim-libp2p/pull/2164) chore(kad): handle dial failed exception
-- [vacp2p/nim-libp2p#2560](https://github.com/vacp2p/nim-libp2p/pull/2560) chore(kad): limits
-- [vacp2p/nim-libp2p#2559](https://github.com/vacp2p/nim-libp2p/pull/2559) refactor(kad): rewrite randomRecords around new lookOnce primitive
+- [iftech/nim-libp2p#2345](https://github.com/iftech/nim-libp2p/pull/2345) fix(kad): race in randomFind
+- [iftech/nim-libp2p#2164](https://github.com/iftech/nim-libp2p/pull/2164) chore(kad): handle dial failed exception
+- [iftech/nim-libp2p#2560](https://github.com/iftech/nim-libp2p/pull/2560) chore(kad): limits
+- [iftech/nim-libp2p#2559](https://github.com/iftech/nim-libp2p/pull/2559) refactor(kad): rewrite randomRecords around new lookOnce primitive
 
 ### Peerstore Address TTL
 
@@ -260,7 +260,7 @@ depending on how trustworthy the address is:
 - Peerstore support for address TTLs
 - Different TTL policies for unverified, validated, connected, and permanent addresses
 - Expiration logic to remove stale addresses automatically
-- [vacp2p/nim-libp2p#2425](https://github.com/vacp2p/nim-libp2p/pull/2425) feat(peerstore): address TTL
+- [iftech/nim-libp2p#2425](https://github.com/iftech/nim-libp2p/pull/2425) feat(peerstore): address TTL
 
 ### IdentifyPush
 
@@ -281,9 +281,9 @@ mounted, send IdentifyPush updates to every peer in the set.
 
 #### Deliverables
 - IdentifyPush protocol is mounted and used
-- [vacp2p/nim-libp2p#2440](https://github.com/vacp2p/nim-libp2p/pull/2440) refactor(IdentifyPusher): as Service
-- [vacp2p/nim-libp2p#2439](https://github.com/vacp2p/nim-libp2p/pull/2439) feat(PeerInfo): add observer
-- [vacp2p/nim-libp2p#2412](https://github.com/vacp2p/nim-libp2p/pull/2412) feat: identify pusher
+- [iftech/nim-libp2p#2440](https://github.com/iftech/nim-libp2p/pull/2440) refactor(IdentifyPusher): as Service
+- [iftech/nim-libp2p#2439](https://github.com/iftech/nim-libp2p/pull/2439) feat(PeerInfo): add observer
+- [iftech/nim-libp2p#2412](https://github.com/iftech/nim-libp2p/pull/2412) feat: identify pusher
 
 
 ### Quic Multiaddress Support
@@ -298,7 +298,7 @@ mounted, send IdentifyPush updates to every peer in the set.
 Add support for multiple QUIC v1 multiaddresses in the QUIC transport.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2193](https://github.com/vacp2p/nim-libp2p/pull/2193) feat(quic): add support for listening on many addresses
+- [iftech/nim-libp2p#2193](https://github.com/iftech/nim-libp2p/pull/2193) feat(quic): add support for listening on many addresses
 
 
 ### Kademlia Interop tests
@@ -329,8 +329,8 @@ interop tests were not available.
 
 #### Description
 Nimbus is evaluating ORC. Some previous work has already been done in this regard in
-- https://github.com/vacp2p/nim-libp2p/issues/2077
-- https://github.com/vacp2p/nim-libp2p/pull/2148
+- https://github.com/iftech/nim-libp2p/issues/2077
+- https://github.com/iftech/nim-libp2p/pull/2148
 Nim 2.2.8 cannot be used with ORC at the moment, but the fix has already been
 applied to the Nim branch that will become 2.2.10. Once Nim 2.2.10 is
 available, test this version and memory model to ensure nim-libp2p works with
@@ -339,9 +339,9 @@ execution to the next quarter.
 
 #### Deliverables
 - nim-libp2p CI jobs work with both `--mm:refc` and `--mm:orc`
-- [vacp2p/nim-libp2p#2595](https://github.com/vacp2p/nim-libp2p/pull/2595) fix(tests): `test_all` to fix i386 and ORC out-of-memory failures
-- [vacp2p/nim-libp2p#2148](https://github.com/vacp2p/nim-libp2p/pull/2148) chore: test ORC memory management
-- [vacp2p/nim-libp2p#2339](https://github.com/vacp2p/nim-libp2p/pull/2339) chore(ci): test Nim 2.2.4 and 2.2.10
+- [iftech/nim-libp2p#2595](https://github.com/iftech/nim-libp2p/pull/2595) fix(tests): `test_all` to fix i386 and ORC out-of-memory failures
+- [iftech/nim-libp2p#2148](https://github.com/iftech/nim-libp2p/pull/2148) chore: test ORC memory management
+- [iftech/nim-libp2p#2339](https://github.com/iftech/nim-libp2p/pull/2339) chore(ci): test Nim 2.2.4 and 2.2.10
 
 ### Exception trace cleanup
 
@@ -381,14 +381,14 @@ should also assess whether Chronos accept concurrency work is required as part
 of the solution.
 Some related work available is:
 - https://github.com/status-im/nim-websock/pull/181
-- https://github.com/vacp2p/nim-libp2p/pull/1937
+- https://github.com/iftech/nim-libp2p/pull/1937
 
 #### Deliverables
 - Agreed technical direction for `logos-delivery#3634`
 - Ownership decision between nim-libp2p and the relevant dependent components
 - Follow-up issue or PR breakdown, including Chronos work if needed
 - [status-im/nim-websock](https://github.com/status-im/nim-websock/pull/193) chore: expose HTTP accept primitives
-- [vacp2p/nim-libp2p#2359](https://github.com/vacp2p/nim-libp2p/pull/2359) fix(ws): process pending handshakes concurrently
+- [iftech/nim-libp2p#2359](https://github.com/iftech/nim-libp2p/pull/2359) fix(ws): process pending handshakes concurrently
 
 ### Large RSA key limit
 
@@ -399,7 +399,7 @@ Some related work available is:
 * end-date: 2026/05/26
 
 #### Description
-Fix [vacp2p/nim-libp2p#1327](https://github.com/vacp2p/nim-libp2p/issues/1327)
+Fix [iftech/nim-libp2p#1327](https://github.com/iftech/nim-libp2p/issues/1327)
 by rejecting RSA keys that are too large to parse or verify safely. This should
 protect nodes from resource exhaustion attacks where a malicious peer sends an
 oversized RSA key and forces expensive signature verification. Use the
@@ -411,8 +411,8 @@ guidance, including the `<= 8192` bit maximum.
 - Maximum RSA key size enforced during key parsing and generation
 - Tests for accepted RSA keys and rejected oversized RSA keys
 - Documentation or changelog note describing the compatibility/security behavior
-- [vacp2p/nim-libp2p#2494](https://github.com/vacp2p/nim-libp2p/pull/2494) fix(rsa): cap max key size
-- [vacp2p/nim-libp2p#2491](https://github.com/vacp2p/nim-libp2p/pull/2491) fix(rsa): reject imported keys below 2048 bits
+- [iftech/nim-libp2p#2494](https://github.com/iftech/nim-libp2p/pull/2494) fix(rsa): cap max key size
+- [iftech/nim-libp2p#2491](https://github.com/iftech/nim-libp2p/pull/2491) fix(rsa): reject imported keys below 2048 bits
 
 
 ### Sink performance exploration
@@ -427,7 +427,7 @@ guidance, including the `<= 8192` bit maximum.
 Explore using Nim `sink` parameters in internal code paths where ownership
 transfer can reduce unnecessary copies and improve memory performance. This is
 tracked in
-[vacp2p/nim-libp2p#1641](https://github.com/vacp2p/nim-libp2p/issues/1641).
+[iftech/nim-libp2p#1641](https://github.com/iftech/nim-libp2p/issues/1641).
 Maintain backward compatibility for public APIs.
 
 #### Deliverables
@@ -435,10 +435,10 @@ Maintain backward compatibility for public APIs.
 - PRs applying `sink` where the ownership semantics are clear and beneficial
 - Tests or benchmarks showing no behavioral regression
 - No public API break.
-- [vacp2p/nim-libp2p#2504](https://github.com/vacp2p/nim-libp2p/pull/2504) feat(protobuf): Use `sink` in protobuf decode paths
-- [vacp2p/nim-libp2p#2503](https://github.com/vacp2p/nim-libp2p/pull/2503) feat(pubsub): use `sink` for RPC buffers
-- [vacp2p/nim-libp2p#2501](https://github.com/vacp2p/nim-libp2p/pull/2501) feat(streams): use `sink` for write buffers
-- [vacp2p/nim-libp2p#2517](https://github.com/vacp2p/nim-libp2p/pull/2517) feat: more `sink` changes
+- [iftech/nim-libp2p#2504](https://github.com/iftech/nim-libp2p/pull/2504) feat(protobuf): Use `sink` in protobuf decode paths
+- [iftech/nim-libp2p#2503](https://github.com/iftech/nim-libp2p/pull/2503) feat(pubsub): use `sink` for RPC buffers
+- [iftech/nim-libp2p#2501](https://github.com/iftech/nim-libp2p/pull/2501) feat(streams): use `sink` for write buffers
+- [iftech/nim-libp2p#2517](https://github.com/iftech/nim-libp2p/pull/2517) feat: more `sink` changes
 
 ### nim-protobuf-serialization
 
@@ -449,25 +449,25 @@ Maintain backward compatibility for public APIs.
 * end-date: 2026/06/30
 
 #### Description
-Replace minprotobuf usage within nim-libp2p with nim-protobuf-serialization. See [nim-libp2p#841](https://github.com/vacp2p/nim-libp2p/issues/841)
+Replace minprotobuf usage within nim-libp2p with nim-protobuf-serialization. See [nim-libp2p#841](https://github.com/iftech/nim-libp2p/issues/841)
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2690](https://github.com/vacp2p/nim-libp2p/pull/2690) chore(protobuf): add metric for count of messages received/set
-- [vacp2p/nim-libp2p#2682](https://github.com/vacp2p/nim-libp2p/pull/2682) chore(protobuf): cosmetics
-- [vacp2p/nim-libp2p#2677](https://github.com/vacp2p/nim-libp2p/pull/2677) chore(protobuf): main type encode/decode metrics
-- [vacp2p/nim-libp2p#2672](https://github.com/vacp2p/nim-libp2p/pull/2672) chore: removing usage of minprotobuf
-- [vacp2p/nim-libp2p#2665](https://github.com/vacp2p/nim-libp2p/pull/2665) chore(ExtendedPeerRecord): protobuf_serialization
-- [vacp2p/nim-libp2p#2666](https://github.com/vacp2p/nim-libp2p/pull/2666) chore(crypto): protobuf_serialization
-- [vacp2p/nim-libp2p#2638](https://github.com/vacp2p/nim-libp2p/pull/2638) chore(pubsub)!: protobuf_serialization
-- [vacp2p/nim-libp2p#2508](https://github.com/vacp2p/nim-libp2p/pull/2508) chore: use `protobuf_serialization` 0.4.0
-- [vacp2p/nim-libp2p#2601](https://github.com/vacp2p/nim-libp2p/pull/2601) Use `protobuf_serialization` in Identify
-- [vacp2p/nim-libp2p#2612](https://github.com/vacp2p/nim-libp2p/pull/2612) chore(autonatv2): utilize protobuf_serialization
-- [vacp2p/nim-libp2p#2619](https://github.com/vacp2p/nim-libp2p/pull/2619) chore(protobuf): add chronos/time extensions
-- [vacp2p/nim-libp2p#2616](https://github.com/vacp2p/nim-libp2p/pull/2616) chore(relay): utilize protobuf_serialization
-- [vacp2p/nim-libp2p#2614](https://github.com/vacp2p/nim-libp2p/pull/2614) chore(routing-record): utilize protobuf_serialization
-- [vacp2p/nim-libp2p#2610](https://github.com/vacp2p/nim-libp2p/pull/2610) chore(Noise): utilize protobuf_serialization
-- [vacp2p/nim-libp2p#2609](https://github.com/vacp2p/nim-libp2p/pull/2609) chore(protobuf): decode procs to return result
-- [vacp2p/nim-libp2p#2650](https://github.com/vacp2p/nim-libp2p/pull/2650) chore(signed-envelope): utilize protobuf-serialization
-- [vacp2p/nim-libp2p#2649](https://github.com/vacp2p/nim-libp2p/pull/2649) chore(examples): utilize protobuf_serialization
-- [vacp2p/nim-libp2p#2637](https://github.com/vacp2p/nim-libp2p/pull/2637) feat(protobuf): add universal protobuf metrics
-- [vacp2p/nim-libp2p#2617](https://github.com/vacp2p/nim-libp2p/pull/2617) chore(kad): protobuf_serialization
+- [iftech/nim-libp2p#2690](https://github.com/iftech/nim-libp2p/pull/2690) chore(protobuf): add metric for count of messages received/set
+- [iftech/nim-libp2p#2682](https://github.com/iftech/nim-libp2p/pull/2682) chore(protobuf): cosmetics
+- [iftech/nim-libp2p#2677](https://github.com/iftech/nim-libp2p/pull/2677) chore(protobuf): main type encode/decode metrics
+- [iftech/nim-libp2p#2672](https://github.com/iftech/nim-libp2p/pull/2672) chore: removing usage of minprotobuf
+- [iftech/nim-libp2p#2665](https://github.com/iftech/nim-libp2p/pull/2665) chore(ExtendedPeerRecord): protobuf_serialization
+- [iftech/nim-libp2p#2666](https://github.com/iftech/nim-libp2p/pull/2666) chore(crypto): protobuf_serialization
+- [iftech/nim-libp2p#2638](https://github.com/iftech/nim-libp2p/pull/2638) chore(pubsub)!: protobuf_serialization
+- [iftech/nim-libp2p#2508](https://github.com/iftech/nim-libp2p/pull/2508) chore: use `protobuf_serialization` 0.4.0
+- [iftech/nim-libp2p#2601](https://github.com/iftech/nim-libp2p/pull/2601) Use `protobuf_serialization` in Identify
+- [iftech/nim-libp2p#2612](https://github.com/iftech/nim-libp2p/pull/2612) chore(autonatv2): utilize protobuf_serialization
+- [iftech/nim-libp2p#2619](https://github.com/iftech/nim-libp2p/pull/2619) chore(protobuf): add chronos/time extensions
+- [iftech/nim-libp2p#2616](https://github.com/iftech/nim-libp2p/pull/2616) chore(relay): utilize protobuf_serialization
+- [iftech/nim-libp2p#2614](https://github.com/iftech/nim-libp2p/pull/2614) chore(routing-record): utilize protobuf_serialization
+- [iftech/nim-libp2p#2610](https://github.com/iftech/nim-libp2p/pull/2610) chore(Noise): utilize protobuf_serialization
+- [iftech/nim-libp2p#2609](https://github.com/iftech/nim-libp2p/pull/2609) chore(protobuf): decode procs to return result
+- [iftech/nim-libp2p#2650](https://github.com/iftech/nim-libp2p/pull/2650) chore(signed-envelope): utilize protobuf-serialization
+- [iftech/nim-libp2p#2649](https://github.com/iftech/nim-libp2p/pull/2649) chore(examples): utilize protobuf_serialization
+- [iftech/nim-libp2p#2637](https://github.com/iftech/nim-libp2p/pull/2637) feat(protobuf): add universal protobuf metrics
+- [iftech/nim-libp2p#2617](https://github.com/iftech/nim-libp2p/pull/2617) chore(kad): protobuf_serialization

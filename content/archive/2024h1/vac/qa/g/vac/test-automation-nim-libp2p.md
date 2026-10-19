@@ -30,7 +30,7 @@ gantt
 
 ### Description
 
-Add tests and increase coverage for all the [modules](https://github.com/vacp2p/nim-libp2p?tab=readme-ov-file#modules) implemented in nim libp2p
+Add tests and increase coverage for all the [modules](https://github.com/iftech/nim-libp2p?tab=readme-ov-file#modules) implemented in nim libp2p
 
 ### Justification
 

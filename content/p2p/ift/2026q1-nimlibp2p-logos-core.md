@@ -32,17 +32,17 @@ Using the c-bindings module from nim-libp2p, develop a logos module that would a
 to be used in logos.
 
 #### Deliverables
-- [vacp2p/nim-libp2p#2136](https://github.com/vacp2p/nim-libp2p/pull/2136) feat(cbind): add connection limits
-- [vacp2p/nim-libp2p#2137](https://github.com/vacp2p/nim-libp2p/pull/2137) feat(cbind): add circuit relay, autonat
-- [vacp2p/nim-libp2p#2131](https://github.com/vacp2p/nim-libp2p/pull/2131) feat(cbind): withAddresses, multiplexers
-- [vacp2p/nim-libp2p#2132](https://github.com/vacp2p/nim-libp2p/pull/2132) feat(cbind): add multiplexer
-- [vacp2p/nim-libp2p#2130](https://github.com/vacp2p/nim-libp2p/pull/2130) chore(cbind): remove duplicate flags
+- [iftech/nim-libp2p#2136](https://github.com/iftech/nim-libp2p/pull/2136) feat(cbind): add connection limits
+- [iftech/nim-libp2p#2137](https://github.com/iftech/nim-libp2p/pull/2137) feat(cbind): add circuit relay, autonat
+- [iftech/nim-libp2p#2131](https://github.com/iftech/nim-libp2p/pull/2131) feat(cbind): withAddresses, multiplexers
+- [iftech/nim-libp2p#2132](https://github.com/iftech/nim-libp2p/pull/2132) feat(cbind): add multiplexer
+- [iftech/nim-libp2p#2130](https://github.com/iftech/nim-libp2p/pull/2130) chore(cbind): remove duplicate flags
 - [logos-co/logos-libp2p-module#26](https://github.com/logos-co/logos-libp2p-module/pull/26) feat: add gossipsub
 - [logos-co/logos-libp2p-module#25](https://github.com/logos-co/logos-libp2p-module/pull/25) docs: add sync function return types
 - [logos-co/logos-libp2p-module#23](https://github.com/logos-co/logos-libp2p-module/pull/23) feat(ci): add windows
 - [logos-co/logos-libp2p-module#18](https://github.com/logos-co/logos-libp2p-module/pull/18) feat: add mix functions
 - [logos-co/logos-libp2p-module#22](https://github.com/logos-co/logos-libp2p-module/pull/22) chore(mix): integration tests and examples
-- [vacp2p/nim-libp2p#2123](https://github.com/vacp2p/nim-libp2p/pull/2123) fix(cbind): various
+- [iftech/nim-libp2p#2123](https://github.com/iftech/nim-libp2p/pull/2123) fix(cbind): various
 - [logos-co/logos-libp2p-module#19](https://github.com/logos-co/logos-libp2p-module/pull/19) fix: macos CI
 - [logos-co/logos-libp2p-module#20](https://github.com/logos-co/logos-libp2p-module/pull/20) fix: increase timeout for failing sync op in linux aarch64
 - [logos-co/logos-libp2p-module#21](https://github.com/logos-co/logos-libp2p-module/pull/21) fix: ci.yml
@@ -56,9 +56,9 @@ to be used in logos.
 - [logos-co/logos-libp2p-module#9](https://github.com/logos-co/logos-libp2p-module/pull/9) feat(kad): add kademlia functions
 - [logos-co/logos-libp2p-module#8](https://github.com/logos-co/logos-libp2p-module/pull/8) feat(kad): add provider tests
 - [logos-co/logos-libp2p-module#6](https://github.com/logos-co/logos-libp2p-module/pull/6) chore(test): add nix check and ci tests
-- [vacp2p/nim-libp2p#2065](https://github.com/vacp2p/nim-libp2p/pull/2065) chore(cbind): add private key
+- [iftech/nim-libp2p#2065](https://github.com/iftech/nim-libp2p/pull/2065) chore(cbind): add private key
 - [logos-co/logos-libp2p-module#3](https://github.com/logos-co/logos-libp2p-module/pull/3) feat: minimal module
-- [vacp2p/nim-libp2p#2026](https://github.com/vacp2p/nim-libp2p/pull/2026) feat(nix): build cbindings
+- [iftech/nim-libp2p#2026](https://github.com/iftech/nim-libp2p/pull/2026) feat(nix): build cbindings
 - [logos-co/logos-libp2p-module#2](https://github.com/logos-co/logos-libp2p-module/pull/2) feat(nix): build from libp2p's nix file
 - [logos-co/logos-libp2p-module#1](https://github.com/logos-co/logos-libp2p-module/pull/1) chore: add initial libp2p lib and wrappers
 - Logos core module 
