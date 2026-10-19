@@ -11,7 +11,7 @@
 <ul>
 <li><code>ift:2025q1-gossipsub-perf-improvements</code>
 <ul>
-<li>Worked on GossipSub v1.4 production implementation. First <a href="https://github.com/vacp2p/nim-libp2p/pull/1448" class="external external-link" data-link-type="github" data-github-type="pr">PR is here<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
+<li>Worked on GossipSub v1.4 production implementation. First <a href="https://github.com/iftech/nim-libp2p/pull/1448" class="external external-link" data-link-type="github" data-github-type="pr">PR is here<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.
 <ul>
 <li>Still need to add safety strategy (Will need 1-2 days more).</li>
 </ul>
@@ -39,7 +39,7 @@
 </li>
 <li><code>vac:p2p:ift:2025q2-nimlibp2p-maintenance:maintenance</code>
 <ul>
-<li>investigated <a href="https://github.com/vacp2p/nim-libp2p/pull/1367" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1367<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: hole punching interop tests stopped working
+<li>investigated <a href="https://github.com/iftech/nim-libp2p/pull/1367" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1367<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: hole punching interop tests stopped working
 <ul>
 <li>was able to run hp tests locally, with suprisngly small effort</li>
 <li>no other libp2p implementation has this implemented and working
@@ -52,8 +52,8 @@
 <li>suggestion: to postpone with futher efforts on making this work untill tests are fixed or there is some other implementation with working tests</li>
 </ul>
 </li>
-<li>chore(gossipsub): add consts <a href="https://github.com/vacp2p/nim-libp2p/pull/1447" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1447<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
-<li>fix(ci-daily): delete cache action will continue on error <a href="https://github.com/vacp2p/nim-libp2p/pull/1435" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1435<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>chore(gossipsub): add consts <a href="https://github.com/iftech/nim-libp2p/pull/1447" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1447<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>fix(ci-daily): delete cache action will continue on error <a href="https://github.com/iftech/nim-libp2p/pull/1435" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1435<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>work on <code>libp2p/test-plans</code>
 <ul>
 <li>implemented libp2p perf for nim
@@ -71,7 +71,7 @@
 </ul>
 </li>
 <li><a href="https://github.com/vacp2p/roadmap/pull/174" class="external external-link" data-link-type="github" data-github-type="pr">roadmap#174<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> wrote the universal connectivity app commitment for the roadmap</li>
-<li>Worked with Ivan from Waku on <a href="https://github.com/vacp2p/nim-libp2p/pull/1438" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1438<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<li>Worked with Ivan from Waku on <a href="https://github.com/iftech/nim-libp2p/pull/1438" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1438<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
 <ul>
 <li>The purpose was trying to figure out if a Future was not being completed.</li>
 <li>Ended up closign the PR due to not understanding correctly the behavior of the
@@ -83,7 +83,7 @@
 <li>@manushel from libp2p reported the chronicles 0.10.3 / 0.11.0 issue with interop. Ended up creating a PR -</li>
 </ul>
 </li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1439" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1439<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - Add <code>libp2p_network_bytes</code> metric to Quic</li>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1439" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1439<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - Add <code>libp2p_network_bytes</code> metric to Quic</li>
 <li>Managed to run the prometheus metrics with libp2p. Still trying to figure out what’s up with nim-libp2p memory usage when using quic. I might need to run pprof equivalent for nim, as nim-metrics does not display any useful metric</li>
 </ul>
 </li>
@@ -93,7 +93,7 @@
 - The problem seems to be happening in nimble and an opened <a href="https://github.com/nim-lang/nimble/issues/1403" class="external external-link" data-link-type="github" data-github-type="issue">nim-lang/nimble#1403<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> in nimble repo for @jmgomez</li>
 <li><code>vac:p2p:ift:2025q2-nimlibp2p-autotls</code>
 <ul>
-<li>Started to do <code>peeridauth</code> (this is a nice byproduct of autotls btw) <a href="https://github.com/vacp2p/nim-libp2p/pull/1445" class="external external-link" data-link-type="github" data-github-type="pr">#1445<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Started to do <code>peeridauth</code> (this is a nice byproduct of autotls btw) <a href="https://github.com/iftech/nim-libp2p/pull/1445" class="external external-link" data-link-type="github" data-github-type="pr">#1445<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>Submitted the AutoTLS Client spec to libp2p <a href="https://github.com/libp2p/specs/issues/682" class="external external-link" data-link-type="github" data-github-type="issue">#682<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 <li>addressed a couple grammar issues they found</li>
 <li><code>vac:p2p:ift:2025q2-nimlibp2p-webtransport:http3-client</code>
@@ -103,12 +103,12 @@
 </li>
 <li><code>vac:p2p:ift:2025q2-nimlibp2p-autotls:acme-registration</code>
 <ul>
-<li>merged in <a href="https://github.com/vacp2p/nim-libp2p/pull/1436" class="external external-link" data-link-type="github" data-github-type="pr">#1436<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>merged in <a href="https://github.com/iftech/nim-libp2p/pull/1436" class="external external-link" data-link-type="github" data-github-type="pr">#1436<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>vac:p2p:ift:2025q2-nimlibp2p-autotls:certificate-request-challenge</code>
 <ul>
-<li>merged in <a href="https://github.com/vacp2p/nim-libp2p/pull/1436" class="external external-link" data-link-type="github" data-github-type="pr">#1436<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>merged in <a href="https://github.com/iftech/nim-libp2p/pull/1436" class="external external-link" data-link-type="github" data-github-type="pr">#1436<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
@@ -230,10 +230,10 @@
 </li>
 <li><code>vac:2025q2-nim-libp2p-testing:gossipsub-extended-part2</code>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1431" class="external external-link" data-link-type="github" data-github-type="pr">test(gossipsub): message cache<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1437" class="external external-link" data-link-type="github" data-github-type="pr">test: checkUntilTimeout refactor<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1405" class="external external-link" data-link-type="github" data-github-type="pr">fix(GossipSub): save sent iHave in first element<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1442" class="external external-link" data-link-type="github" data-github-type="pr">test(gossipsub): paremeters<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1431" class="external external-link" data-link-type="github" data-github-type="pr">test(gossipsub): message cache<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1437" class="external external-link" data-link-type="github" data-github-type="pr">test: checkUntilTimeout refactor<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1405" class="external external-link" data-link-type="github" data-github-type="pr">fix(GossipSub): save sent iHave in first element<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1442" class="external external-link" data-link-type="github" data-github-type="pr">test(gossipsub): paremeters<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
 </ul>
 </li>
 <li><code>waku:2025q2-status-go-functional-testing:group-chats-tests</code>
@@ -360,7 +360,7 @@
 <li>Reviewed and commented on <a href="https://github.com/vacp2p/mix/issues/24" class="external external-link" data-link-type="github" data-github-type="issue">Issue #24<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>.</li>
 </ul>
 </li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1420" class="external external-link" data-link-type="github" data-github-type="pr">PR #1420<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1420" class="external external-link" data-link-type="github" data-github-type="pr">PR #1420<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
 <ul>
 <li>Incrementally reintroduced changes to isolate and resolve prior GossipSub test and CI failures.</li>
 <li>Made PR stable and ready for review.</li>

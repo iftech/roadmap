@@ -32,13 +32,13 @@
 </li>
 <li><code>ift:2025q3-nimlibp2p-maintenance:maintenance</code>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1645" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1645<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> fix: dont send GoAway for unknown streams and mark streams as closed on conn close
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1645" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1645<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> fix: dont send GoAway for unknown streams and mark streams as closed on conn close
 <ul>
 <li>Issue reported by @Ivansete: streams were not being marked as closed on disconnect</li>
 <li>I noticed that a GoAway was being sent once streams were being closed, causing other active streams to be dropped as well</li>
 </ul>
 </li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1647" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1647<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> chore: temporarily disable performance plots from being published
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1647" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1647<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> chore: temporarily disable performance plots from being published
 <ul>
 <li>Issue reported by @arnetheduck: libp2p repository exceeded 500mb</li>
 <li>I’ll ask Infra to setup some storage where we could push the performance reports</li>
@@ -56,16 +56,16 @@
 <li>chore: unused imports as errors <a href="https://github.com/vacp2p/nim-quic/pull/111" class="external external-link" data-link-type="github" data-github-type="pr">nim-quic#111<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
-<li>resolved issues related to <code>read()</code> ocasionally locking <a href="https://github.com/vacp2p/nim-libp2p/issues/1636" class="external external-link" data-link-type="github" data-github-type="issue">nim-libp2p#1636<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
+<li>resolved issues related to <code>read()</code> ocasionally locking <a href="https://github.com/iftech/nim-libp2p/issues/1636" class="external external-link" data-link-type="github" data-github-type="issue">nim-libp2p#1636<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>
 <ul>
-<li>tested and merged: chore(perf): follow up for PR#1600 <a href="https://github.com/vacp2p/nim-libp2p/pull/1620" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1620<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>tested and merged: chore(perf): follow up for PR#1600 <a href="https://github.com/iftech/nim-libp2p/pull/1620" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1620<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li><code>ift:2025q3-nimlibp2p-autonatv2</code>
 <ul>
-<li>Merged AutonatV2 message types <a href="https://github.com/vacp2p/nim-libp2p/pull/1637" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1637<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+<li>Merged AutonatV2 message types <a href="https://github.com/iftech/nim-libp2p/pull/1637" class="external external-link" data-link-type="github" data-github-type="pr">nim-libp2p#1637<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
 </ul>
 </li>
 <li><code>ift:2025q3-nimlibp2p-autonatv2:client</code>
@@ -191,8 +191,8 @@
 </li>
 <li><code>vac:2025q3-nim-libp2p-testing:rendezvous</code>
 <ul>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1644" class="external external-link" data-link-type="github" data-github-type="pr">PR 1644: Refactor Rendezvous tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
-<li><a href="https://github.com/vacp2p/nim-libp2p/pull/1646" class="external external-link" data-link-type="github" data-github-type="pr">PR 1646: Fix pagination offset<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1644" class="external external-link" data-link-type="github" data-github-type="pr">PR 1644: Refactor Rendezvous tests<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
+<li><a href="https://github.com/iftech/nim-libp2p/pull/1646" class="external external-link" data-link-type="github" data-github-type="pr">PR 1646: Fix pagination offset<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> - merged</li>
 </ul>
 </li>
 <li><code>status:2025q3-status-qa-desktop:maintenance</code>
