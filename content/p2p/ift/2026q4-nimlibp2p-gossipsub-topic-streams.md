@@ -25,8 +25,8 @@ behind an explicit opt-in or compile flag.
 ### Negotiation And Stream Lifecycle
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-gossipsub-topic-streams:stream-lifecycle`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (80%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -41,6 +41,7 @@ including subscription changes and peer disconnects.
 - Experimental feature gate and legacy-peer fallback
 - Topic stream creation, replacement, and cleanup
 - Tests for mixed-capability peers and lifecycle transitions
+- [iftech/nim-libp2p#3278](https://github.com/iftech/nim-libp2p/pull/3278) fix(pubsub): manage inbound stream lifecycles
 
 
 ### Delivery And Resource Budgets

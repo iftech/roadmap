@@ -24,7 +24,7 @@ queued GossipSub data when message sizes vary.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-gossipsub-byte-queues:byte-limits`
 * owner: Richard
-* status: in progress (70%)
+* status: in progress (80%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

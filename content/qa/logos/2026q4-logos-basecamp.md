@@ -22,7 +22,7 @@ Validate release artifacts and maintain the existing smoke, UI, sandbox, and doc
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-logos-basecamp:mcp-tests`
 * owner: Roman
-* status: in progress (37%)
+* status: in progress (43%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -37,6 +37,7 @@ Keep new scenarios compatible with the existing test framework and track any sco
 - [logos-co/logos-basecamp#485](https://github.com/logos-co/logos-basecamp/pull/485) Test/MCP UI module inspector search filters the table
 - [logos-co/logos-basecamp#486](https://github.com/logos-co/logos-basecamp/pull/486) Test/MCP UI seed a loadable core-module fixture into the integration-test instance
 - [logos-co/logos-basecamp#487](https://github.com/logos-co/logos-basecamp/pull/487) Test/MCP UI module inspector unloading a leaf module and reloading it
+- [logos-co/logos-basecamp#488](https://github.com/logos-co/logos-basecamp/pull/488) Test/MCP UI module inspector interface view lists methods/events and calls a method
 
 ### Release validation
 

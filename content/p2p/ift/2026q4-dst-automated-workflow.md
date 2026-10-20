@@ -23,8 +23,8 @@ issue automatically in the nim-libp2p repository for triage.
 ### Lab Deployment And Regression Runs
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-dst-automated-workflow:deployment-tests`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -38,6 +38,10 @@ and results so failures can be reproduced.
 
 - Automated Lab deployment and basic regression workflow
 - Documented expected results and retained run artifacts
+- [iftech/nim-libp2p-network-lab#6](https://github.com/iftech/nim-libp2p-network-lab/pull/6) chore: better dummy experiments
+- [iftech/nim-libp2p-network-lab#3](https://github.com/iftech/nim-libp2p-network-lab/pull/3) add dummy experiment
+- [iftech/nim-libp2p-network-lab#2](https://github.com/iftech/nim-libp2p-network-lab/pull/2) improvements
+- [iftech/nim-libp2p-network-lab#1](https://github.com/iftech/nim-libp2p-network-lab/pull/1) add project structure with initial nodes
 
 
 ### Automatic Regression Issues

@@ -22,7 +22,7 @@ Maintain the performance suite and extend measurements to a loaded existing acco
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:release-testing`
 * owner: Magnus
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -34,6 +34,16 @@ Perform exploratory and regression testing, test new features in each release, a
 #### Deliverables
 - [status-im/status-app#22522](https://github.com/status-im/status-app/issues/22522) \[QA - Mobile\] Share to Status: what to test in 2.40
 - [status-im/status-app#22773](https://github.com/status-im/status-app/issues/22773) \[QA - Mobile & Desktop\] Nim token catalogue: what to test in 2.40
+- [status-im/status-app#22787](https://github.com/status-im/status-app/issues/22787) [iOS] the user can't see received/incoming messages in my community
+- [status-im/status-app#22800](https://github.com/status-im/status-app/issues/22800) [QA - Mobile] Share screen lists a chat the user cannot post in, and sends to it
+- [status-im/status-app#22801](https://github.com/status-im/status-app/issues/22801) [QA - Android] Sharing a HEIC photo to Status shows "Format not supported" and attaches nothing
+- [status-im/status-app#22838](https://github.com/status-im/status-app/issues/22838) [QA - Mobile] After sharing to Status, Send leaves the chat list in front instead of opening the chat
+- [status-im/status-app#22839](https://github.com/status-im/status-app/issues/22839) [QA - Mobile] Backup popup opens over the share screen after login and blocks chat selection
+- [status-im/status-app#22850](https://github.com/status-im/status-app/issues/22850) [QA - Mobile] Swap success toast shows no amounts: "Swapped to in <account>"
+- [status-im/status-app#22851](https://github.com/status-im/status-app/issues/22851) [QA - Mobile] Failed swap leaves no entry in History and no reason, only a "failed" toast
+- [status-im/status-app#22810](https://github.com/status-im/status-app/issues/22810) [QA - Mobile & Desktop] Zero onboarding: what to test in 2.40
+- Tested the Status 2.39.1 upgrade and 2.39.2 mainnet swap on Android; no blockers found.
+- Updated four older QA trees to the current format.
 
 ### Maintenance
 
@@ -56,8 +66,8 @@ Address flaky tests and assist developers with test changes in pull requests as 
 ### Coverage for existing features
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:coverage`
-* owner: magnus
-* status: not started
+* owner: Magnus
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -70,6 +80,7 @@ Prioritize gaps with the Status team based on user impact and the feasibility of
 
 - PRs covering previously untested existing features.
 - Tracked coverage gaps and any constraints preventing automation.
+- Wrote four Android thread end-to-end tests that pass on the test build.
 
 ### Framework improvements
 
@@ -93,6 +104,11 @@ Improve the mobile test harness in the following areas:
 - PRs implementing harness improvements and contract checks.
 - Setup and usage documentation for iOS, loaded accounts, and backend-peer scenarios.
 - Got the iOS end-to-end gate running; remaining failures are app accessibility gaps.
+- [status-im/status-app#22803](https://github.com/status-im/status-app/issues/22803) [iOS] Navigation side menu items are missing from the accessibility tree
+- [status-im/status-app#22804](https://github.com/status-im/status-app/issues/22804) [iOS] objectName set on input.edit does not reach the accessibility tree
+- [status-im/status-app#22805](https://github.com/status-im/status-app/issues/22805) [iOS] Chat list rows are missing from the accessibility tree
+- [status-im/status-app#22806](https://github.com/status-im/status-app/issues/22806) [iOS] Chat composer toolbar buttons are missing from the accessibility tree
+- [status-im/status-app#22807](https://github.com/status-im/status-app/issues/22807) [iOS] Recovery phrase word inputs are missing from the accessibility tree
 
 ### Performance
 

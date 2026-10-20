@@ -29,7 +29,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-maintenance:maintenance`
 * owner: Richard/Vlado/Gabe
-* status: in progress (12%)
+* status: in progress (20%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -97,4 +97,29 @@ as issues arise during the quarter.
 - [iftech/nim-libp2p#3211](https://github.com/iftech/nim-libp2p/pull/3211) chore(metrics): dial race and backoff metrics
 - [iftech/nim-libp2p#3210](https://github.com/iftech/nim-libp2p/pull/3210) chore(rsa): delete uncompilable hex-string `init`
 - [iftech/nim-libp2p#3201](https://github.com/iftech/nim-libp2p/pull/3201) feat(service-disco): advertise caller-supplied XPRs, not the node's own record
-
+- [iftech/nim-lsquic#183](https://github.com/iftech/nim-lsquic/pull/183) fix(endpoint): normalize mapped IPv4 peers when draining UDP
+- [iftech/nim-lsquic#182](https://github.com/iftech/nim-lsquic/pull/182) chore: bump version from 0.11.0 to 0.11.1
+- [iftech/nim-libp2p#3265](https://github.com/iftech/nim-libp2p/pull/3265) chore(quic): bump nim-lsquic to v0.11.2
+- [status-im/nimbus-eth2#9283](https://github.com/status-im/nimbus-eth2/pull/9283) chore: bump nim-lsquic
+- [iftech/nim-libp2p#3260](https://github.com/iftech/nim-libp2p/pull/3260) test: consolidate redundant unit test fixtures
+- [iftech/nim-libp2p#3261](https://github.com/iftech/nim-libp2p/pull/3261) chore(ci): remove Codecov integration
+- [iftech/nim-lsquic#184](https://github.com/iftech/nim-lsquic/pull/184) ci: review workflow update
+- [iftech/nim-libp2p#3277](https://github.com/iftech/nim-libp2p/pull/3277) chore: fix broken links
+- [iftech/nim-libp2p#3266](https://github.com/iftech/nim-libp2p/pull/3266) chore: remove minprotobuf
+- [iftech/nim-libp2p#3264](https://github.com/iftech/nim-libp2p/pull/3264) test: bump timeout for gossipsub heartbeat component test
+- [iftech/nim-libp2p#3043](https://github.com/iftech/nim-libp2p/pull/3043) fix(gossipsub): track in-flight IWANT requests
+- [iftech/nim-libp2p#3016](https://github.com/iftech/nim-libp2p/pull/3016) fix(gossipsub): cancel a queued relay when the peer already has the message
+- [iftech/nim-libp2p#3213](https://github.com/iftech/nim-libp2p/pull/3213) fix(pubsub): record PRUNE backoff outside the mesh and for backoff 0
+- [iftech/nim-libp2p#3231](https://github.com/iftech/nim-libp2p/pull/3231) test: fault-stream helper for kad and service discovery error paths
+- [iftech/nim-lsquic#180](https://github.com/iftech/nim-lsquic/pull/180) fix(engine): disable the lsquic no-progress timeout by default
+- [iftech/nim-libp2p#3243](https://github.com/iftech/nim-libp2p/pull/3243) fix(multistream): allow reads after half-close on optimistic streams
+- [iftech/nim-libp2p#3258](https://github.com/iftech/nim-libp2p/pull/3258) fix(service-discovery): no .get() on an optional ticket wait
+- [iftech/nim-libp2p#3257](https://github.com/iftech/nim-libp2p/pull/3257) fix(crypto): reject an empty EC public key
+- [iftech/nim-libp2p#3281](https://github.com/iftech/nim-libp2p/pull/3281) fix(kad): narrow getProviders raises to CancelledError
+- [iftech/nim-libp2p#3263](https://github.com/iftech/nim-libp2p/pull/3263) fix(identify): send the configured proto version
+- [iftech/nim-libp2p#3165](https://github.com/iftech/nim-libp2p/pull/3165) fix(pubsub): retry a failed send stream open
+- [iftech/nim-libp2p#3282](https://github.com/iftech/nim-libp2p/pull/3282) chore(kad): return LPResult from ping
+- [iftech/nim-libp2p#3285](https://github.com/iftech/nim-libp2p/pull/3285) chore(result): const error causes
+- [iftech/nim-libp2p#3286](https://github.com/iftech/nim-libp2p/pull/3286) chore(result): TLS certificate parse returns Result
+- [iftech/roadmap#542](https://github.com/iftech/roadmap/pull/542) fix(p2p): Result PR list, end-date and nim-libp2p repo links
+- [iftech/nim-libp2p#3251](https://github.com/iftech/nim-libp2p/pull/3251) chore(results): one shape for every err call site
