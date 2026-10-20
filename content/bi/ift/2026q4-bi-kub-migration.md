@@ -29,3 +29,5 @@ Migrate GitHub data extraction to the new Kubernetes environment for Airbyte.
 Migrate GitHub data extraction to the new Kubernetes environment for Airbyte.
 
 #### Deliverables
+* GitHub extraction configured in Airbyte on the new Kubernetes environment.
+* Validation of a successful extraction run and availability of the extracted GitHub data in its destination.

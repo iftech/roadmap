@@ -19,9 +19,9 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 
 ### `ift`
 
-* [[bi/ift/2026q4-bi-kub-migration|Airbyte GitHub extraction]]
-* [[bi/ift/2026q4-bi-webhook-server|Twitter webhook research]]
-* [[bi/ift/2026q4-bi-metadata-management|Data transformation monitoring]]
+* [[bi/ift/2026q4-bi-kub-migration|bi-kub-migration]]
+* [[bi/ift/2026q4-bi-webhook-server|bi-webhook-server]]
+* [[bi/ift/2026q4-bi-metadata-management|bi-metadata-management]]
 
 ### `logos`
 
@@ -35,7 +35,7 @@ Additionally, it handle the RAG CaaS to ingest map the internal knowledge of IFT
 * [[bi/status/2026q4-status-network-traffic-monitoring|status-network-traffic-monitoring]]
 * [[bi/status/2026q4-status-engagement-bot-upgrade|status-engagement-bot-upgrade]]
 * [[bi/status/2026q4-status-token-price-analysis|status-token-price-analysis]]
-* [[bi/status/2026q4-status-sdk-hermes-intergration|status-sdk-hermes-integration]]
+* [[bi/status/2026q4-status-sdk-hermes-intergration|status-sdk-hermes-intergration]]
 
 
 ### `keycard`
