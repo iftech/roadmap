@@ -79,7 +79,7 @@ different implementations.
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-libp2p-evaluation:automatic-reporting`
 * owner: Alan
-* status: in progress (20%)
+* status: in progress (60%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -90,4 +90,7 @@ libp2p team, either by commit, each X amount of time or triggered manually.
 
 #### Deliverables
 - Code:
+    - [iftech/10ksim#443](https://github.com/iftech/10ksim/pull/443) Run nodes from any image, triggered manually from GitHub
+    - [iftech/10ksim#445](https://github.com/iftech/10ksim/pull/445) run-nodes: self-terminating groups, node failures as results
+    - [iftech/10ksim#446](https://github.com/iftech/10ksim/pull/446) run-nodes: allow count 0 to skip a group
 - Reports:

@@ -81,7 +81,7 @@ Reuse the ai-review pipeline's shape -- reusable workflow, zero npm dependencies
 
 * fully qualified name: `ift-ts:web:ift:2026q4-ai-tooling:ai-docs-sync`
 * owner: JulesFiliot
-* status: in progress (75%)
+* status: in progress (80%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -103,3 +103,8 @@ Finish [acid-info/ai-docs-sync](https://github.com/acid-info/ai-docs-sync), whic
 - [logos-co/logos-web#208](https://github.com/logos-co/logos-web/pull/208) chore(ci): use ai-review and ai-docs-sync from acid-info/ai-tools
 - [acid-info/ai-docs-sync#7](https://github.com/acid-info/ai-docs-sync/pull/7) docs: redirect to acid-info/ai-tools
 - [acid-info/ai-tools#7](https://github.com/acid-info/ai-tools/pull/7) fix(ai-docs-sync): sign the rolling commit
+- [acid-info/ai-tools#8](https://github.com/acid-info/ai-tools/pull/8) feat(ai-docs-sync): request reviewers on the rolling pr
+- [acid-info/ai-tools#10](https://github.com/acid-info/ai-tools/pull/10) ci: request web team review on the docs sync pr
+- [logos-co/logos-web#234](https://github.com/logos-co/logos-web/pull/234) ci: request web team review on the docs sync pr
+- [acid-info/admin-acid.logos.co#83](https://github.com/acid-info/admin-acid.logos.co/pull/83) chore(ci): add ai-docs-sync from acid-info/ai-tools
+- [status-im/status-web#1331](https://github.com/status-im/status-web/pull/1331) chore(ci): add ai-docs-sync from acid-info/ai-tools

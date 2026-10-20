@@ -38,3 +38,6 @@ Resolve shared infrastructure or tooling failures, coordinate with Infra where n
 - [keycard-tech/keycard-website#266](https://github.com/keycard-tech/keycard-website/pull/266) chore: update Node.js to 24
 - [acid-info/free.technology#23](https://github.com/acid-info/free.technology/pull/23) fix: update team member to Dr. Martin Strobl
 - [acid-info/admin-acid.logos.co#76](https://github.com/acid-info/admin-acid.logos.co/pull/76) fix(redis): lazily create client to avoid connecting at build
+- [Status app Korean translation](https://docs.google.com/document/d/101OBvvoprtp5I5GXFf5hBLrsvSV8R5YShX3smgnQbhE/edit?tab=t.qso6thz9xpc3)
+- [Status app store French translation — Apple doc](https://docs.google.com/document/d/199SNFI-fFA4pTaG8Xp-y26um6HAQf42mcp8PFB08CwQ/edit?tab=t.tkqt8nea3kvv)
+- [Status app store French translation — Google Play doc](https://docs.google.com/document/d/199SNFI-fFA4pTaG8Xp-y26um6HAQf42mcp8PFB08CwQ/edit?tab=t.ghept0o2oy0u)

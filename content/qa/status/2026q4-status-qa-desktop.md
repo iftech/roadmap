@@ -58,6 +58,11 @@ Assist developers with test changes in pull requests.
 - [status-im/status-app#22695](https://github.com/status-im/status-app/pull/22695) chore(@e2e): fix sign modal test reference
 - [status-im/status-app#22654](https://github.com/status-im/status-app/pull/22654) fix(e2e): wait for link preview instead of failing on slow unfurl
 - [status-im/status-app#22653](https://github.com/status-im/status-app/pull/22653) fix(chat): mark messages read when the newest one is on screen
+- [status-im/status-app#22843](https://github.com/status-im/status-app/pull/22843) chore: update status-go version for cherry-picks from 2.39.1
+- [status-im/status-app#22827](https://github.com/status-im/status-app/pull/22827) chore(@ci): bump tests timeout for nix linux job
+- [status-im/status-app#22820](https://github.com/status-im/status-app/pull/22820) chore(@e2e): fix history records verification for keycard transactions tests
+- [status-im/status-app#22817](https://github.com/status-im/status-app/pull/22817) chore: update status-go version
+- [alexjba/sds-go-bindings#1](https://github.com/alexjba/sds-go-bindings/pull/1) test: run wrap/unwrap against libsds built with the iOS memory manager
 
 ### Performance tests for desktop application on Windows
 
@@ -97,6 +102,9 @@ Choose scenarios as feature scope and the automation backlog are clarified with 
 - [status-im/status-app#22734](https://github.com/status-im/status-app/pull/22734) test(@qml): onchain friends nim and QML coverage
 - [status-im/status-app#22702](https://github.com/status-im/status-app/pull/22702) tests(@qml): buy crypto links
 - [status-im/status-app#22607](https://github.com/status-im/status-app/pull/22607) tests(@e2e): request payment in chat
+- [status-im/status-app#22826](https://github.com/status-im/status-app/pull/22826) tests(@e2e): change language in settings and restart
+- [status-im/status-app#22809](https://github.com/status-im/status-app/pull/22809) tests(@e2e): verify mentions appearance for contacts and non-contacts in group chat
+- [status-im/status-app#22717](https://github.com/status-im/status-app/pull/22717) tests(@e2e): bridge and swap scenarios
 
 ### Performance tests for desktop application on Mac
 

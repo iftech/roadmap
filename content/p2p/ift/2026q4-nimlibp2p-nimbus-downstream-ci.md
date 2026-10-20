@@ -27,8 +27,8 @@ A team member can also start a run on a standalone commit, e.g. a master commit 
 ### Nimbus Build For A nim-libp2p Commit
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-nimbus-downstream-ci:build`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (65%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

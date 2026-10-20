@@ -23,7 +23,7 @@ Work arrives from operators and stakeholders during the quarter, so scope is agr
 
 * fully qualified name: `ift-ts:web:ift:2026q4-admin-acid:notion-infrastructure`
 * owner: JulesFiliot
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -55,14 +55,17 @@ Ship the template and trigger changes stakeholders request during the quarter, a
 
 #### Deliverables
 - [acid-info/admin-acid.logos.co#78](https://github.com/acid-info/admin-acid.logos.co/pull/78) feat(editor): font size and color selectors, missing basics
+- [acid-info/admin-acid.logos.co#84](https://github.com/acid-info/admin-acid.logos.co/pull/84) fix(ghost): quote email in member lookup filter
+- Archived newsletters that had never been published to.
+- Merged the old “Logos” newsletter subscribers into “Logos Newsletter” and archived the old newsletter.
 
 ### Ad hoc requests
 
 * fully qualified name: `ift-ts:web:ift:2026q4-admin-acid:ad-hoc-requests`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/10/20
 
 #### Description
 
@@ -72,3 +75,7 @@ Create a dedicated roadmap task when a request grows into a substantial project.
 
 #### Deliverables
 - [acid-info/admin-acid.logos.co#75](https://github.com/acid-info/admin-acid.logos.co/pull/75) chore: remove contribute portal (contributors, leaderboards, proposals)
+- [logos-co/logos-web#220](https://github.com/logos-co/logos-web/issues/220) Local events Newsletter
+- [acid-info/admin-acid.logos.co#79](https://github.com/acid-info/admin-acid.logos.co/pull/79) feat(local-events): city labels on Regional signups and backfill
+- [acid-info/admin-acid.logos.co#82](https://github.com/acid-info/admin-acid.logos.co/pull/82) feat(local-events): email new Luma events to city subscribers via Ghost
+- [acid-info/admin-acid.logos.co#81](https://github.com/acid-info/admin-acid.logos.co/issues/81) feat(newsletters): only subscribe real cities to the Regional Newsletter

@@ -28,7 +28,7 @@ as requirements and priorities become clearer during Q4.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-delivery-consulting:consulting`
 * owner: Gabe
-* status: in progress (12%)
+* status: in progress (20%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -47,3 +47,8 @@ as it is agreed.
 - [logos-messaging/nim-ffi#209](https://github.com/logos-messaging/nim-ffi/pull/209) chore(ffi): zero the request envelope with c_calloc
 - [logos-messaging/nim-ffi#205](https://github.com/logos-messaging/nim-ffi/pull/205) chore(ci): one source for the sanitizer runtime options
 - [logos-messaging/nim-ffi#226](https://github.com/logos-messaging/nim-ffi/pull/226) fix(ffi): set up the caller thread's GC before a request is rejected
+- [logos-messaging/nim-ffi#227](https://github.com/logos-messaging/nim-ffi/pull/227) fix: build with a tagged chronos
+- [logos-messaging/nim-ffi#236](https://github.com/logos-messaging/nim-ffi/pull/236) fix(codegen): return the send error from the C wrappers
+- [logos-messaging/nim-ffi#238](https://github.com/logos-messaging/nim-ffi/pull/238) fix(ffi): refuse a NULL callback in the callback-mode ctor
+- [logos-messaging/nim-ffi#228](https://github.com/logos-messaging/nim-ffi/pull/228) chore: narrow LSan suppressions
+- [logos-storage/logos-storage-nim#1519](https://github.com/logos-storage/logos-storage-nim/pull/1519) feat(library): generate the C bindings with nim-ffi

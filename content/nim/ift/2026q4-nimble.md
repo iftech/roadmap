@@ -21,7 +21,7 @@ Build on the Q3 development track and review how Messaging, Storage, and Nimbus 
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nimble:development`
 * owner: Juan/Constantine
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -38,6 +38,16 @@ Add regression coverage for fixes and update usage documentation when behavior c
 - [nim-lang/nimble#1884](https://github.com/nim-lang/nimble/pull/1884) Refactor: Split dependency resolution into nimblesolver, nimblesat and nimblepubgrub
 - [nim-lang/nimble#1883](https://github.com/nim-lang/nimble/pull/1883) Parse each version once in PubGrub instead of on every comparison
 - [nim-lang/nimble#1882](https://github.com/nim-lang/nimble/pull/1882) Add --solver:pubgrub
+- [nim-lang/nimble#1899](https://github.com/nim-lang/nimble/pull/1899) Fix cached version discovery hiding newer untagged HEAD versions
+- [nim-lang/nimble#1898](https://github.com/nim-lang/nimble/pull/1898) bump 0.26.1
+- [nim-lang/nimble#1897](https://github.com/nim-lang/nimble/pull/1897) bump chronos
+- [nim-lang/nimble#1896](https://github.com/nim-lang/nimble/pull/1896) Fix shell and option injection in VCS commands
+- [nim-lang/nimble#1895](https://github.com/nim-lang/nimble/pull/1895) Fix NimScript dependency paths and bootstrap exception handling
+- [nim-lang/nimble#1893](https://github.com/nim-lang/nimble/pull/1893) Bumps the nim used to build nimble
+- [nim-lang/nimble#1891](https://github.com/nim-lang/nimble/pull/1891) Read taskRequires in any spelling and only for the root package (fixes #1889)
+- [nim-lang/nimble#1890](https://github.com/nim-lang/nimble/pull/1890) Keep lock file pins within one PubGrub solve instead of trying them one by one
+- [nim-lang/nimble#1887](https://github.com/nim-lang/nimble/pull/1887) Fix nimlangserver tests
+- [nim-lang/nimble#1886](https://github.com/nim-lang/nimble/pull/1886) Prefer the system Nim within one PubGrub solve instead of pinning and re-solving
 
 ### CI integration review
 

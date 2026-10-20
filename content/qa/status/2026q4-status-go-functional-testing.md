@@ -36,6 +36,9 @@ Investigate failing or flaky tests, update fixtures and the Python SDK where nee
 - [status-im/status-go#7854](https://github.com/status-im/status-go/pull/7854) fix(functional): run Anvil and Foundry on the host architecture
 - [status-im/status-go#7887](https://github.com/status-im/status-go/pull/7887) feat(wallet): add Sepolia WETH and refresh default token lists
 - [status-im/status-go#7888](https://github.com/status-im/status-go/pull/7888) fix(functional): temp disable QUIC on the test waku fleet
+- [status-im/status-go#7928](https://github.com/status-im/status-go/pull/7928) fix(ci): update import of old lang.RandomStringUtils
+- [status-im/status-app#22776](https://github.com/status-im/status-app/pull/22776) fix(ci): update import of old lang.RandomStringUtils
+- [status-im/status-go#7916](https://github.com/status-im/status-go/pull/7916) fix(wallet): omit relay API key on testnet
 
 ### Functional test coverage
 
@@ -55,3 +58,5 @@ Select concrete scenarios from the existing backlog and issues found during desk
 - [status-im/status-go#7914](https://github.com/status-im/status-go/pull/7914) test(functional): send ERC20, ERC1155, ERC720
 - [status-im/status-go#7906](https://github.com/status-im/status-go/pull/7906) test: mock EFP API and cover wallet getFollowing* RPC
 - [status-im/status-go#7882](https://github.com/status-im/status-go/pull/7882) test(functional): check MoonPay URL and hostname
+- [status-im/status-go#7942](https://github.com/status-im/status-go/pull/7942) test(functional): cover community token mint, airdrop, and burn
+- [status-im/status-go#7934](https://github.com/status-im/status-go/pull/7934) test(history): don't skip messages from while the app was closed

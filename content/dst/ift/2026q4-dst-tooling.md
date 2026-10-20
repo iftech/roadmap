@@ -50,5 +50,7 @@ Should be made general when possible.
     - [iftech/10ksim#391](https://github.com/iftech/10ksim/pull/391) Scrape metrics and draw the standard plots in post-run analysis
     - [iftech/10ksim#421](https://github.com/iftech/10ksim/pull/421) Look up the publisher once per run, not per message
     - [iftech/10ksim#442](https://github.com/iftech/10ksim/pull/442) Fix cleanup wait and CronJob cleanup
+    - [iftech/dst-libp2p-test-node#63](https://github.com/iftech/dst-libp2p-test-node/pull/63) Shadow build for the two-binary regression node
+    - [iftech/10ksim#444](https://github.com/iftech/10ksim/pull/444) Fix the Shadow log pull and the exit code of a failed Shadow run
 - Reports:
 - Other:

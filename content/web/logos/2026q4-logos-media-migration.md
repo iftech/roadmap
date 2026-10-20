@@ -85,6 +85,9 @@ Re-run the complete static-export path with production-equivalent content access
 - [logos-co/logos-web#74](https://github.com/logos-co/logos-web/issues/74) Blog.logos.co still exists
 - [logos-co/logos-web#210](https://github.com/logos-co/logos-web/pull/210) feat(web): add searchable article listing
 - [logos-co/logos-web#212](https://github.com/logos-co/logos-web/pull/212) fix(web): nest media listing routes under media
+- [logos-co/logos-web#225](https://github.com/logos-co/logos-web/pull/225) fix(web): preserve interactive HTML article styling
+- [logos-co/logos-web#226](https://github.com/logos-co/logos-web/pull/226) fix(web): preserve interactive article backgrounds and CSP-safe sizing
+- [logos-co/logos-web#227](https://github.com/logos-co/logos-web/pull/227) feat(web): add media calendar page
 
 ### Prepare and deploy the production media build
 

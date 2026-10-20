@@ -40,7 +40,7 @@ Improve documentation tooling where it helps keep package documentation accurate
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:maintenance`
 * owner: Constantine
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -54,6 +54,11 @@ Triage issues, address regressions and compatibility problems, support downstrea
 - PRs fixing library defects and maintaining compatibility, tests, and CI.
 - Tracked issues and verification results for downstream integration problems.
 - [nim-lang/Nim#26281](https://github.com/nim-lang/Nim/pull/26281) Feature: Control Nimsuggest's memory consumption cap with runtime flag
+- [status-im/nim-stew#291](https://github.com/status-im/nim-stew/pull/291) `recordFields`: fix false `--styleCheck` error for a field named like its type
+- [status-im/nim-stew#279](https://github.com/status-im/nim-stew/pull/279) `toHex`: faster vectorized version
+- [status-im/nim-stew#281](https://github.com/status-im/nim-stew/pull/281) Fix #85; Add `validateUtf8` to `utfutils`
+- [nim-lang/Nim#26443](https://github.com/nim-lang/Nim/pull/26443) Add a line about `nim book` to the `--fullhelp`.
+- [nim-lang/langserver#489](https://github.com/nim-lang/langserver/pull/489) CI: Start MCP publish after GitHub Release.
 
 ### Nimlangserver improvements
 
@@ -95,6 +100,11 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - [nim-lang/langserver#473](https://github.com/nim-lang/langserver/pull/473) Transport v2
 - [nim-lang/langserver#486](https://github.com/nim-lang/langserver/pull/486) Cancel nimsuggestInit on shutdown
 - [nim-lang/Nim#26438](https://github.com/nim-lang/Nim/pull/26438) nimsuggest: add `outline2`, a parse-only outline
+- [nim-lang/Nim#26447](https://github.com/nim-lang/Nim/pull/26447) nimsuggest: save up to 250ms for every query on +v3
+- [nim-lang/langserver#491](https://github.com/nim-lang/langserver/pull/491) Disable auto chk file by default
+- [nim-lang/langserver#492](https://github.com/nim-lang/langserver/pull/492) Fix progress token
+- [nim-lang/langserver#490](https://github.com/nim-lang/langserver/pull/490) Use nimsuggest `outline2` when possible
+- [nim-lang/langserver#487](https://github.com/nim-lang/langserver/pull/487) Remove process monitor
 
 ### Nimlangserver and nimsuggest support for IFT projects
 
@@ -135,3 +145,19 @@ Aim to benefit from incremental compilation and other applicable Nimony-related 
 - PRs upgrading the selected IFT projects and their CI toolchains to Nim 2.4.x.
 - Compatibility fixes and passing build and test results for each upgraded project.
 - Validation of available incremental-compilation and related toolchain improvements, with adoption notes for downstream teams.
+
+### Nim lint
+
+* fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nim-lint`
+* owner: Constantine
+* status: not started
+* start-date: 2026/10/01
+* end-date: 2026/12/31
+
+#### Description
+
+Develop a Nim static-analysis linter with a unified API for pluggable, configurable rules that enforce coding conventions and best practices beyond `nim check` and formatting.
+Provide initial rules for IFT projects, such as flagging `asyncSpawn`, with severity levels and inline ignores; support community rules and CI/PR reporting.
+
+#### Deliverables
+- Linter engine, initial rules, and documentation for adding rules and integrating checks into CI.

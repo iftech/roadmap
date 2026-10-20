@@ -25,7 +25,7 @@ Select concrete work with stakeholders as needs arise and record the scope and a
 - owner: Jinho/JulesFiliot
 - status: done
 - start-date: 2026/10/01
-- end-date: 2026/10/13
+- end-date: 2026/10/20
 
 #### Description
 
@@ -52,6 +52,8 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [logos-co/logos-web#218](https://github.com/logos-co/logos-web/pull/218) fix(web): remove chevrons from PriFi hero labels
 - [logos-co/logos-web#221](https://github.com/logos-co/logos-web/pull/221) chore(web): update activist builder copy
 - [logos-co/logos-web#217](https://github.com/logos-co/logos-web/pull/217) fix(deps): patch next, payload and sharp security advisories
+- [logos-co/logos-web#222](https://github.com/logos-co/logos-web/pull/222) fix(web): update PriFi article resources
+- [logos-co/logos-web#235](https://github.com/logos-co/logos-web/pull/235) fix(web): UK Debt signup posts to dead API route
 
 ### Past Present Future: content update and migration
 
@@ -82,8 +84,8 @@ Document ownership, dependencies, and acceptance criteria before work that cross
 ### Logos Zine
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:logos-zine`
-- owner: JulesFiliot
-- status: not started
+- owner: Jinho
+- status: in progress (90%)
 - start-date: 2026/10/12
 - end-date: 2026/12/31
 
@@ -222,9 +224,9 @@ Design and production ownership (in-house or agency) is still to be decided. Con
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:ad-hoc-features`
 - owner: Jinho/JulesFiliot
-- status: not started
+- status: done
 - start-date: 2026/10/01
-- end-date: 2026/12/31
+- end-date: 2026/10/20
 
 #### Description
 
@@ -236,3 +238,6 @@ Create dedicated roadmap tasks when a request grows into a substantial project.
 
 - Scoped feature issues with acceptance criteria and stakeholder requirements.
 - PRs and released features with validation or stakeholder review results.
+- [logos-co/logos-web#232](https://github.com/logos-co/logos-web/issues/232) Improve blog article templates with a standard Basecamp CTA and bespoke content blocks
+- [logos-co/logos-web#220](https://github.com/logos-co/logos-web/issues/220) Local events Newsletter
+- [logos-co/logos-web#224](https://github.com/logos-co/logos-web/pull/224) feat(web): local events newsletter signup rules
