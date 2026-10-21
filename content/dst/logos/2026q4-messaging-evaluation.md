@@ -50,6 +50,25 @@ and ensure they don't happen again.
     - Repeated the PR 4347 full delivery test three times at the configured publish rate to validate the [full delivery report](https://app.notion.com/p/3ea8f96fb65c812a9ae2dc71ef28860e).
 
 
+### Messaging API — General Availability
+* fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:messaging-api`
+* owner: Alan
+* status: not started
+* start-date: 2026/10/19
+* end-date: 2026/10/30
+
+#### Description
+
+Prepare and launch normal regression experiments using the new messaging API and raise concerns
+or changes needed if it is necessary to facilitate the analysis. Report similar results to standard
+regression reports.
+
+#### Deliverables
+- Code:
+- Reports:
+
+
+
 ### load metric
 
 * fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:load-metric`
