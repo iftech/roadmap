@@ -39,6 +39,7 @@ Investigate failing or flaky tests, update fixtures and the Python SDK where nee
 - [status-im/status-go#7928](https://github.com/status-im/status-go/pull/7928) fix(ci): update import of old lang.RandomStringUtils
 - [status-im/status-app#22776](https://github.com/status-im/status-app/pull/22776) fix(ci): update import of old lang.RandomStringUtils
 - [status-im/status-go#7916](https://github.com/status-im/status-go/pull/7916) fix(wallet): omit relay API key on testnet
+- [status-im/status-go#7965](https://github.com/status-im/status-go/pull/7965) fix(functional-tests): time out the backend health check
 
 ### Functional test coverage
 
@@ -60,3 +61,11 @@ Select concrete scenarios from the existing backlog and issues found during desk
 - [status-im/status-go#7882](https://github.com/status-im/status-go/pull/7882) test(functional): check MoonPay URL and hostname
 - [status-im/status-go#7942](https://github.com/status-im/status-go/pull/7942) test(functional): cover community token mint, airdrop, and burn
 - [status-im/status-go#7934](https://github.com/status-im/status-go/pull/7934) test(history): don't skip messages from while the app was closed
+- [status-im/status-go#7964](https://github.com/status-im/status-go/pull/7964) test(functional): payment request tests
+- [status-im/status-go#7972](https://github.com/status-im/status-go/issues/7972) threads: received THREAD_METADATA accepted without parent, role, or contacts-only checks (latent: Threads flag off in shipped builds)
+- [status-im/status-go#7973](https://github.com/status-im/status-go/issues/7973) Received pins of thread messages are stored, and the user cannot unpin them
+- [status-im/status-go#7974](https://github.com/status-im/status-go/issues/7974) Thread and per-chat search fail with "Chat not found" on the receiving side of a 1:1 chat
+- [status-im/status-go#7975](https://github.com/status-im/status-go/issues/7975) communities: control node loses or never sends some roster deltas
+- [status-im/status-go#7976](https://github.com/status-im/status-go/issues/7976) communitytokens: owner and master token deploy can keep placeholder addresses (receipt applied before rows exist)
+- [status-im/status-go#7977](https://github.com/status-im/status-go/issues/7977) test: `make test-unit-race` is red on develop, so it cannot catch new races
+- [status-im/status-go#7978](https://github.com/status-im/status-go/issues/7978) test(functional): run_functional_tests.sh does not wait for the Foundry contract deployment

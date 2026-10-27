@@ -62,9 +62,9 @@ The cutover must preserve query strings, feed subscriber identity, canonical URL
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-media-migration:merge-readiness`
 - owner: Jinho
-- status: in progress (99%)
+- status: done
 - start-date: 2026/10/01
-- end-date: 2026/10/16
+- end-date: 2026/10/27
 
 #### Description
 
@@ -116,7 +116,7 @@ Merge and deploy the migration only after the credentialed Jenkins build succeed
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-media-migration:redirect-cutover`
 - owner: Jinho
-- status: not started
+- status: in progress (50%)
 - start-date: 2026/10/26
 - end-date: 2026/11/13
 
@@ -134,6 +134,7 @@ Keep the query string on every redirect. Do not redirect CMS preview, API, or as
 - Verification that old article and episode URLs return one 301 hop to a 200 destination with a self-referencing canonical.
 - Verification that temporary exceptions such as required preview, API, and asset paths still return the expected response until their retirement task is complete.
 - A rollback procedure for redirect or feed regressions.
+- Completed blog.logos.co redirects to logos.co/media with Infra.
 
 ### Remove legacy dependencies and retire the blog frontend
 

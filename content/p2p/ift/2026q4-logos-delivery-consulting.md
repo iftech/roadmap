@@ -28,7 +28,7 @@ as requirements and priorities become clearer during Q4.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-delivery-consulting:consulting`
 * owner: Gabe
-* status: in progress (20%)
+* status: in progress (27%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -52,3 +52,5 @@ as it is agreed.
 - [logos-messaging/nim-ffi#238](https://github.com/logos-messaging/nim-ffi/pull/238) fix(ffi): refuse a NULL callback in the callback-mode ctor
 - [logos-messaging/nim-ffi#228](https://github.com/logos-messaging/nim-ffi/pull/228) chore: narrow LSan suppressions
 - [logos-storage/logos-storage-nim#1519](https://github.com/logos-storage/logos-storage-nim/pull/1519) feat(library): generate the C bindings with nim-ffi
+- [logos-messaging/nim-ffi#249](https://github.com/logos-messaging/nim-ffi/pull/249) fix: skip a listener removed during its dispatch
+- [logos-messaging/nim-ffi#250](https://github.com/logos-messaging/nim-ffi/pull/250) fix: destroy from inside a callback fails fast

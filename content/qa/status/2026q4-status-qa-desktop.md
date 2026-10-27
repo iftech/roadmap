@@ -23,7 +23,7 @@ Continue Windows performance testing. macOS and Linux performance work remains t
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-desktop:release-testing`
 * owner: Nastya
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -35,6 +35,11 @@ Report bugs and release risks and verify fixes with the Status team.
 #### Deliverables
 - [status-im/status-app#22603](https://github.com/status-im/status-app/pull/22603) fix(wallet): keep the derived account address inside its field
 - [status-im/status-app#22604](https://github.com/status-im/status-app/issues/22604) Race condition when balances arrive before the token catalog is ready leads to token list staying empty / loading
+- [status-im/status-app#22888](https://github.com/status-im/status-app/issues/22888) Activity centre panel animation is slow
+- [status-im/status-go#7946](https://github.com/status-im/status-go/pull/7946) fix: wait for a community token row before applying its deploy receipt
+- [status-im/status-app#22905](https://github.com/status-im/status-app/issues/22905) Deterministic handling of community token deploy receipts (remove retry race)
+- [status-im/status-app#22875](https://github.com/status-im/status-app/pull/22875) chore(@qml): fix http stats test
+- [status-im/status-app#22863](https://github.com/status-im/status-app/issues/22863) Erase all notifications and delete individual notification in Activity Centre
 
 ### Maintenance
 
@@ -63,6 +68,10 @@ Assist developers with test changes in pull requests.
 - [status-im/status-app#22820](https://github.com/status-im/status-app/pull/22820) chore(@e2e): fix history records verification for keycard transactions tests
 - [status-im/status-app#22817](https://github.com/status-im/status-app/pull/22817) chore: update status-go version
 - [alexjba/sds-go-bindings#1](https://github.com/alexjba/sds-go-bindings/pull/1) test: run wrap/unwrap against libsds built with the iOS memory manager
+- [status-im/status-app#22918](https://github.com/status-im/status-app/pull/22918) tests: fix payment request
+- [status-im/status-app#22930](https://github.com/status-im/status-app/pull/22930) chore(@e2e): fix benchmarks script to correctly push to repo
+- [status-im/status-app#22916](https://github.com/status-im/status-app/pull/22916) chore(@e2e): fix network selection
+- [status-im/status-app#22890](https://github.com/status-im/status-app/pull/22890) test(e2e): align emoji reads with StatusEmoji and pick from catalog
 
 ### Performance tests for desktop application on Windows
 
@@ -105,6 +114,8 @@ Choose scenarios as feature scope and the automation backlog are clarified with 
 - [status-im/status-app#22826](https://github.com/status-im/status-app/pull/22826) tests(@e2e): change language in settings and restart
 - [status-im/status-app#22809](https://github.com/status-im/status-app/pull/22809) tests(@e2e): verify mentions appearance for contacts and non-contacts in group chat
 - [status-im/status-app#22717](https://github.com/status-im/status-app/pull/22717) tests(@e2e): bridge and swap scenarios
+- [status-im/status-app#22904](https://github.com/status-im/status-app/pull/22904) test(e2e): add spell check tests
+- [status-im/status-app#22828](https://github.com/status-im/status-app/pull/22828) tests(@e2e): community token actions
 
 ### Performance tests for desktop application on Mac
 

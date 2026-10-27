@@ -20,7 +20,7 @@ Upgrade Status Engagmement Bot with various Language support
 
 * fully qualified name: `ift-ts:bi:status:2026q4-status-engagement-bot-upgrade`
 * owner: alexis
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 * issue: -
@@ -30,5 +30,4 @@ Upgrade Status Engagmement Bot with various Language support
 Provides messages in various languages to help user engagement
 
 #### Deliverables
-
-New release of Status Bot with Engagmement Bot supporting multiple language
+* Upgraded the Status engagement bot SDK version and improved its structure.

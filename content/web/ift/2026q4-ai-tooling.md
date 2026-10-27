@@ -33,12 +33,13 @@ Consolidate ai-review and ai-docs-sync in [acid-info/ai-tools](https://github.co
 #### Deliverables
 - [docs: split root README and AGENTS.md by audience](https://github.com/acid-info/ai-tools/pull/1)
 - [ci: run ai-review and ai-docs-sync on this repo](https://github.com/acid-info/ai-tools/pull/4)
+- [acid-info/ai-tools#14](https://github.com/acid-info/ai-tools/pull/14) docs: apply the house style to the root docs
 
 ### ai-review maintenance and tuning
 
 * fully qualified name: `ift-ts:web:ift:2026q4-ai-tooling:ai-review`
 * owner: JulesFiliot
-* status: in progress (25%)
+* status: in progress (45%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -56,6 +57,9 @@ Onboard remaining Web repositories and keep the `@v1` tag stable for consumers.
 - [logos-co/logos-web#208](https://github.com/logos-co/logos-web/pull/208) chore(ci): use ai-review and ai-docs-sync from acid-info/ai-tools
 - [status-im/status-web#1326](https://github.com/status-im/status-web/pull/1326) chore(ci): use ai-review from acid-info/ai-tools
 - [acid-info/ai-review#8](https://github.com/acid-info/ai-review/pull/8) docs: redirect to acid-info/ai-tools
+- [acid-info/ai-tools#13](https://github.com/acid-info/ai-tools/pull/13) refactor(ai-review): restyle the reviewer and synthesis prompts
+- [acid-info/ai-tools#15](https://github.com/acid-info/ai-tools/pull/15) refactor(ai-review): drop dashes and emoji from posted reviews
+- [acid-info/ai-tools#16](https://github.com/acid-info/ai-tools/pull/16) docs(ai-review): apply the house style
 
 ### ai-auto-fix companion
 
@@ -108,3 +112,14 @@ Finish [acid-info/ai-docs-sync](https://github.com/acid-info/ai-docs-sync), whic
 - [logos-co/logos-web#234](https://github.com/logos-co/logos-web/pull/234) ci: request web team review on the docs sync pr
 - [acid-info/admin-acid.logos.co#83](https://github.com/acid-info/admin-acid.logos.co/pull/83) chore(ci): add ai-docs-sync from acid-info/ai-tools
 - [status-im/status-web#1331](https://github.com/status-im/status-web/pull/1331) chore(ci): add ai-docs-sync from acid-info/ai-tools
+- [acid-info/admin-acid.logos.co#87](https://github.com/acid-info/admin-acid.logos.co/pull/87) fix(docs-sync): request web members by login
+- [acid-info/ai-tools#12](https://github.com/acid-info/ai-tools/pull/12) fix(docs-sync): request web members by login
+- [logos-co/logos-web#240](https://github.com/logos-co/logos-web/pull/240) fix(docs-sync): request web members by login
+- [status-im/status-web#1333](https://github.com/status-im/status-web/pull/1333) fix(docs-sync): request web members by login
+- [acid-info/ai-tools#17](https://github.com/acid-info/ai-tools/pull/17) feat(ai-docs-sync): write docs in the house style
+- [acid-info/ai-tools#18](https://github.com/acid-info/ai-tools/pull/18) refactor(ai-docs-sync): drop dashes from the pr body
+- [acid-info/ai-tools#19](https://github.com/acid-info/ai-tools/pull/19) docs(ai-docs-sync): apply the house style
+- [logos-co/logos-web#242](https://github.com/logos-co/logos-web/pull/242) docs(repo): restructure docs for docs-sync
+- [logos-co/logos-web#243](https://github.com/logos-co/logos-web/pull/243) docs(repo): rewrite docs for humans and agents
+- [status-im/status-web#1334](https://github.com/status-im/status-web/pull/1334) docs(repo): restructure docs for docs-sync
+- [status-im/status-web#1335](https://github.com/status-im/status-web/pull/1335) docs(repo): rewrite docs for humans and agents

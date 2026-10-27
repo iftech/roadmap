@@ -44,6 +44,29 @@ Perform exploratory and regression testing, test new features in each release, a
 - [status-im/status-app#22810](https://github.com/status-im/status-app/issues/22810) [QA - Mobile & Desktop] Zero onboarding: what to test in 2.40
 - Tested the Status 2.39.1 upgrade and 2.39.2 mainnet swap on Android; no blockers found.
 - Updated four older QA trees to the current format.
+- [status-im/status-app#22938](https://github.com/status-im/status-app/issues/22938) [QA - Desktop] Composer: Backspace deletes a whole syllable in Hindi, Thai and accented text
+- [status-im/status-app#22939](https://github.com/status-im/status-app/issues/22939) [QA - Mobile & Desktop] Chat: the loading skeleton is drawn over messages already shown
+- [status-im/status-app#22940](https://github.com/status-im/status-app/issues/22940) [QA - Mobile & Desktop] Chat: on short views, each page of older messages waits 1 second
+- [status-im/status-app#22941](https://github.com/status-im/status-app/issues/22941) [QA - Mobile & Desktop] Chat: "Send Contact Request" button fills the whole chat width
+- [status-im/status-app#22942](https://github.com/status-im/status-app/issues/22942) [QA - Desktop] Spell check: no suggestions when right-clicking the end of a misspelled word
+- [status-im/status-app#22943](https://github.com/status-im/status-app/issues/22943) [QA - Mobile] QR scanner: an invalid code in view repeats the error and vibration every 2 s
+- [status-im/status-app#22944](https://github.com/status-im/status-app/issues/22944) [QA - Mobile & Desktop] Communities: each update copies community data for every channel
+- [status-im/status-app#22945](https://github.com/status-im/status-app/issues/22945) [QA - Mobile & Desktop] Members list shows a generated three-word name, not the display name
+- [status-im/status-app#22946](https://github.com/status-im/status-app/issues/22946) [QA - Mobile & Desktop] Payment request with no text: empty notification and chat preview
+- [status-im/status-app#22947](https://github.com/status-im/status-app/issues/22947) [QA - Mobile & Desktop] Chat: a mention of an unknown user stays a generated name
+- [status-im/status-app#22948](https://github.com/status-im/status-app/issues/22948) [QA - Mobile & Desktop] Search: community channels report 0 members
+- [status-im/status-app#22949](https://github.com/status-im/status-app/issues/22949) [QA - Mobile & Desktop] Search: "No results" flashes on each keystroke while refining
+- [status-im/status-app#22950](https://github.com/status-im/status-app/issues/22950) [QA - Mobile & Desktop] Threads (behind flag): names shown as rich text, uncached thread lost
+- [status-im/status-app#22897](https://github.com/status-im/status-app/issues/22897) [QA - Mobile] History shows the quoted amount for a swap the app sent, not the amount received
+- [status-im/status-app#22898](https://github.com/status-im/status-app/issues/22898) [QA - Mobile] Unmined swap approval leaves the modal spinning with no status, speed-up or cancel
+- [status-im/status-app#22901](https://github.com/status-im/status-app/issues/22901) [QA - Mobile] Threads: a thread opened from the chat list has no name in its input placeholder
+- [status-im/status-app#22902](https://github.com/status-im/status-app/issues/22902) [QA - Mobile] Threads: after leaving a thread, new messages in the chat land under the input and cannot be scrolled to
+- [status-im/status-app#22903](https://github.com/status-im/status-app/issues/22903) [QA - Mobile] Threads: a reply read in the open thread still counts as unread
+- [status-im/status-app#22909](https://github.com/status-im/status-app/issues/22909) [QA - Mobile] Threads: an image sent in a thread goes to the main chat
+- [status-im/status-app#22910](https://github.com/status-im/status-app/issues/22910) [QA - Mobile] Android: the app sometimes crashes when returning from the image picker
+- [status-im/status-app#22527](https://github.com/status-im/status-app/issues/22527) [QA - Mobile & Desktop] Threads: what to test in 2.40
+- [status-im/status-app#22936](https://github.com/status-im/status-app/issues/22936) [QA - Mobile] Share screen lists chats by the user's last send, not by the latest message
+- Checked Status 2.39.2 on iOS: swap and bridge tests passed.
 
 ### Maintenance
 
@@ -67,7 +90,7 @@ Address flaky tests and assist developers with test changes in pull requests as 
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:coverage`
 * owner: Magnus
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -81,6 +104,7 @@ Prioritize gaps with the Status team based on user impact and the feasibility of
 - PRs covering previously untested existing features.
 - Tracked coverage gaps and any constraints preventing automation.
 - Wrote four Android thread end-to-end tests that pass on the test build.
+- [status-im/status-app#22849](https://github.com/status-im/status-app/pull/22849) test(e2e_appium): share to Status on Android
 
 ### Framework improvements
 

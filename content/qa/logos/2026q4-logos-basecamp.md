@@ -22,7 +22,7 @@ Validate release artifacts and maintain the existing smoke, UI, sandbox, and doc
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-logos-basecamp:mcp-tests`
 * owner: Roman
-* status: in progress (43%)
+* status: in progress (45%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -38,12 +38,21 @@ Keep new scenarios compatible with the existing test framework and track any sco
 - [logos-co/logos-basecamp#486](https://github.com/logos-co/logos-basecamp/pull/486) Test/MCP UI seed a loadable core-module fixture into the integration-test instance
 - [logos-co/logos-basecamp#487](https://github.com/logos-co/logos-basecamp/pull/487) Test/MCP UI module inspector unloading a leaf module and reloading it
 - [logos-co/logos-basecamp#488](https://github.com/logos-co/logos-basecamp/pull/488) Test/MCP UI module inspector interface view lists methods/events and calls a method
+- [logos-co/logos-basecamp#511](https://github.com/logos-co/logos-basecamp/pull/511) Test/MCP UI module inspector interface view for a method-less module
+- [logos-co/logos-basecamp#512](https://github.com/logos-co/logos-basecamp/pull/512) Test/MCP UI repositories invalid URL shows a dismissible error banner
+- [logos-co/logos-basecamp#513](https://github.com/logos-co/logos-basecamp/pull/513) Test/MCP UI repositories unreachable URL is refused with a fetch error
+- [logos-co/logos-basecamp#516](https://github.com/logos-co/logos-basecamp/pull/516) Test/MCP UI repositories whitespace is rejected and a duplicate is a no-op
+- [logos-co/logos-basecamp#517](https://github.com/logos-co/logos-basecamp/pull/517) Test/MCP UI repositories refresh flips the button label
+- [logos-co/logos-basecamp#518](https://github.com/logos-co/logos-basecamp/pull/518) Test/MCP UI repositories cancel on remove default repository keeps it
+- [logos-co/logos-basecamp#519](https://github.com/logos-co/logos-basecamp/pull/519) Test/MCP UI window Cmd+M minimize action is wired (macOS)
+- [logos-co/logos-basecamp#520](https://github.com/logos-co/logos-basecamp/pull/520) Test/MCP UI window hide-to-tray and restore preserves open docks
+- [logos-co/logos-basecamp#521](https://github.com/logos-co/logos-basecamp/pull/521) Test/MCP UI apps inspector unloading the visible app closes its dock
 
 ### Release validation
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-logos-basecamp:release-validation`
-* owner: TBD
-* status: not started
+* owner: Magnus
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -56,6 +65,9 @@ Run release smoke checks, report defects and release risks, and verify fixes.
 
 - Release validation checklists and test reports for the builds tested during Q4.
 - Tracked release defects and verification results.
+- [logos-co/logos-logoscore-cli#194](https://github.com/logos-co/logos-logoscore-cli/issues/194) `package install --root-hash` is accepted but never used: a hash that matches nothing still installs
+- [logos-co/logos-storage-module#111](https://github.com/logos-co/logos-storage-module/issues/111) Storage data is always under `$HOME/.logos_storage`, so a second Basecamp or logosctl on the same machine fails to start Storage
+- Ran the Basecamp 0.3.0 release checklist on macOS and Linux.
 
 ### Test coverage and maintenance
 

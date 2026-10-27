@@ -44,8 +44,8 @@ Implementation baseline: nim-libp2p master at `5309dc87cb4b4385a4a37e4339cdeefca
 ### Role-Transition Timing And Stability
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-kademlia-auto-mode:stability`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (20%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -68,13 +68,14 @@ including loss of the last confirmed address in v2.
 - Deterministic tests for transient and sustained verdict changes through AutoNAT v1 and v2
 - Tests for unknown verdicts, inconclusive probes, and loss of the last confirmed address
 - Checks that sustained reachability changes take effect within the documented timing bounds
+- [iftech/nim-libp2p#3319](https://github.com/iftech/nim-libp2p/pull/3319) chore(kad): auto mode transition policy
 
 
 ### Fixed Modes And Service Lifecycle
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-kademlia-auto-mode:lifecycle`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (20%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
