@@ -22,7 +22,7 @@ Generate proofs or exploit reproductions for high-severity issues and regression
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-source-code-level-qa:system-prototype`
 * owner: Roman
-* status: in progress (70%)
+* status: in progress (75%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -49,4 +49,10 @@ Prototype an AI code analysis workflow covering:
 - Clarified and fixed CODE-5 for [LEZ Atomic Swaps v0.2.5](https://discord.com/channels/973324189794697286/1526145461025505360/1557941455362719854).
 - [iftech/bork#1](https://github.com/iftech/bork/pull/1) feat: workflow files, composed audits, and the findings history
 - Added third-party application support, including Notion, to the source-code QA prototype.
-- Completed 8 of 55 parts of the [Logos Blockchain v0.3.0 specification audit](https://app.notion.com/p/v0-3-0-3fb8f96fb65c81b29b0af74f0c8a3de0).
+- Completed 21 of 53 parts of the [Logos Blockchain v0.3.0 specification audit](https://app.notion.com/p/v0-3-0-3fb8f96fb65c81b29b0af74f0c8a3de0).
+- [iftech/bork#2](https://github.com/iftech/bork/pull/2) feat: cron jobs, the tick, and the triggers that keep a PR green
+- [iftech/bork#3](https://github.com/iftech/bork/pull/3) feat: bork top, a full-screen view over one shared snapshot
+- [iftech/bork#4](https://github.com/iftech/bork/pull/4) fix: source as a bundle, claimed briefs and collects, delivery by stage
+- [iftech/bork#5](https://github.com/iftech/bork/pull/5) feat: per-session model and an effort knob
+- [logos-blockchain/logos-blockchain#3911](https://github.com/logos-blockchain/logos-blockchain/issues/3911) Validation rule "ZkSignature by `public_key` over `mantle_txhash`" is never checked. (F-dd99b3f2)
+- Added concurrent Bork input consoles and jobs; tested two consoles and two jobs, limited by available hardware.

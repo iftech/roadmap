@@ -102,3 +102,7 @@ Update tests for messaging component changes, investigate failing or flaky tests
 - [logos-messaging/logos-delivery#4543](https://github.com/logos-messaging/logos-delivery/issues/4543) question: channel_send on a node that is not started answers RET_OK, then reports the failure in events that name broker internals
 - [logos-messaging/logos-delivery#4555](https://github.com/logos-messaging/logos-delivery/issues/4555) bug: a node stopped while its rendezvous registration dials a peer that does not answer never finishes stopping
 - [logos-messaging/logos-delivery#4554](https://github.com/logos-messaging/logos-delivery/issues/4554) question: after stop_node and start_node, a channel created before the stop answers unknown channel
+- [logos-co/logos-logoscore-py#34](https://github.com/logos-co/logos-logoscore-py/pull/34) feat(docker): pass env vars to the daemon container
+- [logos-co/logos-logoscore-py#35](https://github.com/logos-co/logos-logoscore-py/pull/35) feat(logosctl): a docker smoke image for LogosctlDockerDaemon
+- [logos-messaging/logos-delivery#4610](https://github.com/logos-messaging/logos-delivery/issues/4610) bug: a node with an RLN plugin dials its static nodes only once the host answers the startup membership check
+- [logos-messaging/logos-delivery#4612](https://github.com/logos-messaging/logos-delivery/pull/4612) test: reproduction for #4610

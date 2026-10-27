@@ -28,7 +28,7 @@ A team member can also start a run on a standalone commit, e.g. a master commit 
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-nimbus-downstream-ci:build`
 * owner: Gabe
-* status: in progress (65%)
+* status: in progress (90%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -48,13 +48,16 @@ Delete a standalone commit branch when its run ends.
 - A beacon node binary on request for any standalone commit
 - Builds for different commits that run in parallel, with no change to `DEPENDENCIES_AUTOBUMP_ENABLED`
 - Branch cleanup on pull request close and at the end of a standalone run
+- [iftech/nim-libp2p#3280](https://github.com/iftech/nim-libp2p/pull/3280) fix(gossipsub): send preamble only to peers not already receiving
+- [iftech/nim-libp2p#3250](https://github.com/iftech/nim-libp2p/pull/3250) feat(gossipsub): cap concurrent validations per peer
+- [iftech/nim-libp2p#3269](https://github.com/iftech/nim-libp2p/pull/3269) ci: test PRs on nimbus-eth2 and the hoodi fleet with the test-nimbus label
 
 
 ### Testnet Deployment Automation
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-nimbus-downstream-ci:deployment`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (90%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -74,6 +77,7 @@ The team can stop a run before its end, and the workflow then restores the nodes
 - Automatic restore of the nodes at the end of a run or on stop
 - A node lock that prevents overlapping runs
 - Contributor documentation for how to start, schedule, and stop a run
+- [iftech/nim-libp2p#3324](https://github.com/iftech/nim-libp2p/pull/3324) ci: 48h health soak of test-nimbus PRs on the hoodi fleet
 
 
 ### Metrics And Reporting

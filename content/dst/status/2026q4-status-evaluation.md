@@ -38,6 +38,7 @@ Compare results with old status-go.
     - Rebuilt Status develop commit `6fbaa6af0ee90100c93380f3b04fdd57433cd273` as a Docker image.
     - Adapted and redeployed Status benchmark utilities in the lab.
     - [iftech/status-benchmarks#45](https://github.com/iftech/status-benchmarks/pull/45) Updates
+    - [iftech/status-benchmarks#47](https://github.com/iftech/status-benchmarks/pull/47) Add plots
 - Documents:
 
 ### Logos delivery integration

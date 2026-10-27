@@ -53,7 +53,7 @@ and ensure they don't happen again.
 ### Messaging API — General Availability
 * fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:messaging-api`
 * owner: Alan
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/10/19
 * end-date: 2026/10/30
 
@@ -65,7 +65,13 @@ regression reports.
 
 #### Deliverables
 - Code:
+    - [iftech/10ksim#449](https://github.com/iftech/10ksim/pull/449) logos-messaging: experiment for the logos delivery Messaging API
+    - [iftech/10ksim#450](https://github.com/iftech/10ksim/pull/450) logos-messaging: post-run analysis
+    - [iftech/pod-api-requester#12](https://github.com/iftech/pod-api-requester/pull/12) Messaging send route for the logos delivery Messaging API
+    - [iftech/pod-api-requester#11](https://github.com/iftech/pod-api-requester/pull/11) Send no body on GET when params are empty
 - Reports:
+- Other:
+    - Ran Messaging API baseline experiments with 100 and 1,000 nodes.
 
 
 

@@ -54,6 +54,8 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [logos-co/logos-web#217](https://github.com/logos-co/logos-web/pull/217) fix(deps): patch next, payload and sharp security advisories
 - [logos-co/logos-web#222](https://github.com/logos-co/logos-web/pull/222) fix(web): update PriFi article resources
 - [logos-co/logos-web#235](https://github.com/logos-co/logos-web/pull/235) fix(web): UK Debt signup posts to dead API route
+- [logos-co/logos-web#247](https://github.com/logos-co/logos-web/pull/247) fix(ci): refresh deployment ref before publishing
+- [logos-co/logos-web#237](https://github.com/logos-co/logos-web/pull/237) chore: prepare offline OSS Scanner build
 
 ### Past Present Future: content update and migration
 
@@ -85,9 +87,9 @@ Document ownership, dependencies, and acceptance criteria before work that cross
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:logos-zine`
 - owner: Jinho
-- status: in progress (90%)
+- status: done
 - start-date: 2026/10/12
-- end-date: 2026/12/31
+- end-date: 2026/10/27
 
 #### Description
 
@@ -103,6 +105,9 @@ Before implementation, collect the final PDF, approved copy and assets, and a de
 - A verified PDF download for each published issue.
 - Final copy, PDF, assets, and design references documented before implementation.
 - QA evidence for desktop and mobile presentation, issue links, and downloads.
+- [logos-co/logos-web#233](https://github.com/logos-co/logos-web/pull/233) feat(web): add Logos zine catalogue and PDF readers
+- [logos-co/logos-web#246](https://github.com/logos-co/logos-web/pull/246) fix(web): make zine generation independent of system fonts
+- Published the [Logos zine catalogue and PDF readers](https://logos.co/zines).
 
 ### Node Program landing page
 
@@ -127,7 +132,7 @@ This is a large page, so kick off requirements, copy, and design with the Comms 
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:basecamp-lp`
 - owner: Jinho
-- status: in progress (10%)
+- status: in progress (80%)
 - start-date: 2026/10/01
 - end-date: 2026/10/31
 
@@ -142,6 +147,7 @@ Make the page more explanatory, expand its content, and focus it on conversion.
 - Approved redesign and copy.
 - A rebuilt, responsive Basecamp page with conversion events tracked in Umami.
 - [logos-co/logos-web#112](https://github.com/logos-co/logos-web/issues/112) Install Basecamp is throught web wrongly implemented
+- [logos-co/logos-web#238](https://github.com/logos-co/logos-web/pull/238) feat(web): renew Basecamp landing page
 
 ### RFP and Lambda Prize landing page updates
 
@@ -241,3 +247,5 @@ Create dedicated roadmap tasks when a request grows into a substantial project.
 - [logos-co/logos-web#232](https://github.com/logos-co/logos-web/issues/232) Improve blog article templates with a standard Basecamp CTA and bespoke content blocks
 - [logos-co/logos-web#220](https://github.com/logos-co/logos-web/issues/220) Local events Newsletter
 - [logos-co/logos-web#224](https://github.com/logos-co/logos-web/pull/224) feat(web): local events newsletter signup rules
+- [logos-co/logos-web#248](https://github.com/logos-co/logos-web/pull/248) fix(web): load calendar events dynamically
+- [logos-co/logos-web#241](https://github.com/logos-co/logos-web/pull/241) feat: city autocomplete in the footer and funnel forms

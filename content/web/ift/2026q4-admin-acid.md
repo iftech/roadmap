@@ -58,6 +58,7 @@ Ship the template and trigger changes stakeholders request during the quarter, a
 - [acid-info/admin-acid.logos.co#84](https://github.com/acid-info/admin-acid.logos.co/pull/84) fix(ghost): quote email in member lookup filter
 - Archived newsletters that had never been published to.
 - Merged the old “Logos” newsletter subscribers into “Logos Newsletter” and archived the old newsletter.
+- Fixed an unreachable production Ghost API that broke newsletter subscriptions and other Ghost interactions ([incident thread](https://discord.com/channels/973324189794697286/1561775092537626717/1561775096060842067)).
 
 ### Ad hoc requests
 
@@ -79,3 +80,5 @@ Create a dedicated roadmap task when a request grows into a substantial project.
 - [acid-info/admin-acid.logos.co#79](https://github.com/acid-info/admin-acid.logos.co/pull/79) feat(local-events): city labels on Regional signups and backfill
 - [acid-info/admin-acid.logos.co#82](https://github.com/acid-info/admin-acid.logos.co/pull/82) feat(local-events): email new Luma events to city subscribers via Ghost
 - [acid-info/admin-acid.logos.co#81](https://github.com/acid-info/admin-acid.logos.co/issues/81) feat(newsletters): only subscribe real cities to the Regional Newsletter
+- [acid-info/admin-acid.logos.co#86](https://github.com/acid-info/admin-acid.logos.co/pull/86) feat(newsletters): only subscribe real cities to the Regional Newsletter
+- [acid-info/admin-acid.logos.co#89](https://github.com/acid-info/admin-acid.logos.co/pull/89) fix(local-events): paginate Ghost labels and newsletters

@@ -38,6 +38,8 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [status-im/status-web#1327](https://github.com/status-im/status-web/pull/1327) fix(deps): bump next, sharp and next-intl for security advisories
 - [status-im/status-web#1330](https://github.com/status-im/status-web/pull/1330) fix(deps): patch next/font for extensionless google font urls
 - [status-im/status-web#1329](https://github.com/status-im/status-web/pull/1329) fix(community-dapp): install forge directly in vercel build
+- [status-im/status-web#1332](https://github.com/status-im/status-web/pull/1332) chore: prepare OSS Scanner enrollment
+- [status-im/status-web#1337](https://github.com/status-im/status-web/pull/1337) chore(community-subgraph): remove dead subgraph package
 
 ### Website revamp: UI design and copy update
 

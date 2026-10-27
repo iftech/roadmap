@@ -20,7 +20,7 @@ Improve the existing dashboard to monitore Keycard key indicators
 
 * fully qualified name: `ift-ts:bi:keycard:2026q4-keycard-continuous-monitoring`
 * owner: claire
-* status: in progress (10%)
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 * issue: -
@@ -30,5 +30,4 @@ Improve the existing dashboard to monitore Keycard key indicators
 Improve the existint dashboard to monitore keycard key indicators based on the request from the keycard team.
 
 #### Deliverables
-
-New charts and updates charts.
+* Extracted and analysed OpenAI ads data for Keycard.

@@ -29,7 +29,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-maintenance:maintenance`
 * owner: Richard/Vlado/Gabe
-* status: in progress (20%)
+* status: in progress (27%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -123,3 +123,33 @@ as issues arise during the quarter.
 - [iftech/nim-libp2p#3286](https://github.com/iftech/nim-libp2p/pull/3286) chore(result): TLS certificate parse returns Result
 - [iftech/roadmap#542](https://github.com/iftech/roadmap/pull/542) fix(p2p): Result PR list, end-date and nim-libp2p repo links
 - [iftech/nim-libp2p#3251](https://github.com/iftech/nim-libp2p/pull/3251) chore(results): one shape for every err call site
+- [iftech/nim-libp2p#3334](https://github.com/iftech/nim-libp2p/pull/3334) test: remove superfluous tests and fix tests that could not fail
+- [iftech/nim-lsquic#186](https://github.com/iftech/nim-lsquic/pull/186) chore(lsquic): update upstream and bump version to 0.11.3
+- [iftech/nim-libp2p#3302](https://github.com/iftech/nim-libp2p/pull/3302) feat(opt): compare options with plain values
+- [status-im/nimbus-eth2#9340](https://github.com/status-im/nimbus-eth2/pull/9340) chore: bump nim-libp2p and nim-boringssl
+- [iftech/nim-libp2p#3313](https://github.com/iftech/nim-libp2p/pull/3313) refactor(transport): retry recoverable accept failures internally
+- [iftech/nim-libp2p#3301](https://github.com/iftech/nim-libp2p/pull/3301) fix(crypto): adjust shuffle index sampling
+- [iftech/nim-libp2p#3299](https://github.com/iftech/nim-libp2p/pull/3299) fix(gossipsub): use configured PX acceptance threshold
+- [iftech/nim-libp2p#3321](https://github.com/iftech/nim-libp2p/pull/3321) chore(deps): update nim-boringssl to 0.0.14
+- [iftech/nim-boringssl#25](https://github.com/iftech/nim-boringssl/pull/25) chore(boringssl): update submodule and bindings
+- [iftech/boringssl#11](https://github.com/iftech/boringssl/pull/11) chore: sync BoringSSL upstream
+- [iftech/nim-libp2p#3294](https://github.com/iftech/nim-libp2p/pull/3294) fix(tor): align accept handling with TCP
+- [iftech/nim-libp2p#3295](https://github.com/iftech/nim-libp2p/pull/3295) fix(pubsub): initialize message sequence counters
+- [iftech/nim-libp2p#3292](https://github.com/iftech/nim-libp2p/pull/3292) fix(protobuf): enforce duration bounds
+- [iftech/nim-libp2p#3290](https://github.com/iftech/nim-libp2p/pull/3290) fix(asn1): validate one-byte bit string length
+- [iftech/nim-libp2p#3289](https://github.com/iftech/nim-libp2p/pull/3289) fix(asn1): refine length validation
+- [iftech/nim-libp2p#3300](https://github.com/iftech/nim-libp2p/pull/3300) fix(wstransport): validate dial hostnames
+- [iftech/nim-libp2p#3291](https://github.com/iftech/nim-libp2p/pull/3291) fix(cid): validate decoded input
+- [iftech/nim-libp2p#3298](https://github.com/iftech/nim-libp2p/pull/3298) fix(multihash): refine digest comparison
+- [iftech/nim-libp2p#3296](https://github.com/iftech/nim-libp2p/pull/3296) fix(crypto): bound RSA public key parameters
+- [iftech/nim-libp2p#3293](https://github.com/iftech/nim-libp2p/pull/3293) fix(dialer): refine dnsaddr result selection
+- [iftech/nim-libp2p#3336](https://github.com/iftech/nim-libp2p/pull/3336) chore: delete .opencodereview/rule.json
+- [iftech/nim-libp2p#3314](https://github.com/iftech/nim-libp2p/pull/3314) chore: utilize `stepsAsync`
+- [iftech/nim-libp2p#3305](https://github.com/iftech/nim-libp2p/pull/3305) fix(tests): copy lent loop variable before asyncTest closure in test_ping
+- [iftech/nim-libp2p#3284](https://github.com/iftech/nim-libp2p/pull/3284) fix(kad): cap provider addresses and record keys
+- [litespeedtech/lsquic#699](https://github.com/litespeedtech/lsquic/pull/699) Fix: send keepalive PINGs when no stream is open
+- [iftech/nim-libp2p#3322](https://github.com/iftech/nim-libp2p/pull/3322) fix(tests): define accept retry tests with a template for Nim devel
+- [iftech/nim-libp2p#3306](https://github.com/iftech/nim-libp2p/pull/3306) chore(cbind): complete release waiters before stop
+- [iftech/nim-libp2p#3315](https://github.com/iftech/nim-libp2p/pull/3315) fix(identify): cap addresses and protocols per message
+- [iftech/nim-libp2p#3312](https://github.com/iftech/nim-libp2p/pull/3312) fix(switch): restore listen addresses after a failed start
+- [iftech/nim-libp2p#3317](https://github.com/iftech/nim-libp2p/pull/3317) perf(zeroqueue): copy partial reads in place

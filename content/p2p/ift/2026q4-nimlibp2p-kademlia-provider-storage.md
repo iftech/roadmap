@@ -24,8 +24,8 @@ operations, expiration, and iteration.
 ### Storage Interface
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-kademlia-provider-storage:interface`
-* owner: not assigned yet
-* status: not started
+* owner: Gabe
+* status: in progress (15%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -39,6 +39,8 @@ semantics, adding other operations only where existing DHT behavior requires the
 
 - Storage interface covering all three record categories
 - Documented expiration and iteration semantics
+- [iftech/nim-libp2p#3288](https://github.com/iftech/nim-libp2p/pull/3288) refactor(kad): distinct RecordKey type for value records
+- [iftech/nim-libp2p#3318](https://github.com/iftech/nim-libp2p/pull/3318) fix(kad): cap provider records per peer
 
 
 ### Integration And Backend Validation

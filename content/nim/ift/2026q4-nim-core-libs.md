@@ -59,12 +59,17 @@ Triage issues, address regressions and compatibility problems, support downstrea
 - [status-im/nim-stew#281](https://github.com/status-im/nim-stew/pull/281) Fix #85; Add `validateUtf8` to `utfutils`
 - [nim-lang/Nim#26443](https://github.com/nim-lang/Nim/pull/26443) Add a line about `nim book` to the `--fullhelp`.
 - [nim-lang/langserver#489](https://github.com/nim-lang/langserver/pull/489) CI: Start MCP publish after GitHub Release.
+- [status-im/nim-taskpools#75](https://github.com/status-im/nim-taskpools/pull/75) Fix #67; "Allow GC type task result" regression
+- [status-im/nim-taskpools#76](https://github.com/status-im/nim-taskpools/pull/76) CI speed up
+- [status-im/nim-taskpools#77](https://github.com/status-im/nim-taskpools/pull/77) Workaround data race in `example` thread join
+- [status-im/nimbus-common-workflow#37](https://github.com/status-im/nimbus-common-workflow/pull/37) Add `nim/doc` & `nim/tools` to cache
+- [status-im/nim-chronos#730](https://github.com/status-im/nim-chronos/pull/730) Fix doc examples.
 
 ### Nimlangserver improvements
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nimlangserver`
 * owner: Juan/Esteban/Constantine
-* status: in progress (25%)
+* status: in progress (30%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -105,6 +110,10 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - [nim-lang/langserver#492](https://github.com/nim-lang/langserver/pull/492) Fix progress token
 - [nim-lang/langserver#490](https://github.com/nim-lang/langserver/pull/490) Use nimsuggest `outline2` when possible
 - [nim-lang/langserver#487](https://github.com/nim-lang/langserver/pull/487) Remove process monitor
+- [nim-lang/langserver#496](https://github.com/nim-lang/langserver/pull/496) Check project after external edit
+- [nim-lang/langserver#495](https://github.com/nim-lang/langserver/pull/495) Fix restart nimsuggest on configuration changes
+- [nim-lang/langserver#494](https://github.com/nim-lang/langserver/pull/494) Await workspace configuration
+- [nim-lang/langserver#493](https://github.com/nim-lang/langserver/pull/493) Avoid showing chk file result for an old file edit
 
 ### Nimlangserver and nimsuggest support for IFT projects
 
@@ -150,7 +159,7 @@ Aim to benefit from incremental compilation and other applicable Nimony-related 
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nim-lint`
 * owner: Constantine
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -161,3 +170,4 @@ Provide initial rules for IFT projects, such as flagging `asyncSpawn`, with seve
 
 #### Deliverables
 - Linter engine, initial rules, and documentation for adding rules and integrating checks into CI.
+- Wrote the second nim-lint specification after feedback on the first prototype.

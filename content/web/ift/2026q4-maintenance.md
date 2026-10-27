@@ -41,3 +41,4 @@ Resolve shared infrastructure or tooling failures, coordinate with Infra where n
 - [Status app Korean translation](https://docs.google.com/document/d/101OBvvoprtp5I5GXFf5hBLrsvSV8R5YShX3smgnQbhE/edit?tab=t.qso6thz9xpc3)
 - [Status app store French translation — Apple doc](https://docs.google.com/document/d/199SNFI-fFA4pTaG8Xp-y26um6HAQf42mcp8PFB08CwQ/edit?tab=t.tkqt8nea3kvv)
 - [Status app store French translation — Google Play doc](https://docs.google.com/document/d/199SNFI-fFA4pTaG8Xp-y26um6HAQf42mcp8PFB08CwQ/edit?tab=t.ghept0o2oy0u)
+- [status-im/infra-sites#175](https://github.com/status-im/infra-sites/issues/175) Request a security-patched MediaWiki test instance for the Logos wiki, including the PHP RCE patches disclosed on 21 October
