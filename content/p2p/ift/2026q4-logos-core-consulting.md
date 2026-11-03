@@ -22,7 +22,7 @@ TBD
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-core-consulting:consulting`
 * owner: Gabe
-* status: in progress (20%)
+* status: in progress (35%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -35,3 +35,5 @@ TBD
 - [logos-co/logos-libp2p-module#115](https://github.com/logos-co/logos-libp2p-module/pull/115) feat(kad): add kadWaitBootstrap to wait for the DHT bootstrap after start
 - [logos-co/logos-libp2p-module#122](https://github.com/logos-co/logos-libp2p-module/pull/122) fix: newPrivateKey without creating the node
 - [logos-co/logos-libp2p-module#123](https://github.com/logos-co/logos-libp2p-module/pull/123) fix: close a dialed stream before releasing it
+- [logos-co/logos-libp2p-module#125](https://github.com/logos-co/logos-libp2p-module/pull/125) fix(gossipsub)!: deliver binary payloads as base64
+- [logos-co/logos-libp2p-module#124](https://github.com/logos-co/logos-libp2p-module/pull/124) fix(stream): send the read timeout to Nim

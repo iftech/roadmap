@@ -40,6 +40,8 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [status-im/status-web#1329](https://github.com/status-im/status-web/pull/1329) fix(community-dapp): install forge directly in vercel build
 - [status-im/status-web#1332](https://github.com/status-im/status-web/pull/1332) chore: prepare OSS Scanner enrollment
 - [status-im/status-web#1337](https://github.com/status-im/status-web/pull/1337) chore(community-subgraph): remove dead subgraph package
+- [status-im/status-app#22975](https://github.com/status-im/status-app/issues/22975) [News message pop-up] bullet points are shown as a paragraph plus the image is cut on the right and left
+- [status-im/status-web#1340](https://github.com/status-im/status-web/pull/1340) fix(status.app): serve markup in the mobile news v2 feed
 
 ### Website revamp: UI design and copy update
 

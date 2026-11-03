@@ -64,12 +64,14 @@ Triage issues, address regressions and compatibility problems, support downstrea
 - [status-im/nim-taskpools#77](https://github.com/status-im/nim-taskpools/pull/77) Workaround data race in `example` thread join
 - [status-im/nimbus-common-workflow#37](https://github.com/status-im/nimbus-common-workflow/pull/37) Add `nim/doc` & `nim/tools` to cache
 - [status-im/nim-chronos#730](https://github.com/status-im/nim-chronos/pull/730) Fix doc examples.
+- [status-im/nim-chronos#742](https://github.com/status-im/nim-chronos/pull/742) Add missing `asyncengine` nimdoc symbols
+- [docker-library/official-images#22631](https://github.com/docker-library/official-images/pull/22631) Add Nim 2.4.0 and 2.2.14.
 
 ### Nimlangserver improvements
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nimlangserver`
 * owner: Juan/Esteban/Constantine
-* status: in progress (30%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -114,6 +116,21 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - [nim-lang/langserver#495](https://github.com/nim-lang/langserver/pull/495) Fix restart nimsuggest on configuration changes
 - [nim-lang/langserver#494](https://github.com/nim-lang/langserver/pull/494) Await workspace configuration
 - [nim-lang/langserver#493](https://github.com/nim-lang/langserver/pull/493) Avoid showing chk file result for an old file edit
+- [nim-lang/langserver#513](https://github.com/nim-lang/langserver/pull/513) Stop only closed files Nimsuggests
+- [nim-lang/langserver#512](https://github.com/nim-lang/langserver/pull/512) Get Nimsuggest without opening files in tools
+- [nim-lang/langserver#511](https://github.com/nim-lang/langserver/pull/511) Remove get Nimsuggest retries
+- [nim-lang/langserver#510](https://github.com/nim-lang/langserver/pull/510) Mark a file unsaved only when it differs from the disk
+- [nim-lang/langserver#509](https://github.com/nim-lang/langserver/pull/509) Track the last used nimsuggest by project file
+- [nim-lang/langserver#508](https://github.com/nim-lang/langserver/pull/508) Avoid project file open on `didOpenFile`
+- [nim-lang/langserver#507](https://github.com/nim-lang/langserver/pull/507) Reuse nimsuggest only if file is known
+- [nim-lang/langserver#506](https://github.com/nim-lang/langserver/pull/506) Enforce the nimsuggest cap for mapped projects
+- [nim-lang/langserver#505](https://github.com/nim-lang/langserver/pull/505) Fix reuse nimsuggest right project
+- [nim-lang/langserver#504](https://github.com/nim-lang/langserver/pull/504) Make `shutdownNimsuggest` reentrant
+- [nim-lang/langserver#503](https://github.com/nim-lang/langserver/pull/503) Avoid `nimble dump` on shutdown
+- [nim-lang/langserver#502](https://github.com/nim-lang/langserver/pull/502) Fix project resolve for dirs outside `srcDir`
+- [nim-lang/langserver#501](https://github.com/nim-lang/langserver/pull/501) Fix failed `nimble dump` handling
+- [nim-lang/langserver#499](https://github.com/nim-lang/langserver/pull/499) Log nimsuggest stderr immediately
+- [nim-lang/langserver#498](https://github.com/nim-lang/langserver/pull/498) Lazy nimble project resolve
 
 ### Nimlangserver and nimsuggest support for IFT projects
 
@@ -159,7 +176,7 @@ Aim to benefit from incremental compilation and other applicable Nimony-related 
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nim-lint`
 * owner: Constantine
-* status: in progress (25%)
+* status: in progress (60%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -171,3 +188,6 @@ Provide initial rules for IFT projects, such as flagging `asyncSpawn`, with seve
 #### Deliverables
 - Linter engine, initial rules, and documentation for adding rules and integrating checks into CI.
 - Wrote the second nim-lint specification after feedback on the first prototype.
+- Implemented a prototype based on the reviewed second nim-lint specification.
+- Implemented per-line lint disabling.
+- Implemented a GitHub Action for nim-lint.

@@ -48,6 +48,15 @@ Add regression coverage for fixes and update usage documentation when behavior c
 - [nim-lang/nimble#1890](https://github.com/nim-lang/nimble/pull/1890) Keep lock file pins within one PubGrub solve instead of trying them one by one
 - [nim-lang/nimble#1887](https://github.com/nim-lang/nimble/pull/1887) Fix nimlangserver tests
 - [nim-lang/nimble#1886](https://github.com/nim-lang/nimble/pull/1886) Prefer the system Nim within one PubGrub solve instead of pinning and re-solving
+- [nim-lang/nimble#1916](https://github.com/nim-lang/nimble/pull/1916) CI: install Mercurial on Linux and allow Windows 3 hours
+- [nim-lang/nimble#1915](https://github.com/nim-lang/nimble/pull/1915) List binaries' sources in nimble dump's entryPoints (fixes #1911, #1912, #1913)
+- [nim-lang/nimble#1914](https://github.com/nim-lang/nimble/pull/1914) Read INI-format .nimble files with the INI reader
+- [nim-lang/nimble#1909](https://github.com/nim-lang/nimble/pull/1909) Accept HTTP response headers up to 64 KB (fixes #1903)
+- [nim-lang/nimble#1908](https://github.com/nim-lang/nimble/pull/1908) a failed Nim download says why, not that the version doesn't exist (#1903)
+- [nim-lang/nimble#1907](https://github.com/nim-lang/nimble/pull/1907) Add Nim community packages to the canary
+- [nim-lang/nimble#1906](https://github.com/nim-lang/nimble/pull/1906) Reorders repositories to speed up the CI
+- [nim-lang/nimble#1902](https://github.com/nim-lang/nimble/pull/1902) bump 0.26.2
+- [nim-lang/nimble#1900](https://github.com/nim-lang/nimble/pull/1900) Add a canary comparing release and nightly nimble on important repos
 
 ### CI integration review
 

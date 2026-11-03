@@ -82,3 +82,7 @@ Create a dedicated roadmap task when a request grows into a substantial project.
 - [acid-info/admin-acid.logos.co#81](https://github.com/acid-info/admin-acid.logos.co/issues/81) feat(newsletters): only subscribe real cities to the Regional Newsletter
 - [acid-info/admin-acid.logos.co#86](https://github.com/acid-info/admin-acid.logos.co/pull/86) feat(newsletters): only subscribe real cities to the Regional Newsletter
 - [acid-info/admin-acid.logos.co#89](https://github.com/acid-info/admin-acid.logos.co/pull/89) fix(local-events): paginate Ghost labels and newsletters
+- [acid-info/admin-acid.logos.co#97](https://github.com/acid-info/admin-acid.logos.co/pull/97) Added the museum exhibit submission API with validated email delivery, request limits and origin checks
+- [acid-info/admin-acid.logos.co#99](https://github.com/acid-info/admin-acid.logos.co/pull/99) Allowed Logos web Vercel preview origins for museum submissions, with hostname validation and regression coverage
+- [acid-info/admin-acid.logos.co#95](https://github.com/acid-info/admin-acid.logos.co/pull/95) feat(local-events): add copy list emailed for every event
+- [acid-info/admin-acid.logos.co#92](https://github.com/acid-info/admin-acid.logos.co/pull/92) docs(repo): split docs into README, AGENTS.md and docs/- #92

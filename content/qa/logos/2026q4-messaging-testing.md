@@ -43,7 +43,7 @@ Port the remaining scenarios to the repository's E2E workflow, preserve relevant
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-messaging-testing:maintenance`
 * owner: Radek
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -106,3 +106,8 @@ Update tests for messaging component changes, investigate failing or flaky tests
 - [logos-co/logos-logoscore-py#35](https://github.com/logos-co/logos-logoscore-py/pull/35) feat(logosctl): a docker smoke image for LogosctlDockerDaemon
 - [logos-messaging/logos-delivery#4610](https://github.com/logos-messaging/logos-delivery/issues/4610) bug: a node with an RLN plugin dials its static nodes only once the host answers the startup membership check
 - [logos-messaging/logos-delivery#4612](https://github.com/logos-messaging/logos-delivery/pull/4612) test: reproduction for #4610
+- [logos-co/logos-delivery-module#170](https://github.com/logos-co/logos-delivery-module/pull/170) test(e2e): nodes with RLN on, tests without membership
+- [logos-messaging/logos-delivery#4615](https://github.com/logos-messaging/logos-delivery/pull/4615) test: refactor anvil setup
+- [logos-messaging/logos-delivery#4614](https://github.com/logos-messaging/logos-delivery/pull/4614) test(e2e): cleanup old rln code
+- [logos-messaging/logos-delivery#4616](https://github.com/logos-messaging/logos-delivery/pull/4616) test(e2e): bump python bindings
+- [logos-co/logos-logoscore-py#37](https://github.com/logos-co/logos-logoscore-py/issues/37) LogosctlDockerDaemon.start(): a host port picked before docker run can be taken by another container

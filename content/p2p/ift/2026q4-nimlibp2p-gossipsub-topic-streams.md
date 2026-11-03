@@ -26,9 +26,9 @@ behind an explicit opt-in or compile flag.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-gossipsub-topic-streams:stream-lifecycle`
 * owner: Richard
-* status: in progress (90%)
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/03
 
 #### Description
 
@@ -45,6 +45,7 @@ including subscription changes and peer disconnects.
 - [iftech/nim-libp2p#3273](https://github.com/iftech/nim-libp2p/pull/3273) feat(gossipsub): harden topic stream lifecycle
 - [iftech/nim-libp2p#3271](https://github.com/iftech/nim-libp2p/pull/3271) feat(gossipsub): add topic stream transport
 - [iftech/nim-libp2p#3272](https://github.com/iftech/nim-libp2p/pull/3272) feat(gossipsub): integrate topic streams
+- [iftech/nim-libp2p#3327](https://github.com/iftech/nim-libp2p/pull/3327) test(gossipsub): add topic streams interoperability
 
 
 ### Delivery And Resource Budgets

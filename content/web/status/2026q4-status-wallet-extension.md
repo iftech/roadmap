@@ -21,10 +21,10 @@ Select concrete work with stakeholders as needs arise and record scope and accep
 ### Maintenance
 
 * fully qualified name: `ift-ts:web:status:2026q4-status-wallet-extension:maintenance`
-* owner: Jinho/JulesFiliot
-* status: not started
+* owner: Jules
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/03
 
 #### Description
 
@@ -37,6 +37,7 @@ Investigate production failures reported by users or stakeholders and ship hotfi
 - PRs in `status-im/status-web` for upkeep, dependency updates, and production hotfixes.
 - Published extension releases on the [Chrome Web Store](https://chromewebstore.google.com/detail/status-portfolio-wallet-b/opkfeajbclhjdneghppfnfiannideafj), with release notes and coordination threads linked.
 - Tracked issues for production failures, with reproduction steps and resolution notes.
+- [status-im/status-web#1339](https://github.com/status-im/status-web/pull/1339) fix(wallet): show plain-text personal_sign messages as text
 
 ### Ad hoc requests
 

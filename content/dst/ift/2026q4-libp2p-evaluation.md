@@ -49,6 +49,7 @@ and ensure they don't happen again.
 - Code:
     - [iftech/10ksim#418](https://github.com/iftech/10ksim/pull/418) Connection cap and bootstrap image options for the nim-libp2p nodes
     - [iftech/10ksim#419](https://github.com/iftech/10ksim/pull/419) Partition analysis: phases from each message's publish record
+    - [iftech/10ksim#420](https://github.com/iftech/10ksim/pull/420) Partition cut scenario: cut a formed network in two and heal it
 - Reports:
     - Tested Kademlia liveness-loop and bucket-rotation changes and updated the [nim-libp2p v2.4.0 regression report](https://app.notion.com/p/3dd8f96fb65c81c194b8ce51ea753a52).
 - Other:
@@ -79,9 +80,9 @@ different implementations.
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-libp2p-evaluation:automatic-reporting`
 * owner: Alan
-* status: in progress (80%)
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/03
 
 #### Description
 Make use of the main tools available in the main repository to perform automatic analysis and reporting for
@@ -95,4 +96,5 @@ libp2p team, either by commit, each X amount of time or triggered manually.
     - [iftech/10ksim#446](https://github.com/iftech/10ksim/pull/446) run-nodes: allow count 0 to skip a group
     - [iftech/10ksim#447](https://github.com/iftech/10ksim/pull/447) run-nodes: name log files after nodes and reword the summary
     - [iftech/10ksim#448](https://github.com/iftech/10ksim/pull/448) run-nodes: optional tag that replaces every group's image tag
+    - [iftech/10ksim#456](https://github.com/iftech/10ksim/pull/456) Run nodes: attach every node's logs to every run
 - Reports:

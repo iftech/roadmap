@@ -75,7 +75,7 @@ including loss of the last confirmed address in v2.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-kademlia-auto-mode:lifecycle`
 * owner: Gabe
-* status: in progress (20%)
+* status: in progress (30%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -93,3 +93,5 @@ subscriptions. Fix defects identified by these tests.
 - Tests for fixed client/server modes under changing reachability
 - Auto-mode stop/restart tests covering pending-transition cancellation, subscriptions, and role state
 - Fixes and regression coverage for lifecycle defects found during validation
+- [iftech/nim-libp2p#3351](https://github.com/iftech/nim-libp2p/pull/3351) fix(kad): auto mode ignores verdicts while stopped and restarts from current reachability
+- [iftech/nim-libp2p#3329](https://github.com/iftech/nim-libp2p/pull/3329) test(kad): fixed modes ignore reachability changes

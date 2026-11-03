@@ -69,3 +69,5 @@ Select concrete scenarios from the existing backlog and issues found during desk
 - [status-im/status-go#7976](https://github.com/status-im/status-go/issues/7976) communitytokens: owner and master token deploy can keep placeholder addresses (receipt applied before rows exist)
 - [status-im/status-go#7977](https://github.com/status-im/status-go/issues/7977) test: `make test-unit-race` is red on develop, so it cannot catch new races
 - [status-im/status-go#7978](https://github.com/status-im/status-go/issues/7978) test(functional): run_functional_tests.sh does not wait for the Foundry contract deployment
+- [status-im/status-go#7956](https://github.com/status-im/status-go/pull/7956) test(functional): functional tests thread RPCs
+- [status-im/status-go#7969](https://github.com/status-im/status-go/pull/7969) test(functional): cover thread permission, reaction control and participants

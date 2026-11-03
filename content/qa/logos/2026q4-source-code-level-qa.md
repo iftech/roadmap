@@ -22,7 +22,7 @@ Generate proofs or exploit reproductions for high-severity issues and regression
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-source-code-level-qa:system-prototype`
 * owner: Roman
-* status: in progress (75%)
+* status: in progress (80%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -56,3 +56,19 @@ Prototype an AI code analysis workflow covering:
 - [iftech/bork#5](https://github.com/iftech/bork/pull/5) feat: per-session model and an effort knob
 - [logos-blockchain/logos-blockchain#3911](https://github.com/logos-blockchain/logos-blockchain/issues/3911) Validation rule "ZkSignature by `public_key` over `mantle_txhash`" is never checked. (F-dd99b3f2)
 - Added concurrent Bork input consoles and jobs; tested two consoles and two jobs, limited by available hardware.
+- [logos-blockchain/logos-execution-zone#1027](https://github.com/logos-blockchain/logos-execution-zone/issues/1027) Store-drained deposit skips the restricted-account guard and halts block production (F-b8196b2e)
+- [logos-blockchain/logos-execution-zone#1028](https://github.com/logos-blockchain/logos-execution-zone/issues/1028) A deposit naming a clock or fee account wedges block production zone-wide (F-2f1373ff)
+- [logos-blockchain/logos-execution-zone#1029](https://github.com/logos-blockchain/logos-execution-zone/issues/1029) A staked small-order key panics the channel-config update on every sequencer (F-af620781)
+- [logos-blockchain/logos-execution-zone#1030](https://github.com/logos-blockchain/logos-execution-zone/issues/1030) getTransactionsByAccount: unchecked offset+limit panics and over-allocates (F-3f6d2668)
+- [logos-blockchain/logos-execution-zone#1031](https://github.com/logos-blockchain/logos-execution-zone/issues/1031) Indexer retry gate reset on parking lets a duplicate block hold the slot forever (F-4ccadfb6)
+- [logos-blockchain/logos-execution-zone#1032](https://github.com/logos-blockchain/logos-execution-zone/issues/1032) Followers accept forged-shape bridge Deposits with no L1 check (F-b96deac2)
+- [logos-blockchain/logos-execution-zone#1033](https://github.com/logos-blockchain/logos-execution-zone/issues/1033) No discriminant between ProgramHeader and ProgramSegment lets WriteSegment forge a header (F-582d225e)
+- Ran a Devin security scan of logos-execution-zone and sent the findings for review.
+- Ran Devin security scans on status-app and status-go and reported findings privately as security advisories.
+- Moved per-session model and effort selection to the brief.
+- Implemented two-round finding triage, with human decisions for disagreements between advisor and console agent.
+- Added idle-volume build-cache cleanup through `bork clean --cache`.
+- Scheduled briefs rejected at capacity for a later cron tick.
+- Made Ship select the worker-image variant from the brief.
+- Added per-task prompt-cache hit share to Top.
+- Completed all 35 parts of the [Logos Execution Zone specification audit](https://app.notion.com/p/v0-3-1-40c8f96fb65c801baaeee0f9ebaecb9a), reporting 7 high, 22 medium, and 41 low findings.

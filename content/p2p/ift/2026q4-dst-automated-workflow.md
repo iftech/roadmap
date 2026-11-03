@@ -24,9 +24,9 @@ issue automatically in the nim-libp2p repository for triage.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-dst-automated-workflow:deployment-tests`
 * owner: Vlado
-* status: in progress (53%)
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/03
 
 #### Description
 
@@ -43,6 +43,10 @@ and results so failures can be reproduced.
 - [iftech/nim-libp2p-network-lab#2](https://github.com/iftech/nim-libp2p-network-lab/pull/2) improvements
 - [iftech/nim-libp2p-network-lab#1](https://github.com/iftech/nim-libp2p-network-lab/pull/1) add project structure with initial nodes
 - Completed scheduled workflow runs for the network lab.
+- [iftech/nim-libp2p-network-lab#19](https://github.com/iftech/nim-libp2p-network-lab/pull/19) chore: 100 msg rounds
+- [iftech/nim-libp2p-network-lab#16](https://github.com/iftech/nim-libp2p-network-lab/pull/16) chore: more improvements
+- [iftech/nim-libp2p-network-lab#10](https://github.com/iftech/nim-libp2p-network-lab/pull/10) feat: gossipsub regression experiment
+- [iftech/nim-libp2p-network-lab#11](https://github.com/iftech/nim-libp2p-network-lab/pull/11) chore: varius improvments
 
 
 ### Automatic Regression Issues

@@ -42,3 +42,4 @@ Resolve shared infrastructure or tooling failures, coordinate with Infra where n
 - [Status app store French translation — Apple doc](https://docs.google.com/document/d/199SNFI-fFA4pTaG8Xp-y26um6HAQf42mcp8PFB08CwQ/edit?tab=t.tkqt8nea3kvv)
 - [Status app store French translation — Google Play doc](https://docs.google.com/document/d/199SNFI-fFA4pTaG8Xp-y26um6HAQf42mcp8PFB08CwQ/edit?tab=t.ghept0o2oy0u)
 - [status-im/infra-sites#175](https://github.com/status-im/infra-sites/issues/175) Request a security-patched MediaWiki test instance for the Logos wiki, including the PHP RCE patches disclosed on 21 October
+- Translated Status mobile app advertising content into French for Volo ([translation sheet](https://docs.google.com/spreadsheets/d/1WyA7Zhl552E51EPxVjzt731NuPIqN1_ZnW6VHC1MLbs/edit?gid=19218066#gid=19218066)).

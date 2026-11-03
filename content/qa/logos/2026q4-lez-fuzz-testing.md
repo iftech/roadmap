@@ -38,3 +38,4 @@ Keep targets compatible with upstream changes and preserve useful corpus handlin
 - [logos-blockchain/lez-fuzzing#38](https://github.com/logos-blockchain/lez-fuzzing/pull/38) chore: sync with LEZ removal of token/AMM/ATA programs and block producer signature
 - [logos-blockchain/lez-fuzzing#39](https://github.com/logos-blockchain/lez-fuzzing/pull/39) chore: automated weekly corpus update
 - [logos-blockchain/lez-fuzzing#40](https://github.com/logos-blockchain/lez-fuzzing/pull/40) chore: automated weekly corpus update
+- [logos-blockchain/lez-fuzzing#41](https://github.com/logos-blockchain/lez-fuzzing/pull/41) chore: automated weekly corpus update
