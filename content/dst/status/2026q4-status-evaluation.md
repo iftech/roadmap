@@ -25,7 +25,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:status:2026q4-status-evaluation:reliability`
 * owner: Alberto
-* status: in progress (85%)
+* status: in progress (95%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -39,7 +39,11 @@ Compare results with old status-go.
     - Adapted and redeployed Status benchmark utilities in the lab.
     - [iftech/status-benchmarks#45](https://github.com/iftech/status-benchmarks/pull/45) Updates
     - [iftech/status-benchmarks#47](https://github.com/iftech/status-benchmarks/pull/47) Add plots
+    - [Status analysis branch](https://github.com/status-im/status-go/tree/dst-analysis).
 - Documents:
+    - Identified a light-node rate-limiter timing mismatch causing valid messages to remain pending in MVDS and arrive minutes late.
+    - Identified a feedback loop in which delayed processing delays acknowledgements, triggers MVDS retransmissions, and increases the processing backlog.
+    - [Status delay investigation](https://discord.com/channels/1210237582470807632/1555207381355597915/1565418895873941606).
 
 ### Logos delivery integration
 

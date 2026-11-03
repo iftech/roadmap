@@ -39,7 +39,7 @@ Consolidate ai-review and ai-docs-sync in [acid-info/ai-tools](https://github.co
 
 * fully qualified name: `ift-ts:web:ift:2026q4-ai-tooling:ai-review`
 * owner: JulesFiliot
-* status: in progress (45%)
+* status: in progress (60%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -123,3 +123,4 @@ Finish [acid-info/ai-docs-sync](https://github.com/acid-info/ai-docs-sync), whic
 - [logos-co/logos-web#243](https://github.com/logos-co/logos-web/pull/243) docs(repo): rewrite docs for humans and agents
 - [status-im/status-web#1334](https://github.com/status-im/status-web/pull/1334) docs(repo): restructure docs for docs-sync
 - [status-im/status-web#1335](https://github.com/status-im/status-web/pull/1335) docs(repo): rewrite docs for humans and agents
+- [acid-info/ai-tools#23](https://github.com/acid-info/ai-tools/pull/23) fix(ai-docs-sync): skip the pr author when requesting reviewers

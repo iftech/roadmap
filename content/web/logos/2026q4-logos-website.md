@@ -56,6 +56,11 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [logos-co/logos-web#235](https://github.com/logos-co/logos-web/pull/235) fix(web): UK Debt signup posts to dead API route
 - [logos-co/logos-web#247](https://github.com/logos-co/logos-web/pull/247) fix(ci): refresh deployment ref before publishing
 - [logos-co/logos-web#237](https://github.com/logos-co/logos-web/pull/237) chore: prepare offline OSS Scanner build
+- [logos-co/logos-web#251](https://github.com/logos-co/logos-web/pull/251) fix(web): fall back to article cover for invalid OG images
+- [logos-co/logos-web#260](https://github.com/logos-co/logos-web/pull/260) fix(web): align Basecamp copy across public pages
+- [logos-co/logos-web#257](https://github.com/logos-co/logos-web/issues/257) Website copy update part II
+- [logos-co/logos-web#258](https://github.com/logos-co/logos-web/pull/258) chore(web): update hacktivist copy
+- Reconciled develop and production branch histories after the Waku promotion ([commit](https://github.com/logos-co/logos-web/commit/39fb67d9f99c62d0faa047deef33764253cae9ad)).
 
 ### Past Present Future: content update and migration
 
@@ -108,6 +113,7 @@ Before implementation, collect the final PDF, approved copy and assets, and a de
 - [logos-co/logos-web#233](https://github.com/logos-co/logos-web/pull/233) feat(web): add Logos zine catalogue and PDF readers
 - [logos-co/logos-web#246](https://github.com/logos-co/logos-web/pull/246) fix(web): make zine generation independent of system fonts
 - Published the [Logos zine catalogue and PDF readers](https://logos.co/zines).
+- [logos-co/logos-web#254](https://github.com/logos-co/logos-web/pull/254) fix(web): update LAN 02 with corrected PDF
 
 ### Node Program landing page
 
@@ -132,9 +138,9 @@ This is a large page, so kick off requirements, copy, and design with the Comms 
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:basecamp-lp`
 - owner: Jinho
-- status: in progress (80%)
+- status: done
 - start-date: 2026/10/01
-- end-date: 2026/10/31
+- end-date: 2026/11/03
 
 #### Description
 
@@ -148,12 +154,14 @@ Make the page more explanatory, expand its content, and focus it on conversion.
 - A rebuilt, responsive Basecamp page with conversion events tracked in Umami.
 - [logos-co/logos-web#112](https://github.com/logos-co/logos-web/issues/112) Install Basecamp is throught web wrongly implemented
 - [logos-co/logos-web#238](https://github.com/logos-co/logos-web/pull/238) feat(web): renew Basecamp landing page
+- [logos-co/logos-web#253](https://github.com/logos-co/logos-web/pull/253) fix(web): use full-resolution Basecamp build screenshot
+- [logos-co/logos-web#259](https://github.com/logos-co/logos-web/pull/259) fix(web): clarify Basecamp participation copy
 
 ### RFP and Lambda Prize landing page updates
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:rfp-lambda-prize-lp`
-- owner: Jinho/JulesFiliot
-- status: not started
+- owner: Jinho
+- status: in progress (90%)
 - start-date: 2026/11/01
 - end-date: 2026/11/30
 
@@ -249,3 +257,9 @@ Create dedicated roadmap tasks when a request grows into a substantial project.
 - [logos-co/logos-web#224](https://github.com/logos-co/logos-web/pull/224) feat(web): local events newsletter signup rules
 - [logos-co/logos-web#248](https://github.com/logos-co/logos-web/pull/248) fix(web): load calendar events dynamically
 - [logos-co/logos-web#241](https://github.com/logos-co/logos-web/pull/241) feat: city autocomplete in the footer and funnel forms
+- [logos-co/logos-web#261](https://github.com/logos-co/logos-web/issues/261) Migrate Waku blog posts to Logos Articles
+- [logos-co/logos-web#262](https://github.com/logos-co/logos-web/pull/262) feat(web): migrate Waku articles for staging review
+- [logos-co/logos-web#265](https://github.com/logos-co/logos-web/pull/265) fix(web): correct Waku article duplication and MDX rendering
+- [logos-co/logos-web#266](https://github.com/logos-co/logos-web/pull/266) feat(web): publish approved Waku articles on Logos Media
+- [logos-co/logos-web#250](https://github.com/logos-co/logos-web/pull/250) feat(web): add museum exhibit submission modal
+- [logos-co/logos-web#264](https://github.com/logos-co/logos-web/issues/264) Build a Logos community forum with modern tech stacks

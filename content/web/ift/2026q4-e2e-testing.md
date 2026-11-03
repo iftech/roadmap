@@ -22,8 +22,8 @@ Playwright is the proposed runner since it covers both browsers; reuse the exist
 ### status.app E2E suite
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:status-app`
-* owner: Jinho/JulesFiliot
-* status: not started
+* owner: Jules
+* status: in progress (20%)
 * start-date: 2026/10/05
 * end-date: 2026/10/30
 
@@ -40,8 +40,8 @@ Check that each page loads without errors, that key elements (navigation, hero, 
 ### logos.co E2E suite
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:logos-co`
-* owner: Jinho/JulesFiliot
-* status: not started
+* owner: Jules
+* status: in progress (20%)
 * start-date: 2026/10/19
 * end-date: 2026/11/20
 

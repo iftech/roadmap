@@ -52,7 +52,7 @@ filesharing client implementation under heavy/big workloads.
 > *Note*: This needs more input from project
 * fully qualified name: `ift-ts:dst:logos:2026q4-storage-evaluation:filesharing-client-mix`
 * owner: Alberto
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -66,3 +66,4 @@ filesharing client implementation under heavy/big workloads using mix protocol.
 - Related PRs if apply:
     - [Storage and Mix experiment](https://github.com/iftech/10ksim/tree/Alberto/storage).
     - Refactored [pod-api-requester](https://github.com/iftech/pod-api-requester) to provide utilities for the Storage scenario.
+    - [iftech/10ksim#454](https://github.com/iftech/10ksim/pull/454) Storage experiment

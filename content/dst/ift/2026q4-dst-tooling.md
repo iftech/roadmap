@@ -52,5 +52,6 @@ Should be made general when possible.
     - [iftech/10ksim#442](https://github.com/iftech/10ksim/pull/442) Fix cleanup wait and CronJob cleanup
     - [iftech/dst-libp2p-test-node#63](https://github.com/iftech/dst-libp2p-test-node/pull/63) Shadow build for the two-binary regression node
     - [iftech/10ksim#444](https://github.com/iftech/10ksim/pull/444) Fix the Shadow log pull and the exit code of a failed Shadow run
+    - [iftech/10ksim#453](https://github.com/iftech/10ksim/pull/453) Fail a run that published off its configured rate
 - Reports:
 - Other:

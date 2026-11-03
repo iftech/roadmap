@@ -29,7 +29,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-maintenance:maintenance`
 * owner: Richard/Vlado/Gabe
-* status: in progress (27%)
+* status: in progress (35%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -153,3 +153,15 @@ as issues arise during the quarter.
 - [iftech/nim-libp2p#3315](https://github.com/iftech/nim-libp2p/pull/3315) fix(identify): cap addresses and protocols per message
 - [iftech/nim-libp2p#3312](https://github.com/iftech/nim-libp2p/pull/3312) fix(switch): restore listen addresses after a failed start
 - [iftech/nim-libp2p#3317](https://github.com/iftech/nim-libp2p/pull/3317) perf(zeroqueue): copy partial reads in place
+- [iftech/nim-libp2p#3354](https://github.com/iftech/nim-libp2p/pull/3354) refactor(protocol): move setup into constructors
+- [iftech/nim-libp2p#3297](https://github.com/iftech/nim-libp2p/pull/3297) fix(gossipsub): normalize bandwidth timing estimates
+- [logos-co/nim-libp2p-mix#65](https://github.com/logos-co/nim-libp2p-mix/pull/65) fix(tag-manager): fail closed at replay cache capacity
+- [logos-co/nim-libp2p-mix#66](https://github.com/logos-co/nim-libp2p-mix/pull/66) fix(mix): correct codec decoding and reply lifecycle
+- [iftech/nim-libp2p#3338](https://github.com/iftech/nim-libp2p/pull/3338) chore: deprecated compile warnings to error
+- [iftech/nim-libp2p#3340](https://github.com/iftech/nim-libp2p/pull/3340) chore: remove copilot-instructions.md
+- [iftech/nim-libp2p#3330](https://github.com/iftech/nim-libp2p/pull/3330) fix(autonat): cancel and await in-flight probes on stop
+- [iftech/nim-libp2p#3316](https://github.com/iftech/nim-libp2p/pull/3316) fix(rdv): replace a repeat registration in place
+- [iftech/nim-libp2p#3333](https://github.com/iftech/nim-libp2p/pull/3333) fix(cbind): time out stream reads and allow one read per stream
+- [iftech/nim-libp2p#3328](https://github.com/iftech/nim-libp2p/pull/3328) fix: four flaky CI tests and a silent nasm install failure
+- [iftech/nim-libp2p#3332](https://github.com/iftech/nim-libp2p/pull/3332) chore(kad): store provider expiry as wall-clock time
+- [iftech/nim-libp2p#3331](https://github.com/iftech/nim-libp2p/pull/3331) fix(autonat): reset reachability state on stop

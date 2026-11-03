@@ -53,7 +53,7 @@ and ensure they don't happen again.
 ### Messaging API — General Availability
 * fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:messaging-api`
 * owner: Alan
-* status: in progress (50%)
+* status: in progress (70%)
 * start-date: 2026/10/19
 * end-date: 2026/10/30
 
@@ -69,7 +69,13 @@ regression reports.
     - [iftech/10ksim#450](https://github.com/iftech/10ksim/pull/450) logos-messaging: post-run analysis
     - [iftech/pod-api-requester#12](https://github.com/iftech/pod-api-requester/pull/12) Messaging send route for the logos delivery Messaging API
     - [iftech/pod-api-requester#11](https://github.com/iftech/pod-api-requester/pull/11) Send no body on GET when params are empty
+    - [iftech/10ksim#455](https://github.com/iftech/10ksim/pull/455) logos-messaging: standard mesh size readiness probe after a one-time subscription check
+    - [iftech/10ksim#452](https://github.com/iftech/10ksim/pull/452) logos-messaging: scrape metrics and draw the standard plots over the sending window
+    - [logos-messaging/logos-delivery#4651](https://github.com/logos-messaging/logos-delivery/issues/4651) Increase in CPU usage
+    - [logos-messaging/logos-delivery#4652](https://github.com/logos-messaging/logos-delivery/issues/4652) Fix incorrect health report for relay or core mode
+    - Extended the Messaging API experiment to Store and Edge nodes and completed an initial small run.
 - Reports:
+    - Added 1,000-node runs varying settling time, full-mesh readiness, and CPU limits to the [Messaging API baseline report](https://app.notion.com/p/4008f96fb65c81f9a5edd2818ffb766b).
 - Other:
     - Ran Messaging API baseline experiments with 100 and 1,000 nodes.
 

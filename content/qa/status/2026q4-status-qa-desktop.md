@@ -40,6 +40,8 @@ Report bugs and release risks and verify fixes with the Status team.
 - [status-im/status-app#22905](https://github.com/status-im/status-app/issues/22905) Deterministic handling of community token deploy receipts (remove retry race)
 - [status-im/status-app#22875](https://github.com/status-im/status-app/pull/22875) chore(@qml): fix http stats test
 - [status-im/status-app#22863](https://github.com/status-im/status-app/issues/22863) Erase all notifications and delete individual notification in Activity Centre
+- [status-im/status-app#22993](https://github.com/status-im/status-app/pull/22993) chore: update status-go version
+- [status-im/status-go#7980](https://github.com/status-im/status-go/pull/7980) feat(bridge): support float for bridge quotes
 
 ### Maintenance
 
@@ -72,6 +74,10 @@ Assist developers with test changes in pull requests.
 - [status-im/status-app#22930](https://github.com/status-im/status-app/pull/22930) chore(@e2e): fix benchmarks script to correctly push to repo
 - [status-im/status-app#22916](https://github.com/status-im/status-app/pull/22916) chore(@e2e): fix network selection
 - [status-im/status-app#22890](https://github.com/status-im/status-app/pull/22890) test(e2e): align emoji reads with StatusEmoji and pick from catalog
+- [status-im/status-app#22995](https://github.com/status-im/status-app/pull/22995) tests: move settings sync view verifications to QML
+- [status-im/status-app#22978](https://github.com/status-im/status-app/pull/22978) chore(@e2e): network selector regression fix
+- [status-im/status-app#22954](https://github.com/status-im/status-app/pull/22954) chore(@e2e): fix for nightly failures
+- [status-im/status-app#22959](https://github.com/status-im/status-app/pull/22959) chore(@e2e): benchmark tests fixes
 
 ### Performance tests for desktop application on Windows
 
@@ -116,6 +122,7 @@ Choose scenarios as feature scope and the automation backlog are clarified with 
 - [status-im/status-app#22717](https://github.com/status-im/status-app/pull/22717) tests(@e2e): bridge and swap scenarios
 - [status-im/status-app#22904](https://github.com/status-im/status-app/pull/22904) test(e2e): add spell check tests
 - [status-im/status-app#22828](https://github.com/status-im/status-app/pull/22828) tests(@e2e): community token actions
+- [status-im/status-app#22951](https://github.com/status-im/status-app/pull/22951) tests(@e2e): scan qr code from image
 
 ### Performance tests for desktop application on Mac
 

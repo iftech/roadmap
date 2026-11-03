@@ -140,7 +140,7 @@ Keep the query string on every redirect. Do not redirect CMS preview, API, or as
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-media-migration:legacy-retirement`
 - owner: Jinho
-- status: not started
+- status: in progress (10%)
 - start-date: 2026/11/09
 - end-date: 2026/12/04
 
@@ -158,6 +158,7 @@ When logs and workflow checks show that the legacy frontend is no longer require
 - Traffic or request-log evidence that no required consumer still uses the legacy frontend.
 - Legacy blog frontend decommissioned by Infra, with Strapi and other retained content services explicitly excluded.
 - Post-decommission checks covering production pages, builds, previews, feeds, search, and redirects.
+- [status-im/infra-sites#168](https://github.com/status-im/infra-sites/issues/168) Followed up with Infra on retiring the old blog after the redirects were configured; waiting for confirmation from the Comms team before requesting shutdown
 
 ### Monitor SEO, content integrity, and operational health
 

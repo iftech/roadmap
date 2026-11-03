@@ -22,7 +22,7 @@ Maintain the performance suite and extend measurements to a loaded existing acco
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:release-testing`
 * owner: Magnus
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -67,6 +67,12 @@ Perform exploratory and regression testing, test new features in each release, a
 - [status-im/status-app#22527](https://github.com/status-im/status-app/issues/22527) [QA - Mobile & Desktop] Threads: what to test in 2.40
 - [status-im/status-app#22936](https://github.com/status-im/status-app/issues/22936) [QA - Mobile] Share screen lists chats by the user's last send, not by the latest message
 - Checked Status 2.39.2 on iOS: swap and bridge tests passed.
+- [status-im/status-app#23000](https://github.com/status-im/status-app/issues/23000) [QA - Mobile & Desktop] Keycard applet 4.x: what to test in 2.40
+- [status-im/status-app#23001](https://github.com/status-im/status-app/issues/23001) [QA - Mobile & Desktop] Keycard applet 4.x: dev tests
+- [status-im/status-app#23002](https://github.com/status-im/status-app/issues/23002) [QA - Mobile & Desktop] Keycard applet 4.x: status-backend tests
+- [status-im/status-app#22999](https://github.com/status-im/status-app/issues/22999) [Keycard] Confirm the production CA keys for card certificates before the 2.40 release
+- [status-im/status-app#22967](https://github.com/status-im/status-app/issues/22967) [QA - Mobile & Desktop] Spell check: what to test in 2.40
+- Checked Keycard end-to-end coverage against the specification and identified 13 scenarios without tests.
 
 ### Maintenance
 
@@ -85,6 +91,8 @@ Address flaky tests and assist developers with test changes in pull requests as 
 - [status-im/status-app#22504](https://github.com/status-im/status-app/pull/22504) test(e2e_appium): press only a message that is on screen
 - Verified the logos-qt-mcp Qt inspector prototype on Status desktop and Android.
 - [status-im/status-app#22752](https://github.com/status-im/status-app/pull/22752) test(e2e_appium): open the nav drawer with a drag that moves at once
+- Traced nightly failures 318–320 to message locators rather than message delivery.
+- Built the `/e2e-android` PR-comment trigger for the Android end-to-end gate.
 
 ### Coverage for existing features
 
