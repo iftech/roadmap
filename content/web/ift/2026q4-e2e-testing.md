@@ -23,7 +23,7 @@ Playwright is the proposed runner since it covers both browsers; reuse the exist
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:status-app`
 * owner: Jules
-* status: in progress (20%)
+* status: in progress (80%)
 * start-date: 2026/10/05
 * end-date: 2026/10/30
 
@@ -36,12 +36,13 @@ Check that each page loads without errors, that key elements (navigation, hero, 
 
 - PRs in `status-im/status-web` adding the e2e configuration and the status.app suite, runnable locally against production or a preview URL.
 - Smoke tests for critical pages and key elements, plus navigation tests for the main user journeys, passing in Chromium and Firefox.
+- [status-im/status-web#1348](https://github.com/status-im/status-web/pull/1348) test(e2e): add daily status.app suite
 
 ### logos.co E2E suite
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:logos-co`
 * owner: Jules
-* status: in progress (20%)
+* status: in progress (80%)
 * start-date: 2026/10/19
 * end-date: 2026/11/20
 
@@ -55,12 +56,13 @@ Cover the new `/media` article and podcast routes once they reach production thr
 - PRs in `logos-co/logos-web` adding the e2e configuration and the logos.co suite, runnable locally against production or a preview URL.
 - Smoke tests for critical pages and key elements, plus navigation tests for the main user journeys, passing in Chromium and Firefox.
 - `/media` coverage and a redirect sample added after the media cutover.
+- [logos-co/logos-web#273](https://github.com/logos-co/logos-web/pull/273) test(e2e): add daily e2e suite for the web site
 
 ### Nightly runs and reporting
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:nightly-ci`
-* owner: Jinho/JulesFiliot
-* status: not started
+* owner: Jules
+* status: in progress (80%)
 * start-date: 2026/11/02
 * end-date: 2026/12/04
 
@@ -76,3 +78,5 @@ Keep the runs trustworthy: retry once before failing, keep traces and screenshot
 - Failure notifications sent to an agreed channel or opened as GitHub issues.
 - Analytics requests blocked during test runs so nightly visits do not skew site analytics.
 - A short README note on running the suites locally and adding a test.
+- [status-im/status-web#1348](https://github.com/status-im/status-web/pull/1348) test(e2e): add daily status.app suite
+- [logos-co/logos-web#273](https://github.com/logos-co/logos-web/pull/273) test(e2e): add daily e2e suite for the web site

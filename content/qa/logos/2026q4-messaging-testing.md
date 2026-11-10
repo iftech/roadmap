@@ -111,3 +111,6 @@ Update tests for messaging component changes, investigate failing or flaky tests
 - [logos-messaging/logos-delivery#4614](https://github.com/logos-messaging/logos-delivery/pull/4614) test(e2e): cleanup old rln code
 - [logos-messaging/logos-delivery#4616](https://github.com/logos-messaging/logos-delivery/pull/4616) test(e2e): bump python bindings
 - [logos-co/logos-logoscore-py#37](https://github.com/logos-co/logos-logoscore-py/issues/37) LogosctlDockerDaemon.start(): a host port picked before docker run can be taken by another container
+- [logos-co/logos-delivery-module#171](https://github.com/logos-co/logos-delivery-module/pull/171) test(e2e): tests with RLN membership
+- [logos-co/logos-delivery-module#175](https://github.com/logos-co/logos-delivery-module/pull/175) test(e2e): logosctl instead of logoscore
+- [logos-messaging/logos-delivery#4650](https://github.com/logos-messaging/logos-delivery/pull/4650) ci: run every job in the nightly through ci.yml

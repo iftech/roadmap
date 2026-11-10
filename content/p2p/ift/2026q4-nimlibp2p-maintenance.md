@@ -29,7 +29,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-maintenance:maintenance`
 * owner: Richard/Vlado/Gabe
-* status: in progress (35%)
+* status: in progress (42%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -165,3 +165,30 @@ as issues arise during the quarter.
 - [iftech/nim-libp2p#3328](https://github.com/iftech/nim-libp2p/pull/3328) fix: four flaky CI tests and a silent nasm install failure
 - [iftech/nim-libp2p#3332](https://github.com/iftech/nim-libp2p/pull/3332) chore(kad): store provider expiry as wall-clock time
 - [iftech/nim-libp2p#3331](https://github.com/iftech/nim-libp2p/pull/3331) fix(autonat): reset reachability state on stop
+- [iftech/nim-libp2p#3392](https://github.com/iftech/nim-libp2p/pull/3392) ci: keep the Actions cache under its 10 GB limit
+- [iftech/nim-libp2p#3377](https://github.com/iftech/nim-libp2p/pull/3377) fix(relay): default client circuits to Mplex and Yamux without configured muxers
+- [logos-co/nim-libp2p-mix#69](https://github.com/logos-co/nim-libp2p-mix/pull/69) fix(mix): consume reply SURBs independently
+- [iftech/nim-libp2p#3255](https://github.com/iftech/nim-libp2p/pull/3255) feat(gossipsub): add per-priority outbound byte budgets
+- [iftech/nim-libp2p#3341](https://github.com/iftech/nim-libp2p/pull/3341) feat(waggle): add object-piece dissemination and Rust interoperability
+- [iftech/nim-libp2p#3399](https://github.com/iftech/nim-libp2p/pull/3399) ci: pin nim-lint
+- [iftech/nim-libp2p#3396](https://github.com/iftech/nim-libp2p/pull/3396) fix(autotls): separate address discovery timeout from certificate startup deadline
+- [iftech/nim-libp2p#3393](https://github.com/iftech/nim-libp2p/pull/3393) test: build with ` -d:nimNoLentIterators`
+- [iftech/nim-libp2p#3395](https://github.com/iftech/nim-libp2p/pull/3395) chore(build): promote `CondTrue` hints to errors
+- [iftech/nim-libp2p#3394](https://github.com/iftech/nim-libp2p/pull/3394) test: stabilize AutoTLS certificate failure test on slow CI runners
+- [iftech/nim-libp2p#3387](https://github.com/iftech/nim-libp2p/pull/3387) test: improve execution time for longest executing tests
+- [iftech/nim-libp2p#3383](https://github.com/iftech/nim-libp2p/pull/3383) test: bump default test timeout to 20sec
+- [iftech/nim-libp2p#3382](https://github.com/iftech/nim-libp2p/pull/3382) chore(PeerIdAuth): minor improvments
+- [iftech/nim-libp2p#3380](https://github.com/iftech/nim-libp2p/pull/3380) chore(switch)!: remove `add(Service)`
+- [iftech/nim-libp2p#3381](https://github.com/iftech/nim-libp2p/pull/3381) test: fix priority queue test compilation
+- [libp2p/test-plans#873](https://github.com/libp2p/test-plans/pull/873) fix: pin node-version to v24
+- [iftech/nim-libp2p#3368](https://github.com/iftech/nim-libp2p/pull/3368) chore(deps): bump `protobuf_serialization` to v0.6.2
+- [iftech/nim-libp2p#3248](https://github.com/iftech/nim-libp2p/pull/3248) feat(autotls): state storage
+- [iftech/nim-libp2p#3372](https://github.com/iftech/nim-libp2p/pull/3372) fix(autonat): v1 server refuses a dial when its dial slot is busy
+- [iftech/nim-libp2p#3376](https://github.com/iftech/nim-libp2p/pull/3376) feat(hpservice): cap direct dials and drop forceDial
+- [iftech/nim-libp2p#3374](https://github.com/iftech/nim-libp2p/pull/3374) fix(autorelay): cancel the losing wait in the relay loop
+- [iftech/nim-libp2p#3373](https://github.com/iftech/nim-libp2p/pull/3373) fix(relay): raise on a write past the relay data limit
+- [iftech/nim-libp2p#3375](https://github.com/iftech/nim-libp2p/pull/3375) perf(kad): hash each key once in findClosest
+- [iftech/nim-libp2p#3360](https://github.com/iftech/nim-libp2p/pull/3360) fix(nat): mount the relay client that hole punching uses
+- [iftech/nim-libp2p#3358](https://github.com/iftech/nim-libp2p/pull/3358) fix(relay): reject reservations that expire more than 24 h ahead
+- Fixed duplicate messages in the automated workflow.
+- Extended the review tool to test files and added Radek to its allowed list.

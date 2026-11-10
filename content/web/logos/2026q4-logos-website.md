@@ -61,6 +61,12 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [logos-co/logos-web#257](https://github.com/logos-co/logos-web/issues/257) Website copy update part II
 - [logos-co/logos-web#258](https://github.com/logos-co/logos-web/pull/258) chore(web): update hacktivist copy
 - Reconciled develop and production branch histories after the Waku promotion ([commit](https://github.com/logos-co/logos-web/commit/39fb67d9f99c62d0faa047deef33764253cae9ad)).
+- [logos-co/logos-web#271](https://github.com/logos-co/logos-web/pull/271) fix(cms): verify content PRs before saving and merging
+- [logos-co/logos-web#276](https://github.com/logos-co/logos-web/pull/276) fix(cms): restrict user management to administrators
+- [logos-co/logos-web#196](https://github.com/logos-co/logos-web/pull/196) fix(web): point design-systems footer sample at Logos technology stack
+- [acid-info/security-checks#2](https://github.com/acid-info/security-checks/issues/2) Created the Logos security audit tracking issue with 14 findings and a remediation checklist
+- [logos-co/logos-web#278](https://github.com/logos-co/logos-web/pull/278) fix(web): isolate interactive embeds from the site origin
+- Fixed the missing news.logos.co unsubscribe popup by updating the Ghost theme script URLs ([discussion](https://discord.com/channels/973324189794697286/1564602718864281640/1566793496386347130))
 
 ### Past Present Future: content update and migration
 
@@ -87,6 +93,7 @@ Document ownership, dependencies, and acceptance criteria before work that cross
 - Desktop and mobile QA covering key journeys, calls to action, video presentation, and Umami event tracking.
 - Agency handover and review notes for any work requiring external creative or technical collaboration.
 - [logos-co/logos-web#194](https://github.com/logos-co/logos-web/pull/194) feat(web): add Amanda film to past-present-future
+- [logos-co/logos-web#269](https://github.com/logos-co/logos-web/pull/269) feat(web): add Nedu to Life's Choices
 
 ### Logos Zine
 
@@ -161,9 +168,9 @@ Make the page more explanatory, expand its content, and focus it on conversion.
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-website:rfp-lambda-prize-lp`
 - owner: Jinho
-- status: in progress (90%)
+- status: done
 - start-date: 2026/11/01
-- end-date: 2026/11/30
+- end-date: 2026/11/10
 
 #### Description
 
@@ -175,6 +182,8 @@ Audit the current pages and agree a design strategy with Comms before starting t
 - An audit of the current RFP and Lambda Prize pages and an agreed design strategy.
 - Updated, responsive RFP and Lambda Prize pages based on that strategy.
 - QA and Umami tracking on the developer program calls to action.
+- [logos-co/logos-web#255](https://github.com/logos-co/logos-web/pull/255) feat(web): add developer programmes and Lambda Prize v3 pages
+- [logos-co/logos-web#279](https://github.com/logos-co/logos-web/pull/279) feat(web): refresh RFP programme page
 
 ### Parallel Societies campaign landing page
 
@@ -263,3 +272,5 @@ Create dedicated roadmap tasks when a request grows into a substantial project.
 - [logos-co/logos-web#266](https://github.com/logos-co/logos-web/pull/266) feat(web): publish approved Waku articles on Logos Media
 - [logos-co/logos-web#250](https://github.com/logos-co/logos-web/pull/250) feat(web): add museum exhibit submission modal
 - [logos-co/logos-web#264](https://github.com/logos-co/logos-web/issues/264) Build a Logos community forum with modern tech stacks
+- [logos-co/logos-web#256](https://github.com/logos-co/logos-web/issues/256) feat(web): derive the country from the picked city in newsletter forms
+- [logos-co/logos-web#268](https://github.com/logos-co/logos-web/pull/268) feat(web): derive the country from the picked city

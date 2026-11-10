@@ -86,3 +86,8 @@ Create a dedicated roadmap task when a request grows into a substantial project.
 - [acid-info/admin-acid.logos.co#99](https://github.com/acid-info/admin-acid.logos.co/pull/99) Allowed Logos web Vercel preview origins for museum submissions, with hostname validation and regression coverage
 - [acid-info/admin-acid.logos.co#95](https://github.com/acid-info/admin-acid.logos.co/pull/95) feat(local-events): add copy list emailed for every event
 - [acid-info/admin-acid.logos.co#92](https://github.com/acid-info/admin-acid.logos.co/pull/92) docs(repo): split docs into README, AGENTS.md and docs/- #92
+- [acid-info/admin-acid.logos.co#90](https://github.com/acid-info/admin-acid.logos.co/pull/90) security: harden application and add daily/weekly audits
+- [acid-info/admin-acid.logos.co#104](https://github.com/acid-info/admin-acid.logos.co/pull/104) Fixed the admin container startup when the new proxy setting is absent
+- [acid-info/admin-acid.logos.co#100](https://github.com/acid-info/admin-acid.logos.co/issues/100) fix(cities): fold city districts into their city in the GeoNames index
+- [acid-info/admin-acid.logos.co#101](https://github.com/acid-info/admin-acid.logos.co/pull/101) fix(cities): fold city districts into their city
+- Tested every admin-acid feature after the security-hardening merge and confirmed readiness for production.

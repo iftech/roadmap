@@ -22,7 +22,7 @@ Validate release artifacts and maintain the existing smoke, UI, sandbox, and doc
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-logos-basecamp:mcp-tests`
 * owner: Roman
-* status: in progress (45%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -47,6 +47,7 @@ Keep new scenarios compatible with the existing test framework and track any sco
 - [logos-co/logos-basecamp#519](https://github.com/logos-co/logos-basecamp/pull/519) Test/MCP UI window Cmd+M minimize action is wired (macOS)
 - [logos-co/logos-basecamp#520](https://github.com/logos-co/logos-basecamp/pull/520) Test/MCP UI window hide-to-tray and restore preserves open docks
 - [logos-co/logos-basecamp#521](https://github.com/logos-co/logos-basecamp/pull/521) Test/MCP UI apps inspector unloading the visible app closes its dock
+- [logos-co/logos-basecamp#524](https://github.com/logos-co/logos-basecamp/pull/524) fix: Optimize A suite UI tests
 
 ### Release validation
 

@@ -73,6 +73,8 @@ Perform exploratory and regression testing, test new features in each release, a
 - [status-im/status-app#22999](https://github.com/status-im/status-app/issues/22999) [Keycard] Confirm the production CA keys for card certificates before the 2.40 release
 - [status-im/status-app#22967](https://github.com/status-im/status-app/issues/22967) [QA - Mobile & Desktop] Spell check: what to test in 2.40
 - Checked Keycard end-to-end coverage against the specification and identified 13 scenarios without tests.
+- [status-im/status-app#22998](https://github.com/status-im/status-app/pull/22998) chore(status-go): bump status-go to fix the iOS login crash
+- [status-im/status-app#23070](https://github.com/status-im/status-app/pull/23070) perf(StatusQ): replace chat text views with highly optimised renderers
 
 ### Maintenance
 
@@ -93,6 +95,8 @@ Address flaky tests and assist developers with test changes in pull requests as 
 - [status-im/status-app#22752](https://github.com/status-im/status-app/pull/22752) test(e2e_appium): open the nav drawer with a drag that moves at once
 - Traced nightly failures 318–320 to message locators rather than message delivery.
 - Built the `/e2e-android` PR-comment trigger for the Android end-to-end gate.
+- [status-im/status-app#22973](https://github.com/status-im/status-app/pull/22973) test(e2e_appium): find chat messages after the WindowedView change
+- [status-im/status-app#23083](https://github.com/status-im/status-app/pull/23083) test(e2e_appium): turn off "Stay logged in" during onboarding
 
 ### Coverage for existing features
 
@@ -113,6 +117,7 @@ Prioritize gaps with the Status team based on user impact and the feasibility of
 - Tracked coverage gaps and any constraints preventing automation.
 - Wrote four Android thread end-to-end tests that pass on the test build.
 - [status-im/status-app#22849](https://github.com/status-im/status-app/pull/22849) test(e2e_appium): share to Status on Android
+- Wrote a script listing mobile features with and without end-to-end test coverage.
 
 ### Framework improvements
 

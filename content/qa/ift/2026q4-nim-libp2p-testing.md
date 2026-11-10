@@ -58,7 +58,7 @@ Handle issue-driven validation that does not require a separate feature-specific
 
 * fully qualified name: `ift-ts:qa:ift:2026q4-nim-libp2p-testing:gossipsub-topic-streams`
 * owner: Radek
-* status: not started
+* status: in progress (25%)
 * start-date: 2026/11/03
 * end-date: 2026/12/31
 
@@ -69,6 +69,9 @@ Test GossipSub topic streams ([stack 3274](https://github.com/iftech/nim-libp2p/
 #### Deliverables
 
 - PRs adding topic-stream tests.
+- [iftech/nim-libp2p#3390](https://github.com/iftech/nim-libp2p/issues/3390) gossipsub: a peer that reconnects while still graylisted is disconnected on its first topic stream
+- [iftech/nim-libp2p#3391](https://github.com/iftech/nim-libp2p/pull/3391) test(topic-streams):  negotiation and graylisted ControlExtensions repro [1]
+- [iftech/nim-libp2p#3398](https://github.com/iftech/nim-libp2p/pull/3398) test(topic-streams): forwarding over topic streams, send budgets and TopicStreamsRecorder [2]
 
 ### GossipSub Byte Queues
 

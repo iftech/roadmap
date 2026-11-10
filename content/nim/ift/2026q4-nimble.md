@@ -57,6 +57,13 @@ Add regression coverage for fixes and update usage documentation when behavior c
 - [nim-lang/nimble#1906](https://github.com/nim-lang/nimble/pull/1906) Reorders repositories to speed up the CI
 - [nim-lang/nimble#1902](https://github.com/nim-lang/nimble/pull/1902) bump 0.26.2
 - [nim-lang/nimble#1900](https://github.com/nim-lang/nimble/pull/1900) Add a canary comparing release and nightly nimble on important repos
+- [nim-lang/nimble#1928](https://github.com/nim-lang/nimble/pull/1928) Fix binary relinking when reinstalling cached packages (fixes #1926)
+- [nim-lang/nimble#1927](https://github.com/nim-lang/nimble/pull/1927) Canary: fix false failures and stop testing packages that can't pass here
+- [nim-lang/nimble#1925](https://github.com/nim-lang/nimble/pull/1925) Ask to build an unbuilt develop Nim
+- [nim-lang/nimble#1924](https://github.com/nim-lang/nimble/pull/1924) Canary: also build the packages Nim's CI tests
+- [nim-lang/nimble#1923](https://github.com/nim-lang/nimble/pull/1923) Make nimble dump use the installed locked Nim and write nothing (fixes #1919, fixes #1920)
+- [nim-lang/nimble#1922](https://github.com/nim-lang/nimble/pull/1922) CI: move the latest tag to each nightly build's commit
+- [nim-lang/nimble#1921](https://github.com/nim-lang/nimble/pull/1921) Canary: run nimble setup before the tests
 
 ### CI integration review
 
