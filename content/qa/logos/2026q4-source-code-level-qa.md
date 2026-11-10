@@ -22,7 +22,7 @@ Generate proofs or exploit reproductions for high-severity issues and regression
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-source-code-level-qa:system-prototype`
 * owner: Roman
-* status: in progress (80%)
+* status: in progress (85%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -49,7 +49,7 @@ Prototype an AI code analysis workflow covering:
 - Clarified and fixed CODE-5 for [LEZ Atomic Swaps v0.2.5](https://discord.com/channels/973324189794697286/1526145461025505360/1557941455362719854).
 - [iftech/bork#1](https://github.com/iftech/bork/pull/1) feat: workflow files, composed audits, and the findings history
 - Added third-party application support, including Notion, to the source-code QA prototype.
-- Completed 21 of 53 parts of the [Logos Blockchain v0.3.0 specification audit](https://app.notion.com/p/v0-3-0-3fb8f96fb65c81b29b0af74f0c8a3de0).
+- Completed all 53 parts of the [Logos Blockchain v0.3.0 specification audit](https://app.notion.com/p/v0-3-0-3fb8f96fb65c81b29b0af74f0c8a3de0), reporting 12 high, 94 medium, and 67 low findings.
 - [iftech/bork#2](https://github.com/iftech/bork/pull/2) feat: cron jobs, the tick, and the triggers that keep a PR green
 - [iftech/bork#3](https://github.com/iftech/bork/pull/3) feat: bork top, a full-screen view over one shared snapshot
 - [iftech/bork#4](https://github.com/iftech/bork/pull/4) fix: source as a bundle, claimed briefs and collects, delivery by stage
@@ -72,3 +72,16 @@ Prototype an AI code analysis workflow covering:
 - Made Ship select the worker-image variant from the brief.
 - Added per-task prompt-cache hit share to Top.
 - Completed all 35 parts of the [Logos Execution Zone specification audit](https://app.notion.com/p/v0-3-1-40c8f96fb65c801baaeee0f9ebaecb9a), reporting 7 high, 22 medium, and 41 low findings.
+- [logos-blockchain/logos-blockchain#4002](https://github.com/logos-blockchain/logos-blockchain/issues/4002) Phase-2 trusted setup ships a single-contributor zkey, not the spec's multi-party ceremony (F-4a21d458)
+- [logos-blockchain/logos-blockchain#4003](https://github.com/logos-blockchain/logos-blockchain/issues/4003) Embedded key bytes carry no hash pin; prebuilt download skips checksum, loader never verifies (F-64a4af2e)
+- [logos-blockchain/logos-blockchain#4004](https://github.com/logos-blockchain/logos-blockchain/issues/4004) NAT state machine ignores AutoNAT failures for the observed address, so Phase 2 never starts (F-0b40fed1)
+- [logos-blockchain/logos-blockchain#4005](https://github.com/logos-blockchain/logos-blockchain/issues/4005) Confirmed external addresses are never re-tested by AutoNAT; reachability loss goes unnoticed (F-4956cbad)
+- [logos-blockchain/logos-blockchain#4006](https://github.com/logos-blockchain/logos-blockchain/issues/4006) Active mapping's renewal timer is recreated on every poll, so port mappings are never renewed (F-1177e1c4)
+- [logos-blockchain/logos-blockchain#4007](https://github.com/logos-blockchain/logos-blockchain/issues/4007) PCP mapping result drops /quic-v1, so a successful PCP mapping can never be confirmed or used (F-59084eea)
+- [logos-blockchain/logos-blockchain#4008](https://github.com/logos-blockchain/logos-blockchain/issues/4008) PoQ public inputs carry no epoch slot range, so a leader proof for any winning slot verifies (F-a1c4d529)
+- [logos-blockchain/logos-blockchain#4009](https://github.com/logos-blockchain/logos-blockchain/issues/4009) No rewards reserve B_t: per-block release is minted with no B_0 = 10^9 cap and never stops (F-8cf312ad)
+- [logos-blockchain/logos-blockchain#4010](https://github.com/logos-blockchain/logos-blockchain/issues/4010) Core behaviour verifies each message only against its connection's epoch, blacklisting TP senders (F-9daefab8)
+- [logos-blockchain/logos-blockchain#4011](https://github.com/logos-blockchain/logos-blockchain/issues/4011) FailureDetector stamps a release with its last-polled round, so a stalled loop cuts T_M short (F-b4812272)
+- Added `bork triage advise --all` to run the advisor across all audits in parallel.
+- Linked a `bork/proof/<handle>` proof branch from each filed finding.
+- Added optional incremental specification and security audits that reuse previous proofs and coverage.

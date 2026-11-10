@@ -48,7 +48,7 @@ semantics, adding other operations only where existing DHT behavior requires the
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-kademlia-provider-storage:integration`
 * owner: Gabe
-* status: in progress (30%)
+* status: in progress (60%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -63,3 +63,5 @@ expiration, and locally provided key iteration across backends.
 - Replaceable storage integrated into Kademlia
 - In-memory backend preserving existing behavior
 - Example custom backend and storage contract tests
+- [iftech/nim-libp2p#3359](https://github.com/iftech/nim-libp2p/pull/3359) feat(kad): in-memory store for provided keys
+- [iftech/nim-libp2p#3356](https://github.com/iftech/nim-libp2p/pull/3356) feat(kad): in-memory store for provider records

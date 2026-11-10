@@ -45,7 +45,7 @@ Implementation baseline: nim-libp2p master at `5309dc87cb4b4385a4a37e4339cdeefca
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-kademlia-auto-mode:stability`
 * owner: Gabe
-* status: in progress (20%)
+* status: in progress (40%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -69,6 +69,7 @@ including loss of the last confirmed address in v2.
 - Tests for unknown verdicts, inconclusive probes, and loss of the last confirmed address
 - Checks that sustained reachability changes take effect within the documented timing bounds
 - [iftech/nim-libp2p#3319](https://github.com/iftech/nim-libp2p/pull/3319) chore(kad): auto mode transition policy
+- [iftech/nim-libp2p#3389](https://github.com/iftech/nim-libp2p/pull/3389) test(kad): copy each reachability step before the polling check
 
 
 ### Fixed Modes And Service Lifecycle

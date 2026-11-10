@@ -38,6 +38,13 @@ Investigate production failures reported by users or stakeholders and ship hotfi
 - Published extension releases on the [Chrome Web Store](https://chromewebstore.google.com/detail/status-portfolio-wallet-b/opkfeajbclhjdneghppfnfiannideafj), with release notes and coordination threads linked.
 - Tracked issues for production failures, with reproduction steps and resolution notes.
 - [status-im/status-web#1339](https://github.com/status-im/status-web/pull/1339) fix(wallet): show plain-text personal_sign messages as text
+- [status-im/status-web#1343](https://github.com/status-im/status-web/pull/1343) feat(wallet): ERC-4527 hardware wallet QR signing
+- [status-im/status-web#1351](https://github.com/status-im/status-web/pull/1351) fix(wallet): prevent revoked dapp permissions from being restored
+- [status-im/status-web#1357](https://github.com/status-im/status-web/pull/1357) fix(wallet): show complete values in signing approvals
+- [status-im/status-web#1344](https://github.com/status-im/status-web/pull/1344) fix(wallet): close the approval popup when the request times out
+- [status-im/status-web#1342](https://github.com/status-im/status-web/pull/1342) fix(wallet): bring a hidden approval popup to the front
+- [status-im/status-web#1346](https://github.com/status-im/status-web/issues/1346) fix(wallet): don't show an error when a hardware swap is cancelled
+- [status-im/status-web#1347](https://github.com/status-im/status-web/issues/1347) chore(wallet): align the prettier version with the root
 
 ### Ad hoc requests
 

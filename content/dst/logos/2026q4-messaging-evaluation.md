@@ -48,14 +48,16 @@ and ensure they don't happen again.
 - Reports:
     - Completed a full relay, lightpush, filter, and store run for [Logos Messaging PR 4347](https://app.notion.com/p/3ea8f96fb65c812a9ae2dc71ef28860e).
     - Repeated the PR 4347 full delivery test three times at the configured publish rate to validate the [full delivery report](https://app.notion.com/p/3ea8f96fb65c812a9ae2dc71ef28860e).
+    - Completed the [Logos Delivery v0.40.0-rc.1 Store and Edge regression report](https://app.notion.com/p/40e8f96fb65c819aa6ddd04a3a8c106a)
+    - Confirmed in two follow-up runs that Store backfill exhausts node connections and causes send-confirmation timeouts.
 
 
 ### Messaging API — General Availability
 * fully qualified name: `ift-ts:dst:logos:2026q4-messaging-evaluation:messaging-api`
 * owner: Alan
-* status: in progress (70%)
+* status: done
 * start-date: 2026/10/19
-* end-date: 2026/10/30
+* end-date: 2026/11/10
 
 #### Description
 
@@ -78,6 +80,8 @@ regression reports.
     - Added 1,000-node runs varying settling time, full-mesh readiness, and CPU limits to the [Messaging API baseline report](https://app.notion.com/p/4008f96fb65c81f9a5edd2818ffb766b).
 - Other:
     - Ran Messaging API baseline experiments with 100 and 1,000 nodes.
+    - Confirmed the Messaging API CPU-usage and Edge health-check fixes.
+    - Ran the Store and Edge Messaging API experiment with 1,000 nodes.
 
 
 

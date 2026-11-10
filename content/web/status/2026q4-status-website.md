@@ -42,6 +42,8 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [status-im/status-web#1337](https://github.com/status-im/status-web/pull/1337) chore(community-subgraph): remove dead subgraph package
 - [status-im/status-app#22975](https://github.com/status-im/status-app/issues/22975) [News message pop-up] bullet points are shown as a paragraph plus the image is cut on the right and left
 - [status-im/status-web#1340](https://github.com/status-im/status-web/pull/1340) fix(status.app): serve markup in the mobile news v2 feed
+- [status-im/status-web#1338](https://github.com/status-im/status-web/issues/1338) Next.js 15 is past end-of-life: is Contentlayer blocking the upgrade?
+- [acid-info/security-checks#1](https://github.com/acid-info/security-checks/issues/1) Created the Status security audit tracking issue with 24 findings, separating reproduced issues from findings requiring further verification
 
 ### Website revamp: UI design and copy update
 
@@ -130,10 +132,10 @@ Translations will be reviewed internally, with Jinho proofreading Korean, and us
 ### Ad hoc features
 
 * fully qualified name: `ift-ts:web:status:2026q4-status-website:ad-hoc-features`
-* owner: Jinho/JulesFiliot
-* status: not started
+* owner: Jules
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/10
 
 #### Description
 
@@ -145,3 +147,5 @@ Create dedicated roadmap tasks when a request grows into a substantial project.
 
 - Scoped feature issues with acceptance criteria and stakeholder requirements.
 - PRs and released features with validation or stakeholder review results.
+- [status-im/status-web#1349](https://github.com/status-im/status-web/issues/1349) [Status app website] add support for Status app message links
+- [status-im/status-web#1352](https://github.com/status-im/status-web/pull/1352) feat(status.app): support message links

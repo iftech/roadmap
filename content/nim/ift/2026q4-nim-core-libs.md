@@ -22,7 +22,7 @@ Extend nimlangserver and nimsuggest support to more IFT projects, tackling one p
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:docs-improvement`
 * owner: Constantine
-* status: not started
+* status: in progress (10%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -66,12 +66,13 @@ Triage issues, address regressions and compatibility problems, support downstrea
 - [status-im/nim-chronos#730](https://github.com/status-im/nim-chronos/pull/730) Fix doc examples.
 - [status-im/nim-chronos#742](https://github.com/status-im/nim-chronos/pull/742) Add missing `asyncengine` nimdoc symbols
 - [docker-library/official-images#22631](https://github.com/docker-library/official-images/pull/22631) Add Nim 2.4.0 and 2.2.14.
+- [status-im/nimbus-common-workflow#46](https://github.com/status-im/nimbus-common-workflow/issues/46) Common workflow doesn't work for packages that use the Nim compiler API
 
 ### Nimlangserver improvements
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nimlangserver`
 * owner: Juan/Esteban/Constantine
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -131,6 +132,17 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - [nim-lang/langserver#501](https://github.com/nim-lang/langserver/pull/501) Fix failed `nimble dump` handling
 - [nim-lang/langserver#499](https://github.com/nim-lang/langserver/pull/499) Log nimsuggest stderr immediately
 - [nim-lang/langserver#498](https://github.com/nim-lang/langserver/pull/498) Lazy nimble project resolve
+- [nim-lang/langserver#525](https://github.com/nim-lang/langserver/pull/525) Stop nimsuggest before starting a new one on restart
+- [nim-lang/langserver#524](https://github.com/nim-lang/langserver/pull/524) Remove nimsuggest restart retries
+- [nim-lang/langserver#522](https://github.com/nim-lang/langserver/pull/522) Fix crash on bad URI request
+- [nim-lang/langserver#521](https://github.com/nim-lang/langserver/pull/521) Use paths internally instead of uris
+- [nim-lang/langserver#520](https://github.com/nim-lang/langserver/pull/520) Nimsuggest globalSymbols command clean up
+- [nim-lang/langserver#519](https://github.com/nim-lang/langserver/pull/519) Do not publish stale project check diagnostics
+- [nim-lang/langserver#518](https://github.com/nim-lang/langserver/pull/518) Use distinct types for URI and Path
+- [nim-lang/langserver#517](https://github.com/nim-lang/langserver/pull/517) Remove forward declarations
+- [nim-lang/langserver#515](https://github.com/nim-lang/langserver/pull/515) Support multi-root workspaces
+- [nim-lang/langserver#516](https://github.com/nim-lang/langserver/pull/516) Resolve package by nimble file + `nimble.paths`
+- [nim-lang/langserver#523](https://github.com/nim-lang/langserver/pull/523) Restart nimsuggest on `nimble.paths` changes
 
 ### Nimlangserver and nimsuggest support for IFT projects
 
@@ -176,9 +188,9 @@ Aim to benefit from incremental compilation and other applicable Nimony-related 
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nim-lint`
 * owner: Constantine
-* status: in progress (60%)
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/10
 
 #### Description
 
@@ -191,3 +203,9 @@ Provide initial rules for IFT projects, such as flagging `asyncSpawn`, with seve
 - Implemented a prototype based on the reviewed second nim-lint specification.
 - Implemented per-line lint disabling.
 - Implemented a GitHub Action for nim-lint.
+- [iftech/nim-libp2p#3355](https://github.com/iftech/nim-libp2p/pull/3355) feat: replace audit_logs.py with custom lint linter
+- [iftech/nim-libp2p#3367](https://github.com/iftech/nim-libp2p/issues/3367) feat: Linting: Implement `make lint`
+- [Nim Lint documentation](https://iftech.github.io/nim-lint/)
+- Added local linters to the cache-invalidation key.
+- Added exit-code tests.
+- Released [Nim Lint 1.0.0](https://forum.nim-lang.org/t/14279)

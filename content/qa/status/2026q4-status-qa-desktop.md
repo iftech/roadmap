@@ -42,6 +42,11 @@ Report bugs and release risks and verify fixes with the Status team.
 - [status-im/status-app#22863](https://github.com/status-im/status-app/issues/22863) Erase all notifications and delete individual notification in Activity Centre
 - [status-im/status-app#22993](https://github.com/status-im/status-app/pull/22993) chore: update status-go version
 - [status-im/status-go#7980](https://github.com/status-im/status-go/pull/7980) feat(bridge): support float for bridge quotes
+- [status-im/status-app#23042](https://github.com/status-im/status-app/pull/23042) fix(communities): save minted token artwork with a Windows path
+- [status-im/status-app#23041](https://github.com/status-im/status-app/issues/23041) Windows: minted collectible is not saved because the image path starts with /
+- [status-im/status-app#23055](https://github.com/status-im/status-app/issues/23055) Wrong password / wrong PIN validation is gone
+- [status-im/status-app#23047](https://github.com/status-im/status-app/issues/23047) Wallet settings main view is blank after opening it from Profile (flaky)
+- [status-im/status-app#23046](https://github.com/status-im/status-app/issues/23046) Send message button does nothing if emoji conversion throws an error
 
 ### Maintenance
 
@@ -78,6 +83,8 @@ Assist developers with test changes in pull requests.
 - [status-im/status-app#22978](https://github.com/status-im/status-app/pull/22978) chore(@e2e): network selector regression fix
 - [status-im/status-app#22954](https://github.com/status-im/status-app/pull/22954) chore(@e2e): fix for nightly failures
 - [status-im/status-app#22959](https://github.com/status-im/status-app/pull/22959) chore(@e2e): benchmark tests fixes
+- [status-im/status-app#23084](https://github.com/status-im/status-app/pull/23084) fix(e2e): unlock Secret Service for linux tests
+- [status-im/status-app#23058](https://github.com/status-im/status-app/issues/23058) Keycard: Move profile to Keycard blocked — Stay logged in credential delete fails (Secret Service unavailable)
 
 ### Performance tests for desktop application on Windows
 
@@ -123,6 +130,8 @@ Choose scenarios as feature scope and the automation backlog are clarified with 
 - [status-im/status-app#22904](https://github.com/status-im/status-app/pull/22904) test(e2e): add spell check tests
 - [status-im/status-app#22828](https://github.com/status-im/status-app/pull/22828) tests(@e2e): community token actions
 - [status-im/status-app#22951](https://github.com/status-im/status-app/pull/22951) tests(@e2e): scan qr code from image
+- [status-im/status-app#23031](https://github.com/status-im/status-app/pull/23031) tests: browser tests coverage
+- [status-im/status-go#8024](https://github.com/status-im/status-go/pull/8024) test(functional): tests for browser
 
 ### Performance tests for desktop application on Mac
 

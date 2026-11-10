@@ -28,7 +28,7 @@ as requirements and priorities become clearer during Q4.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-logos-delivery-consulting:consulting`
 * owner: Gabe
-* status: in progress (35%)
+* status: in progress (42%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -55,3 +55,4 @@ as it is agreed.
 - [logos-messaging/nim-ffi#249](https://github.com/logos-messaging/nim-ffi/pull/249) fix: skip a listener removed during its dispatch
 - [logos-messaging/nim-ffi#250](https://github.com/logos-messaging/nim-ffi/pull/250) fix: destroy from inside a callback fails fast
 - [logos-storage/logos-storage-nim#1555](https://github.com/logos-storage/logos-storage-nim/pull/1555) feat(library): on_download_done event, nim-ffi and chronos bump
+- [logos-co/logos-storage-module#83](https://github.com/logos-co/logos-storage-module/pull/83) feat: build against the nim-ffi generated libstorage bindings

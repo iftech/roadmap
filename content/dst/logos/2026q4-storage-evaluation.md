@@ -67,3 +67,4 @@ filesharing client implementation under heavy/big workloads using mix protocol.
     - [Storage and Mix experiment](https://github.com/iftech/10ksim/tree/Alberto/storage).
     - Refactored [pod-api-requester](https://github.com/iftech/pod-api-requester) to provide utilities for the Storage scenario.
     - [iftech/10ksim#454](https://github.com/iftech/10ksim/pull/454) Storage experiment
+    - [iftech/pod-api-requester#13](https://github.com/iftech/pod-api-requester/pull/13) Storage
