@@ -64,6 +64,15 @@ Add regression coverage for fixes and update usage documentation when behavior c
 - [nim-lang/nimble#1923](https://github.com/nim-lang/nimble/pull/1923) Make nimble dump use the installed locked Nim and write nothing (fixes #1919, fixes #1920)
 - [nim-lang/nimble#1922](https://github.com/nim-lang/nimble/pull/1922) CI: move the latest tag to each nightly build's commit
 - [nim-lang/nimble#1921](https://github.com/nim-lang/nimble/pull/1921) Canary: run nimble setup before the tests
+- [nim-lang/nimble#1936](https://github.com/nim-lang/nimble/pull/1936) Canary: check out repos with plain git so a broken submodule can't fail it
+- [nim-lang/nimble#1935](https://github.com/nim-lang/nimble/pull/1935) Fix nimble dump printing nothing for an unbuilt develop Nim
+- [nim-lang/nimble#1934](https://github.com/nim-lang/nimble/pull/1934) Fix SAT taking 25 minutes to fail on a large graph with no solution
+- [nim-lang/nimble#1933](https://github.com/nim-lang/nimble/pull/1933) Fix invalid package name errors printing "$1" or the name twice
+- [nim-lang/nimble#1931](https://github.com/nim-lang/nimble/pull/1931) Fix "No Nim found" for packages that require nothing
+- [nim-lang/nimble#1930](https://github.com/nim-lang/nimble/pull/1930) Fix git:// requirements hanging until the connection times out
+- [nim-lang/nimble#1929](https://github.com/nim-lang/nimble/pull/1929) Fix SAT failing when a missing package can be avoided
+- [nim-lang/setup-nimble-action#20](https://github.com/nim-lang/setup-nimble-action/pull/20) Add nimble-sha256 to pin the release archive's hash (fixes #18)
+- [nim-lang/setup-nimble-action#19](https://github.com/nim-lang/setup-nimble-action/pull/19) Retry nimble downloads and resolve only published releases
 
 ### CI integration review
 

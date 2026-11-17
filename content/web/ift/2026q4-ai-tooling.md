@@ -124,3 +124,7 @@ Finish [acid-info/ai-docs-sync](https://github.com/acid-info/ai-docs-sync), whic
 - [status-im/status-web#1334](https://github.com/status-im/status-web/pull/1334) docs(repo): restructure docs for docs-sync
 - [status-im/status-web#1335](https://github.com/status-im/status-web/pull/1335) docs(repo): rewrite docs for humans and agents
 - [acid-info/ai-tools#23](https://github.com/acid-info/ai-tools/pull/23) fix(ai-docs-sync): skip the pr author when requesting reviewers
+- [acid-info/ai-tools#24](https://github.com/acid-info/ai-tools/pull/24) ci: scope ai-docs-sync write permissions to the job
+- [acid-info/admin-acid.logos.co#108](https://github.com/acid-info/admin-acid.logos.co/pull/108) ci: scope ai-docs-sync write permissions to the job
+- [logos-co/logos-web#286](https://github.com/logos-co/logos-web/pull/286) ci: scope ai-docs-sync write permissions to the job
+- [status-im/status-web#1362](https://github.com/status-im/status-web/pull/1362) ci: scope ai-docs-sync write permissions to the job

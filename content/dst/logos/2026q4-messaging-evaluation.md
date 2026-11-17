@@ -50,6 +50,9 @@ and ensure they don't happen again.
     - Repeated the PR 4347 full delivery test three times at the configured publish rate to validate the [full delivery report](https://app.notion.com/p/3ea8f96fb65c812a9ae2dc71ef28860e).
     - Completed the [Logos Delivery v0.40.0-rc.1 Store and Edge regression report](https://app.notion.com/p/40e8f96fb65c819aa6ddd04a3a8c106a)
     - Confirmed in two follow-up runs that Store backfill exhausts node connections and causes send-confirmation timeouts.
+    - Updated the [Logos Delivery v0.40.0-rc.1 regression report](https://app.notion.com/p/40e8f96fb65c819aa6ddd04a3a8c106a) with rc.2 and rc.3 results from 1,000-node runs.
+    - Confirmed the Store connection fix in v0.40.0-rc.2 and the Edge-to-Core lightpush delivery fix in rc.3 at 1,000 nodes.
+    - Ran v0.40.0-rc.2 with 60 minutes of message sending to examine where relay connection counts level off.
 
 
 ### Messaging API — General Availability

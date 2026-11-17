@@ -75,6 +75,9 @@ Perform exploratory and regression testing, test new features in each release, a
 - Checked Keycard end-to-end coverage against the specification and identified 13 scenarios without tests.
 - [status-im/status-app#22998](https://github.com/status-im/status-app/pull/22998) chore(status-go): bump status-go to fix the iOS login crash
 - [status-im/status-app#23070](https://github.com/status-im/status-app/pull/23070) perf(StatusQ): replace chat text views with highly optimised renderers
+- [status-im/status-app#23134](https://github.com/status-im/status-app/issues/23134) [QA - Mobile] Threads: compatibility
+- Revised the Threads and Keycard test plans using developers’ answers.
+- Confirmed fixes for the share-screen chat ordering and full-width contact-request button bugs.
 
 ### Maintenance
 
@@ -97,6 +100,8 @@ Address flaky tests and assist developers with test changes in pull requests as 
 - Built the `/e2e-android` PR-comment trigger for the Android end-to-end gate.
 - [status-im/status-app#22973](https://github.com/status-im/status-app/pull/22973) test(e2e_appium): find chat messages after the WindowedView change
 - [status-im/status-app#23083](https://github.com/status-im/status-app/pull/23083) test(e2e_appium): turn off "Stay logged in" during onboarding
+- [status-im/status-app#23128](https://github.com/status-im/status-app/issues/23128) Run status-go and status-app builds on GitHub Actions
+- Restored clean nightly end-to-end runs after updating chat-message lookup for WindowedView.
 
 ### Coverage for existing features
 
@@ -151,7 +156,7 @@ Improve the mobile test harness in the following areas:
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-mobile:performance`
 * owner: Magnus
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -164,3 +169,8 @@ Keep measurements useful for comparing releases and identifying performance regr
 - [status-im/status-app#21248](https://github.com/status-im/status-app/issues/21248) \[QA - Android/iOS\] add test to measure Battery consumption, CPU and RAM usage
 - Restored Android performance runs and published RC7 measurements.
 - Restored performance dashboard publishing after GitHub's signed-commits rule.
+- [status-im/status-app#23088](https://github.com/status-im/status-app/pull/23088) revert(chat): keep optional message parts built in pooled rows
+- [status-im/status-app#23067](https://github.com/status-im/status-app/issues/23067) [QA - Android] benchmark Status battery usage against these other apps
+- Measured Android RAM before and after the pooled-message-row change: the UI process used 27.6 MB less, with status-go unchanged.
+- Completed three Android battery benchmark A/B pairs on two phones; Status in the background woke the phone about every 30 seconds, 14–16 times as often as with Status stopped in both A36 pairs.
+- Fixed the Android performance nightly.

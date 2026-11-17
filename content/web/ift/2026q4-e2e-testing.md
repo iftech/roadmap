@@ -80,3 +80,8 @@ Keep the runs trustworthy: retry once before failing, keep traces and screenshot
 - A short README note on running the suites locally and adding a test.
 - [status-im/status-web#1348](https://github.com/status-im/status-web/pull/1348) test(e2e): add daily status.app suite
 - [logos-co/logos-web#273](https://github.com/logos-co/logos-web/pull/273) test(e2e): add daily e2e suite for the web site
+- [logos-co/logos-web#283](https://github.com/logos-co/logos-web/pull/283) fix(e2e): check GitHub releases through the API
+- [status-im/status-web#1360](https://github.com/status-im/status-web/pull/1360) fix(e2e): check GitHub releases through the API
+- [status-im/status-web#1364](https://github.com/status-im/status-web/pull/1364) fix(e2e): bump Playwright to 1.65 for Ubuntu 26.04 runners
+- [logos-co/logos-web#290](https://github.com/logos-co/logos-web/pull/290) chore(ci): open daily Playwright upgrade PRs with Dependabot
+- [status-im/status-web#1365](https://github.com/status-im/status-web/pull/1365) chore(ci): open daily Playwright upgrade PRs with Dependabot

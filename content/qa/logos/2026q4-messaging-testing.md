@@ -114,3 +114,7 @@ Update tests for messaging component changes, investigate failing or flaky tests
 - [logos-co/logos-delivery-module#171](https://github.com/logos-co/logos-delivery-module/pull/171) test(e2e): tests with RLN membership
 - [logos-co/logos-delivery-module#175](https://github.com/logos-co/logos-delivery-module/pull/175) test(e2e): logosctl instead of logoscore
 - [logos-messaging/logos-delivery#4650](https://github.com/logos-messaging/logos-delivery/pull/4650) ci: run every job in the nightly through ci.yml
+- [logos-co/logos-delivery-module#178](https://github.com/logos-co/logos-delivery-module/pull/178) test(e2e): fleet tests with RLN
+- [logos-co/logos-delivery-module#179](https://github.com/logos-co/logos-delivery-module/pull/179) test(e2e): refactor node setup
+- [logos-co/logos-delivery-module#181](https://github.com/logos-co/logos-delivery-module/pull/181) test(e2e): service disco test via plugin
+- [logos-co/logos-delivery-module#182](https://github.com/logos-co/logos-delivery-module/pull/182) test(e2e): extend service disco tests

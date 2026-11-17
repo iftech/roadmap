@@ -140,7 +140,7 @@ Keep the query string on every redirect. Do not redirect CMS preview, API, or as
 
 - fully qualified name: `ift-ts:web:logos:2026q4-logos-media-migration:legacy-retirement`
 - owner: Jinho
-- status: in progress (10%)
+- status: in progress (80%)
 - start-date: 2026/11/09
 - end-date: 2026/12/04
 

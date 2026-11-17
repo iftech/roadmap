@@ -25,9 +25,9 @@ TBD
 
 * fully qualified name: `ift-ts:dst:status:2026q4-status-evaluation:reliability`
 * owner: Alberto
-* status: in progress (99%)
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/17
 
 #### Description
 
@@ -42,6 +42,7 @@ Compare results with old status-go.
     - [Status analysis branch](https://github.com/status-im/status-go/tree/dst-analysis).
     - [status-im/status-go#8036](https://github.com/status-im/status-go/issues/8036) [Epic] Optimizing messaging pipeline
     - Replaced the receiver’s sliding debounce with a fixed batch window; the first fix reduced median delivery from about 120 seconds to 17 seconds.
+    - Improved the benchmark codebase and added delivery-latency-over-time plots and latency buckets.
 - Documents:
     - Identified a light-node rate-limiter timing mismatch causing valid messages to remain pending in MVDS and arrive minutes late.
     - Identified a feedback loop in which delayed processing delays acknowledgements, triggers MVDS retransmissions, and increases the processing backlog.
@@ -51,6 +52,7 @@ Compare results with old status-go.
     - Reduced median delivery from 130 seconds to 1.4 seconds, p95 from 197 seconds to 2.11 seconds, and maximum from 226 seconds to 3.45 seconds in the latest experiment.
     - Recorded no deliveries over 10 seconds in 38,000 messages, compared with 7,556 of 7,600 previously, and reduced MVDS retransmissions from thousands to zero.
     - [Status delivery latency investigation](https://discord.com/channels/1210237582470807632/1555207381355597915/1567195622635733054)
+    - Ran 8-hour and 24-hour reliability experiments, analysed the results, and updated the [Status-go benchmark report](https://app.notion.com/p/Status-go-benchmarks-2026q4-4168f96fb65c808fb58df4ae5acf4273).
 
 ### Logos delivery integration
 

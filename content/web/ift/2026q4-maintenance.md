@@ -43,3 +43,8 @@ Resolve shared infrastructure or tooling failures, coordinate with Infra where n
 - [Status app store French translation — Google Play doc](https://docs.google.com/document/d/199SNFI-fFA4pTaG8Xp-y26um6HAQf42mcp8PFB08CwQ/edit?tab=t.ghept0o2oy0u)
 - [status-im/infra-sites#175](https://github.com/status-im/infra-sites/issues/175) Request a security-patched MediaWiki test instance for the Logos wiki, including the PHP RCE patches disclosed on 21 October
 - Translated Status mobile app advertising content into French for Volo ([translation sheet](https://docs.google.com/spreadsheets/d/1WyA7Zhl552E51EPxVjzt731NuPIqN1_ZnW6VHC1MLbs/edit?gid=19218066#gid=19218066)).
+- [acid-info/admin-acid.logos.co#106](https://github.com/acid-info/admin-acid.logos.co/issues/106) fix(security): resolve pnpm audit and Prettier failures in Security Audit
+- [acid-info/admin-acid.logos.co#107](https://github.com/acid-info/admin-acid.logos.co/pull/107) fix(security): resolve pnpm audit and Prettier failures
+- Restored logos.co, status.app, free.technology and roadmap.logos.co with Infra using Vercel.
+- Hosted a backup of [Logos documentation](https://docs.logos.co/) from [logos-co/logos-docs](https://github.com/logos-co/logos-docs) on Vercel ([recovery thread](https://discord.com/channels/973324189794697286/1570085619286417601/1570492002842185961)).
+- Hosted a backup of the [Nimbus website](https://nimbus.team/) from [status-im/nimbus-site](https://github.com/status-im/nimbus-site) on Vercel ([recovery thread](https://discord.com/channels/973324189794697286/1570085619286417601/1570772765449912361)).

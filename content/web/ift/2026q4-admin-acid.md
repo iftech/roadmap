@@ -91,3 +91,4 @@ Create a dedicated roadmap task when a request grows into a substantial project.
 - [acid-info/admin-acid.logos.co#100](https://github.com/acid-info/admin-acid.logos.co/issues/100) fix(cities): fold city districts into their city in the GeoNames index
 - [acid-info/admin-acid.logos.co#101](https://github.com/acid-info/admin-acid.logos.co/pull/101) fix(cities): fold city districts into their city
 - Tested every admin-acid feature after the security-hardening merge and confirmed readiness for production.
+- Refreshed the admin-acid tokens.

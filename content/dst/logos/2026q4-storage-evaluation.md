@@ -52,7 +52,7 @@ filesharing client implementation under heavy/big workloads.
 > *Note*: This needs more input from project
 * fully qualified name: `ift-ts:dst:logos:2026q4-storage-evaluation:filesharing-client-mix`
 * owner: Alberto
-* status: in progress (50%)
+* status: in progress (60%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
