@@ -44,6 +44,14 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [status-im/status-web#1340](https://github.com/status-im/status-web/pull/1340) fix(status.app): serve markup in the mobile news v2 feed
 - [status-im/status-web#1338](https://github.com/status-im/status-web/issues/1338) Next.js 15 is past end-of-life: is Contentlayer blocking the upgrade?
 - [acid-info/security-checks#1](https://github.com/acid-info/security-checks/issues/1) Created the Status security audit tracking issue with 24 findings, separating reproduced issues from findings requiring further verification
+- [status-im/status-web#1385](https://github.com/status-im/status-web/pull/1385) chore(status.app): remove unused admin and authentication
+- [status-im/status-web#1367](https://github.com/status-im/status-web/pull/1367) fix(status.app): allow builds while Ghost is down
+- [status-im/status-web#1371](https://github.com/status-im/status-web/pull/1371) fix(status.app): validate greenhouse job id
+- [status-im/status-web#1372](https://github.com/status-im/status-web/pull/1372) fix(status-js): cap decompressed share-link data size
+- [status-im/status-web#1373](https://github.com/status-im/status-web/pull/1373) fix(portfolio): create api caller per request
+- [status-im/status-web#1374](https://github.com/status-im/status-web/pull/1374) fix(status-js): skip messages with malformed signatures
+- [status-im/status-web#1375](https://github.com/status-im/status-web/pull/1375) fix(status.app): bound ens name length and labels
+- Rotated the expired Vercel deployment GitHub token that caused status.app download links to return server errors.
 
 ### Website revamp: UI design and copy update
 

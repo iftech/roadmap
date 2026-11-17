@@ -58,7 +58,7 @@ Handle issue-driven validation that does not require a separate feature-specific
 
 * fully qualified name: `ift-ts:qa:ift:2026q4-nim-libp2p-testing:gossipsub-topic-streams`
 * owner: Radek
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/11/03
 * end-date: 2026/12/31
 
@@ -72,6 +72,15 @@ Test GossipSub topic streams ([stack 3274](https://github.com/iftech/nim-libp2p/
 - [iftech/nim-libp2p#3390](https://github.com/iftech/nim-libp2p/issues/3390) gossipsub: a peer that reconnects while still graylisted is disconnected on its first topic stream
 - [iftech/nim-libp2p#3391](https://github.com/iftech/nim-libp2p/pull/3391) test(topic-streams):  negotiation and graylisted ControlExtensions repro [1]
 - [iftech/nim-libp2p#3398](https://github.com/iftech/nim-libp2p/pull/3398) test(topic-streams): forwarding over topic streams, send budgets and TopicStreamsRecorder [2]
+- [iftech/nim-libp2p#3405](https://github.com/iftech/nim-libp2p/pull/3405) test(topic-streams): stream and byte limits, readers side [3]
+- [iftech/nim-libp2p#3413](https://github.com/iftech/nim-libp2p/pull/3413) test(topic-streams): message routing, protocol violations and behaviour penalties [4]
+- [iftech/nim-libp2p#3419](https://github.com/iftech/nim-libp2p/pull/3419) test(topic-streams): receive side, configuration validation and byte budgets [5]
+- [iftech/nim-libp2p#3424](https://github.com/iftech/nim-libp2p/pull/3424) test(topic-streams): stream cleanup, negotiation edges, graylisting and rate limiting [6]
+- [iftech/nim-libp2p#3403](https://github.com/iftech/nim-libp2p/issues/3403) gossipsub: a topic stream reader still delivers one frame after a protocol violation
+- [iftech/nim-libp2p#3404](https://github.com/iftech/nim-libp2p/issues/3404) gossipsub: a topic handler can still receive a message after GossipSub stops
+- [iftech/nim-libp2p#3406](https://github.com/iftech/nim-libp2p/issues/3406) gossipsub: should frames for new topics be dropped silently once incoming and outgoing topic streams reach maxStreams?
+- [iftech/nim-libp2p#3411](https://github.com/iftech/nim-libp2p/issues/3411) gossipsub: publish with empty data counts topic stream peers it never sends to
+- [iftech/nim-libp2p#3418](https://github.com/iftech/nim-libp2p/issues/3418) gossipsub: topic streams drop messages that the control stream sends when byte budgets are below maxMessageSize
 
 ### GossipSub Byte Queues
 

@@ -85,3 +85,10 @@ Prototype an AI code analysis workflow covering:
 - Added `bork triage advise --all` to run the advisor across all audits in parallel.
 - Linked a `bork/proof/<handle>` proof branch from each filed finding.
 - Added optional incremental specification and security audits that reuse previous proofs and coverage.
+- [iftech/bork#6](https://github.com/iftech/bork/pull/6) feat(tui): guidance dashboard in bork window
+- [iftech/bork#7](https://github.com/iftech/bork/pull/7) feat(install): the install is a copy under ~/.bork, apart from the source checkout
+- [iftech/bork#8](https://github.com/iftech/bork/pull/8) feat(window): home lists the repositories, each with its next step
+- [iftech/bork#9](https://github.com/iftech/bork/pull/9) feat(window): one console per repository behind the dashboard
+- [iftech/bork#10](https://github.com/iftech/bork/pull/10) feat(window): a repository opens into its tasks, findings and evidence
+- [iftech/bork#11](https://github.com/iftech/bork/pull/11) feat(window): what a finding rests on, console activity, clearer keys
+- [iftech/bork#12](https://github.com/iftech/bork/pull/12) docs: bring the documentation in line with the code

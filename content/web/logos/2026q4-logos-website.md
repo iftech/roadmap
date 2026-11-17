@@ -67,6 +67,18 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [acid-info/security-checks#2](https://github.com/acid-info/security-checks/issues/2) Created the Logos security audit tracking issue with 14 findings and a remediation checklist
 - [logos-co/logos-web#278](https://github.com/logos-co/logos-web/pull/278) fix(web): isolate interactive embeds from the site origin
 - Fixed the missing news.logos.co unsubscribe popup by updating the Ghost theme script URLs ([discussion](https://discord.com/channels/973324189794697286/1564602718864281640/1566793496386347130))
+- [logos-co/logos-web#302](https://github.com/logos-co/logos-web/pull/302) fix(funnel): add reversible outage recovery
+- [logos-co/logos-web#303](https://github.com/logos-co/logos-web/pull/303) fix(web): keep SEO URLs on logos.co
+- [logos-co/logos-web#299](https://github.com/logos-co/logos-web/pull/299) docs(repo): sync docs with develop (up to 9b3c95f)
+- [logos-co/logos-web#301](https://github.com/logos-co/logos-web/pull/301) docs(repo): sync docs with develop (up to bd832e5)
+- [logos-co/logos-web#304](https://github.com/logos-co/logos-web/pull/304) docs(repo): sync docs with develop (up to 0d5ff1f)
+- [logos-co/logos-web#289](https://github.com/logos-co/logos-web/pull/289) fix(cms): block SVG uploads and publishing
+- [logos-co/logos-web#291](https://github.com/logos-co/logos-web/pull/291) fix(web): sanitise forum reply HTML
+- [logos-co/logos-web#292](https://github.com/logos-co/logos-web/pull/292) fix(api): require hCaptcha configuration in deployments
+- [logos-co/logos-web#287](https://github.com/logos-co/logos-web/pull/287) fix(web): wrap embed text that overflows the frame
+- [logos-co/logos-web#293](https://github.com/logos-co/logos-web/pull/293) fix(api): forward only steward form fields to n8n
+- [logos-co/logos-web#297](https://github.com/logos-co/logos-web/pull/297) fix(cms): require PAYLOAD_SECRET outside production
+- [logos-co/logos-web#298](https://github.com/logos-co/logos-web/pull/298) fix(logos-demos): validate chain search ids before calling the node
 
 ### Past Present Future: content update and migration
 
@@ -274,3 +286,6 @@ Create dedicated roadmap tasks when a request grows into a substantial project.
 - [logos-co/logos-web#264](https://github.com/logos-co/logos-web/issues/264) Build a Logos community forum with modern tech stacks
 - [logos-co/logos-web#256](https://github.com/logos-co/logos-web/issues/256) feat(web): derive the country from the picked city in newsletter forms
 - [logos-co/logos-web#268](https://github.com/logos-co/logos-web/pull/268) feat(web): derive the country from the picked city
+- [logos-co/logos-web#296](https://github.com/logos-co/logos-web/pull/296) feat(web): add the Muster case study
+- [logos-co/logos-web#305](https://github.com/logos-co/logos-web/pull/305) fix(web): crop the Muster social card to 1200x630
+- [logos-co/logos-web#306](https://github.com/logos-co/logos-web/pull/306) fix(web): apply Jamie's confirmed Muster copy edits

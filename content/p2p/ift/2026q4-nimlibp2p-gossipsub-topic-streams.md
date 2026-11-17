@@ -46,13 +46,15 @@ including subscription changes and peer disconnects.
 - [iftech/nim-libp2p#3271](https://github.com/iftech/nim-libp2p/pull/3271) feat(gossipsub): add topic stream transport
 - [iftech/nim-libp2p#3272](https://github.com/iftech/nim-libp2p/pull/3272) feat(gossipsub): integrate topic streams
 - [iftech/nim-libp2p#3327](https://github.com/iftech/nim-libp2p/pull/3327) test(gossipsub): add topic streams interoperability
+- [iftech/nim-libp2p#3409](https://github.com/iftech/nim-libp2p/pull/3409) fix(gossipsub): drop topic frames after protocol violations
+- [iftech/nim-libp2p#3400](https://github.com/iftech/nim-libp2p/pull/3400) fix(gossipsub): preserve negotiation for graylisted peers
 
 
 ### Delivery And Resource Budgets
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-gossipsub-topic-streams:delivery-budgets`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (25%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -68,3 +70,4 @@ control messages continue to use the ordinary GossipSub stream.
 - Per-peer stream and byte limits
 - Tests for delivery, resource exhaustion, and control-stream behavior
 - Ensure no regressions are introduced in a real life network deployment
+- [iftech/nim-libp2p#3410](https://github.com/iftech/nim-libp2p/pull/3410) fix(gossipsub): separate incoming and outgoing topic stream limits

@@ -29,7 +29,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-maintenance:maintenance`
 * owner: Richard/Vlado/Gabe
-* status: in progress (42%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -192,3 +192,13 @@ as issues arise during the quarter.
 - [iftech/nim-libp2p#3358](https://github.com/iftech/nim-libp2p/pull/3358) fix(relay): reject reservations that expire more than 24 h ahead
 - Fixed duplicate messages in the automated workflow.
 - Extended the review tool to test files and added Radek to its allowed list.
+- [iftech/nim-libp2p#3422](https://github.com/iftech/nim-libp2p/pull/3422) fix(pubsub): back off budget-rejected and short-lived streams
+- [iftech/nim-libp2p#3421](https://github.com/iftech/nim-libp2p/pull/3421) fix(gossipsub): validate topic stream byte budgets
+- [iftech/nim-libp2p#3412](https://github.com/iftech/nim-libp2p/pull/3412) chore(build): require Nim 2.2.6 and default to 2.2.14
+- [iftech/nim-libp2p#3420](https://github.com/iftech/nim-libp2p/pull/3420) fix(kademlia): count valid records toward get-value quorum
+- [iftech/nim-lsquic#187](https://github.com/iftech/nim-lsquic/pull/187) chore(build): require Nim 2.2.6 and test 2.2.14
+- [iftech/nim-libp2p#3408](https://github.com/iftech/nim-libp2p/pull/3408) fix(peerid): align parsing with key-derived size limits
+- [libp2p/test-plans#871](https://github.com/libp2p/test-plans/pull/871) feat(transport-interop): add nim-libp2p v2.4.1
+- [iftech/nim-libp2p#3385](https://github.com/iftech/nim-libp2p/pull/3385) feat(nameresolving): bound and expand composed DNS multiaddresses
+- [iftech/nim-libp2p#3384](https://github.com/iftech/nim-libp2p/pull/3384) feat(nameresolving): add system resolver worker pool and factory
+- [iftech/nim-libp2p#3379](https://github.com/iftech/nim-libp2p/pull/3379) feat(nameresolving): add system DNS discovery

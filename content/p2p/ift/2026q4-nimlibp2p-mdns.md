@@ -24,10 +24,10 @@ handling, expiration, peerstore integration, and application-controlled dialing.
 ### Discovery Lifecycle And Records
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-mdns:discovery`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/17
 
 #### Description
 

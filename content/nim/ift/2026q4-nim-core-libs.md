@@ -143,6 +143,15 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - [nim-lang/langserver#515](https://github.com/nim-lang/langserver/pull/515) Support multi-root workspaces
 - [nim-lang/langserver#516](https://github.com/nim-lang/langserver/pull/516) Resolve package by nimble file + `nimble.paths`
 - [nim-lang/langserver#523](https://github.com/nim-lang/langserver/pull/523) Restart nimsuggest on `nimble.paths` changes
+- [nim-lang/langserver#526](https://github.com/nim-lang/langserver/pull/526) Fix `cancelTest` race crash
+- [nim-lang/langserver#530](https://github.com/nim-lang/langserver/pull/530) Run `nim --version` and `nimsuggest --info` async
+- [nim-lang/langserver#528](https://github.com/nim-lang/langserver/pull/528) Stop capped nimsuggests on workspace folder change
+- [nim-lang/langserver#529](https://github.com/nim-lang/langserver/pull/529) Do not return a stopping instance in getNimsuggest
+- [nim-lang/langserver#527](https://github.com/nim-lang/langserver/pull/527) Avoid notifications in MCP mode
+- [nim-lang/langserver#500](https://github.com/nim-lang/langserver/pull/500) Fix MCP `nimFindSymbols` and `nimCheckProject` take a file uri
+- [nim-lang/nimony#2955](https://github.com/nim-lang/nimony/pull/2955) nifmake: add `--keepgoing` option
+- [nim-lang/Nim#26685](https://github.com/nim-lang/Nim/pull/26685) IC: reuse module symbols of re-exported modules
+- [nim-lang/Nim#26686](https://github.com/nim-lang/Nim/pull/26686) IC: don't rerun the config producer after a no-op nim.cfg save
 
 ### Nimlangserver and nimsuggest support for IFT projects
 
@@ -209,3 +218,6 @@ Provide initial rules for IFT projects, such as flagging `asyncSpawn`, with seve
 - Added local linters to the cache-invalidation key.
 - Added exit-code tests.
 - Released [Nim Lint 1.0.0](https://forum.nim-lang.org/t/14279)
+- [iftech/nim-lint#4](https://github.com/iftech/nim-lint/issues/4) lint ideas
+- [iftech/nim-libp2p#3369](https://github.com/iftech/nim-libp2p/issues/3369) feat: Linters: Enforce implicit `result` is not used.
+- Designed semantic and raw-source checks for nim-lint.

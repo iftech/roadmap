@@ -45,6 +45,15 @@ Investigate production failures reported by users or stakeholders and ship hotfi
 - [status-im/status-web#1342](https://github.com/status-im/status-web/pull/1342) fix(wallet): bring a hidden approval popup to the front
 - [status-im/status-web#1346](https://github.com/status-im/status-web/issues/1346) fix(wallet): don't show an error when a hardware swap is cancelled
 - [status-im/status-web#1347](https://github.com/status-im/status-web/issues/1347) chore(wallet): align the prettier version with the root
+- [status-im/status-web#1370](https://github.com/status-im/status-web/pull/1370) fix(wallet): sign the personal_sign bytes that are displayed
+- [status-im/status-web#1376](https://github.com/status-im/status-web/pull/1376) fix(wallet): dedupe networks input in assets router
+- [status-im/status-web#1377](https://github.com/status-im/status-web/pull/1377) fix(wallet): cap activity page limit and dedupe networks
+- [status-im/status-web#1378](https://github.com/status-im/status-web/pull/1378) fix(wallet): allowlist methods on the public RPC relay
+- [status-im/status-web#1379](https://github.com/status-im/status-web/pull/1379) fix(wallet): cap upstream pages per collectibles request
+- [status-im/status-web#1380](https://github.com/status-im/status-web/pull/1380) fix(wallet): delay approval confirm after popup shows
+- [status-im/status-web#1381](https://github.com/status-im/status-web/pull/1381) fix(wallet): bound dapp-requested permissions
+- [status-im/status-web#1382](https://github.com/status-im/status-web/pull/1382) fix(wallet): reject internal API calls from non-extension senders
+- [status-im/status-web#1383](https://github.com/status-im/status-web/pull/1383) fix(wallet): ignore provider requests from sandboxed documents
 
 ### Ad hoc requests
 

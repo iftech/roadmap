@@ -132,6 +132,7 @@ Choose scenarios as feature scope and the automation backlog are clarified with 
 - [status-im/status-app#22951](https://github.com/status-im/status-app/pull/22951) tests(@e2e): scan qr code from image
 - [status-im/status-app#23031](https://github.com/status-im/status-app/pull/23031) tests: browser tests coverage
 - [status-im/status-go#8024](https://github.com/status-im/status-go/pull/8024) test(functional): tests for browser
+- [status-im/status-app#23112](https://github.com/status-im/status-app/pull/23112) tests(@e2e): add test to check pin messages panel after chat is left
 
 ### Performance tests for desktop application on Mac
 

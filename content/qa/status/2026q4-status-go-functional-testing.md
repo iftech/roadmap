@@ -71,3 +71,4 @@ Select concrete scenarios from the existing backlog and issues found during desk
 - [status-im/status-go#7978](https://github.com/status-im/status-go/issues/7978) test(functional): run_functional_tests.sh does not wait for the Foundry contract deployment
 - [status-im/status-go#7956](https://github.com/status-im/status-go/pull/7956) test(functional): functional tests thread RPCs
 - [status-im/status-go#7969](https://github.com/status-im/status-go/pull/7969) test(functional): cover thread permission, reaction control and participants
+- [status-im/status-go#8053](https://github.com/status-im/status-go/pull/8053) test(functional): cover muted thread behavior
