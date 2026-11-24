@@ -78,6 +78,9 @@ Perform exploratory and regression testing, test new features in each release, a
 - [status-im/status-app#23134](https://github.com/status-im/status-app/issues/23134) [QA - Mobile] Threads: compatibility
 - Revised the Threads and Keycard test plans using developers’ answers.
 - Confirmed fixes for the share-screen chat ordering and full-width contact-request button bugs.
+- [tests(@e2e): keycard applet 4.0 coverage](https://github.com/status-im/status-app/pull/23123)
+- [test(functional): extend keycard tests coverage](https://github.com/status-im/status-go/pull/8062)
+- Revised the Threads test plan three times for product decisions, adding five requirements.
 
 ### Maintenance
 
@@ -102,6 +105,9 @@ Address flaky tests and assist developers with test changes in pull requests as 
 - [status-im/status-app#23083](https://github.com/status-im/status-app/pull/23083) test(e2e_appium): turn off "Stay logged in" during onboarding
 - [status-im/status-app#23128](https://github.com/status-im/status-app/issues/23128) Run status-go and status-app builds on GitHub Actions
 - Restored clean nightly end-to-end runs after updating chat-message lookup for WindowedView.
+- [CI: Android e2e on GitHub Actions, follow-up after #23159](https://github.com/status-im/status-app/issues/23191)
+- [ci: run PR builds and tests on GitHub Actions](https://github.com/status-im/status-app/pull/23149)
+- Ran Android end-to-end tests on the first APK built by GitHub Actions.
 
 ### Coverage for existing features
 
@@ -174,3 +180,4 @@ Keep measurements useful for comparing releases and identifying performance regr
 - Measured Android RAM before and after the pooled-message-row change: the UI process used 27.6 MB less, with status-go unchanged.
 - Completed three Android battery benchmark A/B pairs on two phones; Status in the background woke the phone about every 30 seconds, 14–16 times as often as with Status stopped in both A36 pairs.
 - Fixed the Android performance nightly.
+- Posted the battery-benchmark method and scripts; two provisional runs measured Status waking the phone 28–82 times per hour versus two or fewer for Session.

@@ -36,7 +36,7 @@ adversarial conditions and control message behavior.
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-dst-tooling:general-tooling`
 * owner: Alberto/Alan
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -53,5 +53,13 @@ Should be made general when possible.
     - [iftech/dst-libp2p-test-node#63](https://github.com/iftech/dst-libp2p-test-node/pull/63) Shadow build for the two-binary regression node
     - [iftech/10ksim#444](https://github.com/iftech/10ksim/pull/444) Fix the Shadow log pull and the exit code of a failed Shadow run
     - [iftech/10ksim#453](https://github.com/iftech/10ksim/pull/453) Fail a run that published off its configured rate
+    - [Publish each run's metrics to the DST dashboard](https://github.com/iftech/10ksim/pull/457)
+    - [Read a run's metrics back from the DST dashboard](https://github.com/iftech/10ksim/pull/458)
+    - [Publish a run's logs, whole-run node metrics and specs to the dashboard](https://github.com/iftech/10ksim/pull/462)
+    - [Dashboard: fail on datasets without rows, guard clears](https://github.com/iftech/10ksim/pull/459)
+    - [Dashboard manifests: match what runs, dev Mongo to ClusterIP](https://github.com/iftech/10ksim/pull/460)
 - Reports:
 - Other:
+    - Added an interactive message-propagation view for nim-libp2p runs.
+    - Deployed the updated DST dashboard backend with storage and retrieval of run metrics, logs and deployment specifications.
+    - Moved lab system-service deployments to the main branch of vaclab-2.

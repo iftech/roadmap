@@ -48,3 +48,8 @@ Resolve shared infrastructure or tooling failures, coordinate with Infra where n
 - Restored logos.co, status.app, free.technology and roadmap.logos.co with Infra using Vercel.
 - Hosted a backup of [Logos documentation](https://docs.logos.co/) from [logos-co/logos-docs](https://github.com/logos-co/logos-docs) on Vercel ([recovery thread](https://discord.com/channels/973324189794697286/1570085619286417601/1570492002842185961)).
 - Hosted a backup of the [Nimbus website](https://nimbus.team/) from [status-im/nimbus-site](https://github.com/status-im/nimbus-site) on Vercel ([recovery thread](https://discord.com/channels/973324189794697286/1570085619286417601/1570772765449912361)).
+- [Web team weekly report](https://github.com/acid-info/web-weekly/issues/1)
+- [docs(funnel): document the logos-web contract](https://github.com/acid-info/admin-acid.logos.co/pull/110)
+- [fix(security): update Node to 24.22.3](https://github.com/acid-info/admin-acid.logos.co/pull/112)
+- [fix(status-js): cap decompressed share-link data size](https://github.com/status-im/status-web/pull/1372)
+- [fix(status-js): skip messages with malformed signatures](https://github.com/status-im/status-web/pull/1374)

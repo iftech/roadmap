@@ -54,7 +54,7 @@ including subscription changes and peer disconnects.
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-gossipsub-topic-streams:delivery-budgets`
 * owner: Richard
-* status: in progress (25%)
+* status: in progress (75%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -71,3 +71,6 @@ control messages continue to use the ordinary GossipSub stream.
 - Tests for delivery, resource exhaustion, and control-stream behavior
 - Ensure no regressions are introduced in a real life network deployment
 - [iftech/nim-libp2p#3410](https://github.com/iftech/nim-libp2p/pull/3410) fix(gossipsub): separate incoming and outgoing topic stream limits
+- [fix(gossipsub): custom routing for topic streams](https://github.com/iftech/nim-libp2p/pull/3433)
+- [fix(pubsub): account for subscription topic bytes](https://github.com/iftech/nim-libp2p/pull/3451)
+- [Published nim-libp2p v2.5.0](https://github.com/iftech/nim-libp2p/releases/tag/v2.5.0)

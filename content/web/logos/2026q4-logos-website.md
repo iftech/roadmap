@@ -79,6 +79,21 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [logos-co/logos-web#293](https://github.com/logos-co/logos-web/pull/293) fix(api): forward only steward form fields to n8n
 - [logos-co/logos-web#297](https://github.com/logos-co/logos-web/pull/297) fix(cms): require PAYLOAD_SECRET outside production
 - [logos-co/logos-web#298](https://github.com/logos-co/logos-web/pull/298) fix(logos-demos): validate chain search ids before calling the node
+- [Keep web builds running when Active Circles is unavailable](https://github.com/logos-co/logos-web/pull/317)
+- [fix(web): show share images on Vercel previews](https://github.com/logos-co/logos-web/pull/321)
+- [fix(web): restore manifesto PGP link](https://github.com/logos-co/logos-web/pull/341)
+- [docs(repo): sync docs with develop (up to 1f8325c)](https://github.com/logos-co/logos-web/pull/308)
+- [docs(repo): sync docs with develop (up to 2f559d1)](https://github.com/logos-co/logos-web/pull/319)
+- [docs(repo): sync docs with develop (up to 90b1c4e)](https://github.com/logos-co/logos-web/pull/322)
+- [ci(vercel): skip builds of unaffected apps](https://github.com/logos-co/logos-web/pull/324)
+- [ci(vercel): skip deploy-* and docs sync branches](https://github.com/logos-co/logos-web/pull/323)
+- [perf(web): cache zine renders and commit AVIF pages](https://github.com/logos-co/logos-web/pull/329)
+- [perf(web): run pre-build asset steps in parallel](https://github.com/logos-co/logos-web/pull/331)
+- [feat(web): fall back to committed snapshots on content fetch failure](https://github.com/logos-co/logos-web/pull/310)
+- [fix(web): self-host Google fonts to stop flaky builds](https://github.com/logos-co/logos-web/pull/326)
+- [perf(web): fail stalled media downloads fast](https://github.com/logos-co/logos-web/pull/332)
+- [docs(funnel): keep admin-acid details to the api contract](https://github.com/logos-co/logos-web/pull/333)
+- [fix(web): Railgun button arrow consistency](https://github.com/logos-co/logos-web/pull/337)
 
 ### Past Present Future: content update and migration
 
@@ -196,6 +211,7 @@ Audit the current pages and agree a design strategy with Comms before starting t
 - QA and Umami tracking on the developer program calls to action.
 - [logos-co/logos-web#255](https://github.com/logos-co/logos-web/pull/255) feat(web): add developer programmes and Lambda Prize v3 pages
 - [logos-co/logos-web#279](https://github.com/logos-co/logos-web/pull/279) feat(web): refresh RFP programme page
+- [Use GitHub data across programme pages](https://github.com/logos-co/logos-web/pull/315)
 
 ### Parallel Societies campaign landing page
 
@@ -289,3 +305,10 @@ Create dedicated roadmap tasks when a request grows into a substantial project.
 - [logos-co/logos-web#296](https://github.com/logos-co/logos-web/pull/296) feat(web): add the Muster case study
 - [logos-co/logos-web#305](https://github.com/logos-co/logos-web/pull/305) fix(web): crop the Muster social card to 1200x630
 - [logos-co/logos-web#306](https://github.com/logos-co/logos-web/pull/306) fix(web): apply Jamie's confirmed Muster copy edits
+- [feat(web): add the RAILGUN case study](https://github.com/logos-co/logos-web/pull/280)
+- [fix(web): remove Railgun image quote](https://github.com/logos-co/logos-web/pull/330)
+- [feat(web): add Railgun broadcaster message statistic](https://github.com/logos-co/logos-web/pull/334)
+- [fix(web): correct Railgun website link](https://github.com/logos-co/logos-web/pull/335)
+- [Fix the mobile RAILGUN diagram width](https://github.com/logos-co/logos-web/pull/339)
+- [fix(web): align the Muster hero logos](https://github.com/logos-co/logos-web/pull/311)
+- [fix(web): refine the Muster cover logo alignment](https://github.com/logos-co/logos-web/pull/313)

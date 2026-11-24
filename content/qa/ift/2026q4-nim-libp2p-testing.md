@@ -58,7 +58,7 @@ Handle issue-driven validation that does not require a separate feature-specific
 
 * fully qualified name: `ift-ts:qa:ift:2026q4-nim-libp2p-testing:gossipsub-topic-streams`
 * owner: Radek
-* status: in progress (50%)
+* status: in progress (75%)
 * start-date: 2026/11/03
 * end-date: 2026/12/31
 
@@ -81,12 +81,15 @@ Test GossipSub topic streams ([stack 3274](https://github.com/iftech/nim-libp2p/
 - [iftech/nim-libp2p#3406](https://github.com/iftech/nim-libp2p/issues/3406) gossipsub: should frames for new topics be dropped silently once incoming and outgoing topic streams reach maxStreams?
 - [iftech/nim-libp2p#3411](https://github.com/iftech/nim-libp2p/issues/3411) gossipsub: publish with empty data counts topic stream peers it never sends to
 - [iftech/nim-libp2p#3418](https://github.com/iftech/nim-libp2p/issues/3418) gossipsub: topic streams drop messages that the control stream sends when byte budgets are below maxMessageSize
+- [test(topic-streams): send side, a peer without a transport and wire format \[7\]](https://github.com/iftech/nim-libp2p/pull/3435)
+- [test(topic-streams): split the topic stream test files \[8\]](https://github.com/iftech/nim-libp2p/pull/3438)
+- [gossipsub: publish with useCustomStream skips the custom stream for topic stream peers](https://github.com/iftech/nim-libp2p/issues/3432)
 
 ### GossipSub Byte Queues
 
 * fully qualified name: `ift-ts:qa:ift:2026q4-nim-libp2p-testing:gossipsub-byte-queues`
 * owner: Radek
-* status: not started
+* status: in progress (50%)
 * start-date: 2026/11/03
 * end-date: 2026/12/31
 
@@ -97,6 +100,12 @@ Test GossipSub byte queues and queue limits ([PR 3255](https://github.com/iftech
 #### Deliverables
 
 - PRs adding byte-queue tests.
+- [test(byte-queues): stall stream tool \[0\]](https://github.com/iftech/nim-libp2p/pull/3454)
+- [test(byte-queues): publish, relay and subscribe over a byte budget \[1\]](https://github.com/iftech/nim-libp2p/pull/3445)
+- [test(byte-queues): eviction, oversized frames and stream setup \[3\]](https://github.com/iftech/nim-libp2p/pull/3471)
+- [test(byte-queues): evictable bytes, sends after disconnect and budget validation \[4\]](https://github.com/iftech/nim-libp2p/pull/3478)
+- [gossipsub: maxOutboundQueueBytes is not validated against maxMessageSize](https://github.com/iftech/nim-libp2p/issues/3457)
+- [gossipsub: the control stream and topic streams have separate byte limit mechanisms](https://github.com/iftech/nim-libp2p/issues/3459)
 
 ### Waggle
 

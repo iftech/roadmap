@@ -23,7 +23,7 @@ Playwright is the proposed runner since it covers both browsers; reuse the exist
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:status-app`
 * owner: Jules
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/10/05
 * end-date: 2026/10/30
 
@@ -37,12 +37,13 @@ Check that each page loads without errors, that key elements (navigation, hero, 
 - PRs in `status-im/status-web` adding the e2e configuration and the status.app suite, runnable locally against production or a preview URL.
 - Smoke tests for critical pages and key elements, plus navigation tests for the main user journeys, passing in Chromium and Firefox.
 - [status-im/status-web#1348](https://github.com/status-im/status-web/pull/1348) test(e2e): add daily status.app suite
+- [feat(e2e): run daily suite on firefox](https://github.com/status-im/status-web/pull/1390)
 
 ### logos.co E2E suite
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:logos-co`
 * owner: Jules
-* status: in progress (80%)
+* status: in progress (95%)
 * start-date: 2026/10/19
 * end-date: 2026/11/20
 
@@ -57,12 +58,13 @@ Cover the new `/media` article and podcast routes once they reach production thr
 - Smoke tests for critical pages and key elements, plus navigation tests for the main user journeys, passing in Chromium and Firefox.
 - `/media` coverage and a redirect sample added after the media cutover.
 - [logos-co/logos-web#273](https://github.com/logos-co/logos-web/pull/273) test(e2e): add daily e2e suite for the web site
+- [feat(e2e): run daily suite on firefox](https://github.com/logos-co/logos-web/pull/320)
 
 ### Nightly runs and reporting
 
 * fully qualified name: `ift-ts:web:ift:2026q4-e2e-testing:nightly-ci`
 * owner: Jules
-* status: in progress (80%)
+* status: in progress (90%)
 * start-date: 2026/11/02
 * end-date: 2026/12/04
 
@@ -85,3 +87,7 @@ Keep the runs trustworthy: retry once before failing, keep traces and screenshot
 - [status-im/status-web#1364](https://github.com/status-im/status-web/pull/1364) fix(e2e): bump Playwright to 1.65 for Ubuntu 26.04 runners
 - [logos-co/logos-web#290](https://github.com/logos-co/logos-web/pull/290) chore(ci): open daily Playwright upgrade PRs with Dependabot
 - [status-im/status-web#1365](https://github.com/status-im/status-web/pull/1365) chore(ci): open daily Playwright upgrade PRs with Dependabot
+- [chore(ci): request reviewers on Playwright upgrade PRs](https://github.com/status-im/status-web/pull/1400)
+- [chore(ci): request reviewers on Playwright upgrade PRs](https://github.com/logos-co/logos-web/pull/338)
+- [fix(e2e): abort the run when the site does not answer](https://github.com/status-im/status-web/pull/1399)
+- [fix(e2e): abort the run when the site does not answer](https://github.com/logos-co/logos-web/pull/336)

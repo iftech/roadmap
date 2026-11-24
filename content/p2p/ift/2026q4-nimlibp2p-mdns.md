@@ -40,15 +40,16 @@ records so discovery follows the current local network.
 - mDNS discovery with interface-change handling
 - Record validation, address processing, and expiration
 - Tests for shutdown, network changes, and stale records
+- [chore(mdns): add socketoptions](https://github.com/iftech/nim-libp2p/pull/3452)
 
 
 ### Peerstore And Connection Policy
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-mdns:peerstore-policy`
-* owner: not assigned yet
-* status: not started
+* owner: Vlado
+* status: done
 * start-date: 2026/10/01
-* end-date: 2026/12/31
+* end-date: 2026/11/24
 
 #### Description
 
@@ -60,6 +61,7 @@ connection policy so applications decide whether to dial discovered peers.
 
 - Peerstore integration for discovered peers
 - Application-controlled dialing policy and usage example
+- [feat(mdns): integrate discoveries with the PeerStore](https://github.com/iftech/nim-libp2p/pull/3425)
 
 
 ### Cross-Implementation Interoperability

@@ -31,7 +31,7 @@ work and improvements, and it is subjected to change.
 
 * fully qualified name: `ift-ts:dst:ift:2026q4-libp2p-evaluation:regression-testing`
 * owner: Alan
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -53,6 +53,9 @@ and ensure they don't happen again.
 - Reports:
     - Tested Kademlia liveness-loop and bucket-rotation changes and updated the [nim-libp2p v2.4.0 regression report](https://app.notion.com/p/3dd8f96fb65c81c194b8ce51ea753a52).
 - Other:
+    - Ran nim-libp2p v2.5.0 regression tests at 1,000 nodes on Kubernetes and Shadow, including degraded, churn and partition scenarios.
+    - Ran the cluster matrix at cap 1,100 to compare with v2.4.0.
+    - Found increased yamux memory per node in builds using Chronos 4.2.2, also confirmed with Chronos 4.4.1.
     - Confirmed with a controlled rerun that the lower publish rate explains the v2.3.0 bandwidth gap; ran four v2.4.0 repeats to measure variation.
 
 

@@ -52,6 +52,17 @@ Investigate production failures and ship necessary hotfixes, coordinating shared
 - [status-im/status-web#1374](https://github.com/status-im/status-web/pull/1374) fix(status-js): skip messages with malformed signatures
 - [status-im/status-web#1375](https://github.com/status-im/status-web/pull/1375) fix(status.app): bound ens name length and labels
 - Rotated the expired Vercel deployment GitHub token that caused status.app download links to return server errors.
+- [Limit function time during Ghost outages](https://github.com/status-im/status-web/pull/1391)
+- [Serve status.app blog feeds from XML snapshots](https://github.com/status-im/status-web/pull/1394)
+- [Show a maintenance notice on the blog](https://github.com/status-im/status-web/pull/1393)
+- [Prerender the blog maintenance notice](https://github.com/status-im/status-web/pull/1406)
+- [Serve static blog maintenance and preserve sitemap URLs](https://github.com/status-im/status-web/pull/1408)
+- [Skip Vercel deployments for the docs sync branch](https://github.com/status-im/status-web/pull/1395)
+- [Skip Vercel builds for docs and Playwright merges](https://github.com/status-im/status-web/pull/1397)
+- [docs(repo): sync docs with develop (up to b5aab33)](https://github.com/status-im/status-web/pull/1386)
+- [docs(repo): sync docs with develop (up to 0b22656)](https://github.com/status-im/status-web/pull/1392)
+- [docs(repo): sync docs with develop (up to b96f885)](https://github.com/status-im/status-web/pull/1396)
+- [docs(repo): sync docs with develop (up to ca1b12a)](https://github.com/status-im/status-web/pull/1398)
 
 ### Website revamp: UI design and copy update
 

@@ -22,7 +22,7 @@ Generate proofs or exploit reproductions for high-severity issues and regression
 
 * fully qualified name: `ift-ts:qa:logos:2026q4-source-code-level-qa:system-prototype`
 * owner: Roman
-* status: in progress (85%)
+* status: in progress (90%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -92,3 +92,32 @@ Prototype an AI code analysis workflow covering:
 - [iftech/bork#10](https://github.com/iftech/bork/pull/10) feat(window): a repository opens into its tasks, findings and evidence
 - [iftech/bork#11](https://github.com/iftech/bork/pull/11) feat(window): what a finding rests on, console activity, clearer keys
 - [iftech/bork#12](https://github.com/iftech/bork/pull/12) docs: bring the documentation in line with the code
+- [feat(cron): fix a finding on request, by a label on its issue](https://github.com/iftech/bork/pull/13)
+- [feat(debug): a session to run commands on a repo's tree](https://github.com/iftech/bork/pull/14)
+- [feat(debug): sessions in parallel on layers, with fork and cache purge](https://github.com/iftech/bork/pull/15)
+- [feat(console): debug sessions as console tools](https://github.com/iftech/bork/pull/16)
+- [feat(debug): a session on what a failed task left](https://github.com/iftech/bork/pull/17)
+- [feat(debug): a session ends in a gate, a promoted cache or a brief's patch](https://github.com/iftech/bork/pull/18)
+- [feat(debug): sessions in bork top, kept work in its disk line, archive](https://github.com/iftech/bork/pull/19)
+- [feat(brief): a session's vendor, and a vendor/model check at ship](https://github.com/iftech/bork/pull/20)
+- [feat(backup): bork backup and restore, the whole home as a tgz](https://github.com/iftech/bork/pull/21)
+- [XPR ads are signed in envelope domain libp2p-peer-record, not libp2p-routing-state (F-f765f301)](https://github.com/iftech/nim-libp2p/issues/3479)
+- [XPR ads use envelope payload type 0x0301, not /libp2p/extensible-peer-record/ (F-fe66cfe4)](https://github.com/iftech/nim-libp2p/issues/3480)
+- [4096-byte reply read limit rejects GET_ADS responses carrying F_return valid ads (F-6e44602b)](https://github.com/iftech/nim-libp2p/issues/3481)
+- [REGISTER and GET_ADS are encoded and dispatched as RPC types 16 and 17, not 6 and 7 (F-7f680511)](https://github.com/iftech/nim-libp2p/issues/3482)
+- [lookup counts advertisements, not unique advertisers, toward F_lookup (F-61f16619)](https://github.com/iftech/nim-libp2p/issues/3483)
+- [GET_ADS query that times out is cancelled with no retry and no backoff recorded (F-15dfc6ac)](https://github.com/iftech/nim-libp2p/issues/3484)
+- [dispatchGetAds accepts a response whose type is missing or not GET_ADS (F-38a27514)](https://github.com/iftech/nim-libp2p/issues/3485)
+- [waitingTime rounds w to whole seconds, so E*G becomes 0 and a first REGISTER is admitted ticketless (F-27daf164)](https://github.com/iftech/nim-libp2p/issues/3486)
+- [Occupancy score is fixed at 100 when c >= C, so a full cache waits less than at C-1 and evicts (F-1b5e0f51)](https://github.com/iftech/nim-libp2p/issues/3487)
+- [Lower-bound state stores the ticket's t_wait_for (capped at E), not the calculated waiting time (F-d8e97335)](https://github.com/iftech/nim-libp2p/issues/3488)
+- [registration() returns an empty Message when the key is absent: no REJECTED, no stream close (F-c114aaff)](https://github.com/iftech/nim-libp2p/issues/3489)
+- [waitingTime silently caps the occupancy exponent at 10, ignoring a larger configured P_occ (F-b157a1c2)](https://github.com/iftech/nim-libp2p/issues/3490)
+- [updateLowerBounds writes the one final wait into the service bound and every IP bound alike (F-ca79c05f)](https://github.com/iftech/nim-libp2p/issues/3491)
+- [AdvertisementCache.put inserts every element of ips, so one entry can count the same IP twice (F-96a3d84a)](https://github.com/iftech/nim-libp2p/issues/3492)
+- [getAdvertisements builds replies larger than the 4096-byte read limit of the protocol's own peers (F-bad12a3d)](https://github.com/iftech/nim-libp2p/issues/3493)
+- [advertiserIps scores the sender's self-announced peerstore addresses when no observed IP exists (F-33157b82)](https://github.com/iftech/nim-libp2p/issues/3494)
+- [maintainRegistrations re-selects a registrar that replied Rejected and re-sends the same advert (F-e89a894e)](https://github.com/iftech/nim-libp2p/issues/3495)
+- [maintainRegistrations drops a Confirmed registration whose registrar left the bucket and refills it (F-467e83c0)](https://github.com/iftech/nim-libp2p/issues/3496)
+- [cbRecords turns lookup results into decoded record objects, not encoded Advertisement bytes (F-f4edee23)](https://github.com/logos-co/logos-libp2p-module/issues/129)
+- [discoStartAdvertising and discoLookup require a serviceData argument the spec signatures lack (F-458b0005)](https://github.com/logos-co/logos-libp2p-module/issues/130)
