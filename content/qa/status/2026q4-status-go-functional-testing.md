@@ -40,12 +40,13 @@ Investigate failing or flaky tests, update fixtures and the Python SDK where nee
 - [status-im/status-app#22776](https://github.com/status-im/status-app/pull/22776) fix(ci): update import of old lang.RandomStringUtils
 - [status-im/status-go#7916](https://github.com/status-im/status-go/pull/7916) fix(wallet): omit relay API key on testnet
 - [status-im/status-go#7965](https://github.com/status-im/status-go/pull/7965) fix(functional-tests): time out the backend health check
+- [ci: go tool gotestsum](https://github.com/status-im/status-go/pull/8087)
 
 ### Functional test coverage
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-go-functional-testing:coverage`
 * owner: Nastya
-* status: in progress (25%)
+* status: in progress (50%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -72,3 +73,7 @@ Select concrete scenarios from the existing backlog and issues found during desk
 - [status-im/status-go#7956](https://github.com/status-im/status-go/pull/7956) test(functional): functional tests thread RPCs
 - [status-im/status-go#7969](https://github.com/status-im/status-go/pull/7969) test(functional): cover thread permission, reaction control and participants
 - [status-im/status-go#8053](https://github.com/status-im/status-go/pull/8053) test(functional): cover muted thread behavior
+- [test(functional): cover sharing a thread URL and parsing it back](https://github.com/status-im/status-go/pull/8091)
+- [test(functional): cover thread section unread and thread URL RPC](https://github.com/status-im/status-go/pull/8083)
+- [test(functional): cover community membership gated by SNT and an admin token](https://github.com/status-im/status-go/pull/8081)
+- [test(functional): extend keycard tests coverage](https://github.com/status-im/status-go/pull/8062)

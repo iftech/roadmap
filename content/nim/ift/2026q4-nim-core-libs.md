@@ -72,7 +72,7 @@ Triage issues, address regressions and compatibility problems, support downstrea
 
 * fully qualified name: `ift-ts:nim:ift:2026q4-nim-core-libs:nimlangserver`
 * owner: Juan/Esteban/Constantine
-* status: in progress (60%)
+* status: in progress (90%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -152,6 +152,14 @@ Use the nim-web3 approach as the model for the LSP implementation:
 - [nim-lang/nimony#2955](https://github.com/nim-lang/nimony/pull/2955) nifmake: add `--keepgoing` option
 - [nim-lang/Nim#26685](https://github.com/nim-lang/Nim/pull/26685) IC: reuse module symbols of re-exported modules
 - [nim-lang/Nim#26686](https://github.com/nim-lang/Nim/pull/26686) IC: don't rerun the config producer after a no-op nim.cfg save
+- [Fix #437; Remove all JsonNode conversions](https://github.com/nim-lang/langserver/pull/541)
+- [Fix #407; Support string id requests](https://github.com/nim-lang/langserver/pull/540)
+- [`.gitignore` files without extension](https://github.com/nim-lang/langserver/pull/539)
+- [Show `nimble dump` failed message](https://github.com/nim-lang/langserver/pull/537)
+- [Update dependencies](https://github.com/nim-lang/langserver/pull/533)
+- [Update binaries workflow `macos-15`](https://github.com/nim-lang/langserver/pull/535)
+- [Remove `%*` JsonNode conversions](https://github.com/nim-lang/langserver/pull/534)
+- [Bump to v1.18.0](https://github.com/nim-lang/langserver/pull/532)
 
 ### Nimlangserver and nimsuggest support for IFT projects
 
@@ -221,3 +229,7 @@ Provide initial rules for IFT projects, such as flagging `asyncSpawn`, with seve
 - [iftech/nim-lint#4](https://github.com/iftech/nim-lint/issues/4) lint ideas
 - [iftech/nim-libp2p#3369](https://github.com/iftech/nim-libp2p/issues/3369) feat: Linters: Enforce implicit `result` is not used.
 - Designed semantic and raw-source checks for nim-lint.
+- [Feature: Semantic checks and raw source checks](https://github.com/iftech/nim-lint/pull/6)
+- [feat: Linting: Check that all logged types have `formatIt` implemented or call `shortLog`](https://github.com/iftech/nim-libp2p/issues/3366)
+- Released Nim Lint 1.1.0.
+- Added linting to Nim Lint itself.

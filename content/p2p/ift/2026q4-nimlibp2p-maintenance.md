@@ -29,7 +29,7 @@ ensuring that nim-libp2p remains functional and usable for its primary users —
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-maintenance:maintenance`
 * owner: Richard/Vlado/Gabe
-* status: in progress (50%)
+* status: in progress (58%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -202,3 +202,41 @@ as issues arise during the quarter.
 - [iftech/nim-libp2p#3385](https://github.com/iftech/nim-libp2p/pull/3385) feat(nameresolving): bound and expand composed DNS multiaddresses
 - [iftech/nim-libp2p#3384](https://github.com/iftech/nim-libp2p/pull/3384) feat(nameresolving): add system resolver worker pool and factory
 - [iftech/nim-libp2p#3379](https://github.com/iftech/nim-libp2p/pull/3379) feat(nameresolving): add system DNS discovery
+- [fix(gossipsub): share outbound queue limits across streams](https://github.com/iftech/nim-libp2p/pull/3463)
+- [feat(connmanager): add an optional outbound connection reserve](https://github.com/iftech/nim-libp2p/pull/3466)
+- [ci: allow pinning Nimbus revision for comparison tests](https://github.com/iftech/nim-libp2p/pull/3475)
+- [fix(autonatv2): require agreement before marking addresses unreachable](https://github.com/iftech/nim-libp2p/pull/3467)
+- [fix(kademlia): limit reply address processing](https://github.com/iftech/nim-libp2p/pull/3449)
+- [fix(service-discovery): domain-separate ticket signatures](https://github.com/iftech/nim-libp2p/pull/3462)
+- [fix(pubsub): clear pending message state on cancellation](https://github.com/iftech/nim-libp2p/pull/3450)
+- [fix(gossipsub): refresh scores for receive-only peers](https://github.com/iftech/nim-libp2p/pull/3448)
+- [perf(multiaddress): traverse slices in one pass](https://github.com/iftech/nim-libp2p/pull/3447)
+- [chore: update BoringSSL submodule and bindings](https://github.com/iftech/nim-boringssl/pull/29)
+- [test(fiat): validate upstream P-256 Windows fallback](https://github.com/iftech/nim-boringssl/pull/27)
+- [chore: sync BoringSSL upstream](https://github.com/iftech/boringssl/pull/14)
+- [fix(multistream): copy loop value before async capture](https://github.com/iftech/nim-libp2p/pull/3428)
+- [fix(bytesview): use inclusive slice bounds](https://github.com/iftech/nim-libp2p/pull/3430)
+- [fix: update lsquic lockfile to 0.11.3](https://github.com/iftech/nim-libp2p/pull/3426)
+- [fix(peerstore): deduplicate addresses and retain maximum confidence](https://github.com/iftech/nim-libp2p/pull/3453)
+- [feat(AddressBook): normalized duplicates preserve timestamps and skip notifications](https://github.com/iftech/nim-libp2p/pull/3442)
+- [chore(PeerStore): cosmetics](https://github.com/iftech/nim-libp2p/pull/3443)
+- [test: fix lent iterator](https://github.com/iftech/nim-libp2p/pull/3441)
+- [feat(kad): separate getValue error when no peer replied](https://github.com/iftech/nim-libp2p/pull/3469)
+- [fix: verify signed envelope signature once](https://github.com/iftech/nim-libp2p/pull/3468)
+- [fix(service-disco): drop expired adverts before serving and scoring](https://github.com/iftech/nim-libp2p/pull/3476)
+- [fix(signed_envelope): keep the payload decode error in EnvelopeError](https://github.com/iftech/nim-libp2p/pull/3477)
+- [feat(kad): putValue returns the number of peers that stored the value](https://github.com/iftech/nim-libp2p/pull/3439)
+- [test(kad): read provider state through helpers](https://github.com/iftech/nim-libp2p/pull/3461)
+- [feat(cbind): service discovery config](https://github.com/iftech/nim-libp2p/pull/3437)
+- [feat(cbind): return signed record bytes from service discovery lookup](https://github.com/iftech/nim-libp2p/pull/3470)
+- [fix(service-disco): spec-shaped advertise and lookup overloads](https://github.com/logos-co/logos-libp2p-module/pull/131)
+- [chore(cbind): config unit tests and an FFI contract test](https://github.com/iftech/nim-libp2p/pull/3444)
+- [fix(cbind): drop events when the FFI event queue is full](https://github.com/iftech/nim-libp2p/pull/3446)
+- [feat: reason on not_responding and responding events](https://github.com/logos-messaging/nim-ffi/pull/272)
+- [feat(codegen/cpp): per-call timeout and a progress callback](https://github.com/logos-messaging/nim-ffi/pull/267)
+- [fix: skip the liveness check once the event queue is torn down](https://github.com/logos-messaging/nim-ffi/pull/277)
+- [fix(events): drop and count on event-queue overflow instead of refusing requests](https://github.com/logos-messaging/nim-ffi/pull/263)
+- [refactor(codegen/rust): emit the Rust crate from template files](https://github.com/logos-messaging/nim-ffi/pull/262)
+- [fix: keep C++ and Rust listener handlers alive while a callback can run](https://github.com/logos-messaging/nim-ffi/pull/253)
+- [fix: build with --ic:on on Nim 2.4](https://github.com/logos-messaging/nim-ffi/pull/256)
+- [fix: a failed callback-mode ctor gives its pool slot back](https://github.com/logos-messaging/nim-ffi/pull/252)

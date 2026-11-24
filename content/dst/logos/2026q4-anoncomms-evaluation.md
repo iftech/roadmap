@@ -96,7 +96,7 @@ TBD
 
 * fully qualified name: `ift-ts:dst:logos:2026q4-anoncomms-evaluation:discovery-vs-discv5`
 * owner: Alberto
-* status: in progress (5%)
+* status: in progress (75%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -106,3 +106,7 @@ TBD
 #### Deliverables
 - Code:
 - Reports:
+- Other:
+    - Implemented an experiment comparing service discovery with discv5.
+    - Created an image with custom service-discovery changes for the comparison.
+    - Measured both discovery processes: discv5 was faster in the normal scenario; service discovery showed unexpected connection reports and did not work in the scenario intended to favor it.

@@ -43,6 +43,10 @@ Compare results with old status-go.
     - [status-im/status-go#8036](https://github.com/status-im/status-go/issues/8036) [Epic] Optimizing messaging pipeline
     - Replaced the receiver’s sliding debounce with a fixed batch window; the first fix reduced median delivery from about 120 seconds to 17 seconds.
     - Improved the benchmark codebase and added delivery-latency-over-time plots and latency buckets.
+    - [Reliability baseline](https://github.com/iftech/status-benchmarks/pull/50)
+    - [Message delivery tracing](https://github.com/iftech/status-benchmarks/pull/51)
+    - [Delivery results plots](https://github.com/iftech/status-benchmarks/pull/53)
+    - [Parallel benchmark deployments](https://github.com/iftech/status-benchmarks/pull/54)
 - Documents:
     - Identified a light-node rate-limiter timing mismatch causing valid messages to remain pending in MVDS and arrive minutes late.
     - Identified a feedback loop in which delayed processing delays acknowledgements, triggers MVDS retransmissions, and increases the processing backlog.

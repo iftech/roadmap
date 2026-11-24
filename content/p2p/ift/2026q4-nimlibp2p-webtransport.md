@@ -23,8 +23,8 @@ needed for this server endpoint and verify browser interoperability.
 ### nim-lsquic Endpoint Support
 
 * fully qualified name: `ift-ts:p2p:ift:2026q4-nimlibp2p-webtransport:endpoint`
-* owner: not assigned yet
-* status: not started
+* owner: Richard
+* status: in progress (15%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 

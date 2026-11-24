@@ -85,6 +85,7 @@ Assist developers with test changes in pull requests.
 - [status-im/status-app#22959](https://github.com/status-im/status-app/pull/22959) chore(@e2e): benchmark tests fixes
 - [status-im/status-app#23084](https://github.com/status-im/status-app/pull/23084) fix(e2e): unlock Secret Service for linux tests
 - [status-im/status-app#23058](https://github.com/status-im/status-app/issues/23058) Keycard: Move profile to Keycard blocked — Stay logged in credential delete fails (Secret Service unavailable)
+- [chore(@e2e): migrate tests to Squish 9.3](https://github.com/status-im/status-app/pull/23148)
 
 ### Performance tests for desktop application on Windows
 
@@ -108,7 +109,7 @@ Maintain useful measurements for comparing releases and detecting performance re
 
 * fully qualified name: `ift-ts:qa:status:2026q4-status-qa-desktop:new-tests`
 * owner: Nastya
-* status: in progress (54%)
+* status: in progress (75%)
 * start-date: 2026/10/01
 * end-date: 2026/12/31
 
@@ -133,6 +134,11 @@ Choose scenarios as feature scope and the automation backlog are clarified with 
 - [status-im/status-app#23031](https://github.com/status-im/status-app/pull/23031) tests: browser tests coverage
 - [status-im/status-go#8024](https://github.com/status-im/status-go/pull/8024) test(functional): tests for browser
 - [status-im/status-app#23112](https://github.com/status-im/status-app/pull/23112) tests(@e2e): add test to check pin messages panel after chat is left
+- [tests(@e2e): cover login, language and the recent messages button](https://github.com/status-im/status-app/pull/23251)
+- [tests(@e2e): closing app with shortcut must close the app](https://github.com/status-im/status-app/pull/23200)
+- [fix(communities): keep file URI for banner crop JSON paths](https://github.com/status-im/status-app/pull/23114)
+- [tests(@e2e): add tests to cover save password feature](https://github.com/status-im/status-app/pull/23126)
+- [tests(@e2e): keycard applet 4.0 coverage](https://github.com/status-im/status-app/pull/23123)
 
 ### Performance tests for desktop application on Mac
 

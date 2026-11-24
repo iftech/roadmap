@@ -73,6 +73,9 @@ Add regression coverage for fixes and update usage documentation when behavior c
 - [nim-lang/nimble#1929](https://github.com/nim-lang/nimble/pull/1929) Fix SAT failing when a missing package can be avoided
 - [nim-lang/setup-nimble-action#20](https://github.com/nim-lang/setup-nimble-action/pull/20) Add nimble-sha256 to pin the release archive's hash (fixes #18)
 - [nim-lang/setup-nimble-action#19](https://github.com/nim-lang/setup-nimble-action/pull/19) Retry nimble downloads and resolve only published releases
+- [PubGrub as default solver](https://github.com/nim-lang/nimble/pull/1941)
+- [PubGrub lazy fetches](https://github.com/nim-lang/nimble/pull/1940)
+- [Fix discovery losing a package that shares its repository with another](https://github.com/nim-lang/nimble/pull/1938)
 
 ### CI integration review
 
